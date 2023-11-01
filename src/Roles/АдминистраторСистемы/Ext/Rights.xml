@@ -4309,7 +4309,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
+		<name>Configuration.Beauty</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>
