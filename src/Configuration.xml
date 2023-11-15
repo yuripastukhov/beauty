@@ -265,7 +265,6 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
-			<Subsystem>CRM</Subsystem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряВоскресеньеЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряНеУказанЦвет</StyleItem>
@@ -1573,7 +1572,6 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйЛокализация</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыB</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -2313,7 +2311,6 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
-			<Catalog>Контрагенты</Catalog>
 			<Document>АктОбУничтоженииПерсональныхДанных</Document>
 			<Document>Анкета</Document>
 			<Document>Встреча</Document>

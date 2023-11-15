@@ -20,7 +20,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9d701c2c-b825-4e08-8062-a31b157acb72</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
