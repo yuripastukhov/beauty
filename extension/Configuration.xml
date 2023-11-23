@@ -67,7 +67,6 @@
 			<Language>Русский</Language>
 			<Subsystem>CRM</Subsystem>
 			<Role>Beauty_ОсновнаяРоль</Role>
-			<CommonModule>ОбновлениеИнформационнойБазыB</CommonModule>
 			<Catalog>Контрагенты</Catalog>
 		</ChildObjects>
 	</Configuration>

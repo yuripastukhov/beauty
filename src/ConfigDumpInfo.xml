@@ -2569,6 +2569,8 @@
 		<Metadata name="CommonForm.ЭлектроннаяПодпись" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6" configVersion="97f361ba3ebc7a40adfe42f8ccbfaa0800000000"/>
 		<Metadata name="CommonForm.ЭлектроннаяПодпись.Form" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6.0" configVersion="4863ce205fee1d4cad4ddf67e8420b5f00000000"/>
 		<Metadata name="CommonForm.ЭлектроннаяПодпись.Help" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6.1" configVersion="20f6caeb80246c49bc48fba9227dd57b00000000"/>
+		<Metadata name="CommonModule.Beauty" id="8a1b995a-c051-4088-958f-bc8f855e17bc" configVersion="687b59ac35a67745a597bbdfc756148b00000000"/>
+		<Metadata name="CommonModule.Beauty.Module" id="8a1b995a-c051-4088-958f-bc8f855e17bc.0" configVersion="449f67aafe28bc45825ef9fa60e185eb00000000"/>
 		<Metadata name="CommonModule.GoogleПереводчик" id="ac847dc9-e222-45cf-af4a-6fa863c919a8" configVersion="dd2ab8579cf8f54c83faa7ebdd61203b00000000"/>
 		<Metadata name="CommonModule.GoogleПереводчик.Module" id="ac847dc9-e222-45cf-af4a-6fa863c919a8.0" configVersion="5d74fc69494883468842d193435e934500000000"/>
 		<Metadata name="CommonModule.АвтономнаяРабота" id="a5cc5ae2-be80-4957-8aca-9e477433dfcc" configVersion="1936da5fb34d7f40b881f04c4f3779f800000000"/>
@@ -3099,8 +3101,8 @@
 		<Metadata name="CommonModule.ПодключаемыеКомандыПереопределяемый.Module" id="d04e0e2d-0a5f-4866-b0b3-b582915db899.0" configVersion="4706a648e324694eb6cd349dd6659aef00000000"/>
 		<Metadata name="CommonModule.ПодключаемыеКомандыПовтИсп" id="19649d3f-52aa-4054-bb84-a6a11d212495" configVersion="3c56d79e6b04354e87831701d05f093800000000"/>
 		<Metadata name="CommonModule.ПодключаемыеКомандыПовтИсп.Module" id="19649d3f-52aa-4054-bb84-a6a11d212495.0" configVersion="b74e7cb45bd85f45b5477543a4c4089900000000"/>
-		<Metadata name="CommonModule.ПодсистемыКонфигурацииПереопределяемый" id="640d7486-8abd-40aa-a244-2ed899b7225a" configVersion="c5fdff80b7aeeb4ba8b682322bdee73700000000"/>
-		<Metadata name="CommonModule.ПодсистемыКонфигурацииПереопределяемый.Module" id="640d7486-8abd-40aa-a244-2ed899b7225a.0" configVersion="50b23a9c8673bf4080626b4cb6a32f7b00000000"/>
+		<Metadata name="CommonModule.ПодсистемыКонфигурацииПереопределяемый" id="640d7486-8abd-40aa-a244-2ed899b7225a" configVersion="387d94c701160446ad5c826c4d71a8b400000000"/>
+		<Metadata name="CommonModule.ПодсистемыКонфигурацииПереопределяемый.Module" id="640d7486-8abd-40aa-a244-2ed899b7225a.0" configVersion="4d0e6d873611e247855f4b03e5c820eb00000000"/>
 		<Metadata name="CommonModule.ПоискИУдалениеДублей" id="58321939-f25a-456d-8dee-97e64743dc2e" configVersion="6e6356fbccd68342bf981db5706ad1ea00000000"/>
 		<Metadata name="CommonModule.ПоискИУдалениеДублей.Module" id="58321939-f25a-456d-8dee-97e64743dc2e.0" configVersion="292efb486c80054380250f0c7c92947800000000"/>
 		<Metadata name="CommonModule.ПоискИУдалениеДублейКлиент" id="416fba62-70c4-4f8c-b10b-56d47b27ca35" configVersion="ed477021f3b28846b0cc26ac919a4d0a00000000"/>
@@ -4685,7 +4687,7 @@
 		<Metadata name="CommonTemplate.ПустойМакетDOCX.Template" id="b9e93e8f-1d4b-4bbb-ac1b-c8d26cfd1da2.0" configVersion="240de39a9c4f804d97805ae9b1f8ad7f00000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="857d63b9f227c94585330a71ea6d5d3f00000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="306ad95055b1ab46bf750e1ef0febe7100000000"/>
-		<Metadata name="Configuration.Beauty" id="bf73d275-34df-4add-962a-cca509a9dbc4" configVersion="a2612113caf4704e99d9a5179e89374a00000000"/>
+		<Metadata name="Configuration.Beauty" id="bf73d275-34df-4add-962a-cca509a9dbc4" configVersion="740a080392a22b4fa41db8599e253e8c00000000"/>
 		<Metadata name="Configuration.Beauty.ExternalConnectionModule" id="dac0d949-3904-4285-b997-fd8b4cdf15bf.5" configVersion="4951fee61a641e4a900a09480dab634400000000"/>
 		<Metadata name="Configuration.Beauty.MainSectionCommandInterface" id="dac0d949-3904-4285-b997-fd8b4cdf15bf.9" configVersion="c679d4b0ef19c243864fc0d914d57b9800000000"/>
 		<Metadata name="Configuration.Beauty.MainSectionPicture" id="dac0d949-3904-4285-b997-fd8b4cdf15bf.c" configVersion="3f024c683f7c1c4887d7a45fbc2cb56500000000"/>

@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Exitone</Vendor>
-			<Version>1.0.0.1</Version>
+			<Version>1.0.0.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -1572,6 +1572,7 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйЛокализация</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
+			<CommonModule>Beauty</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
