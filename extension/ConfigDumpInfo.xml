@@ -18,13 +18,13 @@
 			<Metadata name="Catalog.Контрагенты.TabularSection.КонтактнаяИнформация" id="b4775ddd-245f-4687-b47b-363544f8530c"/>
 		</Metadata>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063" configVersion="a2fa1b13f10c2afc85679c03526bd14722a0f284"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.0" configVersion="c6c10967bed5a255b50754d4f130edd28c83ed95"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.0" configVersion="f438a4adffd46a1aa1b7c8cb2004d9048e369d3b"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Help" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.1" configVersion="f8fe969b135d284cc3f4f8c8b09c6f2bfe2b60b7"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыB" id="b4235693-5bd2-4967-bed8-ff467d035e4a" configVersion="1ed82734fa1b1014ce12cfdf9d99b4890c1a6eb7"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыB.Module" id="b4235693-5bd2-4967-bed8-ff467d035e4a.0" configVersion="c292e0b4cb0e53f8485ae3287767e1992f1a6a47"/>
-		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="4b06a723cd13f89339178b2488ddebe087f98945"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыB.Module" id="b4235693-5bd2-4967-bed8-ff467d035e4a.0" configVersion="20a13214638cb570b0073e5efe0f85c64740cab4"/>
+		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="7ef8c8ceafa2ad2f140c2567fde6cf8e9d8d3d6a"/>
 		<Metadata name="Language.Русский" id="3cd2209d-51ba-41a2-a6f9-6aa41abd89ae" configVersion="b5e655303c9f85fbda8dda3c8890c9f038b8e0f8"/>
-		<Metadata name="Role.Beauty_ОсновнаяРоль" id="1d1371ed-8b15-4b49-ac84-1b5dde165b54" configVersion="9ab56dfd7f94131102017135131ef1fc62170cc1"/>
+		<Metadata name="Role.Beauty_ОсновнаяРоль" id="1d1371ed-8b15-4b49-ac84-1b5dde165b54" configVersion="3eb474d4160a91f31de5f567127cdc0c018b94c8"/>
 		<Metadata name="Subsystem.CRM" id="d5b0a4db-f20e-44b5-8037-acd2842044b0" configVersion="1706528a8981770d8bc0c6f6b838dc2b630aa032"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
