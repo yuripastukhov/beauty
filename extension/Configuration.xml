@@ -67,7 +67,11 @@
 			<Language>Русский</Language>
 			<Subsystem>CRM</Subsystem>
 			<Role>Beauty_ОсновнаяРоль</Role>
-			<Catalog>Контрагенты</Catalog>
+			<DefinedType>ВладелецКонтактнойИнформации</DefinedType>
+			<Catalog>Клиенты</Catalog>
+			<Catalog>ВидыКонтактнойИнформации</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Enum>ТипыКонтактнойИнформации</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

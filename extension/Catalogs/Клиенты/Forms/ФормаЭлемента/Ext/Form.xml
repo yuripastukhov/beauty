@@ -249,484 +249,35 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="Подразделение" id="299">
-							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="300"/>
-							<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="301"/>
-						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаВходВПрограммуРазрешен" id="265">
+		<UsualGroup name="ГруппаКонтактнаяИнформация" id="71">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вход в программу разрешен</v8:content>
+					<v8:content>Адреса, телефоны</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Sign-in allowed</v8:content>
+					<v8:content>Addresses and phones</v8:content>
 				</v8:item>
 			</Title>
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаВходВПрограммуРазрешенРасширеннаяПодсказка" id="266"/>
-			<ChildItems>
-				<CheckBoxField name="ВходВПрограммуРазрешен" id="99">
-					<DataPath>ВходВПрограммуРазрешен</DataPath>
-					<TitleLocation>Right</TitleLocation>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Разрешить вход пользователя в программу
-указанными способами аутентификации.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Allow users to sign in
-with the specified authentication methods.</v8:content>
-						</v8:item>
-					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ВходВПрограммуРазрешенКонтекстноеМеню" id="100"/>
-					<ExtendedTooltip name="ВходВПрограммуРазрешенРасширеннаяПодсказка" id="218"/>
-					<Events>
-						<Event name="OnChange">ВходВПрограммуРазрешенПриИзменении</Event>
-					</Events>
-				</CheckBoxField>
-				<UsualGroup name="ГруппаНетПрав" id="411">
-					<Visible>false</Visible>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Нет прав</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>No access rights</v8:content>
-						</v8:item>
-					</Title>
-					<Group>AlwaysHorizontal</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаНетПравРасширеннаяПодсказка" id="412"/>
-					<ChildItems>
-						<PictureDecoration name="НетПравКартинка" id="413">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Нет прав картинка</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>No access rights picture</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="НетПравКартинкаКонтекстноеМеню" id="414"/>
-							<ExtendedTooltip name="НетПравКартинкаРасширеннаяПодсказка" id="415"/>
-						</PictureDecoration>
-						<LabelDecoration name="НетПравНадпись" id="416">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Нет прав</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>No access rights</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Пользователю не назначены права доступа (нет ни одной роли)</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>User is not assigned access rights (no role)</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ContextMenu name="НетПравНадписьКонтекстноеМеню" id="417"/>
-							<ExtendedTooltip name="НетПравНадписьРасширеннаяПодсказка" id="418"/>
-						</LabelDecoration>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаНетПравНаЗапуск" id="419">
-					<Visible>false</Visible>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Нет прав на запуск</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>No startup rights</v8:content>
-						</v8:item>
-					</Title>
-					<Group>AlwaysHorizontal</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаНетПравНаЗапускРасширеннаяПодсказка" id="420"/>
-					<ChildItems>
-						<PictureDecoration name="НетПравНаЗапускКартина" id="421">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Нет прав на запуск картина</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>No startup rights picture</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="НетПравНаЗапускКартинаКонтекстноеМеню" id="422"/>
-							<ExtendedTooltip name="НетПравНаЗапускКартинаРасширеннаяПодсказка" id="423"/>
-						</PictureDecoration>
-						<LabelDecoration name="НетПравНаЗапускНадпись" id="424">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Нет прав на запуск</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>No startup rights</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>У пользователя нет ни одного права запуска
-(например, тонкий клиент, веб-клиент)</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>User does not have any startup rights
-(e.g. thin client or web client).</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ContextMenu name="НетПравНаЗапускНадписьКонтекстноеМеню" id="425"/>
-							<ExtendedTooltip name="НетПравНаЗапускНадписьРасширеннаяПодсказка" id="426"/>
-						</LabelDecoration>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаНетПравНаВход" id="440">
-					<Visible>false</Visible>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Нет прав на вход</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>No rights to sign in</v8:content>
-						</v8:item>
-					</Title>
-					<Group>AlwaysHorizontal</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаНетПравНаВходРасширеннаяПодсказка" id="441"/>
-					<ChildItems>
-						<PictureDecoration name="НетПравНаВходКартинка" id="442">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Нет прав на вход картинка</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>No rights to sign in picture</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="НетПравНаВходКартинкаКонтекстноеМеню" id="443"/>
-							<ExtendedTooltip name="НетПравНаВходКартинкаРасширеннаяПодсказка" id="444"/>
-						</PictureDecoration>
-						<LabelDecoration name="НетПравНаВходНадпись" id="445">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Нет прав для входа</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>No rights to sign in</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Пользователю не назначены минимальные права для работы в программе</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>User is not granted the minimum access rights to use the application.</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ContextMenu name="НетПравНаВходНадписьКонтекстноеМеню" id="446"/>
-							<ExtendedTooltip name="НетПравНаВходНадписьРасширеннаяПодсказка" id="447"/>
-						</LabelDecoration>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаИзменитьОграничение" id="331">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Изменить ограничение</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Edit authentication restrictions</v8:content>
-						</v8:item>
-					</Title>
-					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаИзменитьОграничениеРасширеннаяПодсказка" id="332"/>
-					<ChildItems>
-						<Button name="ИзменитьОграничениеНаВходВПрограмму" id="333">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.ИзменитьОграничениеНаВходВПрограмму</CommandName>
-							<ExtendedTooltip name="ИзменитьОграничениеНаВходВПрограммуРасширеннаяПодсказка" id="334"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-				<LabelDecoration name="РекомендуетсяПроверитьНастройкиДляВхода" id="267">
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Рекомендуется проверить настройки для входа</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Consider reviewing user authentication settings</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Перед разрешением входа в программу рекомендуется проверить настройки, т.к. пользователь
-был введен не администратором, а ответственным за список пользователей.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>It is recommended that you review the settings because the user was created
-by the user list owner (not by the administrator).</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ToolTipRepresentation>Button</ToolTipRepresentation>
-					<ContextMenu name="РекомендуетсяПроверитьНастройкиДляВходаКонтекстноеМеню" id="268"/>
-					<ExtendedTooltip name="РекомендуетсяПроверитьНастройкиДляВходаРасширеннаяПодсказка" id="269"/>
-				</LabelDecoration>
-			</ChildItems>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контактная информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаКонтактнаяИнформацияРасширеннаяПодсказка" id="248"/>
 		</UsualGroup>
-		<Pages name="Страницы" id="70">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Страницы</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Pages</v8:content>
-				</v8:item>
-			</Title>
-			<PagesRepresentation>TabsOnTop</PagesRepresentation>
-			<ExtendedTooltip name="СтраницыExtendedTooltip" id="219"/>
-			<Events>
-				<Event name="OnCurrentPageChange">СтраницыПриСменеСтраницы</Event>
-			</Events>
-			<ChildItems>
-				<Page name="Главное" id="65">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Главное</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Main</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedTooltip name="ГлавноеРасширеннаяПодсказка" id="220"/>
-					<ChildItems>
-						<UsualGroup name="ИмяЭлектроннаяПочтаТелефон" id="384">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Имя электронная почта телефон</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Name email phone number</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ThroughAlign>Use</ThroughAlign>
-							<ExtendedTooltip name="ИмяЭлектроннаяПочтаТелефонРасширеннаяПодсказка" id="385"/>
-							<ChildItems>
-								<UsualGroup name="ГруппаИмя" id="409">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Имя</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Name</v8:content>
-										</v8:item>
-									</Title>
-									<Behavior>Usual</Behavior>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаИмяРасширеннаяПодсказка" id="410"/>
-									<ChildItems>
-										<InputField name="ПользовательИБИмя" id="95">
-											<DataPath>ПользовательИБИмя</DataPath>
-											<AutoMarkIncomplete>true</AutoMarkIncomplete>
-											<ContextMenu name="ПользовательИБИмяКонтекстноеМеню" id="96"/>
-											<ExtendedTooltip name="ПользовательИБИмяРасширеннаяПодсказка" id="222"/>
-											<Events>
-												<Event name="OnChange">ПользовательИБИмяПриИзменении</Event>
-											</Events>
-										</InputField>
-									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ГруппаКонтактнаяИнформацияПолеEmailПользователя" id="401">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Электронная почта</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Email</v8:content>
-										</v8:item>
-									</Title>
-									<Group>AlwaysHorizontal</Group>
-									<Behavior>Usual</Behavior>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеEmailПользователяРасширеннаяПодсказка" id="402"/>
-									<ChildItems>
-										<InputField name="КонтактнаяИнформацияПолеEmailПользователя" id="395">
-											<DataPath>КонтактнаяИнформацияПолеEmailПользователя</DataPath>
-											<ContextMenu name="КонтактнаяИнформацияПолеEmailПользователяКонтекстноеМеню" id="396"/>
-											<ExtendedTooltip name="КонтактнаяИнформацияПолеEmailПользователяРасширеннаяПодсказка" id="397"/>
-											<Events>
-												<Event name="OnChange">Подключаемый_КонтактнаяИнформацияПриИзменении</Event>
-												<Event name="StartChoice">Подключаемый_КонтактнаяИнформацияНачалоВыбора</Event>
-												<Event name="Clearing">Подключаемый_КонтактнаяИнформацияОчистка</Event>
-											</Events>
-										</InputField>
-										<Button name="КомандаКонтактнаяИнформацияПолеEmailПользователя" id="405">
-											<Type>UsualButton</Type>
-											<CommandName>Form.Command.КомандаКонтактнаяИнформацияПолеEmailПользователя</CommandName>
-											<ExtendedTooltip name="КомандаКонтактнаяИнформацияПолеEmailПользователяРасширеннаяПодсказка" id="406"/>
-										</Button>
-									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ГруппаКонтактнаяИнформацияПолеТелефонПользователя" id="403">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Телефон</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Phone</v8:content>
-										</v8:item>
-									</Title>
-									<Group>AlwaysHorizontal</Group>
-									<Behavior>Usual</Behavior>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаКонтактнаяИнформацияПолеТелефонПользователяРасширеннаяПодсказка" id="404"/>
-									<ChildItems>
-										<InputField name="КонтактнаяИнформацияПолеТелефонПользователя" id="398">
-											<DataPath>КонтактнаяИнформацияПолеТелефонПользователя</DataPath>
-											<ChoiceButton>true</ChoiceButton>
-											<ContextMenu name="КонтактнаяИнформацияПолеТелефонПользователяКонтекстноеМеню" id="399"/>
-											<ExtendedTooltip name="КонтактнаяИнформацияПолеТелефонПользователяРасширеннаяПодсказка" id="400"/>
-											<Events>
-												<Event name="OnChange">Подключаемый_КонтактнаяИнформацияПриИзменении</Event>
-												<Event name="StartChoice">Подключаемый_КонтактнаяИнформацияНачалоВыбора</Event>
-												<Event name="Clearing">Подключаемый_КонтактнаяИнформацияОчистка</Event>
-											</Events>
-										</InputField>
-										<Button name="КомандаКонтактнаяИнформацияПолеТелефонПользователя" id="407">
-											<Type>UsualButton</Type>
-											<CommandName>Form.Command.КомандаКонтактнаяИнформацияПолеТелефонПользователя</CommandName>
-											<ExtendedTooltip name="КомандаКонтактнаяИнформацияПолеТелефонПользователяРасширеннаяПодсказка" id="408"/>
-										</Button>
-									</ChildItems>
-								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-					</ChildItems>
-				</Page>
-				<Page name="КонтактнаяИнформация" id="71">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Адреса, телефоны</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Addresses and phones</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedTooltip name="КонтактнаяИнформацияExtendedTooltip" id="248"/>
-				</Page>
-				<Page name="СтраницаДополнительныеРеквизиты" id="292">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дополнительные реквизиты</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Additional attributes</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="293"/>
-				</Page>
-				<Page name="СтраницаКомментарий" id="279">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Комментарий</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Comment</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="280"/>
-					<ChildItems>
-						<InputField name="Комментарий" id="258">
-							<TitleLocation>None</TitleLocation>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<ContextMenu name="КомментарийКонтекстноеМеню" id="259"/>
-							<ExtendedTooltip name="КомментарийExtendedTooltip" id="260"/>
-						</InputField>
-					</ChildItems>
-				</Page>
-			</ChildItems>
-		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.Контрагенты</v8:Type>
+				<v8:Type>cfg:CatalogObject.Клиенты</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
@@ -1306,7 +857,7 @@ language</v8:content>
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="КонтактнаяИнформацияПолеТелефонПользователя" id="51">
+		<Attribute name="КонтактнаяИнформацияПолеТелефонКонтрагента" id="51">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1366,20 +917,12 @@ language</v8:content>
 				</Column>
 				<Column name="Вид" id="2">
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
 					</Type>
 				</Column>
 				<Column name="Тип" id="3">
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:EnumRef.ТипыКонтактнойИнформации</v8:Type>
 					</Type>
 				</Column>
 				<Column name="ЗначенияПолей" id="4">
