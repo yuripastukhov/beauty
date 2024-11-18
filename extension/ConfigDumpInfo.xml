@@ -33,7 +33,9 @@
 			<Metadata name="Catalog.Услуги.Attribute.Цена" id="47af421b-8f58-4ccd-b3ed-b740275fb838"/>
 			<Metadata name="Catalog.Услуги.Attribute.Длительность" id="fef0372d-468a-4136-bbbc-8edeecd5d237"/>
 		</Metadata>
-		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="5e4e2be18b812acfb8c0c9279b7af76ff248b833"/>
+		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="6593cc57e4fee8cc9fea21ae2191bbfdea1d88fd"/>
+		<Metadata name="Configuration.BeautyExtention.HomePageWorkArea" id="7d5ea520-3637-46e3-82fe-58d978c1beac.8" configVersion="921ab7aa93a943891538c47890ea3718cd7ac037"/>
+		<Metadata name="Configuration.BeautyExtention.MainSectionCommandInterface" id="7d5ea520-3637-46e3-82fe-58d978c1beac.9" configVersion="c2b662425134d7c24009dbf9ad81142049349f91"/>
 		<Metadata name="DefinedType.ВладелецКонтактнойИнформации" id="2ddc7cf0-8fa4-477e-8300-04f1ac3ccec0" configVersion="e42670585eb2d7bc04ee2addc8086aa78e796a2f"/>
 		<Metadata name="Enum.ТипыКонтактнойИнформации" id="8cea92f2-7173-45c9-8a57-837f9bd588c6" configVersion="b778b4069f4c1630a8851cf9ab9354a1c96f60f1"/>
 		<Metadata name="Language.Русский" id="3cd2209d-51ba-41a2-a6f9-6aa41abd89ae" configVersion="b5e655303c9f85fbda8dda3c8890c9f038b8e0f8"/>
