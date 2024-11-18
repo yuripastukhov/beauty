@@ -65,12 +65,14 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>CRM</Subsystem>
+			<Subsystem>УправлениеКлиентами</Subsystem>
+			<Subsystem>УправлениеУслугами</Subsystem>
 			<Role>Beauty_ОсновнаяРоль</Role>
 			<DefinedType>ВладелецКонтактнойИнформации</DefinedType>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>Услуги</Catalog>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 		</ChildObjects>
 	</Configuration>

@@ -231,6 +231,7 @@
 									<v8:content>Description</v8:content>
 								</v8:item>
 							</Title>
+							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -247,6 +248,30 @@
 										<Event name="OnChange">НаименованиеПриИзменении</Event>
 									</Events>
 								</InputField>
+								<InputField name="ДатаРождения" id="375">
+									<DataPath>Объект.ДатаРождения</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="376"/>
+									<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="377"/>
+								</InputField>
+								<CheckBoxField name="ПоздравлятьПоСМС" id="378">
+									<DataPath>Объект.ПоздравлятьПоСМС</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоздравлятьПоСМСКонтекстноеМеню" id="379"/>
+									<ExtendedTooltip name="ПоздравлятьПоСМСРасширеннаяПодсказка" id="380"/>
+								</CheckBoxField>
+								<CheckBoxField name="ПоздравлятьПоПочте" id="381">
+									<DataPath>Объект.ПоздравлятьПоПочте</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоздравлятьПоПочтеКонтекстноеМеню" id="382"/>
+									<ExtendedTooltip name="ПоздравлятьПоПочтеРасширеннаяПодсказка" id="383"/>
+								</CheckBoxField>
+								<CheckBoxField name="НапоминатьОЗаписи" id="384">
+									<DataPath>Объект.НапоминатьОЗаписи</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НапоминатьОЗаписиКонтекстноеМеню" id="385"/>
+									<ExtendedTooltip name="НапоминатьОЗаписиРасширеннаяПодсказка" id="386"/>
+								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>

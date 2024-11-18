@@ -3,32 +3,41 @@
 	<ConfigVersions>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="43156f0e-f42c-41d6-bee0-a852e55221b0" configVersion="b12a4b39b89d2d258552977f13e364f6fdd21d39"/>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.Predefined" id="43156f0e-f42c-41d6-bee0-a852e55221b0.1c" configVersion="8d47832a5a622944a851f81bda187ae744a3662e"/>
-		<Metadata name="Catalog.Клиенты" id="85b66a6f-b2f1-430e-89a5-909931e43d5b" configVersion="6b9d7296d069b7b35b7bb1a38b0a0c19624a3892">
+		<Metadata name="Catalog.Клиенты" id="85b66a6f-b2f1-430e-89a5-909931e43d5b" configVersion="c2eb8199a0684e918d16b2f77a283d3a25d7eccc">
+			<Metadata name="Catalog.Клиенты.Attribute.ПоздравлятьПоСМС" id="0abba03b-6671-4e57-aa21-ea2b919b1d10"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Страна" id="0bf18b40-d0f9-4c69-8ff5-2244259ceda2"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефонаБезКодов" id="1759e604-d9b8-4655-8e4f-34070f252e7a"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.АдресЭП" id="180936dd-32ae-4469-a57a-aa2e5eb23445"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Значение" id="1ec82f4c-17b0-4169-9c3e-7fe70c68bbd7"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Тип" id="229a7ce5-45e4-4d26-939a-87fc2991af66"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка" id="240cd2c0-fd91-4e60-be52-aba6e960d46a"/>
+			<Metadata name="Catalog.Клиенты.Attribute.ДатаРождения" id="2a5cf887-8296-4ae9-9ad1-19186c546bff"/>
+			<Metadata name="Catalog.Клиенты.Attribute.НапоминатьОЗаписи" id="36306b4f-b138-420a-8653-23a2eceae613"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Представление" id="3ffd84b3-9b5a-452c-8a95-cd00fe3dd698"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.ЗначенияПолей" id="4f90b576-9fb9-412c-b7fd-6551c8d3a730"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Вид" id="5c1a8b2e-4124-4453-b229-8ca5f388f7c2"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.ДоменноеИмяСервера" id="6e61299e-de8f-4401-8213-796a5b4f8033"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Регион" id="768e3c57-bddc-40dd-9ff3-b0138e1d1390"/>
+			<Metadata name="Catalog.Клиенты.Attribute.ПоздравлятьПоПочте" id="7e6aec7a-0960-4322-a7d2-59577bb39ca1"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.Город" id="9ecfda71-1bd7-4896-998c-5b8f3f09eafe"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефона" id="a382596e-311b-462a-afed-0ab78bc8bead"/>
 			<Metadata name="Catalog.Клиенты.Attribute.Фотография" id="aef22854-0696-4fba-9c2f-347426ed0d17"/>
 			<Metadata name="Catalog.Клиенты.TabularSection.КонтактнаяИнформация" id="b4775ddd-245f-4687-b47b-363544f8530c"/>
 		</Metadata>
 		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063" configVersion="a2fa1b13f10c2afc85679c03526bd14722a0f284"/>
-		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента.Form" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.0" configVersion="43c5d11084f147666c7674a80f4cd6677b358242"/>
+		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента.Form" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.0" configVersion="b44566620a5602da1c076ab9743bfbc3bfda2159"/>
 		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента.Help" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.1" configVersion="f8fe969b135d284cc3f4f8c8b09c6f2bfe2b60b7"/>
 		<Metadata name="Catalog.Пользователи" id="5ec873b2-7a21-4140-91e9-50c9492fcf71" configVersion="342fd4607690e372d14e9c371fa8a6bb766f0553"/>
-		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="dbbd5d48d3e9abc14d751f511c29c9eba3264240"/>
+		<Metadata name="Catalog.Услуги" id="a827e93f-ebce-404c-9752-c06c1b6553b8" configVersion="0a93870dcddca8c475a95adf80e736d4ebb9354f">
+			<Metadata name="Catalog.Услуги.Attribute.Цена" id="47af421b-8f58-4ccd-b3ed-b740275fb838"/>
+			<Metadata name="Catalog.Услуги.Attribute.Длительность" id="fef0372d-468a-4136-bbbc-8edeecd5d237"/>
+		</Metadata>
+		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="d2e439c8a54d8ad4bf0662c248ca7489f80236ba"/>
 		<Metadata name="DefinedType.ВладелецКонтактнойИнформации" id="2ddc7cf0-8fa4-477e-8300-04f1ac3ccec0" configVersion="e42670585eb2d7bc04ee2addc8086aa78e796a2f"/>
 		<Metadata name="Enum.ТипыКонтактнойИнформации" id="8cea92f2-7173-45c9-8a57-837f9bd588c6" configVersion="b778b4069f4c1630a8851cf9ab9354a1c96f60f1"/>
 		<Metadata name="Language.Русский" id="3cd2209d-51ba-41a2-a6f9-6aa41abd89ae" configVersion="b5e655303c9f85fbda8dda3c8890c9f038b8e0f8"/>
 		<Metadata name="Role.Beauty_ОсновнаяРоль" id="1d1371ed-8b15-4b49-ac84-1b5dde165b54" configVersion="3eb474d4160a91f31de5f567127cdc0c018b94c8"/>
-		<Metadata name="Subsystem.CRM" id="d5b0a4db-f20e-44b5-8037-acd2842044b0" configVersion="1706528a8981770d8bc0c6f6b838dc2b630aa032"/>
+		<Metadata name="Subsystem.УправлениеКлиентами" id="d5b0a4db-f20e-44b5-8037-acd2842044b0" configVersion="45c20193b198e454b86f7d1930026ce133a95ecd"/>
+		<Metadata name="Subsystem.УправлениеУслугами" id="b6d5a7ad-b4d0-4a34-b5bb-c27e8b9cc4a9" configVersion="988b07fa6480b1e356a6038c3b1d3634ac3cf704"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
