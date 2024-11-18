@@ -381,7 +381,7 @@ Usually, first name + last name.</v8:content>
 					<xr:CharacteristicTypes from="Catalog.ВидыКонтактнойИнформации">
 						<xr:KeyField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Ref</xr:KeyField>
 						<xr:TypesFilterField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Parent</xr:TypesFilterField>
-						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">Catalog.ВидыКонтактнойИнформации.СправочникПользователи</xr:TypesFilterValue>
+						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">fc1d5c1f-385f-493f-a538-f80a12c7cb6f.8cbaa30d-faab-45ad-880e-84f8b421f448</xr:TypesFilterValue>
 						<xr:DataPathField>-1</xr:DataPathField>
 						<xr:MultipleValuesUseField>-1</xr:MultipleValuesUseField>
 					</xr:CharacteristicTypes>
