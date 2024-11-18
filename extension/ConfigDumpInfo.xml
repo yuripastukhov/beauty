@@ -27,17 +27,19 @@
 		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063" configVersion="a2fa1b13f10c2afc85679c03526bd14722a0f284"/>
 		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента.Form" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.0" configVersion="b44566620a5602da1c076ab9743bfbc3bfda2159"/>
 		<Metadata name="Catalog.Клиенты.Form.ФормаЭлемента.Help" id="382c921e-66f6-4932-b7ca-a8ae7e4a5063.1" configVersion="f8fe969b135d284cc3f4f8c8b09c6f2bfe2b60b7"/>
+		<Metadata name="Catalog.Мастера" id="b6795b4a-2461-4d27-a72d-39d814b6fc3a" configVersion="1883edd070323ed4533fc82134c708b367839947"/>
 		<Metadata name="Catalog.Пользователи" id="5ec873b2-7a21-4140-91e9-50c9492fcf71" configVersion="342fd4607690e372d14e9c371fa8a6bb766f0553"/>
 		<Metadata name="Catalog.Услуги" id="a827e93f-ebce-404c-9752-c06c1b6553b8" configVersion="0a93870dcddca8c475a95adf80e736d4ebb9354f">
 			<Metadata name="Catalog.Услуги.Attribute.Цена" id="47af421b-8f58-4ccd-b3ed-b740275fb838"/>
 			<Metadata name="Catalog.Услуги.Attribute.Длительность" id="fef0372d-468a-4136-bbbc-8edeecd5d237"/>
 		</Metadata>
-		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="d2e439c8a54d8ad4bf0662c248ca7489f80236ba"/>
+		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="5e4e2be18b812acfb8c0c9279b7af76ff248b833"/>
 		<Metadata name="DefinedType.ВладелецКонтактнойИнформации" id="2ddc7cf0-8fa4-477e-8300-04f1ac3ccec0" configVersion="e42670585eb2d7bc04ee2addc8086aa78e796a2f"/>
 		<Metadata name="Enum.ТипыКонтактнойИнформации" id="8cea92f2-7173-45c9-8a57-837f9bd588c6" configVersion="b778b4069f4c1630a8851cf9ab9354a1c96f60f1"/>
 		<Metadata name="Language.Русский" id="3cd2209d-51ba-41a2-a6f9-6aa41abd89ae" configVersion="b5e655303c9f85fbda8dda3c8890c9f038b8e0f8"/>
 		<Metadata name="Role.Beauty_ОсновнаяРоль" id="1d1371ed-8b15-4b49-ac84-1b5dde165b54" configVersion="3eb474d4160a91f31de5f567127cdc0c018b94c8"/>
 		<Metadata name="Subsystem.УправлениеКлиентами" id="d5b0a4db-f20e-44b5-8037-acd2842044b0" configVersion="45c20193b198e454b86f7d1930026ce133a95ecd"/>
+		<Metadata name="Subsystem.УправлениеПерсоналом" id="5fa66a95-3992-427f-908b-798d814a6029" configVersion="4efde9ef0851d058dc5cab3f5c288ebbdc2e401e"/>
 		<Metadata name="Subsystem.УправлениеУслугами" id="b6d5a7ad-b4d0-4a34-b5bb-c27e8b9cc4a9" configVersion="988b07fa6480b1e356a6038c3b1d3634ac3cf704"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
