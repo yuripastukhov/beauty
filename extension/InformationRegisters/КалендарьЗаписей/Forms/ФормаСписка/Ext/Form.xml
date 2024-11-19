@@ -1,46 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Запись на услуги за период</v8:content>
+		</v8:item>
+	</Title>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
-			<Button name="ФормаНачало" id="46">
+			<Button name="ФормаНазад" id="112">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.ПланировщикЗаписей.StandardCommand.Begin</CommandName>
-				<ExtendedTooltip name="ФормаНачалоРасширеннаяПодсказка" id="47"/>
+				<CommandName>Form.Command.Назад</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.GoBack</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаНазадРасширеннаяПодсказка" id="113"/>
 			</Button>
-			<Button name="ФормаНазад" id="48">
+			<Button name="ФормаСегодня" id="114">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.ПланировщикЗаписей.StandardCommand.Back</CommandName>
-				<ExtendedTooltip name="ФормаНазадРасширеннаяПодсказка" id="49"/>
+				<CommandName>Form.Command.Сегодня</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Today</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаСегодняРасширеннаяПодсказка" id="115"/>
 			</Button>
-			<Button name="ФормаСегодня" id="50">
+			<Button name="ФормаВперед" id="110">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.ПланировщикЗаписей.StandardCommand.Today</CommandName>
-				<ExtendedTooltip name="ФормаСегодняРасширеннаяПодсказка" id="51"/>
-			</Button>
-			<Button name="ФормаВперед" id="52">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.ПланировщикЗаписей.StandardCommand.Forward</CommandName>
-				<ExtendedTooltip name="ФормаВпередРасширеннаяПодсказка" id="53"/>
-			</Button>
-			<Button name="ФормаКонец" id="54">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Item.ПланировщикЗаписей.StandardCommand.End</CommandName>
-				<ExtendedTooltip name="ФормаКонецРасширеннаяПодсказка" id="55"/>
-			</Button>
-			<Button name="ФормаЧасы" id="60">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.Часы</CommandName>
-				<ExtendedTooltip name="ФормаЧасыРасширеннаяПодсказка" id="61"/>
-			</Button>
-			<Button name="ФормаДни" id="56">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.Дни</CommandName>
-				<ExtendedTooltip name="ФормаДниРасширеннаяПодсказка" id="57"/>
+				<CommandName>Form.Command.Вперед</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.GoForward</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаВпередРасширеннаяПодсказка" id="111"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
@@ -57,17 +54,180 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
 		</UsualGroup>
+		<UsualGroup name="Группа1" id="105">
+			<Representation>None</Representation>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="106"/>
+			<ChildItems>
+				<LabelField name="ПредставлениеПериода" id="102">
+					<DataPath>ПредставлениеПериода</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<TextColor>#99CC00</TextColor>
+					<Font ref="style:NormalTextFont" height="16" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<ContextMenu name="ПредставлениеПериодаКонтекстноеМеню" id="103"/>
+					<ExtendedTooltip name="ПредставлениеПериодаРасширеннаяПодсказка" id="104"/>
+				</LabelField>
+				<RadioButtonField name="ВариантПериода" id="107">
+					<DataPath>ВариантПериода</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<RadioButtonType>Tumbler</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>День</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">День</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Неделя</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Неделя</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Месяц</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">Месяц</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ВариантПериодаКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="ВариантПериодаРасширеннаяПодсказка" id="109"/>
+					<Events>
+						<Event name="OnChange">ВариантПериодаПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+			</ChildItems>
+		</UsualGroup>
 		<PlannerField name="ПланировщикЗаписей" id="43">
 			<DataPath>Планировщик</DataPath>
 			<ContextMenu name="ПланировщикЗаписейКонтекстноеМеню" id="44"/>
 			<ExtendedTooltip name="ПланировщикЗаписейРасширеннаяПодсказка" id="45"/>
 			<Events>
 				<Event name="BeforeCreate">ПланировщикЗаписейПередСозданием</Event>
+				<Event name="OnCurrentRepresentationPeriodChange">ПланировщикПриСменеТекущегоПериодаОтображения</Event>
 				<Event name="BeforeDelete">ПланировщикЗаписейПередУдалением</Event>
 				<Event name="BeforeStartEdit">ПланировщикЗаписейПередНачаломРедактирования</Event>
 				<Event name="Selection">ПланировщикЗаписейВыбор</Event>
+				<Event name="PlannerActionClick">ПланировщикЗаписейНажатиеНаДействиеПланировщика</Event>
 			</Events>
 		</PlannerField>
+		<Table name="Список" id="62">
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="63"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="64"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="65"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="66">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="67"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="68"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="69">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="70"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="71"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="72">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="73"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="74"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Регистратор" id="75">
+					<DataPath>Список.Recorder</DataPath>
+					<ContextMenu name="РегистраторКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="РегистраторРасширеннаяПодсказка" id="77"/>
+				</LabelField>
+				<LabelField name="НомерСтроки" id="78">
+					<DataPath>Список.LineNumber</DataPath>
+					<ContextMenu name="НомерСтрокиКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="НомерСтрокиРасширеннаяПодсказка" id="80"/>
+				</LabelField>
+				<LabelField name="Клиент" id="81">
+					<DataPath>Список.Клиент</DataPath>
+					<ContextMenu name="КлиентКонтекстноеМеню" id="82"/>
+					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="83"/>
+				</LabelField>
+				<LabelField name="Услуга" id="84">
+					<DataPath>Список.Услуга</DataPath>
+					<ContextMenu name="УслугаКонтекстноеМеню" id="85"/>
+					<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="86"/>
+				</LabelField>
+				<LabelField name="Мастер" id="87">
+					<DataPath>Список.Мастер</DataPath>
+					<ContextMenu name="МастерКонтекстноеМеню" id="88"/>
+					<ExtendedTooltip name="МастерРасширеннаяПодсказка" id="89"/>
+				</LabelField>
+				<LabelField name="ДатаВизита" id="90">
+					<DataPath>Список.ДатаВизита</DataPath>
+					<ContextMenu name="ДатаВизитаКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="ДатаВизитаРасширеннаяПодсказка" id="92"/>
+				</LabelField>
+				<LabelField name="Статус" id="93">
+					<DataPath>Список.Статус</DataPath>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="94"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="95"/>
+				</LabelField>
+				<LabelField name="Длительность" id="96">
+					<DataPath>Список.Длительность</DataPath>
+					<ContextMenu name="ДлительностьКонтекстноеМеню" id="97"/>
+					<ExtendedTooltip name="ДлительностьРасширеннаяПодсказка" id="98"/>
+				</LabelField>
+				<LabelField name="Комментарий" id="99">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="100"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="101"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -205,37 +365,82 @@
 				<pl:newItemsTextType>String</pl:newItemsTextType>
 			</Settings>
 		</Attribute>
+		<Attribute name="ВариантПериода" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариант периода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеПериода" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление периода</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="Дни" id="1">
+		<Command name="Вперед" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Дни</v8:content>
+					<v8:content>Вперед</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Дни</v8:content>
+					<v8:content>Вперед</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>Дни</Action>
+			<Action>Вперед</Action>
 		</Command>
-		<Command name="Часы" id="3">
+		<Command name="Назад" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Часы</v8:content>
+					<v8:content>Назад</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Часы</v8:content>
+					<v8:content>Назад</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>Часы</Action>
+			<Action>Назад</Action>
+		</Command>
+		<Command name="Сегодня" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сегодня</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сегодня</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сегодня</Action>
 		</Command>
 	</Commands>
 </Form>

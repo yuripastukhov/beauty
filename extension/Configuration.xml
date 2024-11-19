@@ -70,6 +70,8 @@
 			<Subsystem>УправлениеПерсоналом</Subsystem>
 			<Role>Beauty_ОсновнаяРоль</Role>
 			<DefinedType>ВладелецКонтактнойИнформации</DefinedType>
+			<Constant>НачалоРабочегоДня</Constant>
+			<Constant>ОкончаниеРабочегоДня</Constant>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Catalog>Пользователи</Catalog>
