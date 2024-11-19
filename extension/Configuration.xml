@@ -75,7 +75,10 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Услуги</Catalog>
 			<Catalog>Мастера</Catalog>
+			<Document>ЗаписьНаУслугу</Document>
 			<Enum>ТипыКонтактнойИнформации</Enum>
+			<Enum>СтатусыЗаписи</Enum>
+			<InformationRegister>КалендарьЗаписей</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
