@@ -71,7 +71,7 @@
 		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка.Form" id="bb6e21c5-4aea-47f5-80cc-f3a70d6e74b8.0" configVersion="9f753eedef197dd18be5ed216fb2e7ce75f2ce19"/>
 		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка1" id="29b55bdd-97a8-42c6-8f77-777c909f3dde" configVersion="300ee617463853454393397a0c39a4254dad1694"/>
 		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка1.Form" id="29b55bdd-97a8-42c6-8f77-777c909f3dde.0" configVersion="7f78212fe067f025e68dcc7b1deca312f33da164"/>
-		<Metadata name="Language.Русский" id="3cd2209d-51ba-41a2-a6f9-6aa41abd89ae" configVersion="b5e655303c9f85fbda8dda3c8890c9f038b8e0f8"/>
+		<Metadata name="Language.Русский" id="3cd2209d-51ba-41a2-a6f9-6aa41abd89ae" configVersion="c25e7b3208d239f71fe044966e710f44191c4034"/>
 		<Metadata name="Role.Beauty_ОсновнаяРоль" id="1d1371ed-8b15-4b49-ac84-1b5dde165b54" configVersion="3eb474d4160a91f31de5f567127cdc0c018b94c8"/>
 		<Metadata name="Subsystem.УправлениеКлиентами" id="d5b0a4db-f20e-44b5-8037-acd2842044b0" configVersion="45c20193b198e454b86f7d1930026ce133a95ecd"/>
 		<Metadata name="Subsystem.УправлениеПерсоналом" id="5fa66a95-3992-427f-908b-798d814a6029" configVersion="4efde9ef0851d058dc5cab3f5c288ebbdc2e401e"/>
