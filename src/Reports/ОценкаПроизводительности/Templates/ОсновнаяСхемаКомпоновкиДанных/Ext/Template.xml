@@ -187,7 +187,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>General dispersion</v8:content>
+					<v8:content>General variance</v8:content>
 				</v8:item>
 			</title>
 			<useRestriction>
@@ -351,7 +351,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>General dispersion previous</v8:content>
+					<v8:content>General variance previous</v8:content>
 				</v8:item>
 			</title>
 			<useRestriction>

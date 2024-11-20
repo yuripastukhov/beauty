@@ -42,7 +42,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Beginning of import period</v8:content>
+							<v8:content>Import period start</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -92,7 +92,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>End of import period</v8:content>
+							<v8:content>Import period end</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

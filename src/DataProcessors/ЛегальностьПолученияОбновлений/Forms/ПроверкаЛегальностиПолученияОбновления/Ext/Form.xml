@@ -16,7 +16,17 @@
 					<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="ФормаПродолжитьExtendedTooltip" id="8"/>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Продолжить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Continue</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаПродолжитьРасширеннаяПодсказка" id="8"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -28,10 +38,20 @@
 	<ChildItems>
 		<HTMLDocumentField name="ТекстПредупреждения" id="1">
 			<DataPath>ТекстПредупреждения</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст предупреждения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning text</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<Width>1</Width>
 			<ContextMenu name="ТекстПредупрежденияКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ТекстПредупрежденияExtendedTooltip" id="9"/>
+			<ExtendedTooltip name="ТекстПредупрежденияРасширеннаяПодсказка" id="9"/>
 		</HTMLDocumentField>
 		<CheckBoxField name="ПодтверждениеБулево" id="28">
 			<DataPath>ПодтверждениеБулево</DataPath>
@@ -72,7 +92,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Разрешить автоматическую отправку сведений об использовании программы в фирму "1С"</v8:content>
+							<v8:content>Разрешить автоматическую отправку сведений об использовании приложения в фирму "1С"</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -83,13 +103,13 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Собранные сведения включают в себя только технические характеристики работы программы,
-Отчеты об использовании программы помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</v8:content>
+							<v8:content>Собранные сведения включают в себя только технические характеристики работы приложения,
+Отчеты об использовании приложения помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>Collected data contains only technical information.
-Anonymous statistics will help us improve the application and understand what features are the most expected. You can turn off sending statistics at any moment.</v8:content>
+Anonymous statistics will help us improve the application and understand what features are most in demand. You can turn off this option at any time.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -121,7 +141,7 @@ Anonymous statistics will help us improve the application and understand what fe
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Собранные сведения включают в себя только технические характеристики работы программы, являются обезличенными и не содержат информации о пользователях или бизнес-информации.</v8:content>
+									<v8:content>Собранные сведения включают в себя только технические характеристики работы приложения, являются обезличенными и не содержат информации о пользователях или бизнес-информации.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -134,11 +154,11 @@ Anonymous statistics will help us improve the application and understand what fe
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Отчеты об использовании программы помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</v8:content>
+										<v8:content>Отчеты об использовании приложения помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Anonymous statistics will help us improve the application and to understand what features are the most expected. You can turn off sending statistics at any moment.</v8:content>
+										<v8:content>Anonymous statistics will help us improve the application and understand what features are most in demand. You can turn off this option at any time.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>

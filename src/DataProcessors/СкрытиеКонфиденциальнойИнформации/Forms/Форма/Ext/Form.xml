@@ -195,33 +195,93 @@ Click "Full functionality" below to configure each attribute separately.
 									<Type>CommandBarButton</Type>
 									<DefaultButton>true</DefaultButton>
 									<CommandName>Form.Command.ВыполнитьСкрытие</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выполнить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Start</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ФормаВыполнитьСкрытиеРасширеннаяПодсказка" id="40"/>
 								</Button>
 								<Button name="ФормаЗагрузитьНастройки" id="41">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ЗагрузитьНастройки</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Загрузить настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Import settings</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ФормаЗагрузитьНастройкиРасширеннаяПодсказка" id="42"/>
 								</Button>
 								<Button name="ФормаСохранитьНастройки" id="43">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.СохранитьНастройки</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сохранить настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Save settings</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ФормаСохранитьНастройкиРасширеннаяПодсказка" id="44"/>
 								</Button>
 								<Button name="ОбрабатываемыеОбъектыОтметитьВсе" id="47">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ОтметитьВсе</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отметить все</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select all</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ОбрабатываемыеОбъектыОтметитьВсеРасширеннаяПодсказка" id="48"/>
 								</Button>
 								<Button name="ОбрабатываемыеОбъектыСнятьОтметку" id="45">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.СнятьОтметку</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Снять отметку</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Clear</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ОбрабатываемыеОбъектыСнятьОтметкуРасширеннаяПодсказка" id="46"/>
 								</Button>
 								<Button name="ОбрабатываемыеОбъектыЗаполнитьПоСведениямОПерсональныхДанных" id="49">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ЗаполнитьПоУмолчанию</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заполнить по умолчанию</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Fill by default</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ОбрабатываемыеОбъектыЗаполнитьПоСведениямОПерсональныхДанныхРасширеннаяПодсказка" id="50"/>
 								</Button>
@@ -334,6 +394,16 @@ Click "Full functionality" below to configure each attribute separately.
 													<ChildItems>
 														<CheckBoxField name="ОбрабатываемыеОбъектыПометка" id="32">
 															<DataPath>ОбрабатываемыеОбъекты.Пометка</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Пометка</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Checkmark</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
@@ -346,6 +416,16 @@ Click "Full functionality" below to configure each attribute separately.
 														</CheckBoxField>
 														<PictureField name="ОбрабатываемыеОбъектыКартинка" id="20">
 															<DataPath>ОбрабатываемыеОбъекты.Картинка</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Картинка</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Picture</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
@@ -355,6 +435,16 @@ Click "Full functionality" below to configure each attribute separately.
 														</PictureField>
 														<LabelField name="ОбрабатываемыеОбъектыПредставление" id="26">
 															<DataPath>ОбрабатываемыеОбъекты.Представление</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Представление</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Presentation</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
@@ -380,6 +470,16 @@ Click "Full functionality" below to configure each attribute separately.
 													<ChildItems>
 														<InputField name="ОбрабатываемыеОбъектыПравилоОбработки" id="29">
 															<DataPath>ОбрабатываемыеОбъекты.ПредставлениеПравилаОбработки</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Представление правила обработки</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Data processor rule presentation</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>

@@ -19,7 +19,17 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
-				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьExtendedTooltip" id="60"/>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="60"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -40,7 +50,7 @@
 				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
-			<ExtendedTooltip name="ТипыСвойстваExtendedTooltip" id="61"/>
+			<ExtendedTooltip name="ТипыСвойстваРасширеннаяПодсказка" id="61"/>
 			<ChildItems>
 				<Page name="ДополнительныйРеквизит" id="17">
 					<Title>
@@ -69,7 +79,7 @@
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="РеквизитПредупреждениеExtendedTooltip" id="63"/>
+							<ExtendedTooltip name="РеквизитПредупреждениеРасширеннаяПодсказка" id="63"/>
 							<ChildItems>
 								<PictureDecoration name="РеквизитПредупреждениеКартинка" id="48">
 									<Title formatted="false">
@@ -83,12 +93,12 @@
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="РеквизитПредупреждениеКартинкаКонтекстноеМеню" id="49"/>
-									<ExtendedTooltip name="РеквизитПредупреждениеКартинкаExtendedTooltip" id="64"/>
+									<ExtendedTooltip name="РеквизитПредупреждениеКартинкаРасширеннаяПодсказка" id="64"/>
 								</PictureDecoration>
 								<LabelDecoration name="РеквизитПредупреждениеКомментарий" id="50">
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -108,12 +118,22 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 									</Title>
 									<VerticalAlign>Top</VerticalAlign>
 									<ContextMenu name="РеквизитПредупреждениеКомментарийКонтекстноеМеню" id="51"/>
-									<ExtendedTooltip name="РеквизитПредупреждениеКомментарийExtendedTooltip" id="65"/>
+									<ExtendedTooltip name="РеквизитПредупреждениеКомментарийРасширеннаяПодсказка" id="65"/>
 								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
 						<RadioButtonField name="ОтдельныеЗначенияРеквизита" id="8">
 							<DataPath>ОтдельноеСвойствоСОтдельнымСпискомЗначений</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отдельное свойство с отдельным списком значений</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Exclusive property with exclusive values</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ChoiceList>
@@ -136,7 +156,7 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 								</xr:Item>
 							</ChoiceList>
 							<ContextMenu name="ОтдельныеЗначенияРеквизитаКонтекстноеМеню" id="9"/>
-							<ExtendedTooltip name="ОтдельныеЗначенияРеквизитаExtendedTooltip" id="66"/>
+							<ExtendedTooltip name="ОтдельныеЗначенияРеквизитаРасширеннаяПодсказка" id="66"/>
 							<Events>
 								<Event name="OnChange">ВидПриИзменении</Event>
 							</Events>
@@ -156,7 +176,7 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 								</v8:item>
 							</Title>
 							<ContextMenu name="ОтдельныеЗначенияРеквизитаКомментарийКонтекстноеМеню" id="15"/>
-							<ExtendedTooltip name="ОтдельныеЗначенияРеквизитаКомментарийExtendedTooltip" id="67"/>
+							<ExtendedTooltip name="ОтдельныеЗначенияРеквизитаКомментарийРасширеннаяПодсказка" id="67"/>
 						</LabelDecoration>
 						<Pages name="ВидыРеквизита" id="30">
 							<Title>
@@ -170,7 +190,7 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="ВидыРеквизитаExtendedTooltip" id="68"/>
+							<ExtendedTooltip name="ВидыРеквизитаРасширеннаяПодсказка" id="68"/>
 							<ChildItems>
 								<Page name="ВидОбщиеЗначенияРеквизитов" id="32">
 									<Title>
@@ -183,10 +203,20 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 											<v8:content>Attribute with shared values type</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ВидОбщиеЗначенияРеквизитовExtendedTooltip" id="69"/>
+									<ExtendedTooltip name="ВидОбщиеЗначенияРеквизитовРасширеннаяПодсказка" id="69"/>
 									<ChildItems>
 										<RadioButtonField name="ОбщиеЗначенияРеквизитов" id="6">
 											<DataPath>ОтдельноеСвойствоСОбщимСпискомЗначений</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отдельное свойство с общим списком значений</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Exclusive property with shared values</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<RadioButtonType>Auto</RadioButtonType>
 											<ChoiceList>
@@ -209,7 +239,7 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 												</xr:Item>
 											</ChoiceList>
 											<ContextMenu name="ОбщиеЗначенияРеквизитовКонтекстноеМеню" id="7"/>
-											<ExtendedTooltip name="ОбщиеЗначенияРеквизитовExtendedTooltip" id="70"/>
+											<ExtendedTooltip name="ОбщиеЗначенияРеквизитовРасширеннаяПодсказка" id="70"/>
 											<Events>
 												<Event name="OnChange">ВидПриИзменении</Event>
 											</Events>
@@ -229,7 +259,7 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 												</v8:item>
 											</Title>
 											<ContextMenu name="ОбщиеЗначенияРеквизитовКомментарийКонтекстноеМеню" id="13"/>
-											<ExtendedTooltip name="ОбщиеЗначенияРеквизитовКомментарийExtendedTooltip" id="71"/>
+											<ExtendedTooltip name="ОбщиеЗначенияРеквизитовКомментарийРасширеннаяПодсказка" id="71"/>
 										</LabelDecoration>
 									</ChildItems>
 								</Page>
@@ -244,10 +274,20 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 											<v8:content>Shared attribute type</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ВидОбщийРеквизитExtendedTooltip" id="72"/>
+									<ExtendedTooltip name="ВидОбщийРеквизитРасширеннаяПодсказка" id="72"/>
 									<ChildItems>
 										<RadioButtonField name="ОбщийРеквизит" id="4">
 											<DataPath>ОбщееСвойство</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Общее свойство</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Shared property</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<RadioButtonType>Auto</RadioButtonType>
 											<ChoiceList>
@@ -270,7 +310,7 @@ Alternatively, you can add a new independent attribute with exclusive list of va
 												</xr:Item>
 											</ChoiceList>
 											<ContextMenu name="ОбщийРеквизитКонтекстноеМеню" id="5"/>
-											<ExtendedTooltip name="ОбщийРеквизитExtendedTooltip" id="73"/>
+											<ExtendedTooltip name="ОбщийРеквизитРасширеннаяПодсказка" id="73"/>
 											<Events>
 												<Event name="OnChange">ВидПриИзменении</Event>
 											</Events>
@@ -296,7 +336,7 @@ For example, with attribute "Color" you can filter all yellow shoes and dresses.
 												</v8:item>
 											</Title>
 											<ContextMenu name="ОбщийРеквизитКомментарийКонтекстноеМеню" id="11"/>
-											<ExtendedTooltip name="ОбщийРеквизитКомментарийExtendedTooltip" id="74"/>
+											<ExtendedTooltip name="ОбщийРеквизитКомментарийРасширеннаяПодсказка" id="74"/>
 										</LabelDecoration>
 									</ChildItems>
 								</Page>
@@ -331,7 +371,7 @@ For example, with attribute "Color" you can filter all yellow shoes and dresses.
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="СведениеПредупреждениеExtendedTooltip" id="76"/>
+							<ExtendedTooltip name="СведениеПредупреждениеРасширеннаяПодсказка" id="76"/>
 							<ChildItems>
 								<PictureDecoration name="СведениеПредупреждениеКартинка" id="56">
 									<Title formatted="false">
@@ -345,12 +385,12 @@ For example, with attribute "Color" you can filter all yellow shoes and dresses.
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="СведениеПредупреждениеКартинкаКонтекстноеМеню" id="57"/>
-									<ExtendedTooltip name="СведениеПредупреждениеКартинкаExtendedTooltip" id="77"/>
+									<ExtendedTooltip name="СведениеПредупреждениеКартинкаРасширеннаяПодсказка" id="77"/>
 								</PictureDecoration>
 								<LabelDecoration name="СведениеПредупреждениеКомментарий" id="58">
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -370,12 +410,22 @@ Alternatively, you can add a new independent information record with exclusive l
 									</Title>
 									<VerticalAlign>Top</VerticalAlign>
 									<ContextMenu name="СведениеПредупреждениеКомментарийКонтекстноеМеню" id="59"/>
-									<ExtendedTooltip name="СведениеПредупреждениеКомментарийExtendedTooltip" id="78"/>
+									<ExtendedTooltip name="СведениеПредупреждениеКомментарийРасширеннаяПодсказка" id="78"/>
 								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
 						<RadioButtonField name="ОтдельныеЗначенияСведения" id="26">
 							<DataPath>ОтдельноеСвойствоСОтдельнымСпискомЗначений</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отдельное свойство с отдельным списком значений</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Exclusive property with exclusive values</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ChoiceList>
@@ -398,7 +448,7 @@ Alternatively, you can add a new independent information record with exclusive l
 								</xr:Item>
 							</ChoiceList>
 							<ContextMenu name="ОтдельныеЗначенияСведенияКонтекстноеМеню" id="27"/>
-							<ExtendedTooltip name="ОтдельныеЗначенияСведенияExtendedTooltip" id="79"/>
+							<ExtendedTooltip name="ОтдельныеЗначенияСведенияРасширеннаяПодсказка" id="79"/>
 							<Events>
 								<Event name="OnChange">ВидПриИзменении</Event>
 							</Events>
@@ -418,7 +468,7 @@ Alternatively, you can add a new independent information record with exclusive l
 								</v8:item>
 							</Title>
 							<ContextMenu name="ОтдельныеЗначенияСведенияКомментарийКонтекстноеМеню" id="29"/>
-							<ExtendedTooltip name="ОтдельныеЗначенияСведенияКомментарийExtendedTooltip" id="80"/>
+							<ExtendedTooltip name="ОтдельныеЗначенияСведенияКомментарийРасширеннаяПодсказка" id="80"/>
 						</LabelDecoration>
 						<Pages name="ВидыСведения" id="33">
 							<Title>
@@ -432,7 +482,7 @@ Alternatively, you can add a new independent information record with exclusive l
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="ВидыСведенияExtendedTooltip" id="81"/>
+							<ExtendedTooltip name="ВидыСведенияРасширеннаяПодсказка" id="81"/>
 							<ChildItems>
 								<Page name="ВидОбщиеЗначенияСведений" id="39">
 									<Title>
@@ -445,10 +495,20 @@ Alternatively, you can add a new independent information record with exclusive l
 											<v8:content>Information record with shared values type</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ВидОбщиеЗначенияСведенийExtendedTooltip" id="82"/>
+									<ExtendedTooltip name="ВидОбщиеЗначенияСведенийРасширеннаяПодсказка" id="82"/>
 									<ChildItems>
 										<RadioButtonField name="ОбщиеЗначенияСведений" id="22">
 											<DataPath>ОтдельноеСвойствоСОбщимСпискомЗначений</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отдельное свойство с общим списком значений</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Exclusive property with shared values</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<RadioButtonType>Auto</RadioButtonType>
 											<ChoiceList>
@@ -471,7 +531,7 @@ Alternatively, you can add a new independent information record with exclusive l
 												</xr:Item>
 											</ChoiceList>
 											<ContextMenu name="ОбщиеЗначенияСведенийКонтекстноеМеню" id="23"/>
-											<ExtendedTooltip name="ОбщиеЗначенияСведенийExtendedTooltip" id="83"/>
+											<ExtendedTooltip name="ОбщиеЗначенияСведенийРасширеннаяПодсказка" id="83"/>
 											<Events>
 												<Event name="OnChange">ВидПриИзменении</Event>
 											</Events>
@@ -491,7 +551,7 @@ Alternatively, you can add a new independent information record with exclusive l
 												</v8:item>
 											</Title>
 											<ContextMenu name="ОбщиеЗначенияСведенийКомментарийКонтекстноеМеню" id="25"/>
-											<ExtendedTooltip name="ОбщиеЗначенияСведенийКомментарийExtendedTooltip" id="84"/>
+											<ExtendedTooltip name="ОбщиеЗначенияСведенийКомментарийРасширеннаяПодсказка" id="84"/>
 										</LabelDecoration>
 									</ChildItems>
 								</Page>
@@ -506,10 +566,20 @@ Alternatively, you can add a new independent information record with exclusive l
 											<v8:content>Shared information record type</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ВидОбщееСведениеExtendedTooltip" id="85"/>
+									<ExtendedTooltip name="ВидОбщееСведениеРасширеннаяПодсказка" id="85"/>
 									<ChildItems>
 										<RadioButtonField name="ОбщееСведение" id="18">
 											<DataPath>ОбщееСвойство</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Общее свойство</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Shared property</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<RadioButtonType>Auto</RadioButtonType>
 											<ChoiceList>
@@ -532,7 +602,7 @@ Alternatively, you can add a new independent information record with exclusive l
 												</xr:Item>
 											</ChoiceList>
 											<ContextMenu name="ОбщееСведениеКонтекстноеМеню" id="19"/>
-											<ExtendedTooltip name="ОбщееСведениеExtendedTooltip" id="86"/>
+											<ExtendedTooltip name="ОбщееСведениеРасширеннаяПодсказка" id="86"/>
 											<Events>
 												<Event name="OnChange">ВидПриИзменении</Event>
 											</Events>
@@ -558,7 +628,7 @@ For example, with information record "Color" you can filter all yellow shoes and
 												</v8:item>
 											</Title>
 											<ContextMenu name="ОбщееСведениеКомментарийКонтекстноеМеню" id="21"/>
-											<ExtendedTooltip name="ОбщееСведениеКомментарийExtendedTooltip" id="87"/>
+											<ExtendedTooltip name="ОбщееСведениеКомментарийРасширеннаяПодсказка" id="87"/>
 										</LabelDecoration>
 									</ChildItems>
 								</Page>

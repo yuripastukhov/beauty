@@ -138,7 +138,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Подписана</v8:content>
+							<v8:content>Signed</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -170,7 +170,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Просрочена</v8:content>
+							<v8:content>Overdue</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -202,7 +202,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Зарегистрирована</v8:content>
+							<v8:content>Registered</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

@@ -25,6 +25,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="83"/>
 			</Button>
 			<Button name="ФормаПеречитать" id="50">
@@ -41,12 +51,32 @@
 			<Button name="ФормаЗаписатьПравила" id="116">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ЗаписатьПравила</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗаписатьПравилаРасширеннаяПодсказка" id="117"/>
 			</Button>
 			<Button name="СохранитьПравилаВФайл" id="20">
 				<Type>CommandBarButton</Type>
 				<SkipOnInput>true</SkipOnInput>
 				<CommandName>Form.Command.СохранитьПравилаКонвертацииВФайл</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сохранить правила конвертации  в файл</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save conversion rules to file</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="СохранитьПравилаВФайлРасширеннаяПодсказка" id="62"/>
 			</Button>
 		</ChildItems>
@@ -130,6 +160,16 @@
 					<ChildItems>
 						<RadioButtonField name="ИсточникПравилТиповые" id="29">
 							<DataPath>ИсточникПравил</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источник правил</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Rule source</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ColumnsCount>1</ColumnsCount>
@@ -253,6 +293,16 @@
 					<ChildItems>
 						<RadioButtonField name="ИсточникПравилИзФайла" id="113">
 							<DataPath>ИсточникПравил</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источник правил</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Rule source</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ChoiceList>
@@ -308,6 +358,16 @@
 									<SkipOnInput>true</SkipOnInput>
 									<Height>1</Height>
 									<CommandName>Form.Command.ЗагрузитьПравила</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Загрузить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Import</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ЗагрузитьТиповыеПравилаExtendedTooltip" id="61"/>
 								</Button>
 							</ChildItems>
@@ -319,6 +379,16 @@
 		<InputField name="ИнформацияОПравилах" id="11">
 			<DataPath>ИнформацияОПравилах</DataPath>
 			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация о правилах</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Rules</v8:content>
+				</v8:item>
+			</Title>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<Height>6</Height>
 			<MultiLine>true</MultiLine>

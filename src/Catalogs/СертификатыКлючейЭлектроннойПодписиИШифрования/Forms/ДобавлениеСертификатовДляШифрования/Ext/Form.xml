@@ -7,6 +7,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ДобавитьСертификатыВСправочник</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Добавить сертификаты в справочник</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Add certificates to catalog</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="СертификатыДобавитьСертификатыВСправочникРасширеннаяПодсказка" id="78"/>
 			</Button>
 		</ChildItems>
@@ -20,11 +30,11 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа горизонтальная</v8:content>
+					<v8:content>Горизонтальная</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Horizontal group</v8:content>
+					<v8:content>Horizontal</v8:content>
 				</v8:item>
 			</Title>
 			<Group>AlwaysHorizontal</Group>
@@ -35,11 +45,11 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа сертификаты</v8:content>
+							<v8:content>Сертификаты</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Group certificates</v8:content>
+							<v8:content>Certificates</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -49,6 +59,16 @@
 						<Table name="Сертификаты" id="1">
 							<Representation>List</Representation>
 							<DataPath>Сертификаты</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сертификаты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Certificates</v8:content>
+								</v8:item>
+							</Title>
 							<CommandSet>
 								<ExcludedCommand>Add</ExcludedCommand>
 								<ExcludedCommand>Change</ExcludedCommand>
@@ -90,6 +110,16 @@
 							<ChildItems>
 								<InputField name="СертификатыПредставление" id="93">
 									<DataPath>Сертификаты.Представление</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сертификат</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Certificate</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="СертификатыПредставлениеКонтекстноеМеню" id="94"/>
 									<ExtendedTooltip name="СертификатыПредставлениеРасширеннаяПодсказка" id="95"/>
 									<Events>
@@ -98,6 +128,16 @@
 								</InputField>
 								<InputField name="СертификатыФизическоеЛицо" id="17">
 									<DataPath>Сертификаты.ФизическоеЛицо</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Физическое лицо</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Individual</v8:content>
+										</v8:item>
+									</Title>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -116,6 +156,16 @@
 						</Table>
 						<InputField name="Организация" id="56">
 							<DataPath>Организация</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Организация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Company</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="57"/>
 							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="58">
@@ -163,14 +213,14 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа свойства сертификата</v8:content>
+									<v8:content>Свойства сертификата</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Группа свойства сертификата</v8:content>
+									<v8:content>Certificate properties</v8:content>
 								</v8:item>
 							</Title>
-							<Group>AlwaysHorizontal</Group>
+							<Group>Vertical</Group>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСвойстваСертификатаРасширеннаяПодсказка" id="55"/>
 							<ChildItems>
@@ -181,7 +231,7 @@
 									<Width>51</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>51</MaxWidth>
-									<Height>4</Height>
+									<HeightControlVariant>UseContentHeight</HeightControlVariant>
 									<RowSelectionMode>Row</RowSelectionMode>
 									<Header>false</Header>
 									<HorizontalScrollBar>DontUse</HorizontalScrollBar>
@@ -237,6 +287,16 @@
 										<InputField name="СертификатОписаниеДанныхСвойство" id="41">
 											<DataPath>СертификатОписаниеДанных.Свойство</DataPath>
 											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Свойство</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Property</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>13</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -246,6 +306,16 @@
 										<InputField name="СертификатОписаниеДанныхЗначение" id="44">
 											<DataPath>СертификатОписаниеДанных.Значение</DataPath>
 											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Значение</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Value</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СертификатОписаниеДанныхЗначениеКонтекстноеМеню" id="45"/>
 											<ExtendedTooltip name="СертификатОписаниеДанныхЗначениеРасширеннаяПодсказка" id="46"/>
@@ -253,10 +323,20 @@
 									</ChildItems>
 								</Table>
 								<Button name="ПоказатьДанныеСертификата" id="47">
-									<Type>UsualButton</Type>
-									<Representation>Picture</Representation>
+									<Type>Hyperlink</Type>
+									<Representation>PictureAndText</Representation>
 									<SkipOnInput>true</SkipOnInput>
 									<CommandName>Form.Command.ПоказатьДанныеСертификата</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Все свойства сертификата</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All certificate properties</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ПоказатьДанныеСертификатаРасширеннаяПодсказка" id="48"/>
 								</Button>
 							</ChildItems>
@@ -293,6 +373,16 @@
 					<Visible>false</Visible>
 					<ReadOnly>true</ReadOnly>
 					<DataPath>ФайлыНеЯвляютсяСертификатами</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Файлы не являются сертификатами электронной подписи</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Files are not digital signature certificates</v8:content>
+						</v8:item>
+					</Title>
 					<RowFilter xsi:nil="true"/>
 					<ContextMenu name="ФайлыНеЯвляютсяСертификатамиКонтекстноеМеню" id="63"/>
 					<AutoCommandBar name="ФайлыНеЯвляютсяСертификатамиКоманднаяПанель" id="62">
@@ -326,6 +416,16 @@
 					<ChildItems>
 						<InputField name="НеСертификатыПутьКФайлу" id="74">
 							<DataPath>ФайлыНеЯвляютсяСертификатами.ПутьКФайлу</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Путь к файлу</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>File path</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="НеСертификатыПутьКФайлуКонтекстноеМеню" id="75"/>
 							<ExtendedTooltip name="НеСертификатыПутьКФайлуРасширеннаяПодсказка" id="76"/>
 						</InputField>
@@ -606,6 +706,11 @@
 	<Parameters>
 		<Parameter name="ПомещенныеФайлы">
 			<Type/>
+		</Parameter>
+		<Parameter name="Организация">
+			<Type>
+				<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+			</Type>
 		</Parameter>
 	</Parameters>
 </Form>

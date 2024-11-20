@@ -26,10 +26,20 @@
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаОтборыExtendedTooltip" id="81"/>
+			<ExtendedTooltip name="ГруппаОтборыРасширеннаяПодсказка" id="81"/>
 			<ChildItems>
 				<InputField name="ОтборПоИспользованиюМакета" id="52">
 					<DataPath>ОтборПоИспользованиюМакета</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показывать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show</v8:content>
+						</v8:item>
+					</Title>
 					<Width>37</Width>
 					<ClearButton>true</ClearButton>
 					<ListChoiceMode>true</ListChoiceMode>
@@ -122,7 +132,7 @@
 						</xr:Item>
 					</ChoiceList>
 					<ContextMenu name="ОтборПоИспользованиюМакетаКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="ОтборПоИспользованиюМакетаExtendedTooltip" id="83"/>
+					<ExtendedTooltip name="ОтборПоИспользованиюМакетаРасширеннаяПодсказка" id="83"/>
 					<Events>
 						<Event name="OnChange">ОтборПоВидуИспользуемогоМакетаПриИзменении</Event>
 						<Event name="Clearing">ОтборПоИспользованиюМакетаОчистка</Event>
@@ -152,6 +162,16 @@
 				<InputField name="СтрокаПоиска" id="47">
 					<DataPath>СтрокаПоиска</DataPath>
 					<DefaultItem>true</DefaultItem>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка поиска</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search bar</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<Width>31</Width>
 					<DropListButton>true</DropListButton>
@@ -168,7 +188,7 @@
 						</v8:item>
 					</InputHint>
 					<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="48"/>
-					<ExtendedTooltip name="СтрокаПоискаExtendedTooltip" id="82"/>
+					<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="82"/>
 					<Events>
 						<Event name="OnChange">СтрокаПоискаПриИзменении</Event>
 						<Event name="EditTextChange">СтрокаПоискаИзменениеТекстаРедактирования</Event>
@@ -231,11 +251,31 @@
 					<Button name="МакетыКонтекстноеМенюУдалитьИзмененныйМакет" id="196">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.УдалитьИзмененныйМакет</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Удалить измененный макет</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Delete edited template</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="МакетыКонтекстноеМенюУдалитьИзмененныйМакетРасширеннаяПодсказка" id="197"/>
 					</Button>
 					<Button name="МакетыКонтекстноеМенюУдалитьМакет" id="198">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.УдалитьМакет</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Удалить макет</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Delete template</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="МакетыКонтекстноеМенюУдалитьМакетРасширеннаяПодсказка" id="199"/>
 					</Button>
 				</ChildItems>
@@ -273,6 +313,16 @@
 							<Button name="МакетыДобавитьМакетOfficeOpenXML" id="202">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.ДобавитьМакетOfficeOpenXML</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Создать макет Office Open XML</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Create Office Open XML template</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="МакетыДобавитьМакетOfficeOpenXMLРасширеннаяПодсказка" id="203"/>
 							</Button>
 						</ChildItems>
@@ -280,12 +330,32 @@
 					<Button name="МакетыСкопировать" id="170">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Скопировать</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Скопировать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Copy</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="МакетыСкопироватьРасширеннаяПодсказка" id="171"/>
 					</Button>
 					<Button name="МакетыИзменитьМакет" id="152">
 						<Type>CommandBarButton</Type>
 						<Representation>Picture</Representation>
 						<CommandName>Form.Command.ИзменитьМакет</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Изменить</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Edit</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="МакетыИзменитьМакетРасширеннаяПодсказка" id="153"/>
 					</Button>
 					<ButtonGroup name="МакетыПечатныхФормГруппаПереключениеИспользуемогоМакета" id="154">
@@ -316,12 +386,32 @@
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
 								<CommandName>Form.Command.ИспользоватьИзмененныйМакет</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать измененный</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Use edited template</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="МакетыПечатныхФормИспользоватьИзмененныйМакетРасширеннаяПодсказка" id="157"/>
 							</Button>
 							<Button name="МакетыПечатныхФормИспользоватьСтандартныйМакет" id="158">
 								<Type>CommandBarButton</Type>
 								<Representation>PictureAndText</Representation>
 								<CommandName>Form.Command.ИспользоватьСтандартныйМакет</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать стандартный</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Use standard template</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="МакетыПечатныхФормИспользоватьСтандартныйМакетРасширеннаяПодсказка" id="159"/>
 							</Button>
 						</ChildItems>
@@ -329,11 +419,31 @@
 					<Button name="ФормаПоказатьВСписке" id="204">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ПоказатьВСписке</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Показать в списке</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Show in list</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ФормаПоказатьВСпискеРасширеннаяПодсказка" id="205"/>
 					</Button>
 					<Button name="МакетыПечатныхФормУдалитьИзмененныйМакет" id="160">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.УдалитьИзмененныйМакет</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Удалить измененный макет</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Delete edited template</v8:content>
+							</v8:item>
+						</Title>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="МакетыПечатныхФормУдалитьИзмененныйМакетРасширеннаяПодсказка" id="161"/>
 					</Button>
@@ -370,6 +480,16 @@
 					<Button name="МакетыУсловияДоступности" id="191">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.УсловияДоступности</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Видимость в подменю "Печать"...</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Visibility in the Print submenu…</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="МакетыУсловияДоступностиРасширеннаяПодсказка" id="192"/>
 					</Button>
 				</ChildItems>
@@ -422,6 +542,16 @@
 					<ChildItems>
 						<PictureField name="МакетыКартинкаГруппы" id="240">
 							<DataPath>Макеты.КартинкаГруппы</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Картинка группы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group picture</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
 							<ContextMenu name="МакетыКартинкаГруппыКонтекстноеМеню" id="241"/>
@@ -450,6 +580,16 @@
 				</ColumnGroup>
 				<CheckBoxField name="МакетыИспользуется" id="188">
 					<DataPath>Макеты.Используется</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Используется</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>In use</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -474,6 +614,16 @@
 				<PictureField name="МакетыКартинкаИспользования" id="146">
 					<DataPath>Макеты.КартинкаИспользования</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка использования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Usage picture</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -501,6 +651,16 @@
 				</PictureField>
 				<PictureField name="МакетыКнопкаНастройкиДоступности" id="182">
 					<DataPath>Макеты.ДоступнаНастройкаВидимости</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступна настройка видимости</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Visibility settings available</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -530,6 +690,16 @@
 				<CheckBoxField name="МакетыДоступнаНастройкаВидимости" id="185">
 					<DataPath>Макеты.ДоступнаНастройкаВидимости</DataPath>
 					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступна настройка видимости</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Visibility settings available</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="МакетыДоступнаНастройкаВидимостиКонтекстноеМеню" id="186"/>
@@ -537,6 +707,16 @@
 				</CheckBoxField>
 				<PictureField name="МакетыДоступенПеревод" id="176">
 					<DataPath>Макеты.ДоступенПеревод</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступен перевод</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Translation is available</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -566,6 +746,16 @@
 				<InputField name="МакетыДоступныеЯзыки" id="141">
 					<DataPath>Макеты.ДоступныеЯзыки</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доп. языки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional languages</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<Width>30</Width>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -574,6 +764,16 @@
 				</InputField>
 				<InputField name="МакетыОтступ" id="193">
 					<DataPath>Макеты.Отступ</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отступ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Indent</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<HorizontalStretch>true</HorizontalStretch>
@@ -1267,4 +1467,15 @@ The newly translated template is ready to go!</v8:content>
 			<Action>ПерейтиВСписок</Action>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="ПутьКМакету">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>

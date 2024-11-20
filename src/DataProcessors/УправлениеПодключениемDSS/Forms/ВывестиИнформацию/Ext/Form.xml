@@ -108,6 +108,16 @@
 							<ChildItems>
 								<LabelField name="КодОшибки" id="17">
 									<DataPath>КодОшибки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Код ошибки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error code</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="КодОшибкиКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="КодОшибкиРасширеннаяПодсказка" id="19"/>
 								</LabelField>
@@ -115,6 +125,16 @@
 									<DataPath>СодержаниеОшибки</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<SkipOnInput>true</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Содержание ошибки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error content</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>3</Height>
@@ -205,6 +225,16 @@
 							<SkipOnInput>false</SkipOnInput>
 							<DefaultItem>true</DefaultItem>
 							<CommandName>Form.Command.Закрыть</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Закрыть</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Close</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="7"/>
 						</Button>
 					</ChildItems>

@@ -3,11 +3,11 @@
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
-			<v8:content>Установка расширения работы с файлами</v8:content>
+			<v8:content>Установка расширения для работы с 1С:Предприятием</v8:content>
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
-			<v8:content>Install file system extension</v8:content>
+			<v8:content>Install 1C:Enterprise Extension</v8:content>
 		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -35,12 +35,32 @@
 				<DefaultButton>true</DefaultButton>
 				<SkipOnInput>false</SkipOnInput>
 				<CommandName>Form.Command.УстановитьИПродолжить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить и продолжить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Install and continue</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="УстановитьИПродолжитьРасширеннаяПодсказка" id="11"/>
 			</Button>
 			<Button name="ПродолжитьБезУстановки" id="9">
 				<Type>CommandBarButton</Type>
 				<SkipOnInput>false</SkipOnInput>
 				<CommandName>Form.Command.ПродолжитьБезУстановки</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Продолжить без установки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Not now</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ПродолжитьБезУстановкиРасширеннаяПодсказка" id="12"/>
 			</Button>
 		</ChildItems>
@@ -55,7 +75,7 @@
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Для удобной работы с программой предлагается установить расширение для работы с 1С:Предприятием. 
+					<v8:content>Для удобной работы с приложением предлагается установить расширение для работы с 1С:Предприятием. 
 Установить?</v8:content>
 				</v8:item>
 				<v8:item>
@@ -66,7 +86,7 @@ Do you want to install it?</v8:content>
 			</Title>
 			<VerticalAlign>Top</VerticalAlign>
 			<ContextMenu name="ДекорацияПояснениеКонтекстноеМеню" id="7"/>
-			<ExtendedTooltip name="ДекорацияПояснениеExtendedTooltip" id="14"/>
+			<ExtendedTooltip name="ДекорацияПояснениеРасширеннаяПодсказка" id="14"/>
 		</LabelDecoration>
 	</ChildItems>
 	<Attributes>
@@ -113,7 +133,7 @@ Do you want to install it?</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Do not install</v8:content>
+					<v8:content>Not now</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>

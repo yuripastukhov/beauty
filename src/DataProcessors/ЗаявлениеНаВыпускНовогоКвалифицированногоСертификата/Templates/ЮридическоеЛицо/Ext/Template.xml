@@ -1168,16 +1168,6 @@
 				<i>5</i>
 				<c>
 					<f>8</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>М.П.</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Stamp here</v8:content>
-						</v8:item>
-					</tl>
 				</c>
 			</c>
 		</row>
@@ -1291,7 +1281,7 @@
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>    I, [Фамилия] [Имя] [Отчество], phone: [Телефон], email: [E], guided by Article 10.1 of 152-FZ On Personal Data, give [КраткоеНаименованиеУЦ] INN [ИНН_УЦ] ([ЮридическиеКодыУЦ], Actual address: [ФактическийАдресУЦ]) my consent to distribute my personal data in order to include general personal data (last name, first name, middle (if any), IIAN, and email address) in the register of qualified certificates in accordance with Part 3 of Article 15 of Federal Law No. 63-FZ as of 04/06/2011 On Digital Signature.
-    Conditions and prohibitions on the dissemination of personal data: _______________________________________ The consent to the dissemination by [КраткоеНаименованиеУЦ] of personal data is valid until the expiration of the storage period of information by the certificate authority [КраткоеНаименованиеУЦ] established by Clause 6 of Article 13 of Federal Law No. 63-FZ as of 04/06/2011 On Digital Signature. Information from the register of qualified certificates is provided by sending a request by certificate authority email [ЭлектроннаяПочтаУЦ] </v8:content>
+    Conditions and prohibitions on the dissemination of personal data: _______________________________________ The consent to the dissemination by [КраткоеНаименованиеУЦ] of personal data is valid until the expiration of the storage period of information by the certificate authority [КраткоеНаименованиеУЦ] established by Clause 6 of Article 13 of Federal Law No. 63-FZ as of 04/06/2011 On Digital Signature. Information from the register of qualified certificates is provided by sending a request by certificate authority email [ЭлектроннаяПочтаУЦ]</v8:content>
 						</v8:item>
 					</tl>
 				</c>

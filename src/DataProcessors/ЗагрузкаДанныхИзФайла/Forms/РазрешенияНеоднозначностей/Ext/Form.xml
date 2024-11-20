@@ -41,7 +41,7 @@ Select the correct match.</v8:content>
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>При сопоставление по колонке "%1" в программе было найдено несколько вариантов. 
+					<v8:content>При сопоставление по колонке "%1" в приложении было найдено несколько вариантов. 
 Выберите правильный элемент в соответствие с данными из файла </v8:content>
 				</v8:item>
 				<v8:item>
@@ -58,7 +58,7 @@ Select the item that matches the spreadsheet data.</v8:content>
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>При сопоставлении элементов в программе с загружаемыми данными было найдено несколько совпадающих вариантов.
+					<v8:content>При сопоставлении элементов в приложении с загружаемыми данными было найдено несколько совпадающих вариантов.
 Выберите элемент в соответствие с данными из файла.</v8:content>
 				</v8:item>
 				<v8:item>
@@ -73,6 +73,16 @@ Select the item that matches the spreadsheet data.</v8:content>
 		<RadioButtonField name="ВариантРазрешенияНеоднозначности" id="26">
 			<DataPath>ВариантРазрешенияНеоднозначности</DataPath>
 			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариант разрешения неоднозначности</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Conflict resolution option</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<RadioButtonType>Auto</RadioButtonType>
 			<ChoiceList>
@@ -152,18 +162,48 @@ Select the item that matches the spreadsheet data.</v8:content>
 						<Type>CommandBarButton</Type>
 						<DefaultButton>true</DefaultButton>
 						<CommandName>Form.Command.Выбрать</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбрать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ВариантыВыбораВыбратьРасширеннаяПодсказка" id="57"/>
 					</Button>
 					<Button name="ВариантыВыбораНовыйЭлемент" id="58">
 						<Type>CommandBarButton</Type>
 						<Visible>false</Visible>
 						<CommandName>Form.Command.НовыйЭлемент</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать новый элемент</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Add item</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ВариантыВыбораНовыйЭлементРасширеннаяПодсказка" id="59"/>
 					</Button>
 					<Button name="ВариантыВыбораОткрыть" id="60">
 						<Type>CommandBarButton</Type>
 						<Visible>false</Visible>
 						<CommandName>Form.Command.Открыть</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Открыть</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Open</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ВариантыВыбораОткрытьРасширеннаяПодсказка" id="61"/>
 					</Button>
 				</ChildItems>
@@ -200,6 +240,16 @@ Select the item that matches the spreadsheet data.</v8:content>
 				<InputField name="ВариантыВыбораПредставление" id="44">
 					<DataPath>ВариантыВыбора.Представление</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ВариантыВыбораПредставлениеКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="ВариантыВыбораПредставлениеРасширеннаяПодсказка" id="46"/>
@@ -207,6 +257,16 @@ Select the item that matches the spreadsheet data.</v8:content>
 				<InputField name="ВариантыВыбораСсылка" id="50">
 					<DataPath>ВариантыВыбора.Ссылка</DataPath>
 					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reference</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ВариантыВыбораСсылкаКонтекстноеМеню" id="51"/>
 					<ExtendedTooltip name="ВариантыВыбораСсылкаРасширеннаяПодсказка" id="52"/>
@@ -214,6 +274,16 @@ Select the item that matches the spreadsheet data.</v8:content>
 				<InputField name="ВариантыВыбораЗначение" id="53">
 					<DataPath>ВариантыВыбора.Значение</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Value</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ShowInHeader>false</ShowInHeader>
 					<ContextMenu name="ВариантыВыбораЗначениеКонтекстноеМеню" id="54"/>
@@ -260,6 +330,16 @@ Select the item that matches the spreadsheet data.</v8:content>
 					<Button name="Выбрать" id="20">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Выбрать</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбрать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ВыбратьРасширеннаяПодсказка" id="21"/>
 					</Button>
 					<Button name="ЭлементыСправочникаНовыйЭлемент" id="35">
@@ -322,6 +402,16 @@ Select the item that matches the spreadsheet data.</v8:content>
 			<ChildItems>
 				<InputField name="ЭлементыСправочникаПредставление" id="37">
 					<DataPath>ЭлементыСправочника.Представление</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ЭлементыСправочникаПредставлениеКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="ЭлементыСправочникаПредставлениеРасширеннаяПодсказка" id="39"/>

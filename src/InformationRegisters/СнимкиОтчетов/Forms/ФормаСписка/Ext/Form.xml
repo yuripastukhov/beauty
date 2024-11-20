@@ -17,21 +17,61 @@
 			<Button name="ФормаОтметитьВсе" id="34">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ОтметитьВсе</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отметить все</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select all</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОтметитьВсеРасширеннаяПодсказка" id="35"/>
 			</Button>
 			<Button name="ФормаСнятьВсе" id="36">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.СнятьВсе</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Снять все</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Clear all</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаСнятьВсеРасширеннаяПодсказка" id="37"/>
 			</Button>
 			<Button name="ФормаОбновитьСнимкиОтчетов" id="38">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ОбновитьСнимкиОтчетов</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обновить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Refresh</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОбновитьСнимкиОтчетовРасширеннаяПодсказка" id="39"/>
 			</Button>
 			<Button name="ФормаУдалитьСнимкиОтчетов" id="40">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.УдалитьСнимкиОтчетов</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Удалить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Delete</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаУдалитьСнимкиОтчетовРасширеннаяПодсказка" id="41"/>
 			</Button>
 		</ChildItems>
@@ -64,6 +104,16 @@
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
 					<DataPath>СнимкиОтчетов</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Снимки отчетов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report snapshots</v8:content>
+						</v8:item>
+					</Title>
 					<CommandSet>
 						<ExcludedCommand>Add</ExcludedCommand>
 						<ExcludedCommand>CancelSearch</ExcludedCommand>
@@ -114,6 +164,16 @@
 							<Button name="СнимкиОтчетовСохранитьСнимокОтчета" id="30">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.ОбновитьСнимокОтчета</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Обновить</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Refresh</v8:content>
+									</v8:item>
+								</Title>
 								<RepresentationInContextMenu>OnlyInContextMenu</RepresentationInContextMenu>
 								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 								<ExtendedTooltip name="СнимкиОтчетовСохранитьСнимокОтчетаРасширеннаяПодсказка" id="31"/>
@@ -161,6 +221,16 @@
 					<ChildItems>
 						<CheckBoxField name="СнимкиОтчетовПометка" id="25">
 							<DataPath>СнимкиОтчетов.Пометка</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пометка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Checkmark</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>Directly</EditMode>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -169,6 +239,16 @@
 						</CheckBoxField>
 						<InputField name="СнимкиОтчетовВариант" id="17">
 							<DataPath>СнимкиОтчетов.НаименованиеВарианта</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование варианта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Option name</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<MultiLine>true</MultiLine>
@@ -177,6 +257,16 @@
 						</InputField>
 						<InputField name="СнимкиОтчетовДатаАктуальности" id="70">
 							<DataPath>СнимкиОтчетов.ДатаАктуальности</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата актуальности</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Last updated</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<MultiLine>true</MultiLine>
@@ -185,6 +275,16 @@
 						</InputField>
 						<InputField name="СнимкиОтчетовПользователь" id="76">
 							<DataPath>СнимкиОтчетов.Пользователь</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пользователь</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="СнимкиОтчетовПользовательКонтекстноеМеню" id="77"/>
@@ -256,6 +356,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Picture</Representation>
 									<CommandName>Form.Command.ОтметитьВсе</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отметить все</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select all</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаОтметитьВсеКартинкаРасширеннаяПодсказка" id="57"/>
 								</Button>
@@ -263,6 +373,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Text</Representation>
 									<CommandName>Form.Command.ОтметитьВсе</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отметить все</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select all</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаОтметитьВсеРасширеннаяПодсказка" id="55"/>
 								</Button>
@@ -289,6 +409,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Picture</Representation>
 									<CommandName>Form.Command.СнятьВсе</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Снять все</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Clear all</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаСнятьВсеКартинкаРасширеннаяПодсказка" id="59"/>
 								</Button>
@@ -296,6 +426,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Text</Representation>
 									<CommandName>Form.Command.СнятьВсе</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Снять все</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Clear all</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаСнятьВсеРасширеннаяПодсказка" id="61"/>
 								</Button>
@@ -322,6 +462,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Picture</Representation>
 									<CommandName>Form.Command.ОбновитьСнимкиОтчетов</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Refresh</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаСохранитьСнимкиОтчетовКартинкаРасширеннаяПодсказка" id="63"/>
 								</Button>
@@ -329,6 +479,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Text</Representation>
 									<CommandName>Form.Command.ОбновитьСнимкиОтчетов</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Refresh</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаСохранитьСнимкиОтчетовРасширеннаяПодсказка" id="65"/>
 								</Button>
@@ -355,6 +515,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Picture</Representation>
 									<CommandName>Form.Command.УдалитьСнимкиОтчетов</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Удалить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Delete</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаУдалитьСнимкиОтчетовКартинкаРасширеннаяПодсказка" id="67"/>
 								</Button>
@@ -362,6 +532,16 @@
 									<Type>UsualButton</Type>
 									<Representation>Text</Representation>
 									<CommandName>Form.Command.УдалитьСнимкиОтчетов</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Удалить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Delete</v8:content>
+										</v8:item>
+									</Title>
 									<ShapeRepresentation>None</ShapeRepresentation>
 									<ExtendedTooltip name="КнопкаУдалитьСнимкиОтчетовРасширеннаяПодсказка" id="69"/>
 								</Button>
@@ -374,6 +554,16 @@
 		<CheckBoxField name="ПоказатьВсеСнимкиОтчетов" id="73">
 			<DataPath>ПоказатьВсеСнимкиОтчетов</DataPath>
 			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать все снимки отчетов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show all report snapshots</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>Right</TitleLocation>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПоказатьВсеСнимкиОтчетовКонтекстноеМеню" id="74"/>

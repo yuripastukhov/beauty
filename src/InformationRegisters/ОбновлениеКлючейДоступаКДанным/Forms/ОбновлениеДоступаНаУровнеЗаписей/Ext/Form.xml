@@ -35,8 +35,8 @@
 			<ChildItems>
 				<PictureDecoration name="ПредупреждениеУниверсальноеОграничениеОтключеноКартинка" id="201">
 					<Picture>
-						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
+						<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ПредупреждениеУниверсальноеОграничениеОтключеноКартинкаКонтекстноеМеню" id="202"/>
@@ -82,8 +82,8 @@ See the access restriction mode in the "Users and rights settings" panel.</v8:co
 			<ChildItems>
 				<PictureDecoration name="ПредупреждениеПервоеОбновлениеДоступаЕщеНеЗавершилосьКартинка" id="209">
 					<Picture>
-						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
+						<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ПредупреждениеПервоеОбновлениеДоступаЕщеНеЗавершилосьКартинкаКонтекстноеМеню" id="210"/>
@@ -212,6 +212,16 @@ See the "First access update completed" constant).
 									<ChildItems>
 										<InputField name="КоличествоПотоковОбновленияДоступа1" id="313">
 											<DataPath>КоличествоПотоковОбновленияДоступа</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Количество потоков обновления доступа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Number of access update threads</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 											<ClearButton>true</ClearButton>
 											<SpinButton>true</SpinButton>
@@ -233,7 +243,7 @@ See the "First access update completed" constant).
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Балансировка нагрузки на диск подсказка 1</v8:content>
+											<v8:content>Балансировка нагрузки на устройство подсказка 1</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -248,6 +258,18 @@ See the "First access update completed" constant).
 									<ChildItems>
 										<InputField name="БалансировкаНагрузкиНаДиск1" id="321">
 											<DataPath>БалансировкаНагрузкиНаДиск</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Оптимизировать для базы данных
+размещенной на устройстве</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Optimize for a database stored
+on a hard drive</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 											<Width>12</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -261,11 +283,11 @@ See the "First access update completed" constant).
 														<Presentation>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Быстрый диск</v8:content>
+																<v8:content>Быстрое устройство (SSD)</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Fast hard drive</v8:content>
+																<v8:content>Faster storage (SSD)</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">false</Value>
@@ -278,11 +300,11 @@ See the "First access update completed" constant).
 														<Presentation>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Медленный диск</v8:content>
+																<v8:content>Медленное устройство (HDD)</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Slow hard drive</v8:content>
+																<v8:content>Slower storage (HDD)</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">true</Value>
@@ -477,6 +499,16 @@ See the "First access update completed" constant).
 									<ChildItems>
 										<InputField name="КоличествоПотоковОбновленияДоступа2" id="328">
 											<DataPath>КоличествоПотоковОбновленияДоступа</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Количество потоков обновления доступа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Number of access update threads</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 											<ClearButton>true</ClearButton>
 											<SpinButton>true</SpinButton>
@@ -498,11 +530,11 @@ See the "First access update completed" constant).
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Балансировка нагрузки на диск подсказка 2</v8:content>
+											<v8:content>Балансировка нагрузки на устройство подсказка 2</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Hard drive load balancing tooltip 2</v8:content>
+											<v8:content>Hard drive load balancing tooltip 1</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -513,6 +545,18 @@ See the "First access update completed" constant).
 									<ChildItems>
 										<InputField name="БалансировкаНагрузкиНаДиск2" id="336">
 											<DataPath>БалансировкаНагрузкиНаДиск</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Оптимизировать для базы данных
+размещенной на устройстве</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Optimize for a database stored
+on a hard drive</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 											<Width>12</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -526,11 +570,11 @@ See the "First access update completed" constant).
 														<Presentation>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Быстрый диск</v8:content>
+																<v8:content>Быстрое устройство (SSD)</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Fast hard drive</v8:content>
+																<v8:content>Faster storage (SSD)</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">false</Value>
@@ -543,11 +587,11 @@ See the "First access update completed" constant).
 														<Presentation>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Медленный диск</v8:content>
+																<v8:content>Медленное устройство (HDD)</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Slow hard drive</v8:content>
+																<v8:content>Slower storage (HDD)</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:boolean">true</Value>
@@ -824,12 +868,32 @@ scheduled job is disabled.</v8:content>
 							<Type>CommandBarButton</Type>
 							<DefaultItem>true</DefaultItem>
 							<CommandName>Form.Command.РучноеУправление</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ручное управление ...</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure access manually…</v8:content>
+								</v8:item>
+							</Title>
 							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ФормаРучноеУправлениеРасширеннаяПодсказка" id="4"/>
 						</Button>
 						<Button name="ФормаОстановитьИЗапретитьОбновлениеДоступа" id="275">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ОстановитьИЗапретитьОбновлениеДоступа</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Остановить и запретить обновление доступа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Stop and deny access update</v8:content>
+								</v8:item>
+							</Title>
 							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ФормаОстановитьИЗапретитьОбновлениеДоступаРасширеннаяПодсказка" id="276"/>
 						</Button>
@@ -921,6 +985,16 @@ scheduled job is disabled.</v8:content>
 									<Height>1</Height>
 									<CommandName>Form.Command.ОбновитьПрогресс</CommandName>
 									<Font ref="style:SmallTextFont" kind="StyleItem"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновить прогресс</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Refresh progress bar</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ОбновитьПрогрессРасширеннаяПодсказка" id="85"/>
 								</Button>
 							</ChildItems>
@@ -1234,6 +1308,16 @@ clear the check box.</v8:content>
 							<ChildItems>
 								<CheckBoxField name="ПоказыватьКоличествоЭлементов" id="279">
 									<DataPath>ПоказыватьКоличествоЭлементов</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показывать количество элементов</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show number of items</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоказыватьКоличествоЭлементовКонтекстноеМеню" id="280"/>
@@ -1244,6 +1328,16 @@ clear the check box.</v8:content>
 								</CheckBoxField>
 								<CheckBoxField name="ПоказыватьКоличествоКлючейДоступа" id="287">
 									<DataPath>ПоказыватьКоличествоКлючейДоступа</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показывать количество ключей доступа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show number of access keys</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоказыватьКоличествоКлючейДоступаКонтекстноеМеню" id="288"/>
@@ -1254,6 +1348,16 @@ clear the check box.</v8:content>
 								</CheckBoxField>
 								<CheckBoxField name="ПоказыватьЗадержкуОбработки" id="306">
 									<DataPath>ПоказыватьЗадержкуОбработки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показывать задержку обработки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show processing delay</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоказыватьЗадержкуОбработкиКонтекстноеМеню" id="307"/>
@@ -1264,6 +1368,16 @@ clear the check box.</v8:content>
 								</CheckBoxField>
 								<CheckBoxField name="ПоказыватьИмяТаблицы" id="290">
 									<DataPath>ПоказыватьИмяТаблицы</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показывать имя таблицы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show table name</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоказыватьИмяТаблицыКонтекстноеМеню" id="291"/>
@@ -1274,6 +1388,16 @@ clear the check box.</v8:content>
 								</CheckBoxField>
 								<CheckBoxField name="ПоказыватьОбработанныеСписки" id="284">
 									<DataPath>ПоказыватьОбработанныеСписки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показывать обработанные списки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show processed lists</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПоказыватьОбработанныеСпискиКонтекстноеМеню" id="285"/>
@@ -1334,11 +1458,31 @@ clear the check box.</v8:content>
 							<Button name="СпискиКонтекстноеМенюСортироватьСписокПоВозрастанию" id="102">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.СортироватьСписокПоВозрастанию</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сортировать список по возрастанию</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Sort list in ascending order</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СпискиКонтекстноеМенюСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="103"/>
 							</Button>
 							<Button name="СпискиКонтекстноеМенюСортироватьСписокПоУбыванию" id="104">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.СортироватьСписокПоУбыванию</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сортировать список по убыванию</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Sort list in ascending order</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СпискиКонтекстноеМенюСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="105"/>
 							</Button>
 							<Button name="СпискиКонтекстноеМенюВывестиСписок" id="100">
@@ -1635,6 +1779,7 @@ keys</v8:content>
 						<InputField name="СпискиЗадержкаОбработкиСписка" id="303">
 							<DataPath>Списки.ЗадержкаОбработкиСписка</DataPath>
 							<Visible>false</Visible>
+							<ReadOnly>true</ReadOnly>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2149,7 +2294,7 @@ of the last access update job for the list.</v8:content>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Оптимизировать для базы данных
-размещенной на диске</v8:content>
+размещенной на устройстве</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>

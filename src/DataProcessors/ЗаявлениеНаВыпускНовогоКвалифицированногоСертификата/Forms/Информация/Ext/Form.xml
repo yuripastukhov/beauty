@@ -39,6 +39,16 @@
 			<ChildItems>
 				<LabelField name="Описание" id="79">
 					<DataPath>Описание</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<ContextMenu name="ОписаниеКонтекстноеМеню" id="80"/>
@@ -64,6 +74,16 @@
 						<InputField name="ТекстОшибки" id="52">
 							<DataPath>Текст</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текст</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Text</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<AutoMaxHeight>false</AutoMaxHeight>
@@ -149,9 +169,21 @@
 					<ChildItems>
 						<SpreadSheetDocumentField name="ПодтверждаемаяИнформация" id="1">
 							<DataPath>ПодтверждаемаяИнформация</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подтверждаемая информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Details confirmation</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
-							<Width>80</Width>
-							<Height>15</Height>
+							<Width>100</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>20</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
 							<ContextMenu name="ПодтверждаемаяИнформацияКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="ПодтверждаемаяИнформацияРасширеннаяПодсказка" id="3"/>
 						</SpreadSheetDocumentField>
@@ -207,10 +239,10 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>&lt;b&gt;To hand over a hardcopy Acknowledgment of Receipt:
+							<v8:content>&lt;b&gt;To hand over a hard copy of the information acknowledgment:
 &lt;/&gt;
- 1. Print out and sign &lt;link ПечатьСертификата&gt;the qualified certificate template&lt;/&gt;.
- 2. Hand over the certificate template to your service provider.</v8:content>
+ 1. Print out and sign the &lt;link ПечатьСертификата&gt;qualified certificate template&lt;/&gt;.
+ 2. Hand over the template to your service provider.</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияИнструкцияКонтекстноеМеню" id="44"/>
@@ -264,7 +296,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>I confirm that I have read the information in the &lt;link ПечатьСертификата&gt;qualified certificate&lt;/&gt;
+									<v8:content>I confirm that I have read and agree with the information in the &lt;link ПечатьСертификата&gt;qualified certificate&lt;/&gt;
 </v8:content>
 								</v8:item>
 							</Title>
@@ -373,6 +405,16 @@
 							<DefaultButton>true</DefaultButton>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 							<CommandName>Form.Command.Подтверждаю</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подтверждаю</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Confirm</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ФормаПодтверждаюРасширеннаяПодсказка" id="7"/>
 						</Button>
 						<Button name="Отмена" id="14">

@@ -44,7 +44,7 @@
 						<v8:content>OK</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="КнопкаОКExtendedTooltip" id="39"/>
+				<ExtendedTooltip name="КнопкаОКРасширеннаяПодсказка" id="39"/>
 			</Button>
 			<Button name="КнопкаЗакрыть" id="21">
 				<Type>CommandBarButton</Type>
@@ -61,12 +61,12 @@
 						<v8:content>Cancel</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="КнопкаЗакрытьExtendedTooltip" id="40"/>
+				<ExtendedTooltip name="КнопкаЗакрытьРасширеннаяПодсказка" id="40"/>
 			</Button>
 			<Button name="ФормаСправка" id="38">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.StandardCommand.Help</CommandName>
-				<ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="41"/>
+				<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="41"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -133,7 +133,7 @@
 				</xr:Item>
 			</ChoiceList>
 			<ContextMenu name="СоздаватьРезервнуюКопиюКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="СоздаватьРезервнуюКопиюExtendedTooltip" id="42"/>
+			<ExtendedTooltip name="СоздаватьРезервнуюКопиюРасширеннаяПодсказка" id="42"/>
 			<Events>
 				<Event name="OnChange">СоздаватьРезервнуюКопиюПриИзменении</Event>
 			</Events>
@@ -153,7 +153,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ОтступExtendedTooltip" id="43"/>
+			<ExtendedTooltip name="ОтступРасширеннаяПодсказка" id="43"/>
 			<ChildItems>
 				<InputField name="ПолеКаталогРезервнойКопии" id="3">
 					<DataPath>Объект.ИмяКаталогаРезервнойКопииИБ</DataPath>
@@ -170,7 +170,7 @@
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<ChoiceButton>true</ChoiceButton>
 					<ContextMenu name="ПолеКаталогРезервнойКопииКонтекстноеМеню" id="4"/>
-					<ExtendedTooltip name="ПолеКаталогРезервнойКопииExtendedTooltip" id="44"/>
+					<ExtendedTooltip name="ПолеКаталогРезервнойКопииРасширеннаяПодсказка" id="44"/>
 					<Events>
 						<Event name="StartChoice">ПолеКаталогРезервнойКопииНачалоВыбора</Event>
 					</Events>
@@ -189,7 +189,7 @@
 				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
-			<ExtendedTooltip name="ПанельИнформацияExtendedTooltip" id="45"/>
+			<ExtendedTooltip name="ПанельИнформацияРасширеннаяПодсказка" id="45"/>
 			<ChildItems>
 				<Page name="АвтоматическийОткат" id="7">
 					<Title>
@@ -203,7 +203,7 @@
 						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
-					<ExtendedTooltip name="АвтоматическийОткатExtendedTooltip" id="46"/>
+					<ExtendedTooltip name="АвтоматическийОткатРасширеннаяПодсказка" id="46"/>
 					<ChildItems>
 						<LabelDecoration name="НадписьВосстанавливать1" id="36">
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -213,7 +213,7 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Автоматически будет выполнен откат к резервной копии
-при возникновении нештатной ситуации в процессе обновления программы.</v8:content>
+при возникновении нештатной ситуации в процессе обновления приложения.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -223,7 +223,7 @@ the update will be rolled back.</v8:content>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="НадписьВосстанавливать1КонтекстноеМеню" id="37"/>
-							<ExtendedTooltip name="НадписьВосстанавливать1ExtendedTooltip" id="47"/>
+							<ExtendedTooltip name="НадписьВосстанавливать1РасширеннаяПодсказка" id="47"/>
 						</LabelDecoration>
 					</ChildItems>
 				</Page>
@@ -238,7 +238,7 @@ the update will be rolled back.</v8:content>
 							<v8:content>Manual rollback</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="РучнойОткатExtendedTooltip" id="48"/>
+					<ExtendedTooltip name="РучнойОткатРасширеннаяПодсказка" id="48"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаВосстанавливатьИнформационнуюБазу" id="24">
 							<Title>
@@ -248,7 +248,7 @@ the update will be rolled back.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Восстанавливать информационную базу</v8:content>
+									<v8:content>Restore infobase</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -262,7 +262,7 @@ the update will be rolled back.</v8:content>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ВосстанавливатьИнформационнуюБазуКонтекстноеМеню" id="23"/>
-									<ExtendedTooltip name="ВосстанавливатьИнформационнуюБазуExtendedTooltip" id="50"/>
+									<ExtendedTooltip name="ВосстанавливатьИнформационнуюБазуРасширеннаяПодсказка" id="50"/>
 									<Events>
 										<Event name="OnChange">ВосстанавливатьИнформационнуюБазуПриИзменении</Event>
 									</Events>
@@ -279,7 +279,7 @@ the update will be rolled back.</v8:content>
 										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
-									<ExtendedTooltip name="СтраницыНадписиРучногоОткатаExtendedTooltip" id="51"/>
+									<ExtendedTooltip name="СтраницыНадписиРучногоОткатаРасширеннаяПодсказка" id="51"/>
 									<ChildItems>
 										<Page name="Восстанавливать" id="26">
 											<Title>
@@ -293,7 +293,7 @@ the update will be rolled back.</v8:content>
 												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
-											<ExtendedTooltip name="ВосстанавливатьExtendedTooltip" id="52"/>
+											<ExtendedTooltip name="ВосстанавливатьРасширеннаяПодсказка" id="52"/>
 											<ChildItems>
 												<LabelDecoration name="НадписьВосстанавливать" id="11">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -303,7 +303,7 @@ the update will be rolled back.</v8:content>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Система автоматически выполнит откат при возникновении
-нештатной ситуации в процессе обновления  программы.</v8:content>
+нештатной ситуации в процессе обновления  приложения.</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
@@ -312,7 +312,7 @@ the update will be rolled back.</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="НадписьВосстанавливатьКонтекстноеМеню" id="12"/>
-													<ExtendedTooltip name="НадписьВосстанавливатьExtendedTooltip" id="53"/>
+													<ExtendedTooltip name="НадписьВосстанавливатьРасширеннаяПодсказка" id="53"/>
 												</LabelDecoration>
 											</ChildItems>
 										</Page>
@@ -328,7 +328,7 @@ the update will be rolled back.</v8:content>
 												</v8:item>
 											</Title>
 											<Group>HorizontalIfPossible</Group>
-											<ExtendedTooltip name="НеВосстанавливатьExtendedTooltip" id="54"/>
+											<ExtendedTooltip name="НеВосстанавливатьРасширеннаяПодсказка" id="54"/>
 											<ChildItems>
 												<LabelDecoration name="НадписьНеВосстанавливать" id="28">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -347,7 +347,7 @@ however, if any issues occur, the update will not be rolled back.</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="НадписьНеВосстанавливатьКонтекстноеМеню" id="29"/>
-													<ExtendedTooltip name="НадписьНеВосстанавливатьExtendedTooltip" id="55"/>
+													<ExtendedTooltip name="НадписьНеВосстанавливатьРасширеннаяПодсказка" id="55"/>
 												</LabelDecoration>
 											</ChildItems>
 										</Page>
@@ -368,7 +368,7 @@ however, if any issues occur, the update will not be rolled back.</v8:content>
 							<v8:content>No rollback</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="БезОткатаExtendedTooltip" id="56"/>
+					<ExtendedTooltip name="БезОткатаРасширеннаяПодсказка" id="56"/>
 					<ChildItems>
 						<LabelDecoration name="Надпись1" id="17">
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -378,7 +378,7 @@ however, if any issues occur, the update will not be rolled back.</v8:content>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Откат к резервной копии НЕ будет выполняться при возникновении нештатной ситуации
-в процессе обновления программы. Рекомендуется выбирать этот вариант, только если
+в процессе обновления приложения. Рекомендуется выбирать этот вариант, только если
 резервное копирование ИБ уже выполняется другими средствами.</v8:content>
 								</v8:item>
 								<v8:item>
@@ -390,7 +390,7 @@ only if you use an alternative backup method.</v8:content>
 							</Title>
 							<VerticalAlign>Center</VerticalAlign>
 							<ContextMenu name="Надпись1КонтекстноеМеню" id="18"/>
-							<ExtendedTooltip name="Надпись1ExtendedTooltip" id="57"/>
+							<ExtendedTooltip name="Надпись1РасширеннаяПодсказка" id="57"/>
 						</LabelDecoration>
 					</ChildItems>
 				</Page>

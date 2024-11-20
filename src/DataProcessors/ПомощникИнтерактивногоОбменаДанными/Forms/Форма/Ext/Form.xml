@@ -66,6 +66,16 @@
 					<ExtendedTooltip name="СтраницаПроверкаЗадачОбменаРасширеннаяПодсказка" id="1020"/>
 					<ChildItems>
 						<UsualGroup name="Группа3" id="1021">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group</v8:content>
+								</v8:item>
+							</Title>
 							<VerticalStretch>true</VerticalStretch>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -313,6 +323,16 @@
 											<ChildItems>
 												<InputField name="WSПароль" id="520">
 													<DataPath>WSПароль</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пароль</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Password</v8:content>
+														</v8:item>
+													</Title>
 													<TitleLocation>None</TitleLocation>
 													<Width>20</Width>
 													<Height>1</Height>
@@ -716,20 +736,60 @@ data mapping was performed correctly.</v8:content>
 									<Type>CommandBarButton</Type>
 									<SkipOnInput>false</SkipOnInput>
 									<CommandName>Form.Command.ОткрытьФормуСопоставления</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сопоставить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Map</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ОткрытьФормуСопоставленияExtendedTooltip" id="758"/>
 								</Button>
 								<ButtonGroup name="ГруппаКомандаЗагрузки" id="727">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команда загрузки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Import command</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ГруппаКомандаЗагрузкиРасширеннаяПодсказка" id="759"/>
 									<ChildItems>
 										<Button name="ВыполнитьЗагрузкуДанныхДляСтроки" id="726">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ВыполнитьЗагрузкуДанныхДляСтроки</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Получить данные</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Receive data</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ВыполнитьЗагрузкуДанныхДляСтрокиExtendedTooltip" id="760"/>
 										</Button>
 									</ChildItems>
 								</ButtonGroup>
 								<ButtonGroup name="ГруппаКомандыСписка" id="711">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды списка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>List commands</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ГруппаКомандыСпискаРасширеннаяПодсказка" id="761"/>
 									<ChildItems>
 										<Button name="ВывестиСписок" id="712">
@@ -747,12 +807,32 @@ data mapping was performed correctly.</v8:content>
 									</ChildItems>
 								</ButtonGroup>
 								<ButtonGroup name="ГруппаКомандаОбновления" id="714">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команда обновления</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>"Update" command</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ГруппаКомандаОбновленияРасширеннаяПодсказка" id="764"/>
 									<ChildItems>
 										<Button name="ОбновитьИнформациюСопоставленияПолностью" id="255">
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ОбновитьИнформациюСопоставленияПолностью</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Обновить</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Update</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ОбновитьИнформациюСопоставленияПолностьюExtendedTooltip" id="765"/>
 										</Button>
 									</ChildItems>
@@ -801,20 +881,60 @@ data mapping was performed correctly.</v8:content>
 										<Type>CommandBarButton</Type>
 										<SkipOnInput>false</SkipOnInput>
 										<CommandName>Form.Command.ОткрытьФормуСопоставления</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сопоставить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Map</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="КонтекстноеМенюИнформацияСтатистикиОткрытьФормуСопоставленияExtendedTooltip" id="766"/>
 									</Button>
 									<ButtonGroup name="ДеревоИнформацииСтатистикиКонтекстноеМенюГруппа1" id="715">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Дерево информации статистики контекстное меню группа 1</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Statistics information tree context menu group 1</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="ДеревоИнформацииСтатистикиКонтекстноеМенюГруппа1ExtendedTooltip" id="767"/>
 										<ChildItems>
 											<Button name="КонтекстноеМенюИнформацияСтатистикиВыполнитьЗагрузкуДанныхДляСтроки" id="365">
 												<Type>CommandBarButton</Type>
 												<SkipOnInput>false</SkipOnInput>
 												<CommandName>Form.Command.ВыполнитьЗагрузкуДанныхДляСтроки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Получить данные</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Receive data</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="КонтекстноеМенюИнформацияСтатистикиВыполнитьЗагрузкуДанныхДляСтрокиExtendedTooltip" id="768"/>
 											</Button>
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="ИнформацияСтатистикиГруппа2" id="708">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Информация статистики группа 2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Statistics information group 2</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="ИнформацияСтатистикиГруппа2ExtendedTooltip" id="769"/>
 										<ChildItems>
 											<Button name="ДеревоИнформацииСтатистикиКонтекстноеМенюВывестиСписок" id="709">
@@ -877,6 +997,16 @@ data mapping was performed correctly.</v8:content>
 									<ChildItems>
 										<PictureField name="ДеревоИнформацииСтатистикиКартинка" id="414">
 											<DataPath>ДеревоИнформацииСтатистики.Картинка</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Картинка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Picture</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<FileDragMode>AsFile</FileDragMode>
@@ -885,12 +1015,32 @@ data mapping was performed correctly.</v8:content>
 										</PictureField>
 										<InputField name="ДеревоИнформацииСтатистикиСиноним" id="412">
 											<DataPath>ДеревоИнформацииСтатистики.Синоним</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Данные</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ДеревоИнформацииСтатистикиСинонимКонтекстноеМеню" id="413"/>
 											<ExtendedTooltip name="ДеревоИнформацииСтатистикиСинонимExtendedTooltip" id="775"/>
 										</InputField>
 										<InputField name="ДеревоИнформацииСтатистикиКоличествоОбъектовВИсточнике" id="425">
 											<DataPath>ДеревоИнформацииСтатистики.КоличествоОбъектовВИсточнике</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Всего принято, шт</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Objects received</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ДеревоИнформацииСтатистикиКоличествоОбъектовВИсточникеКонтекстноеМеню" id="426"/>
 											<ExtendedTooltip name="ДеревоИнформацииСтатистикиКоличествоОбъектовВИсточникеExtendedTooltip" id="776"/>
@@ -1046,6 +1196,16 @@ data mapping was performed correctly.</v8:content>
 							<ChildItems>
 								<CheckBoxField name="ЗакончитьСопоставлениеДанных" id="988">
 									<DataPath>ЗакончитьСопоставлениеДанных</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Закончить сопоставление данных</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Mapping completed</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗакончитьСопоставлениеДанныхКонтекстноеМеню" id="989"/>
@@ -1056,6 +1216,16 @@ data mapping was performed correctly.</v8:content>
 								</CheckBoxField>
 								<CheckBoxField name="ЗагрузитьСообщениеПослеСопоставления" id="993">
 									<DataPath>ЗагрузитьСообщениеПослеСопоставления</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Загрузить сообщение обмена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Import exchange message</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ЗагрузитьСообщениеПослеСопоставленияКонтекстноеМеню" id="994"/>
@@ -1407,6 +1577,16 @@ data mapping was performed correctly.</v8:content>
 																			<Width>2</Width>
 																			<Height>1</Height>
 																			<CommandName>Form.Command.ДополнениеВыгрузкиОчисткаОбщегоОтбора</CommandName>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Очистить общий отбор</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Clear common filter</v8:content>
+																				</v8:item>
+																			</Title>
 																			<ExtendedTooltip name="ДополнениеВыгрузкиОчисткаОбщегоОтбораExtendedTooltip" id="840"/>
 																		</Button>
 																	</ChildItems>
@@ -1559,6 +1739,16 @@ data mapping was performed correctly.</v8:content>
 																<Button name="ДополнениеВыгрузкиДетальныйОтбор" id="650">
 																	<Type>Hyperlink</Type>
 																	<CommandName>Form.Command.ДополнениеВыгрузкиДетальныйОтбор</CommandName>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Дополнение выгрузки детальный отбор</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Export addition detailed filter</v8:content>
+																		</v8:item>
+																	</Title>
 																	<ExtendedTooltip name="ДополнениеВыгрузкиДетальныйОтборExtendedTooltip" id="850"/>
 																</Button>
 																<Button name="ДополнениеВыгрузкиОчисткаДетальногоОтбора" id="561">
@@ -1567,6 +1757,16 @@ data mapping was performed correctly.</v8:content>
 																	<Width>2</Width>
 																	<Height>1</Height>
 																	<CommandName>Form.Command.ДополнениеВыгрузкиОчисткаДетальногоОтбора</CommandName>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Очистка детального отбора</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Clear detailed filter</v8:content>
+																		</v8:item>
+																	</Title>
 																	<ExtendedTooltip name="ДополнениеВыгрузкиОчисткаДетальногоОтбораExtendedTooltip" id="851"/>
 																</Button>
 															</ChildItems>
@@ -1736,6 +1936,16 @@ data mapping was performed correctly.</v8:content>
 																		<Button name="ДополнениеВыгрузкиОтборПоСценариюУзла" id="642">
 																			<Type>Hyperlink</Type>
 																			<CommandName>Form.Command.ДополнениеВыгрузкиОтборПоСценариюУзла</CommandName>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Изменить параметры отбора</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Change filter parameters</v8:content>
+																				</v8:item>
+																			</Title>
 																			<ExtendedTooltip name="ДополнениеВыгрузкиОтборПоСценариюУзлаExtendedTooltip" id="863"/>
 																		</Button>
 																		<InputField name="ДополнениеВыгрузкиПредставлениеОтбораСценарияУзла" id="655">
@@ -1815,6 +2025,16 @@ data mapping was performed correctly.</v8:content>
 											<Type>UsualButton</Type>
 											<Representation>PictureAndText</Representation>
 											<CommandName>Form.Command.ДополнениеВыгрузкиИсторияОтборов</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Settings</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ДополнениеВыгрузкиИсторияОтборовExtendedTooltip" id="869"/>
 										</Button>
 										<LabelDecoration name="Декорация2" id="568">
@@ -1948,7 +2168,7 @@ Please wait...</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Synchronizing data</v8:content>
+									<v8:content>Data synchronization</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -2036,6 +2256,126 @@ Please wait…</v8:content>
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаПредупреждениеПриОбменеЧерезВнутреннююПубликацию" id="1029">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Предупреждение при обмене через внутреннюю публикацию</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Warning on exchange via internal publication</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПредупреждениеПриОбменеЧерезВнутреннююПубликациюРасширеннаяПодсказка" id="1030"/>
+							<ChildItems>
+								<UsualGroup name="Группа6" id="1031">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="1032"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация6" id="1033">
+											<Width>1</Width>
+											<Height>1</Height>
+											<ContextMenu name="Декорация6КонтекстноеМеню" id="1034"/>
+											<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="1035"/>
+										</PictureDecoration>
+										<PictureDecoration name="Декорация9" id="1036">
+											<Width>3</Width>
+											<Height>2</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация9</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Decoration9</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>StdPicture.Information</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="Декорация9КонтекстноеМеню" id="1037"/>
+											<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="1038"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация11" id="1039">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Height>3</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>При закрытии окна синхронизация, будет выполняться в фоновом режиме. 
+Для прекращения нажмите "Завершить синхронизацию"</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Once you close the window, synchronization will run in the background. 
+To stop it, click "Finish synchronization".</v8:content>
+												</v8:item>
+											</Title>
+											<VerticalAlign>Center</VerticalAlign>
+											<ContextMenu name="Декорация11КонтекстноеМеню" id="1040"/>
+											<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="1041"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа7" id="1042">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="1043"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация7" id="1044">
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="Декорация7КонтекстноеМеню" id="1045"/>
+											<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="1046"/>
+										</LabelDecoration>
+										<Button name="ЗавершитьСинхронизацию" id="1047">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ЗавершитьСинхронизацию</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Завершить синхронизацию</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Finish synchronization</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ЗавершитьСинхронизациюРасширеннаяПодсказка" id="1048"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаОжиданияСинхронизацииДанныхПрогрессБарЗагрузка" id="942">
@@ -2069,7 +2409,7 @@ Please wait…</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Synchronizing data</v8:content>
+									<v8:content>Data synchronization</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -2105,6 +2445,16 @@ Please wait…</v8:content>
 								</LabelDecoration>
 								<ProgressBarField name="ПроцентВыполнения" id="949">
 									<DataPath>ПроцентВыполнения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Процент выполнения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Progress percentage</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ShowPercent>true</ShowPercent>
 									<ContextMenu name="ПроцентВыполненияКонтекстноеМеню" id="950"/>
@@ -2112,6 +2462,16 @@ Please wait…</v8:content>
 								</ProgressBarField>
 								<LabelField name="ДопИнформацияВыполнениеЗагрузка" id="952">
 									<DataPath>ДопИнформацияВыполнение</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доп информация выполнение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional progress details</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="ДопИнформацияВыполнениеЗагрузкаКонтекстноеМеню" id="953"/>
@@ -2152,7 +2512,7 @@ Please wait…</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Synchronizing data</v8:content>
+									<v8:content>Data synchronization</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -2188,6 +2548,16 @@ Please wait…</v8:content>
 								</LabelDecoration>
 								<ProgressBarField name="ПроцентВыполненияВыгрузка" id="962">
 									<DataPath>ПроцентВыполнения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Процент выполнения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Progress percentage</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ShowPercent>true</ShowPercent>
 									<ContextMenu name="ПроцентВыполненияВыгрузкаКонтекстноеМеню" id="963"/>
@@ -2195,6 +2565,16 @@ Please wait…</v8:content>
 								</ProgressBarField>
 								<LabelField name="ДопИнформацияВыполнениеВыгрузка" id="965">
 									<DataPath>ДопИнформацияВыполнение</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доп информация выполнение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional progress details</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="ДопИнформацияВыполнениеВыгрузкаКонтекстноеМеню" id="966"/>
@@ -2809,6 +3189,16 @@ Please wait…</v8:content>
 									<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="1018"/>
 								</PictureDecoration>
 								<UsualGroup name="Группа1" id="1014">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group</v8:content>
+										</v8:item>
+									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -2837,6 +3227,16 @@ You can also delete the message for mapping. In this case, synchronization runs 
 										</LabelDecoration>
 										<CheckBoxField name="УдалитьСообщениеДляСопоставления" id="1008">
 											<DataPath>УдалитьСообщениеДляСопоставления</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Удалить сообщение для сопоставления</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Delete message for mapping</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УдалитьСообщениеДляСопоставленияКонтекстноеМеню" id="1009"/>
@@ -2981,6 +3381,16 @@ data synchronization.</v8:content>
 													<Type>UsualButton</Type>
 													<Representation>PictureAndText</Representation>
 													<CommandName>Form.Command.ОткрытьНастройкуРасписания</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настроить...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Configure…</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ОткрытьНастройкуРасписанияExtendedTooltip" id="817"/>
 												</Button>
 											</ChildItems>
@@ -3077,11 +3487,31 @@ data synchronization.</v8:content>
 											<DefaultButton>true</DefaultButton>
 											<DefaultItem>true</DefaultItem>
 											<CommandName>Form.Command.КомандаДалее</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Далее &gt;</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Next &gt;</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаДалееExtendedTooltip" id="890"/>
 										</Button>
 										<Button name="КомандаОтмена1" id="434">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтмена1ExtendedTooltip" id="891"/>
 										</Button>
 										<Button name="Справка" id="435">
@@ -3126,11 +3556,31 @@ data synchronization.</v8:content>
 											<Type>CommandBarButton</Type>
 											<DefaultItem>true</DefaultItem>
 											<CommandName>Form.Command.КомандаДалее</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Далее &gt;</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Next &gt;</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаДалее4ExtendedTooltip" id="895"/>
 										</Button>
 										<Button name="КомандаОтмена5" id="440">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтмена5ExtendedTooltip" id="896"/>
 										</Button>
 										<Button name="Справка1" id="441">
@@ -3174,6 +3624,16 @@ data synchronization.</v8:content>
 										<Button name="КомандаГотово1" id="445">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаГотово</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Готово</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Finish</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаГотово1ExtendedTooltip" id="900"/>
 										</Button>
 										<Button name="Справка2" id="447">
@@ -3218,6 +3678,16 @@ data synchronization.</v8:content>
 											<Type>CommandBarButton</Type>
 											<Enabled>false</Enabled>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтмена7ExtendedTooltip" id="904"/>
 										</Button>
 										<Button name="Справка3" id="453">
@@ -3261,11 +3731,31 @@ data synchronization.</v8:content>
 										<Button name="ПродолжитьСинхронизацию" id="929">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ПродолжитьСинхронизацию</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Продолжить</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Continue</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ПродолжитьСинхронизациюРасширеннаяПодсказка" id="930"/>
 										</Button>
 										<Button name="КомандаОтмена" id="931">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтменаРасширеннаяПодсказка" id="932"/>
 										</Button>
 									</ChildItems>
@@ -3318,11 +3808,31 @@ data synchronization.</v8:content>
 										<Button name="КомандаДалееИнформацииСтатистики" id="982">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаДалее</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Далее &gt;</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Next &gt;</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаДалееИнформацииСтатистикиРасширеннаяПодсказка" id="983"/>
 										</Button>
 										<Button name="КомандаОтмена2" id="984">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтмена2РасширеннаяПодсказка" id="985"/>
 										</Button>
 									</ChildItems>
@@ -4531,6 +5041,29 @@ data synchronization.</v8:content>
 			</ToolTip>
 			<Action>ПродолжитьСинхронизацию</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗавершитьСинхронизацию" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Завершить синхронизацию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish synchronization</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Завершить синхронизацию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish synchronization</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗавершитьСинхронизацию</Action>
 		</Command>
 	</Commands>
 </Form>

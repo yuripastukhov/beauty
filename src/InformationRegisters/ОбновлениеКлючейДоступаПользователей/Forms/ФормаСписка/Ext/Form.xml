@@ -38,11 +38,36 @@
 			<CommandSource>Form</CommandSource>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="29"/>
 			<ChildItems>
+				<Button name="ФормаОбновлениеДоступаНаУровнеЗаписей" id="40">
+					<Type>CommandBarHyperlink</Type>
+					<CommandName>Form.Command.ОбновлениеДоступаНаУровнеЗаписей</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновление доступа на уровне записей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update record-level access</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ФормаОбновлениеДоступаНаУровнеЗаписейРасширеннаяПодсказка" id="41"/>
+				</Button>
 				<Button name="ФормаВключитьВозможностьРедактирования" id="32">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ВключитьВозможностьРедактирования</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Включить возможность редактирования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allow editing</v8:content>
+						</v8:item>
+					</Title>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-					<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияExtendedTooltip" id="33"/>
+					<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка" id="33"/>
 				</Button>
 			</ChildItems>
 		</CommandBar>
@@ -157,7 +182,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>SJ</v8:content>
+							<v8:content>Job size</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -250,11 +275,34 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
+					<v8:content>Allow editing for troubleshooting. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОбновлениеДоступаНаУровнеЗаписей" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление доступа на уровне записей</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update record-level access</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отображение хода обновления доступа на уровне записей и ручное обновление</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show the progress of the record-level access update and manual update.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновлениеДоступаНаУровнеЗаписей</Action>
 		</Command>
 	</Commands>
 </Form>

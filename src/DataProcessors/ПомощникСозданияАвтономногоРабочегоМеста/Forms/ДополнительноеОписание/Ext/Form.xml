@@ -40,6 +40,16 @@
 		<HTMLDocumentField name="ПолеHTMLДокумента" id="1">
 			<DataPath>ПолеHTMLДокумента</DataPath>
 			<SkipOnInput>true</SkipOnInput>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле HTMLДокумента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>HTML document field</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="ПолеHTMLДокументаКонтекстноеМеню" id="2"/>

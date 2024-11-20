@@ -5,11 +5,31 @@
 			<Button name="ФормаОткрыть" id="31">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Открыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Открыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Open</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОткрытьРасширеннаяПодсказка" id="32"/>
 			</Button>
 			<Button name="ФормаОчистить" id="33">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Очистить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Очистить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Clear</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОчиститьРасширеннаяПодсказка" id="34"/>
 			</Button>
 			<Button name="ФормаСоздать" id="27">
@@ -162,7 +182,7 @@ To view the reasons why these objects cannot be deleted, go to &lt;link %1&gt;Ma
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Стандартная картинка</v8:content>
+							<v8:content>Standard picture</v8:content>
 						</v8:item>
 					</dcssch:title>
 					<dcssch:useRestriction>

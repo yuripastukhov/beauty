@@ -30,6 +30,7 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeClose">ПередЗакрытием</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
 	</Events>
 	<ChildItems>
 		<Pages name="ШагиМастера" id="70">
@@ -351,6 +352,7 @@ Please wait…</v8:content>
 					<ChildItems>
 						<LabelDecoration name="РезультатНеудачныеЗамены" id="133">
 							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -381,18 +383,64 @@ Please wait…</v8:content>
 									<Type>CommandBarButton</Type>
 									<Representation>PictureAndText</Representation>
 									<CommandName>Form.Command.ОткрытьЭлементНеудачнойЗамены</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Изменить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Change</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ОткрытьЭлементНеудачнойЗаменыРасширеннаяПодсказка" id="165"/>
 								</Button>
-								<Button name="РазвернутьВсеНеудачныеЗамены" id="129">
-									<Type>CommandBarButton</Type>
-									<CommandName>Form.Command.РазвернутьВсеНеудачныеЗамены</CommandName>
-									<ExtendedTooltip name="РазвернутьВсеНеудачныеЗаменыРасширеннаяПодсказка" id="130"/>
-								</Button>
-								<Button name="СвернутьВсеНеудачныеЗамены" id="131">
-									<Type>CommandBarButton</Type>
-									<CommandName>Form.Command.СвернутьВсеНеудачныеЗамены</CommandName>
-									<ExtendedTooltip name="СвернутьВсеНеудачныеЗаменыРасширеннаяПодсказка" id="132"/>
-								</Button>
+								<ButtonGroup name="ГруппаРазвернутьСвернуть" id="255">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Развернуть свернуть</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Expand collapse</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>Compact</Representation>
+									<ExtendedTooltip name="ГруппаРазвернутьСвернутьРасширеннаяПодсказка" id="256"/>
+									<ChildItems>
+										<Button name="РазвернутьВсеНеудачныеЗамены" id="129">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.РазвернутьВсеНеудачныеЗамены</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Развернуть все</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Expand all</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="РазвернутьВсеНеудачныеЗаменыРасширеннаяПодсказка" id="130"/>
+										</Button>
+										<Button name="СвернутьВсеНеудачныеЗамены" id="131">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.СвернутьВсеНеудачныеЗамены</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Свернуть все</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Collapse all</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СвернутьВсеНеудачныеЗаменыРасширеннаяПодсказка" id="132"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
 								<ButtonGroup name="ВсеДействия2" id="136">
 									<Title>
 										<v8:item>
@@ -535,7 +583,7 @@ Please wait…</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Неудачные замены группа</v8:content>
+													<v8:content>Unsuccessful replacements group</v8:content>
 												</v8:item>
 											</Title>
 											<Group>InCell</Group>
@@ -543,6 +591,16 @@ Please wait…</v8:content>
 											<ChildItems>
 												<PictureField name="НеудачныеЗаменыПиктограмма" id="175">
 													<DataPath>НеудачныеЗамены.Пиктограмма</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пиктограмма</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Icon</v8:content>
+														</v8:item>
+													</Title>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ValuesPicture>
@@ -555,6 +613,16 @@ Please wait…</v8:content>
 												</PictureField>
 												<InputField name="НеудачныеЗаменыДанные" id="144">
 													<DataPath>НеудачныеЗамены.Данные</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Наименование / Место использования</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Description / Occurrence</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="НеудачныеЗаменыДанныеКонтекстноеМеню" id="145"/>
 													<ExtendedTooltip name="НеудачныеЗаменыДанныеРасширеннаяПодсказка" id="146"/>
@@ -563,6 +631,16 @@ Please wait…</v8:content>
 										</ColumnGroup>
 										<InputField name="НеудачныеЗаменыКод" id="147">
 											<DataPath>НеудачныеЗамены.Код</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Код</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Code</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>10</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -573,17 +651,93 @@ Please wait…</v8:content>
 								</ColumnGroup>
 								<InputField name="НеудачныеЗаменыПричина" id="122">
 									<DataPath>НеудачныеЗамены.Причина</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Причина</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reason</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="НеудачныеЗаменыПричинаКонтекстноеМеню" id="123"/>
 									<ExtendedTooltip name="НеудачныеЗаменыПричинаРасширеннаяПодсказка" id="124"/>
 								</InputField>
 							</ChildItems>
 						</Table>
+						<UsualGroup name="ГруппаОтчетОбОшибке" id="253">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчет об ошибке</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Error report</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОтчетОбОшибкеРасширеннаяПодсказка" id="254"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияПодробности" id="247">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подробности:</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Details:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияПодробностиКонтекстноеМеню" id="248"/>
+									<ExtendedTooltip name="ДекорацияПодробностиРасширеннаяПодсказка" id="249"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияОтправитьОтчетОбОшибке" id="250">
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отправить отчет об ошибке</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Send error report</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ДекорацияОтправитьОтчетОбОшибкеКонтекстноеМеню" id="251"/>
+									<ExtendedTooltip name="ДекорацияОтправитьОтчетОбОшибкеРасширеннаяПодсказка" id="252"/>
+									<Events>
+										<Event name="Click">ДекорацияОтправитьОтчетОбОшибкеНажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
 						<InputField name="РасшифровкаПричиныНеудачи" id="172">
 							<DataPath>РасшифровкаПричиныНеудачи</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подробности</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Details</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<VerticalStretch>false</VerticalStretch>
+							<Height>2</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<MaxHeight>3</MaxHeight>
 							<MultiLine>true</MultiLine>
 							<ContextMenu name="РасшифровкаПричиныНеудачиКонтекстноеМеню" id="173"/>
 							<ExtendedTooltip name="РасшифровкаПричиныНеудачиРасширеннаяПодсказка" id="174"/>
@@ -617,8 +771,8 @@ Please wait…</v8:content>
 							</Title>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<Picture>
-								<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-								<xr:LoadTransparent>false</xr:LoadTransparent>
+								<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
 							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="КартинкаПредупреждение32КонтекстноеМеню" id="233"/>
@@ -699,6 +853,16 @@ Please wait…</v8:content>
 						<Button name="ШагМастераНазад" id="43">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ШагМастераНазад</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt; Назад</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt; Back</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ШагМастераНазадРасширеннаяПодсказка" id="44"/>
 						</Button>
 					</ChildItems>
@@ -720,11 +884,31 @@ Please wait…</v8:content>
 						<Button name="ШагМастераДалее" id="48">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ШагМастераДалее</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Далее &gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Next &gt;</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ШагМастераДалееРасширеннаяПодсказка" id="49"/>
 						</Button>
 						<Button name="ШагМастераОтмена" id="50">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ШагМастераОтмена</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отмена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cancel</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ШагМастераОтменаРасширеннаяПодсказка" id="51"/>
 						</Button>
 						<Button name="Справка" id="58">
@@ -857,6 +1041,9 @@ Please wait…</v8:content>
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
+				<Column name="ИнформацияОбОшибке" id="7">
+					<Type/>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ЦелевойЭлемент" id="8">
@@ -923,7 +1110,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Код</v8:content>
+							<v8:content>Code</v8:content>
 						</v8:item>
 					</dcssch:title>
 				</Field>
@@ -937,7 +1124,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Это группа</v8:content>
+							<v8:content>This is a group</v8:content>
 						</v8:item>
 					</dcssch:title>
 				</Field>
@@ -951,7 +1138,7 @@ Please wait…</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Владелец</v8:content>
+							<v8:content>Owner</v8:content>
 						</v8:item>
 					</dcssch:title>
 				</Field>
@@ -1259,6 +1446,11 @@ Please wait…</v8:content>
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ОткрытаПоСценарию">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Parameter>
 	</Parameters>

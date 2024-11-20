@@ -10,11 +10,31 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ОК</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОК</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>OK</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОКРасширеннаяПодсказка" id="13"/>
 			</Button>
 			<Button name="ФормаОтмена" id="14">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Отмена</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отмена</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cancel</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="15"/>
 			</Button>
 		</ChildItems>
@@ -164,7 +184,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Date of birth gender</v8:content>
+							<v8:content>Date of birth and gender</v8:content>
 						</v8:item>
 					</Title>
 					<Group>AlwaysHorizontal</Group>
@@ -454,7 +474,7 @@ the company physical address</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Document kind, issued by, department code</v8:content>
+									<v8:content>Document type, issued by, department code</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -472,7 +492,7 @@ the company physical address</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Document kind</v8:content>
+											<v8:content>Document type</v8:content>
 										</v8:item>
 									</Title>
 									<Width>20</Width>
@@ -492,7 +512,7 @@ the company physical address</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Passport of a citizen of the Russian Federation</v8:content>
+														<v8:content>Local passport</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">21</Value>
@@ -509,7 +529,7 @@ the company physical address</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>other document provided for by the national legislation</v8:content>
+														<v8:content>Another document provided for by the national legislation</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">91</Value>
@@ -596,7 +616,7 @@ the company physical address</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Series, number</v8:content>
+											<v8:content>Series and No.</v8:content>
 										</v8:item>
 									</Title>
 									<Width>11</Width>
@@ -668,6 +688,7 @@ the company physical address</v8:content>
 							<ChildItems>
 								<InputField name="ВладелецАдресРегистрации" id="71">
 									<DataPath>ВладелецАдресРегистрации</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -680,42 +701,11 @@ the company physical address</v8:content>
 									</Title>
 									<Width>65</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
-									<ChoiceButton>true</ChoiceButton>
-									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<AutoMarkIncomplete>false</AutoMarkIncomplete>
 									<TextEdit>false</TextEdit>
 									<ContextMenu name="ВладелецАдресРегистрацииКонтекстноеМеню" id="72"/>
 									<ExtendedTooltip name="ВладелецАдресРегистрацииРасширеннаяПодсказка" id="73"/>
-									<Events>
-										<Event name="StartChoice">ВладелецАдресРегистрацииНачалоВыбора</Event>
-										<Event name="Clearing">ВладелецАдресРегистрацииОчистка</Event>
-										<Event name="ChoiceProcessing">ВладелецАдресРегистрацииОбработкаВыбора</Event>
-									</Events>
 								</InputField>
-								<PictureDecoration name="ВладелецАдресРегистрацииПредупреждение" id="74">
-									<Height>1</Height>
-									<SkipOnInput>true</SkipOnInput>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Адрес регистрации (предупреждение)</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Registration address (warning)</v8:content>
-										</v8:item>
-									</Title>
-									<Hyperlink>true</Hyperlink>
-									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<FileDragMode>AsFile</FileDragMode>
-									<ContextMenu name="ВладелецАдресРегистрацииПредупреждениеКонтекстноеМеню" id="75"/>
-									<ExtendedTooltip name="ВладелецАдресРегистрацииПредупреждениеРасширеннаяПодсказка" id="76"/>
-									<Events>
-										<Event name="Click">АдресПредупреждениеНажатие</Event>
-									</Events>
-								</PictureDecoration>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаЭлектроннаяПочтаИТелефон" id="88">
@@ -1000,7 +990,7 @@ the company physical address</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Document kind</v8:content>
+					<v8:content>Document type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

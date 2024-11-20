@@ -82,6 +82,16 @@
 							<ChildItems>
 								<InputField name="УзелОбменаСсылка" id="1">
 									<DataPath>УзелОбменаСсылка</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Узел обмена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange node</v8:content>
+										</v8:item>
+									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
 									<DropListButton>false</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
@@ -621,11 +631,31 @@
 														<xr:Abs>Picture.png</xr:Abs>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Результат стандартной выгрузки (РИБ)</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Export result (DIB)</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПоказатьРезультатВыгрузкиExtendedTooltip" id="224"/>
 												</Button>
 												<Button name="ФормаЗарегистрироватьИОМИПредопределенные" id="314">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ЗарегистрироватьИОМИПредопределенные</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Зарегистрировать данные для восстановления подчиненного узла РИБ</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Register items to restore DIB subnode</v8:content>
+														</v8:item>
+													</Title>
 													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="ФормаЗарегистрироватьИОМИПредопределенныеРасширеннаяПодсказка" id="315"/>
 												</Button>
@@ -985,6 +1015,16 @@
 													<ChildItems>
 														<CheckBoxField name="ДеревоМетаданныхПометка" id="16">
 															<DataPath>ДеревоМетаданных.Пометка</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Пометка</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Check box</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<EditMode>Directly</EditMode>
 															<ShowInFooter>false</ShowInFooter>
@@ -1308,11 +1348,31 @@
 																					<xr:Ref>StdPicture.ExchangePlan</xr:Ref>
 																					<xr:LoadTransparent>true</xr:LoadTransparent>
 																				</Picture>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Открыть форму регистрации на узлах</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Open registration manager</v8:content>
+																					</v8:item>
+																				</Title>
 																				<ExtendedTooltip name="СписокКонстантКонтекстноеМенюОткрытьФормуРегистрацииНаУзлахExtendedTooltip" id="256"/>
 																			</Button>
 																			<Button name="СписокКонстантКонтекстноеМенюРедактироватьНомерСообщенияОбъекта" id="197">
 																				<Type>CommandBarButton</Type>
 																				<CommandName>Form.Command.РедактироватьНомерСообщенияОбъекта</CommandName>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Редактировать номер сообщения объекта</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Edit message number</v8:content>
+																					</v8:item>
+																				</Title>
 																				<ExtendedTooltip name="СписокКонстантКонтекстноеМенюРедактироватьНомерСообщенияОбъектаExtendedTooltip" id="257"/>
 																			</Button>
 																		</ChildItems>
@@ -1726,6 +1786,16 @@
 																			<Button name="СписокСсылокКонтекстноеМенюРедактироватьНомерСообщенияОбъекта" id="198">
 																				<Type>CommandBarButton</Type>
 																				<CommandName>Form.Command.РедактироватьНомерСообщенияОбъекта</CommandName>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Редактировать номер сообщения объекта</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Edit message number</v8:content>
+																					</v8:item>
+																				</Title>
 																				<ExtendedTooltip name="СписокСсылокКонтекстноеМенюРедактироватьНомерСообщенияОбъектаExtendedTooltip" id="280"/>
 																			</Button>
 																		</ChildItems>
@@ -2014,11 +2084,11 @@
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Наборы записей</v8:content>
+																				<v8:content>Наборов записей контекстное меню группа 4</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Наборы записей</v8:content>
+																				<v8:content>Record sets context menu group 4</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюГруппа4ExtendedTooltip" id="296"/>
@@ -2049,11 +2119,31 @@
 																					<xr:Ref>StdPicture.ExchangePlan</xr:Ref>
 																					<xr:LoadTransparent>true</xr:LoadTransparent>
 																				</Picture>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Открыть форму регистрации на узлах</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Open registration manager</v8:content>
+																					</v8:item>
+																				</Title>
 																				<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюОткрытьФормуРегистрацииНаУзлахExtendedTooltip" id="298"/>
 																			</Button>
 																			<Button name="СписокНаборовЗаписейКонтекстноеМенюРедактироватьНомерСообщенияОбъекта" id="199">
 																				<Type>CommandBarButton</Type>
 																				<CommandName>Form.Command.РедактироватьНомерСообщенияОбъекта</CommandName>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Редактировать номер сообщения объекта</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Edit message number</v8:content>
+																					</v8:item>
+																				</Title>
 																				<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюРедактироватьНомерСообщенияОбъектаExtendedTooltip" id="299"/>
 																			</Button>
 																		</ChildItems>
@@ -2062,11 +2152,11 @@
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Наборы записей</v8:content>
+																				<v8:content>Наборов записей контекстное меню группа 3</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Наборы записей</v8:content>
+																				<v8:content>Record sets context menu group 3</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ExtendedTooltip name="СписокНаборовЗаписейКонтекстноеМенюГруппа3ExtendedTooltip" id="300"/>

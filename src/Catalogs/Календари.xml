@@ -1195,7 +1195,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>DF=hh:mm</v8:content>
+									<v8:content>DF=HH:mm</v8:content>
 								</v8:item>
 							</Format>
 							<EditFormat>
@@ -1205,7 +1205,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>DF=hh:mm</v8:content>
+									<v8:content>DF=HH:mm</v8:content>
 								</v8:item>
 							</EditFormat>
 							<ToolTip>
@@ -1266,7 +1266,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>DF=hh:mm</v8:content>
+									<v8:content>DF=HH:mm</v8:content>
 								</v8:item>
 							</Format>
 							<EditFormat>
@@ -1276,7 +1276,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>DF=hh:mm</v8:content>
+									<v8:content>DF=HH:mm</v8:content>
 								</v8:item>
 							</EditFormat>
 							<ToolTip>

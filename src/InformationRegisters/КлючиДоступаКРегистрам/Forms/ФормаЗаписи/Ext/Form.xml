@@ -6,8 +6,18 @@
 			<Button name="ФормаВключитьВозможностьРедактирования" id="25">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ВключитьВозможностьРедактирования</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Включить возможность редактирования</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Allow editing</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияExtendedTooltip" id="26"/>
+				<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка" id="26"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -84,7 +94,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
+					<v8:content>Allow editing for troubleshooting. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

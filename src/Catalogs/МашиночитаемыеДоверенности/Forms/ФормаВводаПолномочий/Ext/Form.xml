@@ -21,6 +21,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.Сохранить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>OK</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>OK</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаКнопкаСохранитьРасширеннаяПодсказка" id="50"/>
 			</Button>
 			<Button name="ФормаКнопкаОтмена" id="51">
@@ -124,29 +134,75 @@
 												<Button name="ПолномочияИзКлассификатора" id="195">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияИзКлассификатора</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия в машиночитаемом виде</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Machine-readable powers</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияИзКлассификатораРасширеннаяПодсказка" id="196"/>
 												</Button>
 												<Button name="ПолномочияВТекстовомВиде" id="199">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияВТекстовомВиде</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия в текстовом виде</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Powers as text</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияВТекстовомВидеРасширеннаяПодсказка" id="200"/>
 												</Button>
 												<Button name="ПолномочияНеОграничены" id="197">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияНеОграничены</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия не ограничены</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Powers without limitations</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияНеОграниченыРасширеннаяПодсказка" id="198"/>
 												</Button>
 											</ChildItems>
 										</Popup>
+										<Button name="ОбновитьКлассификаторыПолномочий" id="248">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ОбновитьКлассификаторыПолномочий</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Обновить классификаторы полномочий</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Update power classifiers</v8:content>
+												</v8:item>
+											</Title>
+											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+											<ExtendedTooltip name="ОбновитьКлассификаторыПолномочийРасширеннаяПодсказка" id="249"/>
+										</Button>
 										<ButtonGroup name="ГруппаКомпактная" id="233">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа компактная</v8:content>
+													<v8:content>Компактная</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Group Compact</v8:content>
+													<v8:content>Compact</v8:content>
 												</v8:item>
 											</Title>
 											<Representation>Compact</Representation>
@@ -155,11 +211,31 @@
 												<Button name="УстановитьФлажки" id="98">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.УстановитьФлажки</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Установить флажки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Select all</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="УстановитьФлажкиРасширеннаяПодсказка" id="99"/>
 												</Button>
 												<Button name="СнятьФлажки" id="96">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.СнятьФлажки</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Снять флажки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Clear all</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="СнятьФлажкиРасширеннаяПодсказка" id="97"/>
 												</Button>
 											</ChildItems>
@@ -181,6 +257,16 @@
 												<Button name="ПоказатьВыбранные" id="100">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПоказатьВыбранные</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Показать выбранные</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Show selected powers</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПоказатьВыбранныеРасширеннаяПодсказка" id="101"/>
 												</Button>
 											</ChildItems>
@@ -189,11 +275,11 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа сохранение</v8:content>
+													<v8:content>Сохранение</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Group Save</v8:content>
+													<v8:content>Save</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -203,11 +289,31 @@
 												<Button name="СохранитьНастройкуПолномочий" id="227">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.СохранитьНастройкуПолномочий</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сохранить настройку полномочий</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Save power setting</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="СохранитьНастройкуПолномочийРасширеннаяПодсказка" id="228"/>
 												</Button>
 												<Button name="ЗагрузитьНастройкуПолномочий" id="229">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ЗагрузитьНастройкуПолномочий</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Загрузить настройку полномочий</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Import power setting</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ЗагрузитьНастройкуПолномочийРасширеннаяПодсказка" id="230"/>
 												</Button>
 											</ChildItems>
@@ -258,6 +364,16 @@
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<DataPath>Полномочия</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Полномочия</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Powers</v8:content>
+										</v8:item>
+									</Title>
 									<CommandSet>
 										<ExcludedCommand>Add</ExcludedCommand>
 										<ExcludedCommand>Change</ExcludedCommand>
@@ -305,6 +421,16 @@
 									<ChildItems>
 										<CheckBoxField name="ПолномочияПометка" id="69">
 											<DataPath>Полномочия.Пометка</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пометка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Checkmark</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<HeaderPicture>
@@ -321,6 +447,16 @@
 										<InputField name="ПолномочияНаименование" id="75">
 											<DataPath>Полномочия.Наименование</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Наименование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Description</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<TextEdit>false</TextEdit>
 											<ContextMenu name="ПолномочияНаименованиеКонтекстноеМеню" id="76"/>
@@ -329,6 +465,16 @@
 										<InputField name="ПолномочияКод" id="72">
 											<DataPath>Полномочия.Код</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Код</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Code</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>10</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -339,6 +485,16 @@
 											<DataPath>Полномочия.Мнемокод</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Мнемокод</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mnemonic code</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ПолномочияМнемокодКонтекстноеМеню" id="133"/>
 											<ExtendedTooltip name="ПолномочияМнемокодРасширеннаяПодсказка" id="134"/>
@@ -347,6 +503,16 @@
 											<DataPath>Полномочия.НетВКлассификаторе</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Нет в классификаторе</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Unavailable in classifier</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПолномочияНетВКлассификатореКонтекстноеМеню" id="84"/>
@@ -355,6 +521,16 @@
 										<LabelField name="ПолномочияИдентификаторПолномочия" id="169">
 											<DataPath>Полномочия.ИдентификаторПолномочия</DataPath>
 											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идентификатор полномочия</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Power ID</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ПолномочияИдентификаторПолномочияКонтекстноеМеню" id="170"/>
 											<ExtendedTooltip name="ПолномочияИдентификаторПолномочияРасширеннаяПодсказка" id="171"/>
@@ -390,16 +566,46 @@
 												<Button name="ПолномочияИзКлассификатора1" id="203">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияИзКлассификатора</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия в машиночитаемом виде</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Machine-readable powers</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияИзКлассификатора1РасширеннаяПодсказка" id="204"/>
 												</Button>
 												<Button name="ПолномочияВТекстовомВиде1" id="205">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияВТекстовомВиде</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия в текстовом виде</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Powers as text</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияВТекстовомВиде1РасширеннаяПодсказка" id="206"/>
 												</Button>
 												<Button name="ПолномочияНеОграничены1" id="207">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияНеОграничены</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия не ограничены</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Powers without limitations</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияНеОграничены1РасширеннаяПодсказка" id="208"/>
 												</Button>
 											</ChildItems>
@@ -420,17 +626,27 @@
 												<Button name="ВыбратьИзКлассификатора" id="172">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ВыбратьИзКлассификатора</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Выбрать из классификатора</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Select from classifier</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ВыбратьИзКлассификатораРасширеннаяПодсказка" id="173"/>
 												</Button>
 												<ButtonGroup name="ГруппаКомандыТаблицы" id="243">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Группа команды таблицы</v8:content>
+															<v8:content>Команды таблицы</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Group Table commands</v8:content>
+															<v8:content>Table commands</v8:content>
 														</v8:item>
 													</Title>
 													<CommandSource>Item.ВыбранныеПолномочияТаблица</CommandSource>
@@ -440,11 +656,11 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Группа сохранение настроек</v8:content>
+															<v8:content>Сохранение настроек</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Group Save settings</v8:content>
+															<v8:content>Save settings</v8:content>
 														</v8:item>
 													</Title>
 													<Representation>Compact</Representation>
@@ -453,11 +669,31 @@
 														<Button name="ВыбранныеПолномочияТаблицаСохранитьНастройкуПолномочий" id="223">
 															<Type>CommandBarButton</Type>
 															<CommandName>Form.Command.СохранитьНастройкуПолномочий</CommandName>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сохранить настройку полномочий</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Save power setting</v8:content>
+																</v8:item>
+															</Title>
 															<ExtendedTooltip name="ВыбранныеПолномочияТаблицаСохранитьНастройкуПолномочийРасширеннаяПодсказка" id="224"/>
 														</Button>
 														<Button name="ВыбранныеПолномочияТаблицаЗагрузитьНастройкуПолномочий" id="225">
 															<Type>CommandBarButton</Type>
 															<CommandName>Form.Command.ЗагрузитьНастройкуПолномочий</CommandName>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Загрузить настройку полномочий</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Import power setting</v8:content>
+																</v8:item>
+															</Title>
 															<ExtendedTooltip name="ВыбранныеПолномочияТаблицаЗагрузитьНастройкуПолномочийРасширеннаяПодсказка" id="226"/>
 														</Button>
 													</ChildItems>
@@ -468,6 +704,8 @@
 								</CommandBar>
 								<Table name="ВыбранныеПолномочияТаблица" id="138">
 									<Representation>List</Representation>
+									<SelectionMode>SingleRow</SelectionMode>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
@@ -477,6 +715,16 @@
 										<xr:Ref>CommonPicture.ТипФильтр</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</RowsPicture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Полномочия</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Powers</v8:content>
+										</v8:item>
+									</Title>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="ВыбранныеПолномочияТаблицаКонтекстноеМеню" id="139"/>
 									<AutoCommandBar name="ВыбранныеПолномочияТаблицаКоманднаяПанель" id="140">
@@ -509,12 +757,23 @@
 									</SearchControlAddition>
 									<Events>
 										<Event name="BeforeAddRow">ВыбранныеПолномочияТаблицаПередНачаломДобавления</Event>
+										<Event name="BeforeDeleteRow">ВыбранныеПолномочияТаблицаПередУдалением</Event>
 										<Event name="OnActivateRow">ВыбранныеПолномочияТаблицаПриАктивизацииСтроки</Event>
 										<Event name="OnStartEdit">ВыбранныеПолномочияТаблицаПриНачалеРедактирования</Event>
 									</Events>
 									<ChildItems>
 										<InputField name="ВыбранныеПолномочияТаблицаКод" id="151">
 											<DataPath>ВыбранныеПолномочияТаблица.Код</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Код</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Code</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>5</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -523,6 +782,16 @@
 										</InputField>
 										<InputField name="ВыбранныеПолномочияТаблицаНаименование" id="154">
 											<DataPath>ВыбранныеПолномочияТаблица.Наименование</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Наименование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Description</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ВыбранныеПолномочияТаблицаНаименованиеКонтекстноеМеню" id="155"/>
 											<ExtendedTooltip name="ВыбранныеПолномочияТаблицаНаименованиеРасширеннаяПодсказка" id="156"/>
@@ -530,6 +799,16 @@
 										<CheckBoxField name="ВыбранныеПолномочияТаблицаНетВКлассификаторе" id="157">
 											<DataPath>ВыбранныеПолномочияТаблица.НетВКлассификаторе</DataPath>
 											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Нет в классификаторе</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Unavailable in classifier</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВыбранныеПолномочияТаблицаНетВКлассификатореКонтекстноеМеню" id="158"/>
@@ -538,6 +817,16 @@
 										<LabelField name="ВыбранныеПолномочияТаблицаИдентификаторПолномочия" id="160">
 											<DataPath>ВыбранныеПолномочияТаблица.ИдентификаторПолномочия</DataPath>
 											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идентификатор полномочия</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Power ID</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ВыбранныеПолномочияТаблицаИдентификаторПолномочияКонтекстноеМеню" id="161"/>
 											<ExtendedTooltip name="ВыбранныеПолномочияТаблицаИдентификаторПолномочияРасширеннаяПодсказка" id="162"/>
@@ -545,6 +834,16 @@
 										<InputField name="ВыбранныеПолномочияТаблицаМнемокод" id="163">
 											<DataPath>ВыбранныеПолномочияТаблица.Мнемокод</DataPath>
 											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Мнемокод</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mnemonic code</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ВыбранныеПолномочияТаблицаМнемокодКонтекстноеМеню" id="164"/>
 											<ExtendedTooltip name="ВыбранныеПолномочияТаблицаМнемокодРасширеннаяПодсказка" id="165"/>
@@ -553,6 +852,16 @@
 											<DataPath>ВыбранныеПолномочияТаблица.ЕстьОграничения</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Есть ограничения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>There are limitations</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<ToolTip>
 												<v8:item>
@@ -633,6 +942,7 @@
 											</SearchControlAddition>
 											<Events>
 												<Event name="BeforeAddRow">ОграниченияПолномочийПередНачаломДобавления</Event>
+												<Event name="BeforeDeleteRow">ОграниченияПолномочийПередУдалением</Event>
 												<Event name="AfterDeleteRow">ОграниченияПолномочийПослеУдаления</Event>
 												<Event name="OnActivateCell">ОграниченияПолномочийПриАктивизацииЯчейки</Event>
 											</Events>
@@ -652,6 +962,16 @@
 													<ChildItems>
 														<InputField name="ОграниченияПолномочияКод" id="118">
 															<DataPath>ОграниченияПолномочий.Код</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Код ограничения</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Limitation code</v8:content>
+																</v8:item>
+															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>5</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -665,6 +985,16 @@
 														</InputField>
 														<InputField name="ОграниченияПолномочияКодЗначения" id="127">
 															<DataPath>ОграниченияПолномочий.КодЗначения</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Код значения</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Value code</v8:content>
+																</v8:item>
+															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>5</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -692,6 +1022,16 @@
 													<ChildItems>
 														<InputField name="ОграниченияПолномочияНаименование" id="121">
 															<DataPath>ОграниченияПолномочий.Наименование</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Наименование ограничения</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Limitation description</v8:content>
+																</v8:item>
+															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>30</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -700,6 +1040,16 @@
 														</InputField>
 														<InputField name="ОграниченияПолномочияНаименованиеЗначения" id="124">
 															<DataPath>ОграниченияПолномочий.НаименованиеЗначения</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Значение ограничения</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Limitation value</v8:content>
+																</v8:item>
+															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>30</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -711,6 +1061,16 @@
 												<LabelField name="ОграниченияПолномочийИдентификаторПолномочия" id="166">
 													<DataPath>ОграниченияПолномочий.ИдентификаторПолномочия</DataPath>
 													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Идентификатор полномочия</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Power ID</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ОграниченияПолномочийИдентификаторПолномочияКонтекстноеМеню" id="167"/>
 													<ExtendedTooltip name="ОграниченияПолномочийИдентификаторПолномочияРасширеннаяПодсказка" id="168"/>
@@ -718,6 +1078,16 @@
 												<CheckBoxField name="ОграниченияПолномочийНетВКлассификаторе" id="245">
 													<DataPath>ОграниченияПолномочий.НетВКлассификаторе</DataPath>
 													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Нет в классификаторе</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Unavailable in classifier</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="ОграниченияПолномочийНетВКлассификатореКонтекстноеМеню" id="246"/>
@@ -733,11 +1103,11 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа текст полномочий</v8:content>
+									<v8:content>Текст полномочий</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Group Power text</v8:content>
+									<v8:content>Power text</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -773,16 +1143,46 @@
 												<Button name="ПолномочияИзКлассификатора2" id="215">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияИзКлассификатора</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия в машиночитаемом виде</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Machine-readable powers</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияИзКлассификатора2РасширеннаяПодсказка" id="216"/>
 												</Button>
 												<Button name="ПолномочияВТекстовомВиде2" id="217">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияВТекстовомВиде</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия в текстовом виде</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Powers as text</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияВТекстовомВиде2РасширеннаяПодсказка" id="218"/>
 												</Button>
 												<Button name="ПолномочияНеОграничены2" id="219">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПолномочияНеОграничены</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полномочия не ограничены</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Powers without limitations</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПолномочияНеОграничены2РасширеннаяПодсказка" id="220"/>
 												</Button>
 											</ChildItems>
@@ -791,6 +1191,16 @@
 								</CommandBar>
 								<InputField name="ТекстПолномочий" id="80">
 									<DataPath>ТекстПолномочий</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Текст полномочий</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Power text</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<AutoMaxHeight>false</AutoMaxHeight>
@@ -1238,6 +1648,82 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ОграниченияПолномочийРодительскойДоверенности" id="7">
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Columns>
+				<Column name="ИдентификаторПолномочия" id="1">
+					<Type>
+						<v8:Type>v8:UUID</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Код" id="2">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="3">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НаименованиеЗначения" id="4">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КодЗначения" id="5">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЭтоТекстовоеЗначение" id="7">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОписаниеТипа" id="8">
+					<Type/>
+				</Column>
+				<Column name="Описание" id="6">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НетВКлассификаторе" id="9">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НетВКлассификатореКодаЗначения" id="10">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="УстановитьФлажки" id="1">
@@ -1497,6 +1983,19 @@
 			<Action>ЗагрузитьНастройкуПолномочий</Action>
 			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
+		<Command name="ОбновитьКлассификаторыПолномочий" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить классификаторы полномочий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update power classifiers</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОбновитьКлассификаторыПолномочий</Action>
+		</Command>
 	</Commands>
 	<Parameters>
 		<Parameter name="ТолькоПросмотр">
@@ -1511,6 +2010,16 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+		</Parameter>
+		<Parameter name="ПолномочияРодительскойДоверенности">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<KeyParameter>true</KeyParameter>
 		</Parameter>
 	</Parameters>
 </Form>

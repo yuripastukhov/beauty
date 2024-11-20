@@ -10,6 +10,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ОК</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОК</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>OK</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОКРасширеннаяПодсказка" id="50"/>
 			</Button>
 			<Button name="ФормаОтмена" id="51">
@@ -43,6 +53,16 @@
 			<ChildItems>
 				<RadioButtonField name="ВидСрокаНеУказан" id="1">
 					<DataPath>ВидСрока</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид срока</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period type</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<RadioButtonType>Auto</RadioButtonType>
 					<ColumnsCount>1</ColumnsCount>
@@ -73,6 +93,16 @@
 				</RadioButtonField>
 				<RadioButtonField name="ВидСрокаНеОграничен" id="29">
 					<DataPath>ВидСрока</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид срока</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period type</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<RadioButtonType>Auto</RadioButtonType>
 					<ColumnsCount>1</ColumnsCount>
@@ -119,6 +149,16 @@
 					<ChildItems>
 						<RadioButtonField name="ВидСрокаДоДаты" id="26">
 							<DataPath>ВидСрока</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид срока</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period type</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ColumnsCount>1</ColumnsCount>
@@ -134,7 +174,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content> Allow sign-in till:</v8:content>
+												<v8:content> Expiration date:</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">ДоДаты</Value>
@@ -149,6 +189,16 @@
 						</RadioButtonField>
 						<InputField name="Срок" id="36">
 							<DataPath>Срок</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Срок</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Due date</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<ContextMenu name="СрокКонтекстноеМеню" id="37"/>
 							<ExtendedTooltip name="СрокРасширеннаяПодсказка" id="38"/>
@@ -173,6 +223,16 @@
 					<ChildItems>
 						<RadioButtonField name="ВидСрокаПросрочка" id="23">
 							<DataPath>ВидСрока</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид срока</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Period type</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ColumnsCount>1</ColumnsCount>
@@ -188,7 +248,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Deny sign-in after inactivity of:</v8:content>
+												<v8:content>Deny login after inactivity of:</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">Просрочка</Value>
@@ -203,6 +263,16 @@
 						</RadioButtonField>
 						<InputField name="Просрочка" id="39">
 							<DataPath>Просрочка</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Просрочка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Inactivity period</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<MinValue xsi:type="xs:decimal">1</MinValue>
 							<ContextMenu name="ПросрочкаКонтекстноеМеню" id="40"/>

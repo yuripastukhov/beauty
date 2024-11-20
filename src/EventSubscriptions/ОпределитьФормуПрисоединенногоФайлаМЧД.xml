@@ -10,7 +10,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Specify attachement form (machine-readable letter of authority)</v8:content>
+					<v8:content>Specify attachment form (machine-readable letter of authority)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>АПК:256 - обработчик в серверном модуле</Comment>

@@ -118,12 +118,32 @@ You can release the lock later in &lt;b&gt;Administration&lt;/&gt;&lt;b&gt; &gt;
 								<Button name="ИнформационнаяБазаПеремещена" id="6">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ИнформационнаяБазаПеремещена</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Информационная база перемещена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Moved infobase</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ИнформационнаяБазаПеремещенаРасширеннаяПодсказка" id="7"/>
 								</Button>
 								<Button name="ЭтоКопияИнформационнойБазы" id="8">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ЭтоКопияИнформационнойБазы</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Это копия информационной базы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Infobase copy</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ЭтоКопияИнформационнойБазыРасширеннаяПодсказка" id="9"/>
 								</Button>
@@ -143,6 +163,16 @@ You can release the lock later in &lt;b&gt;Administration&lt;/&gt;&lt;b&gt; &gt;
 										<Button name="ФормаПроверятьИмяСервера" id="10">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ПроверятьИмяСервера</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Проверять имя сервера</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Check server name.</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ФормаПроверятьИмяСервераРасширеннаяПодсказка" id="11"/>
 										</Button>
@@ -193,12 +223,32 @@ You can release the lock later in &lt;b&gt;Administration&lt;/&gt;&lt;b&gt; &gt;
 								<Button name="ЗаписатьИЗакрыть" id="34">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Записать и закрыть</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Save and close</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ЗаписатьИЗакрытьРасширеннаяПодсказка" id="35"/>
 								</Button>
 							</ChildItems>
 						</CommandBar>
 						<CheckBoxField name="ПроверятьИмяСервера" id="29">
 							<DataPath>ПроверятьИмяСервера</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверять имя сервера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Check server name</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<CheckBoxType>Auto</CheckBoxType>

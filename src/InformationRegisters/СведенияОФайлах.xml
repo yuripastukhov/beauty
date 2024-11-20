@@ -40,7 +40,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>File properties</v8:content>
+					<v8:content>File info</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -926,7 +926,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>The attachment that contains the data.</v8:content>
+							<v8:content>Attachment that contains the data.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

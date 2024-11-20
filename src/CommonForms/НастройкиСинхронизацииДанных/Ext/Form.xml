@@ -231,6 +231,16 @@ They can configure scheduled synchronization or synchronize data manually at any
 								<Button name="УстановитьОбновление" id="752">
 									<Type>Hyperlink</Type>
 									<CommandName>Form.Command.УстановитьОбновление</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Установить обновление</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Install update</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="УстановитьОбновлениеРасширеннаяПодсказка" id="753"/>
 								</Button>
 							</ChildItems>
@@ -443,7 +453,7 @@ Please contact the administrator.</v8:content>
 					<ContextMenu name="ПредупреждениеОбОтключенныхСценарияхОписаниеКонтекстноеМеню" id="794"/>
 					<ExtendedTooltip name="ПредупреждениеОбОтключенныхСценарияхОписаниеРасширеннаяПодсказка" id="795"/>
 					<Events>
-						<Event name="URLProcessing">ПредупреждениеОЗацикливанииОписаниеОбработкаНавигационнойСсылки</Event>
+						<Event name="URLProcessing">ПредупреждениеОбОтключенныхСценарияхОписаниеОбработкаНавигационнойСсылки</Event>
 					</Events>
 				</LabelDecoration>
 			</ChildItems>
@@ -588,17 +598,47 @@ To switch to exchange using a web service, use the switch to Internet connection
 											<DefaultButton>true</DefaultButton>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ВыполнитьСинхронизацию</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Синхронизировать</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Start sync</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокПриложенийВыполнитьСинхронизациюРасширеннаяПодсказка" id="467"/>
 										</Button>
 										<Button name="СписокПриложенийВыполнитьСинхронизациюСДополнительнымиОтборами" id="713">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ВыполнитьСинхронизациюСДополнительнымиОтборами</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Синхронизировать с дополнительными параметрами</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Map data manually</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="СписокПриложенийВыполнитьСинхронизациюСДополнительнымиОтборамиРасширеннаяПодсказка" id="714"/>
 										</Button>
 										<Button name="СписокПриложенийНачальнаяВыгрузкаДанных" id="681">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.НачальнаяВыгрузкаДанных</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выгрузка данных для сопоставления</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Export data for mapping</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокПриложенийНачальнаяВыгрузкаДанныхРасширеннаяПодсказка" id="682"/>
 										</Button>
@@ -622,22 +662,62 @@ To switch to exchange using a web service, use the switch to Internet connection
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
 											<CommandName>Form.Command.ИзменитьНастройкиСинхронизации</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменить настройки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Edit settings</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="СписокПриложенийИзменитьНастройкуСинхронизацииРасширеннаяПодсказка" id="470"/>
 										</Button>
 										<Button name="СписокПриложенийСоставОтправляемыхДанных" id="360">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.СоставОтправляемыхДанных</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Состав отправляемых данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Scope of send data</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="СписокПриложенийСоставОтправляемыхДанныхРасширеннаяПодсказка" id="471"/>
 										</Button>
 										<Button name="СписокПриложенийЗагрузитьПравилаСинхронизацииДанных" id="535">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ЗагрузитьПравилаСинхронизацииДанных</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузить правила...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Import rules…</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокПриложенийЗагрузитьПравилаСинхронизацииДанныхРасширеннаяПодсказка" id="536"/>
 										</Button>
 										<Button name="СписокПриложенийУдалитьНастройкуСинхронизации" id="364">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.УдалитьНастройкуСинхронизации</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Удалить настройку</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Delete setting</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокПриложенийУдалитьНастройкуСинхронизацииРасширеннаяПодсказка" id="486"/>
 										</Button>
@@ -646,12 +726,32 @@ To switch to exchange using a web service, use the switch to Internet connection
 								<Button name="СписокПриложенийСоздатьНастройкуСинхронизации" id="634">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.СоздатьНастройкуСинхронизации</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Создать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Create</v8:content>
+										</v8:item>
+									</Title>
 									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 									<ExtendedTooltip name="СписокПриложенийСоздатьНастройкуСинхронизацииРасширеннаяПодсказка" id="635"/>
 								</Button>
 								<Button name="СписокПриложенийОбновитьМонитор" id="671">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ОбновитьМонитор</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Refresh</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="СписокПриложенийОбновитьМониторРасширеннаяПодсказка" id="672"/>
 								</Button>
@@ -671,12 +771,32 @@ To switch to exchange using a web service, use the switch to Internet connection
 										<Button name="СписокПриложенийПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных" id="98">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>События отправки данных...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data send events…</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокПриложенийПерейтиВЖурналРегистрацииСобытийВыгрузкиДанныхРасширеннаяПодсказка" id="473"/>
 										</Button>
 										<Button name="СписокПриложенийПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных" id="99">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>События получения данных...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data receipt events…</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокПриложенийПерейтиВЖурналРегистрацииСобытийЗагрузкиДанныхРасширеннаяПодсказка" id="474"/>
 										</Button>
@@ -685,6 +805,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 								<Button name="СписокПриложенийПредыдущаяФормаПредупреждений" id="738">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ПредыдущаяФормаПредупреждений</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предыдущая форма предупреждений</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Previous warnings form</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="СписокПриложенийПредыдущаяФормаПредупрежденийРасширеннаяПодсказка" id="739"/>
 								</Button>
@@ -805,6 +935,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 											<Button name="СписокПриложенийКонтекстноеМенюВыполнитьСинхронизацию" id="673">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ВыполнитьСинхронизацию</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Синхронизировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Start sync</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюВыполнитьСинхронизациюРасширеннаяПодсказка" id="674"/>
 											</Button>
 										</ChildItems>
@@ -825,16 +965,46 @@ To switch to exchange using a web service, use the switch to Internet connection
 											<Button name="СписокПриложенийКонтекстноеМенюИзменитьНастройкуСинхронизации" id="679">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИзменитьНастройкиСинхронизации</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Изменить настройки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Edit settings</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюИзменитьНастройкуСинхронизацииРасширеннаяПодсказка" id="680"/>
 											</Button>
 											<Button name="СписокПриложенийКонтекстноеМенюСоставОтправляемыхДанных" id="687">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СоставОтправляемыхДанных</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Состав отправляемых данных</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Scope of send data</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюСоставОтправляемыхДанныхРасширеннаяПодсказка" id="688"/>
 											</Button>
 											<Button name="СписокПриложенийКонтекстноеМенюУдалитьНастройкуСинхронизации" id="683">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.УдалитьНастройкуСинхронизации</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Удалить настройку</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Delete setting</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюУдалитьНастройкуСинхронизацииРасширеннаяПодсказка" id="684"/>
 											</Button>
 										</ChildItems>
@@ -855,11 +1025,31 @@ To switch to exchange using a web service, use the switch to Internet connection
 											<Button name="СписокПриложенийКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных" id="675">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>События отправки данных...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Data send events…</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийВыгрузкиДанныхРасширеннаяПодсказка" id="676"/>
 											</Button>
 											<Button name="СписокПриложенийКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных" id="677">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>События получения данных...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Data receipt events…</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийЗагрузкиДанныхРасширеннаяПодсказка" id="678"/>
 											</Button>
 										</ChildItems>
@@ -867,6 +1057,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 									<Button name="СписокПриложенийКонтекстноеМенюОбновитьМонитор" id="669">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОбновитьМонитор</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Refresh</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="СписокПриложенийКонтекстноеМенюОбновитьМониторРасширеннаяПодсказка" id="670"/>
 									</Button>
 								</ChildItems>
@@ -903,12 +1103,32 @@ To switch to exchange using a web service, use the switch to Internet connection
 							<ChildItems>
 								<LabelField name="СписокПриложенийПрограмма" id="588">
 									<DataPath>СписокПриложений.НаименованиеКорреспондента</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Программа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>App</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СписокПриложенийПрограммаКонтекстноеМеню" id="589"/>
 									<ExtendedTooltip name="СписокПриложенийПрограммаРасширеннаяПодсказка" id="590"/>
 								</LabelField>
 								<LabelField name="СписокПриложенийПрефиксКорреспондента" id="591">
 									<DataPath>СписокПриложений.ПрефиксКорреспондента</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Префикс</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Prefix</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="СписокПриложенийПрефиксКорреспондентаКонтекстноеМеню" id="592"/>
@@ -930,6 +1150,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 									<ChildItems>
 										<PictureField name="СписокПриложенийСостояниеКартинка" id="568">
 											<DataPath>СписокПриложений.СостояниеКартинка</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Состояние картинка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>State picture</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<ValuesPicture>
@@ -998,6 +1228,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 											<ChildItems>
 												<PictureField name="СписокПриложенийСостояниеВыгрузкиКартинка" id="654">
 													<DataPath>СписокПриложений.СостояниеВыгрузкиКартинка</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Состояние выгрузки картинка</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Picture of export state</v8:content>
+														</v8:item>
+													</Title>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<Hyperlink>true</Hyperlink>
@@ -1011,6 +1251,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 												</PictureField>
 												<LabelField name="СписокПриложенийПредставлениеДатыПоследнейУспешнойВыгрузки" id="666">
 													<DataPath>СписокПриложений.ПредставлениеДатыПоследнейУспешнойВыгрузки</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Данные отправлены</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data sent</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
 													<Hiperlink>true</Hiperlink>
@@ -1019,6 +1269,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 												</LabelField>
 												<InputField name="СписокПриложенийОтправкаПредупреждения" id="732">
 													<DataPath>СписокПриложений.ОтправкаПредупреждения</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Предупреждения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Warnings</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
@@ -1068,6 +1328,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 											<ChildItems>
 												<PictureField name="СписокПриложенийСостояниеЗагрузкиКартинка" id="657">
 													<DataPath>СписокПриложений.СостояниеЗагрузкиКартинка</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Состояние загрузки картинка</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Picture of import state</v8:content>
+														</v8:item>
+													</Title>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ValuesPicture>
@@ -1081,6 +1351,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 												<LabelField name="СписокПриложенийПредставлениеДатыПоследнейУспешнойЗагрузки" id="663">
 													<DataPath>СписокПриложений.ПредставлениеДатыПоследнейУспешнойЗагрузки</DataPath>
 													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Данные получены</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data received</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
 													<ContextMenu name="СписокПриложенийПредставлениеДатыПоследнейУспешнойЗагрузкиКонтекстноеМеню" id="664"/>
@@ -1088,6 +1368,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 												</LabelField>
 												<InputField name="СписокПриложенийПолучениеПредупреждения" id="735">
 													<DataPath>СписокПриложений.ПолучениеПредупреждения</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Предупреждения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Warnings</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
 													<ShowInHeader>false</ShowInHeader>
@@ -1100,6 +1390,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 								</ColumnGroup>
 								<PictureField name="СписокПриложенийДоступенПереходНаWS" id="785">
 									<DataPath>СписокПриложений.ДоступенПереходНаWS</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доступен переход на WS</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Switch to WS is available</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<HeaderPicture>
@@ -1115,6 +1415,16 @@ To switch to exchange using a web service, use the switch to Internet connection
 								</PictureField>
 								<CheckBoxField name="СписокПриложенийРасписаниеНастроено" id="641">
 									<DataPath>СписокПриложений.РасписаниеНастроено</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расписание настроено</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Scheduled</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ToolTip>
 										<v8:item>
@@ -1286,6 +1596,16 @@ Please wait…</v8:content>
 						<Button name="СписокПриложенийНастроитьРасписаниеВыполненияОбмена" id="102">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.НастроитьСценарииОбменаДанными</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Синхронизация по расписанию</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Sync schedule</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="СписокПриложенийНастроитьРасписаниеВыполненияОбменаРасширеннаяПодсказка" id="475"/>
 						</Button>
 					</ChildItems>
@@ -1907,7 +2227,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Synchronize</v8:content>
+					<v8:content>Start sync</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1917,7 +2237,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Synchronize data automatically</v8:content>
+					<v8:content>Start sync</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2021,7 +2341,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Synchronization schedule</v8:content>
+					<v8:content>Sync schedule</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -2050,7 +2370,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Data to be sent</v8:content>
+					<v8:content>Scope of send data</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -2060,7 +2380,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Data to be sent</v8:content>
+					<v8:content>Scope of send data</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2190,7 +2510,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Synchronize with additional parameters</v8:content>
+					<v8:content>Map data manually</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -2200,7 +2520,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Synchronize data with additional filters</v8:content>
+					<v8:content>Map data manually</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

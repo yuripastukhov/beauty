@@ -31,6 +31,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.Выбрать</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выбрать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаВыбратьРасширеннаяПодсказка" id="5"/>
 			</Button>
 		</ChildItems>
@@ -38,6 +48,16 @@
 	<ChildItems>
 		<RadioButtonField name="ТипФайла" id="1">
 			<DataPath>ТипСохраняемогоФайла</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип сохраняемого файла</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select file type</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>Top</TitleLocation>
 			<RadioButtonType>Auto</RadioButtonType>
 			<ColumnsCount>1</ColumnsCount>
@@ -134,6 +154,16 @@
 		<Button name="УстановитьРасширениеРаботыСФайлами" id="6">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.УстановитьДополнениеДляРаботыСФайлами</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить дополнение для работы с файлами</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install 1C:Enterprise Extension</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedTooltip name="УстановитьРасширениеРаботыСФайламиРасширеннаяПодсказка" id="7"/>
 		</Button>
 	</ChildItems>
@@ -198,7 +228,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Install File Management Extension</v8:content>
+					<v8:content>Install 1C:Enterprise Extension</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -208,7 +238,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Install File Management Extension</v8:content>
+					<v8:content>Install 1C:Enterprise Extension</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>УстановитьДополнениеДляОблегченияРаботыСФайлами</Action>

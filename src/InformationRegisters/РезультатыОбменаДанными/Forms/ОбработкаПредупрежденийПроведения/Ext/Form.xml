@@ -34,6 +34,16 @@
 					<Button name="ТаблицаОбъектовИсправленияПровестиДокументы" id="26">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ПровестиДокументы</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Провести документы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Post documents</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ТаблицаОбъектовИсправленияПровестиДокументыРасширеннаяПодсказка" id="27"/>
 					</Button>
 					<ButtonGroup name="ТаблицаОбъектовИсправленияКомандаВыделения" id="24">
@@ -53,11 +63,31 @@
 							<Button name="ТаблицаОбъектовИсправленияОтметитьВсе" id="22">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.ОтметитьВсе</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отметить все</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Select all</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="ТаблицаОбъектовИсправленияОтметитьВсеРасширеннаяПодсказка" id="23"/>
 							</Button>
 							<Button name="ТаблицаОбъектовИсправленияСнятьВыделение" id="20">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.СнятьВыделение</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Снять выделение</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Clear all</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="ТаблицаОбъектовИсправленияСнятьВыделениеРасширеннаяПодсказка" id="21"/>
 							</Button>
 						</ChildItems>
@@ -65,6 +95,16 @@
 					<Button name="ТаблицаОбъектовИсправленияПроводитьВРежимеРазработчика" id="28">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ПроводитьВРежимеРазработчика</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Проводить в режиме разработчика</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Post in developer mode</v8:content>
+							</v8:item>
+						</Title>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="ТаблицаОбъектовИсправленияПроводитьВРежимеРазработчикаРасширеннаяПодсказка" id="29"/>
 					</Button>
@@ -98,6 +138,16 @@
 			<ChildItems>
 				<CheckBoxField name="ТаблицаОбъектовИсправленияОбработатьСтроку" id="14">
 					<DataPath>ТаблицаОбъектовИсправления.ОбработатьСтроку</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>...</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ТаблицаОбъектовИсправленияОбработатьСтрокуКонтекстноеМеню" id="15"/>
@@ -106,6 +156,16 @@
 				<InputField name="ТаблицаОбъектовИсправленияПроблемныйОбъект" id="17">
 					<DataPath>ТаблицаОбъектовИсправления.ПроблемныйОбъект</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проблемный объект</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Object with issues</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТаблицаОбъектовИсправленияПроблемныйОбъектКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="ТаблицаОбъектовИсправленияПроблемныйОбъектРасширеннаяПодсказка" id="19"/>
@@ -116,6 +176,16 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат исправления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Fix result</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТаблицаОбъектовИсправленияОписаниеОшибкиКонтекстноеМеню" id="31"/>
 					<ExtendedTooltip name="ТаблицаОбъектовИсправленияОписаниеОшибкиРасширеннаяПодсказка" id="32"/>
@@ -126,6 +196,16 @@
 						<xr:Common>false</xr:Common>
 					</UserVisible>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Неудачная попытка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Failed attempt</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -263,7 +343,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Deselect</v8:content>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -273,7 +353,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Deselect</v8:content>
+					<v8:content>Clear all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

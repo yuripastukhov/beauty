@@ -267,6 +267,16 @@
 							<Type>UsualButton</Type>
 							<Width>3</Width>
 							<CommandName>Form.Command.ОткрытьФайл</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Открыть файл</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Open file</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ОткрытьФайлExtendedTooltip" id="42"/>
 						</Button>
 					</ChildItems>
@@ -328,104 +338,83 @@
 			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="Группа_Шаг_4ExtendedTooltip" id="45"/>
 			<ChildItems>
-				<Pages name="СтраницыШаг4" id="50">
+				<UsualGroup name="Группа1" id="62">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Страницы шаг 4</v8:content>
+							<v8:content>Группа</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Step 4 pages</v8:content>
+							<v8:content>Group</v8:content>
 						</v8:item>
 					</Title>
-					<PagesRepresentation>None</PagesRepresentation>
-					<ExtendedTooltip name="СтраницыШаг4РасширеннаяПодсказка" id="51"/>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="63"/>
 					<ChildItems>
-						<Page name="СтраницаЗеленый" id="52">
+						<InputField name="ИмяФайлаВнешнейОбработкиОбработчиковСобытий" id="15">
+							<DataPath>Объект.ИмяФайлаВнешнейОбработкиОбработчиковСобытий</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Страница зеленый</v8:content>
+									<v8:content>Имя файла внешней обработки с модулем отладки на сервере</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Green page</v8:content>
+									<v8:content>An external data processor file with the debugging module (on the server):</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="СтраницаЗеленыйРасширеннаяПодсказка" id="53"/>
-							<ChildItems>
-								<LabelDecoration name="Декорация1" id="56">
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Имя файла внешней обработки с модулем отладки на сервере</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>An external data processor file with the debugging module (on the server):</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="Декорация1КонтекстноеМеню" id="57"/>
-									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="58"/>
-								</LabelDecoration>
-							</ChildItems>
-						</Page>
-						<Page name="СтраницаКрасный" id="54">
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>123</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>123</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="ИмяФайлаВнешнейОбработкиОбработчиковСобытийКонтекстноеМеню" id="16"/>
+							<ExtendedTooltip name="ИмяФайлаВнешнейОбработкиОбработчиковСобытийExtendedTooltip" id="46">
+								<Width>48</Width>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Путь к внешней обработке с модулем отладки на сервере или в общей сетевой папке. Или имя обработки конфигурации с модулем отладки</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>The path to the external data processor with the debug module on the server or in a shared network folder, or the name of the configuration data processor with the debug module.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+							<Events>
+								<Event name="OnChange">ИмяФайлаВнешнейОбработкиОбработчиковСобытийПриИзменении</Event>
+								<Event name="StartChoice">ИмяФайлаВнешнейОбработкиОбработчиковСобытийНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<Button name="ПроверитьДоступность" id="64">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПроверитьДоступность</CommandName>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Страница красный</v8:content>
+									<v8:content>Проверить доступность</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Red page</v8:content>
+									<v8:content>Check availability</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="СтраницаКрасныйРасширеннаяПодсказка" id="55"/>
-							<ChildItems>
-								<LabelDecoration name="Декорация2" id="59">
-									<TextColor>style:SpecialTextColor</TextColor>
-									<Font ref="style:NormalTextFont" kind="StyleItem"/>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Имя файла внешней обработки с модулем отладки на сервере</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>An external data processor file with the debugging module (on the server):</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="Декорация2КонтекстноеМеню" id="60"/>
-									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="61"/>
-								</LabelDecoration>
-							</ChildItems>
-						</Page>
+							<ExtendedTooltip name="ПроверитьДоступностьРасширеннаяПодсказка" id="65"/>
+						</Button>
 					</ChildItems>
-				</Pages>
-				<InputField name="ИмяФайлаВнешнейОбработкиОбработчиковСобытий" id="15">
-					<DataPath>Объект.ИмяФайлаВнешнейОбработкиОбработчиковСобытий</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Имя файла внешней обработки с модулем отладки на сервере</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>An external data processor file with the debugging module (on the server):</v8:content>
-						</v8:item>
-					</Title>
-					<TitleLocation>None</TitleLocation>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<ChoiceButton>true</ChoiceButton>
-					<ContextMenu name="ИмяФайлаВнешнейОбработкиОбработчиковСобытийКонтекстноеМеню" id="16"/>
-					<ExtendedTooltip name="ИмяФайлаВнешнейОбработкиОбработчиковСобытийExtendedTooltip" id="46"/>
-					<Events>
-						<Event name="OnChange">ИмяФайлаВнешнейОбработкиОбработчиковСобытийПриИзменении</Event>
-						<Event name="StartChoice">ИмяФайлаВнешнейОбработкиОбработчиковСобытийНачалоВыбора</Event>
-					</Events>
-				</InputField>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<CommandBar name="НижняяКоманднаяПанель" id="17">
@@ -446,6 +435,16 @@
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
 					<CommandName>Form.Command.Готово</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Готово</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Finish</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ГотовоExtendedTooltip" id="48"/>
 				</Button>
 				<Button name="Отмена" id="28">
@@ -547,6 +546,29 @@
 			</ToolTip>
 			<Action>Готово</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПроверитьДоступность" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить доступность</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check availability</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить доступность</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Check availability</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьДоступность</Action>
 		</Command>
 	</Commands>
 	<Parameters>

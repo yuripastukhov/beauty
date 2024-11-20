@@ -82,18 +82,48 @@
 							<Type>CommandBarButton</Type>
 							<DefaultButton>true</DefaultButton>
 							<CommandName>Form.Command.ПровестиИЗакрыть</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Провести и закрыть</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Post and close</v8:content>
+								</v8:item>
+							</Title>
 							<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 							<ExtendedTooltip name="ПровестиИЗакрытьРасширеннаяПодсказка" id="232"/>
 						</Button>
 						<Button name="Записать" id="235">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.Записать</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Записать</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Save</v8:content>
+								</v8:item>
+							</Title>
 							<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 							<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="236"/>
 						</Button>
 						<Button name="Провести" id="237">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.Провести</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Провести</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Post</v8:content>
+								</v8:item>
+							</Title>
 							<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 							<ExtendedTooltip name="ПровестиРасширеннаяПодсказка" id="238"/>
 						</Button>
@@ -125,6 +155,16 @@
 								<Button name="ФормаПровестиИЗакрыть" id="233">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ПровестиИЗакрыть</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Провести и закрыть</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Post and close</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="234"/>
 								</Button>
@@ -135,6 +175,16 @@
 										<xr:Ref>StdPicture.Write</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Записать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Save</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="242"/>
 								</Button>
@@ -145,6 +195,16 @@
 										<xr:Ref>StdPicture.Post</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Провести</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Post</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="240"/>
 								</Button>
@@ -391,6 +451,16 @@
 			<ExtendedTooltip name="СубъектГруппаРасширеннаяПодсказка" id="184"/>
 			<ChildItems>
 				<UsualGroup name="СубъектТипСубъектаГруппа" id="252">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Субъект тип субъекта группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Subject and subject type</v8:content>
+						</v8:item>
+					</Title>
 					<Group>AlwaysHorizontal</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -398,6 +468,16 @@
 					<ChildItems>
 						<InputField name="ТипСубъекта" id="249">
 							<DataPath>ТипСубъекта</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип субъекта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Subject type</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ListChoiceMode>true</ListChoiceMode>
@@ -535,6 +615,16 @@
 					<ChangeRowSet>false</ChangeRowSet>
 					<ChangeRowOrder>false</ChangeRowOrder>
 					<DataPath>КатегорииПерсональныхДанных</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категории персональных данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Personal data categories</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="КатегорииПерсональныхДанныхКонтекстноеМеню" id="211"/>
 					<AutoCommandBar name="КатегорииПерсональныхДанныхКоманднаяПанель" id="210">
 						<ChildItems>
@@ -583,6 +673,16 @@
 					<ChildItems>
 						<InputField name="КатегорииПерсональныхДанныхКатегорияДанных" id="222">
 							<DataPath>КатегорииПерсональныхДанных.Данные</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Данные</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data</v8:content>
+								</v8:item>
+							</Title>
 							<ShowInHeader>false</ShowInHeader>
 							<ContextMenu name="КатегорииПерсональныхДанныхКатегорияДанныхКонтекстноеМеню" id="223"/>
 							<ExtendedTooltip name="КатегорииПерсональныхДанныхКатегорияДанныхРасширеннаяПодсказка" id="224"/>

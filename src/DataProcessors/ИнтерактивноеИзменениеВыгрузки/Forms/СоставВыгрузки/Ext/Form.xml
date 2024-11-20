@@ -7,7 +7,7 @@
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
-			<v8:content>View data before sending</v8:content>
+			<v8:content>Scope of send data</v8:content>
 		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
@@ -19,29 +19,79 @@
 				<Representation>PictureAndText</Representation>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.СформироватьОтчет</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сформировать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Generate</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаСформироватьОтчетExtendedTooltip" id="23"/>
 			</Button>
 			<Button name="ФормаНастройкиОтчета" id="19">
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.НастройкиОтчета</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Настройки...</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Settings…</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаНастройкиОтчетаExtendedTooltip" id="24"/>
 			</Button>
 			<Button name="ФормаВыбратьНастройку" id="20">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ВыбратьНастройку</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выбрать настройку</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select setting</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаВыбратьНастройкуExtendedTooltip" id="25"/>
 			</Button>
 			<Button name="ФормаСохранитьНастройку" id="21">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.СохранитьНастройку</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сохранить настройку</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save setting</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаСохранитьНастройкуExtendedTooltip" id="26"/>
 			</Button>
 			<Button name="ФормаСтандартнаяНастройка" id="22">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.СтандартнаяНастройка</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить стандартные настройки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reset to default settings</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаСтандартнаяНастройкаExtendedTooltip" id="27"/>
 			</Button>
@@ -104,6 +154,16 @@
 		</Table>
 		<SpreadSheetDocumentField name="Результат" id="13">
 			<DataPath>Результат</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Result</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<VerticalScrollBar>true</VerticalScrollBar>
 			<HorizontalScrollBar>true</HorizontalScrollBar>

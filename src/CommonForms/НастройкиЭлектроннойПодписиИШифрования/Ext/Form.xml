@@ -13,30 +13,80 @@
 			<Button name="ФормаОбновить" id="232">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Обновить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обновить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Refresh</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="233"/>
 			</Button>
 			<Button name="ФормаПоказатьВерсиюКомпонентыExtraCryptoAPI" id="424">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПоказатьВерсиюКомпонентыExtraCryptoAPI</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать версию компоненты ExtraCryptoAPI</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Show ExtraCryptoAPI add-in version</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПоказатьВерсиюКомпонентыExtraCryptoAPIРасширеннаяПодсказка" id="425"/>
 			</Button>
 			<Button name="ФормаУстановитьКомпонентуExtraCryptoAPI" id="430">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.УстановитьКомпонентуExtraCryptoAPI</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить компоненту ExtraCryptoAPI</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Install ExtraCryptoAPI add-in</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаУстановитьКомпонентуExtraCryptoAPIРасширеннаяПодсказка" id="431"/>
 			</Button>
 			<Button name="ФормаУстановитьРасширение" id="450">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.УстановитьРасширение</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить расширение для работы с 1С:Предприятием</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Install 1C:Enterprise Extension</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаУстановитьРасширениеРасширеннаяПодсказка" id="451"/>
 			</Button>
 			<Button name="ФормаТехническаяИнформация" id="432">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ТехническаяИнформация</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Техническая информация</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Technical information</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаТехническаяИнформацияРасширеннаяПодсказка" id="433"/>
 			</Button>
@@ -98,6 +148,16 @@
 							<ChildItems>
 								<InputField name="СертификатыПоказать" id="290">
 									<DataPath>СертификатыПоказать</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show</v8:content>
+										</v8:item>
+									</Title>
 									<Width>30</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -164,6 +224,16 @@
 								</InputField>
 								<CheckBoxField name="СертификатыТолькоДействующие" id="421">
 									<DataPath>СертификатыТолькоДействующие</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Только действующие</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Only valid certificates</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTip>
 										<v8:item>
@@ -204,6 +274,16 @@
 								</InputField>
 								<InputField name="СертификатыПоказатьЗаявления" id="334">
 									<DataPath>СертификатыПоказатьЗаявления</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Состояние заявления</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Application status</v8:content>
+										</v8:item>
+									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ListChoiceMode>true</ListChoiceMode>
 									<ContextMenu name="СертификатыПоказатьЗаявленияКонтекстноеМеню" id="335"/>
@@ -264,6 +344,16 @@
 										<Button name="ДобавитьДляПодписанияИШифрования" id="348">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ДобавитьДляПодписанияИШифрования</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Для подписания и шифрования...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>To sign and encrypt…</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 											<ExtendedTooltip name="ДобавитьДляПодписанияИШифрованияРасширеннаяПодсказка" id="349"/>
 										</Button>
@@ -283,16 +373,46 @@
 												<Button name="ДобавитьТолькоДляШифрования" id="457">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ДобавитьТолькоДляШифрования</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Только для шифрования из личного хранилища...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Only to encrypt from Personal store…</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ДобавитьТолькоДляШифрованияРасширеннаяПодсказка" id="458"/>
 												</Button>
 												<Button name="ДобавитьИзФайлов" id="459">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ДобавитьИзФайлов</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Только для шифрования из файлов...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Only to encrypt from files…</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ДобавитьИзФайловРасширеннаяПодсказка" id="460"/>
 												</Button>
 												<Button name="ДобавитьИзКаталога" id="461">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ДобавитьИзКаталога</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Только для шифрования из каталога...</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Only to encrypt from directory…</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ДобавитьИзКаталогаРасширеннаяПодсказка" id="462"/>
 												</Button>
 											</ChildItems>
@@ -308,6 +428,16 @@
 								<Button name="ДобавитьЗаявлениеНаВыпускСертификата" id="346">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ДобавитьЗаявлениеНаВыпускСертификата</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Оформить заявление...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Submit application…</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ДобавитьЗаявлениеНаВыпускСертификатаРасширеннаяПодсказка" id="347"/>
 								</Button>
 								<Button name="ПеревыпуститьСертификат" id="353">
@@ -341,6 +471,24 @@
 										</Title>
 									</ExtendedTooltip>
 								</Button>
+								<Popup name="ПодменюОтчеты" id="478">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отчеты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reports</v8:content>
+										</v8:item>
+									</Title>
+									<Picture>
+										<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Representation>PictureAndText</Representation>
+									<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="479"/>
+								</Popup>
 								<ButtonGroup name="СертификатыСтандартныеКоманды" id="98">
 									<Title>
 										<v8:item>
@@ -393,6 +541,54 @@
 								</SearchControlAddition>
 							</ChildItems>
 						</CommandBar>
+						<UsualGroup name="ГруппаОбновлениеСпискаСертификатов" id="483">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обновление списка сертификатов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Refresh certificate list</v8:content>
+								</v8:item>
+							</Title>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОбновлениеСпискаСертификатовРасширеннаяПодсказка" id="484"/>
+							<ChildItems>
+								<PictureDecoration name="КартинкаОбновлениеСпискаСертификатов" id="485">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Картинка обновление списка сертификатов</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Picture: Refresh certificate list</v8:content>
+										</v8:item>
+									</Title>
+									<Picture>
+										<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="КартинкаОбновлениеСпискаСертификатовКонтекстноеМеню" id="486"/>
+									<ExtendedTooltip name="КартинкаОбновлениеСпискаСертификатовРасширеннаяПодсказка" id="487"/>
+								</PictureDecoration>
+								<LabelDecoration name="ДекорацияОбновлениеСпискаСертификатов" id="480">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Поиск сертификатов в личном хранилище...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Searching for certificates in personal storage…</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияОбновлениеСпискаСертификатовКонтекстноеМеню" id="481"/>
+									<ExtendedTooltip name="ДекорацияОбновлениеСпискаСертификатовРасширеннаяПодсказка" id="482"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
 						<Table name="Сертификаты" id="46">
 							<DefaultItem>true</DefaultItem>
 							<HeightInTableRows>4</HeightInTableRows>
@@ -562,12 +758,25 @@
 								</LabelField>
 							</ChildItems>
 						</Table>
-						<Button name="ОткрытьМашиночитаемыеДоверенности" id="476">
-							<Type>Hyperlink</Type>
-							<Visible>false</Visible>
-							<CommandName>Form.Command.ОткрытьМашиночитаемыеДоверенности</CommandName>
-							<ExtendedTooltip name="ОткрытьМашиночитаемыеДоверенностиРасширеннаяПодсказка" id="477"/>
-						</Button>
+						<LabelDecoration name="ДекорацияОткрытьМашиночитаемыеДоверенности" id="490">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Открыть машиночитаемые доверенности</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Открыть машиночитаемые доверенности</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОткрытьМашиночитаемыеДоверенностиКонтекстноеМеню" id="491"/>
+							<ExtendedTooltip name="ДекорацияОткрытьМашиночитаемыеДоверенностиРасширеннаяПодсказка" id="492"/>
+							<Events>
+								<Event name="URLProcessing">ДекорацияОткрытьМашиночитаемыеДоверенностиОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
 						<UsualGroup name="ГруппаЛегенда" id="379">
 							<Title>
 								<v8:item>
@@ -799,11 +1008,11 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Программы</v8:content>
+							<v8:content>Приложения и токены</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Applications</v8:content>
+							<v8:content>Apps and tokens</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаПрограммыРасширеннаяПодсказка" id="104"/>
@@ -814,7 +1023,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Настройка программ электронной подписи и шифрования выполнена в корневом узле</v8:content>
+									<v8:content>Настройка приложений электронной подписи и шифрования выполнена в корневом узле</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -825,6 +1034,57 @@
 							<ContextMenu name="НадписьНастройкаВЦентральномУзлеКонтекстноеМеню" id="356"/>
 							<ExtendedTooltip name="НадписьНастройкаВЦентральномУзлеРасширеннаяПодсказка" id="357"/>
 						</LabelDecoration>
+						<UsualGroup name="ГруппаПрограммыОбновление" id="488">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Программы обновление</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>App update</v8:content>
+								</v8:item>
+							</Title>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПрограммыОбновлениеРасширеннаяПодсказка" id="489"/>
+							<ChildItems>
+								<PictureDecoration name="ПрограммыДекорацияОбновления" id="329">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Программы декорация обновления</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Applications update decoration</v8:content>
+										</v8:item>
+									</Title>
+									<PictureSize>AutoSize</PictureSize>
+									<Picture>
+										<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="ПрограммыДекорацияОбновленияКонтекстноеМеню" id="330"/>
+									<ExtendedTooltip name="ПрограммыДекорацияОбновленияРасширеннаяПодсказка" id="331"/>
+								</PictureDecoration>
+								<LabelDecoration name="ПрограммыОбновление" id="326">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Определение приложений, установленных на компьютере. Пожалуйста, подождите ...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Determining installed applications. Please wait…</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПрограммыОбновлениеКонтекстноеМеню" id="327"/>
+									<ExtendedTooltip name="ПрограммыОбновлениеРасширеннаяПодсказка" id="328"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаПодсказкаКриптопровайдеры" id="436">
 							<Title>
 								<v8:item>
@@ -854,6 +1114,7 @@
 											<v8:content>Decoration information</v8:content>
 										</v8:item>
 									</Title>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
 									<Picture>
 										<xr:Ref>StdPicture.Information</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -867,11 +1128,11 @@
 									<Title formatted="true">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>&lt;link ПроверитьУстановкуПрограммКриптографии&gt;Нажмите здесь&lt;/&gt;, чтобы увидеть все установленные на компьютере программы для работы с электронной подписью. </v8:content>
+											<v8:content>&lt;link ПроверитьУстановкуПрограммКриптографии&gt;Нажмите здесь&lt;/&gt;, чтобы увидеть все приложения для работы с электронной подписью, установленные на компьютере. </v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>&lt;link ПроверитьУстановкуПрограммКриптографии&gt;Click here&lt;/&gt; to see all applications for digital signatures installed on the computer.</v8:content>
+											<v8:content>&lt;link ПроверитьУстановкуПрограммКриптографии&gt;Click here&lt;/&gt; to view all installed digital signing apps.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияПроверкаУстановкиКриптопровайдераКонтекстноеМеню" id="448"/>
@@ -908,12 +1169,32 @@
 								<Button name="ПрограммыУстановитьПометкуУдаления" id="276">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ПрограммыУстановитьПометкуУдаления</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пометить на удаление / Снять пометку</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Toggle deletion mark</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ПрограммыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="277"/>
 								</Button>
 								<Button name="ПрограммыОбновить" id="230">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Обновить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Refresh</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ПрограммыОбновитьРасширеннаяПодсказка" id="231"/>
 								</Button>
 								<Button name="ПрограммыВывестиСписок" id="255">
@@ -959,355 +1240,314 @@
 								</SearchControlAddition>
 							</ChildItems>
 						</CommandBar>
-						<Pages name="СтраницыПрограммыИОбновление" id="320">
+						<Table name="Программы" id="203">
+							<TitleLocation>Top</TitleLocation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<HeightInTableRows>1</HeightInTableRows>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Программы</DataPath>
+							<RowPictureDataPath>Программы.ТипРазмещения</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Ref>CommonPicture.ТипыСертификатов</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</RowsPicture>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Страницы программы и обновление</v8:content>
+									<v8:content>Настройки приложений электронной подписи и шифрования, которые пользователи могут применять на своих компьютерах</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Application pages and update</v8:content>
+									<v8:content>Settings of applications of digital signature and encryption which can be applied by users on their computers</v8:content>
 								</v8:item>
 							</Title>
-							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="СтраницыПрограммыИОбновлениеРасширеннаяПодсказка" id="321"/>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПрограммыКонтекстноеМеню" id="204">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ПрограммыКонтекстноеМенюДобавить" id="284">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.Программы.StandardCommand.Add</CommandName>
+										<ExtendedTooltip name="ПрограммыКонтекстноеМенюДобавитьРасширеннаяПодсказка" id="285"/>
+									</Button>
+									<Button name="ПрограммыКонтекстноеМенюИзменить" id="286">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.Программы.StandardCommand.Change</CommandName>
+										<ExtendedTooltip name="ПрограммыКонтекстноеМенюИзменитьРасширеннаяПодсказка" id="287"/>
+									</Button>
+									<Button name="ПрограммыКонтекстноеМенюПрограммыУстановитьПометкуУдаления" id="278">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПрограммыУстановитьПометкуУдаления</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Пометить на удаление / Снять пометку</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Toggle deletion mark</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ПрограммыКонтекстноеМенюПрограммыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="279"/>
+									</Button>
+									<Button name="ПрограммыКонтекстноеМенюОбновить" id="247">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.Обновить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Refresh</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ПрограммыКонтекстноеМенюОбновитьРасширеннаяПодсказка" id="248"/>
+									</Button>
+									<Button name="ПрограммыКонтекстноеМенюВывестиСписок" id="249">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.Программы.StandardCommand.OutputList</CommandName>
+										<ExtendedTooltip name="ПрограммыКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="250"/>
+									</Button>
+									<Button name="ПрограммыКонтекстноеМенюКопироватьВБуферОбмена" id="251">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.Программы.StandardCommand.CopyToClipboard</CommandName>
+										<ExtendedTooltip name="ПрограммыКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка" id="252"/>
+									</Button>
+									<Button name="ПрограммыКонтекстноеМенюВыделитьВсе" id="253">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.Программы.StandardCommand.SelectAll</CommandName>
+										<ExtendedTooltip name="ПрограммыКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка" id="254"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="ПрограммыКоманднаяПанель" id="205">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПрограммыРасширеннаяПодсказка" id="206"/>
+							<SearchStringAddition name="ПрограммыСтрокаПоиска" id="308">
+								<AdditionSource>
+									<Item>Программы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрограммыСтрокаПоискаКонтекстноеМеню" id="309"/>
+								<ExtendedTooltip name="ПрограммыСтрокаПоискаРасширеннаяПодсказка" id="310"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПрограммыСостояниеПросмотра" id="311">
+								<AdditionSource>
+									<Item>Программы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрограммыСостояниеПросмотраКонтекстноеМеню" id="312"/>
+								<ExtendedTooltip name="ПрограммыСостояниеПросмотраРасширеннаяПодсказка" id="313"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПрограммыУправлениеПоиском" id="314">
+								<AdditionSource>
+									<Item>Программы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПрограммыУправлениеПоискомКонтекстноеМеню" id="315"/>
+								<ExtendedTooltip name="ПрограммыУправлениеПоискомРасширеннаяПодсказка" id="316"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ПрограммыВыбор</Event>
+								<Event name="BeforeAddRow">ПрограммыПередНачаломДобавления</Event>
+								<Event name="BeforeDeleteRow">ПрограммыПередУдалением</Event>
+								<Event name="OnActivateRow">ПрограммыПриАктивизацииСтроки</Event>
+								<Event name="BeforeRowChange">ПрограммыПередНачаломИзменения</Event>
+							</Events>
 							<ChildItems>
-								<Page name="СтраницаПрограммыСписок" id="322">
+								<InputField name="ПрограммыНаименование" id="213">
+									<DataPath>Программы.Наименование</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Страница программы список</v8:content>
+											<v8:content>Приложение</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Application page list</v8:content>
+											<v8:content>Application</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="СтраницаПрограммыСписокРасширеннаяПодсказка" id="323"/>
-									<ChildItems>
-										<Table name="Программы" id="203">
-											<TitleLocation>Top</TitleLocation>
-											<ChangeRowOrder>false</ChangeRowOrder>
-											<HeightInTableRows>1</HeightInTableRows>
-											<UseAlternationRowColor>true</UseAlternationRowColor>
-											<EnableStartDrag>true</EnableStartDrag>
-											<FileDragMode>AsFile</FileDragMode>
-											<DataPath>Программы</DataPath>
-											<RowPictureDataPath>Программы.ТипРазмещения</RowPictureDataPath>
-											<RowsPicture>
-												<xr:Ref>CommonPicture.ТипыСертификатов</xr:Ref>
-												<xr:LoadTransparent>false</xr:LoadTransparent>
-											</RowsPicture>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Настройки программ электронной подписи и шифрования, которые пользователи могут применять на своих компьютерах</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Settings of applications of digital signature and encryption which can be applied by users on their computers</v8:content>
-												</v8:item>
-											</Title>
-											<RowFilter xsi:nil="true"/>
-											<ContextMenu name="ПрограммыКонтекстноеМеню" id="204">
-												<Autofill>false</Autofill>
-												<ChildItems>
-													<Button name="ПрограммыКонтекстноеМенюДобавить" id="284">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.Программы.StandardCommand.Add</CommandName>
-														<ExtendedTooltip name="ПрограммыКонтекстноеМенюДобавитьРасширеннаяПодсказка" id="285"/>
-													</Button>
-													<Button name="ПрограммыКонтекстноеМенюИзменить" id="286">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.Программы.StandardCommand.Change</CommandName>
-														<ExtendedTooltip name="ПрограммыКонтекстноеМенюИзменитьРасширеннаяПодсказка" id="287"/>
-													</Button>
-													<Button name="ПрограммыКонтекстноеМенюПрограммыУстановитьПометкуУдаления" id="278">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Command.ПрограммыУстановитьПометкуУдаления</CommandName>
-														<ExtendedTooltip name="ПрограммыКонтекстноеМенюПрограммыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="279"/>
-													</Button>
-													<Button name="ПрограммыКонтекстноеМенюОбновить" id="247">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Command.Обновить</CommandName>
-														<ExtendedTooltip name="ПрограммыКонтекстноеМенюОбновитьРасширеннаяПодсказка" id="248"/>
-													</Button>
-													<Button name="ПрограммыКонтекстноеМенюВывестиСписок" id="249">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.Программы.StandardCommand.OutputList</CommandName>
-														<ExtendedTooltip name="ПрограммыКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="250"/>
-													</Button>
-													<Button name="ПрограммыКонтекстноеМенюКопироватьВБуферОбмена" id="251">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.Программы.StandardCommand.CopyToClipboard</CommandName>
-														<ExtendedTooltip name="ПрограммыКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка" id="252"/>
-													</Button>
-													<Button name="ПрограммыКонтекстноеМенюВыделитьВсе" id="253">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.Программы.StandardCommand.SelectAll</CommandName>
-														<ExtendedTooltip name="ПрограммыКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка" id="254"/>
-													</Button>
-												</ChildItems>
-											</ContextMenu>
-											<AutoCommandBar name="ПрограммыКоманднаяПанель" id="205">
-												<Autofill>false</Autofill>
-											</AutoCommandBar>
-											<ExtendedTooltip name="ПрограммыРасширеннаяПодсказка" id="206"/>
-											<SearchStringAddition name="ПрограммыСтрокаПоиска" id="308">
-												<AdditionSource>
-													<Item>Программы</Item>
-													<Type>SearchStringRepresentation</Type>
-												</AdditionSource>
-												<ContextMenu name="ПрограммыСтрокаПоискаКонтекстноеМеню" id="309"/>
-												<ExtendedTooltip name="ПрограммыСтрокаПоискаРасширеннаяПодсказка" id="310"/>
-											</SearchStringAddition>
-											<ViewStatusAddition name="ПрограммыСостояниеПросмотра" id="311">
-												<AdditionSource>
-													<Item>Программы</Item>
-													<Type>ViewStatusRepresentation</Type>
-												</AdditionSource>
-												<ContextMenu name="ПрограммыСостояниеПросмотраКонтекстноеМеню" id="312"/>
-												<ExtendedTooltip name="ПрограммыСостояниеПросмотраРасширеннаяПодсказка" id="313"/>
-											</ViewStatusAddition>
-											<SearchControlAddition name="ПрограммыУправлениеПоиском" id="314">
-												<AdditionSource>
-													<Item>Программы</Item>
-													<Type>SearchControl</Type>
-												</AdditionSource>
-												<ContextMenu name="ПрограммыУправлениеПоискомКонтекстноеМеню" id="315"/>
-												<ExtendedTooltip name="ПрограммыУправлениеПоискомРасширеннаяПодсказка" id="316"/>
-											</SearchControlAddition>
-											<Events>
-												<Event name="Selection">ПрограммыВыбор</Event>
-												<Event name="BeforeAddRow">ПрограммыПередНачаломДобавления</Event>
-												<Event name="BeforeDeleteRow">ПрограммыПередУдалением</Event>
-												<Event name="OnActivateRow">ПрограммыПриАктивизацииСтроки</Event>
-												<Event name="BeforeRowChange">ПрограммыПередНачаломИзменения</Event>
-											</Events>
-											<ChildItems>
-												<InputField name="ПрограммыНаименование" id="213">
-													<DataPath>Программы.Наименование</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Программа</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>Application</v8:content>
-														</v8:item>
-													</Title>
-													<EditMode>EnterOnInput</EditMode>
-													<AutoCellHeight>true</AutoCellHeight>
-													<Width>15</Width>
-													<ContextMenu name="ПрограммыНаименованиеКонтекстноеМеню" id="214"/>
-													<ExtendedTooltip name="ПрограммыНаименованиеРасширеннаяПодсказка" id="215"/>
-												</InputField>
-												<PictureField name="ПрограммыРежимИспользованияКартинка" id="452">
-													<DataPath>Программы.РежимИспользованияКартинка</DataPath>
-													<TitleLocation>None</TitleLocation>
-													<HeaderPicture>
-														<xr:Ref>StdPicture.Change</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</HeaderPicture>
-													<ShowInFooter>false</ShowInFooter>
-													<AutoMaxWidth>false</AutoMaxWidth>
-													<AutoMaxHeight>false</AutoMaxHeight>
-													<HorizontalStretch>false</HorizontalStretch>
-													<VerticalStretch>false</VerticalStretch>
-													<ValuesPicture>
-														<xr:Ref>StdPicture.Change</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</ValuesPicture>
-													<ContextMenu name="ПрограммыРежимИспользованияКартинкаКонтекстноеМеню" id="453"/>
-													<ExtendedTooltip name="ПрограммыРежимИспользованияКартинкаРасширеннаяПодсказка" id="454"/>
-												</PictureField>
-												<ColumnGroup name="ПрограммыГруппаРезультатПроверки" id="445">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Результат проверки</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>Check result</v8:content>
-														</v8:item>
-													</Title>
-													<ShowInHeader>true</ShowInHeader>
-													<ExtendedTooltip name="ПрограммыГруппаРезультатПроверкиРасширеннаяПодсказка" id="446"/>
-													<ChildItems>
-														<InputField name="ПрограммыРезультатПроверки" id="223">
-															<DataPath>Программы.РезультатПроверки</DataPath>
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>На компьютере</v8:content>
-																</v8:item>
-																<v8:item>
-																	<v8:lang>en</v8:lang>
-																	<v8:content>On computer</v8:content>
-																</v8:item>
-															</Title>
-															<TitleLocation>None</TitleLocation>
-															<EditMode>EnterOnInput</EditMode>
-															<AutoCellHeight>true</AutoCellHeight>
-															<ShowInHeader>false</ShowInHeader>
-															<Width>40</Width>
-															<MultiLine>true</MultiLine>
-															<ContextMenu name="ПрограммыРезультатПроверкиКонтекстноеМеню" id="224"/>
-															<ExtendedTooltip name="ПрограммыРезультатПроверкиРасширеннаяПодсказка" id="225"/>
-														</InputField>
-														<InputField name="ПрограммыРезультатПроверкиНаСервере" id="442">
-															<DataPath>Программы.РезультатПроверкиНаСервере</DataPath>
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>На сервере</v8:content>
-																</v8:item>
-																<v8:item>
-																	<v8:lang>en</v8:lang>
-																	<v8:content>On server</v8:content>
-																</v8:item>
-															</Title>
-															<TitleLocation>None</TitleLocation>
-															<ShowInHeader>false</ShowInHeader>
-															<ContextMenu name="ПрограммыРезультатПроверкиНаСервереКонтекстноеМеню" id="443"/>
-															<ExtendedTooltip name="ПрограммыРезультатПроверкиНаСервереРасширеннаяПодсказка" id="444"/>
-														</InputField>
-													</ChildItems>
-												</ColumnGroup>
-												<InputField name="ПрограммыПодробнее" id="358">
-													<DataPath>Программы.Подробнее</DataPath>
-													<ReadOnly>true</ReadOnly>
-													<EditMode>EnterOnInput</EditMode>
-													<CellHyperlink>true</CellHyperlink>
-													<AutoCellHeight>true</AutoCellHeight>
-													<ShowInHeader>false</ShowInHeader>
-													<Width>10</Width>
-													<HorizontalStretch>false</HorizontalStretch>
-													<TextColor>style:ГиперссылкаЦвет</TextColor>
-													<ContextMenu name="ПрограммыПодробнееКонтекстноеМеню" id="359"/>
-													<ExtendedTooltip name="ПрограммыПодробнееРасширеннаяПодсказка" id="360"/>
-												</InputField>
-											</ChildItems>
-										</Table>
-										<UsualGroup name="ГруппаПрограммыLinuxПутьКПрограмме" id="228">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Путь к программе</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Path to the application</v8:content>
-												</v8:item>
-											</Title>
-											<Group>Vertical</Group>
-											<Behavior>Usual</Behavior>
-											<Representation>None</Representation>
-											<TitleDataPath>Items.Программы.CurrentData.Наименование</TitleDataPath>
-											<ExtendedTooltip name="ГруппаПрограммыLinuxПутьКПрограммеРасширеннаяПодсказка" id="229"/>
-											<ChildItems>
-												<InputField name="ПрограммыLinuxПутьКПрограмме" id="216">
-													<DataPath>Items.Программы.CurrentData.LinuxПутьКПрограмме</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Путь к программе на клиентском компьютере ОС Linux и macOS</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>Path to the application on a client computer running Linux OS or macOS</v8:content>
-														</v8:item>
-													</Title>
-													<TitleLocation>None</TitleLocation>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Путь к программе, который требуется на клиентских компьютерах с операционной системой Linux и macOS</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>Path to the application required on client computers running Linux OS or macOS</v8:content>
-														</v8:item>
-													</ToolTip>
-													<ToolTipRepresentation>Button</ToolTipRepresentation>
-													<EditMode>EnterOnInput</EditMode>
-													<AutoMaxWidth>false</AutoMaxWidth>
-													<Height>1</Height>
-													<DropListButton>true</DropListButton>
-													<ClearButton>true</ClearButton>
-													<ContextMenu name="ПрограммыLinuxПутьКПрограммеКонтекстноеМеню" id="217"/>
-													<ExtendedTooltip name="ПрограммыLinuxПутьКПрограммеРасширеннаяПодсказка" id="218"/>
-													<Events>
-														<Event name="OnChange">ПрограммыLinuxПутьКПрограммеПриИзменении</Event>
-														<Event name="StartChoice">ПрограммыLinuxПутьКПрограммеНачалоВыбора</Event>
-														<Event name="ChoiceProcessing">ПрограммыLinuxПутьКПрограммеОбработкаВыбора</Event>
-													</Events>
-												</InputField>
-											</ChildItems>
-										</UsualGroup>
-									</ChildItems>
-								</Page>
-								<Page name="СтраницаПрограммыОбновление" id="324">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>15</Width>
+									<ContextMenu name="ПрограммыНаименованиеКонтекстноеМеню" id="214"/>
+									<ExtendedTooltip name="ПрограммыНаименованиеРасширеннаяПодсказка" id="215"/>
+								</InputField>
+								<PictureField name="ПрограммыРежимИспользованияКартинка" id="452">
+									<DataPath>Программы.РежимИспользованияКартинка</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Страница программы обновление</v8:content>
+											<v8:content>Режим использования картинка</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Application page update</v8:content>
+											<v8:content>Usage mode picture</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="СтраницаПрограммыОбновлениеРасширеннаяПодсказка" id="325"/>
+									<TitleLocation>None</TitleLocation>
+									<HeaderPicture>
+										<xr:Ref>StdPicture.Change</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</HeaderPicture>
+									<ShowInFooter>false</ShowInFooter>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<ValuesPicture>
+										<xr:Ref>StdPicture.Change</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</ValuesPicture>
+									<ContextMenu name="ПрограммыРежимИспользованияКартинкаКонтекстноеМеню" id="453"/>
+									<ExtendedTooltip name="ПрограммыРежимИспользованияКартинкаРасширеннаяПодсказка" id="454"/>
+								</PictureField>
+								<ColumnGroup name="ПрограммыГруппаРезультатПроверки" id="445">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Результат проверки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Check result</v8:content>
+										</v8:item>
+									</Title>
+									<ShowInHeader>true</ShowInHeader>
+									<ExtendedTooltip name="ПрограммыГруппаРезультатПроверкиРасширеннаяПодсказка" id="446"/>
 									<ChildItems>
-										<LabelDecoration name="ПрограммыОбновление" id="326">
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<Title formatted="false">
+										<InputField name="ПрограммыРезультатПроверки" id="223">
+											<DataPath>Программы.РезультатПроверки</DataPath>
+											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Проверка программ, установленных на компьютере. Пожалуйста подождите ...</v8:content>
+													<v8:content>На компьютере</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Looking through installed applications. Please wait…</v8:content>
+													<v8:content>On computer</v8:content>
 												</v8:item>
 											</Title>
-											<ContextMenu name="ПрограммыОбновлениеКонтекстноеМеню" id="327"/>
-											<ExtendedTooltip name="ПрограммыОбновлениеРасширеннаяПодсказка" id="328"/>
-										</LabelDecoration>
-										<PictureDecoration name="ПрограммыДекорацияОбновления" id="329">
-											<Title formatted="false">
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoCellHeight>true</AutoCellHeight>
+											<ShowInHeader>false</ShowInHeader>
+											<Width>40</Width>
+											<MultiLine>true</MultiLine>
+											<ContextMenu name="ПрограммыРезультатПроверкиКонтекстноеМеню" id="224"/>
+											<ExtendedTooltip name="ПрограммыРезультатПроверкиРасширеннаяПодсказка" id="225"/>
+										</InputField>
+										<InputField name="ПрограммыРезультатПроверкиНаСервере" id="442">
+											<DataPath>Программы.РезультатПроверкиНаСервере</DataPath>
+											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Программы декорация обновления</v8:content>
+													<v8:content>На сервере</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Applications update decoration</v8:content>
+													<v8:content>On server</v8:content>
 												</v8:item>
 											</Title>
-											<PictureSize>AutoSize</PictureSize>
-											<Picture>
-												<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
-												<xr:LoadTransparent>false</xr:LoadTransparent>
-											</Picture>
-											<FileDragMode>AsFile</FileDragMode>
-											<ContextMenu name="ПрограммыДекорацияОбновленияКонтекстноеМеню" id="330"/>
-											<ExtendedTooltip name="ПрограммыДекорацияОбновленияРасширеннаяПодсказка" id="331"/>
-										</PictureDecoration>
+											<TitleLocation>None</TitleLocation>
+											<ShowInHeader>false</ShowInHeader>
+											<ContextMenu name="ПрограммыРезультатПроверкиНаСервереКонтекстноеМеню" id="443"/>
+											<ExtendedTooltip name="ПрограммыРезультатПроверкиНаСервереРасширеннаяПодсказка" id="444"/>
+										</InputField>
 									</ChildItems>
-								</Page>
+								</ColumnGroup>
+								<InputField name="ПрограммыПодробнее" id="358">
+									<DataPath>Программы.Подробнее</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подробнее</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Details</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<CellHyperlink>true</CellHyperlink>
+									<AutoCellHeight>true</AutoCellHeight>
+									<ShowInHeader>false</ShowInHeader>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<TextColor>style:ГиперссылкаЦвет</TextColor>
+									<ContextMenu name="ПрограммыПодробнееКонтекстноеМеню" id="359"/>
+									<ExtendedTooltip name="ПрограммыПодробнееРасширеннаяПодсказка" id="360"/>
+								</InputField>
 							</ChildItems>
-						</Pages>
+						</Table>
+						<UsualGroup name="ГруппаПрограммыLinuxПутьКПрограмме" id="228">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Путь к приложению, если установлено по нестандартному пути</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Путь к приложению, если установлено по нестандартному пути</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<TitleDataPath>Items.Программы.CurrentData.Наименование</TitleDataPath>
+							<ExtendedTooltip name="ГруппаПрограммыLinuxПутьКПрограммеРасширеннаяПодсказка" id="229"/>
+							<ChildItems>
+								<InputField name="ПрограммыLinuxПутьКПрограмме" id="216">
+									<DataPath>Items.Программы.CurrentData.LinuxПутьКПрограмме</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Путь к приложению на компьютере ОС Linux и macOS</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Path to the application on a computer running Linux OS or macOS</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Путь к приложению, который требуется на компьютерах с операционной системой Linux и macOS</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Path to the application required on computers running Linux OS or macOS</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>1</Height>
+									<DropListButton>true</DropListButton>
+									<ClearButton>true</ClearButton>
+									<ContextMenu name="ПрограммыLinuxПутьКПрограммеКонтекстноеМеню" id="217"/>
+									<ExtendedTooltip name="ПрограммыLinuxПутьКПрограммеРасширеннаяПодсказка" id="218"/>
+									<Events>
+										<Event name="OnChange">ПрограммыLinuxПутьКПрограммеПриИзменении</Event>
+										<Event name="StartChoice">ПрограммыLinuxПутьКПрограммеНачалоВыбора</Event>
+										<Event name="ChoiceProcessing">ПрограммыLinuxПутьКПрограммеОбработкаВыбора</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 						<LabelDecoration name="Инструкция" id="270">
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Инструкции по работе с программами электронной подписи и шифрования</v8:content>
+									<v8:content>Инструкции по работе с приложениями электронной подписи и шифрования</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -1338,20 +1578,40 @@
 					<ChildItems>
 						<InputField name="РасширениеДляЗашифрованныхФайлов" id="9">
 							<DataPath>РасширениеДляЗашифрованныхФайлов</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расширение для зашифрованных файлов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Encrypted file extension</v8:content>
+								</v8:item>
+							</Title>
 							<Width>10</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="РасширениеДляЗашифрованныхФайловКонтекстноеМеню" id="10"/>
-							<ExtendedTooltip name="РасширениеДляЗашифрованныхФайловExtendedTooltip" id="19"/>
+							<ExtendedTooltip name="РасширениеДляЗашифрованныхФайловРасширеннаяПодсказка" id="19"/>
 							<Events>
 								<Event name="OnChange">РасширениеДляЗашифрованныхФайловПриИзменении</Event>
 							</Events>
 						</InputField>
 						<InputField name="РасширениеДляФайловПодписи" id="13">
 							<DataPath>РасширениеДляФайловПодписи</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расширение для файлов подписи</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Signature file extension</v8:content>
+								</v8:item>
+							</Title>
 							<Width>10</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<ContextMenu name="РасширениеДляФайловПодписиКонтекстноеМеню" id="14"/>
-							<ExtendedTooltip name="РасширениеДляФайловПодписиExtendedTooltip" id="20"/>
+							<ExtendedTooltip name="РасширениеДляФайловПодписиРасширеннаяПодсказка" id="20"/>
 							<Events>
 								<Event name="OnChange">РасширениеДляФайловПодписиПриИзменении</Event>
 							</Events>
@@ -1679,11 +1939,11 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Linux путь к программе</v8:content>
+							<v8:content>Linux путь к приложению</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Linux path to application</v8:content>
+							<v8:content>App path on Linux</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1904,6 +2164,20 @@
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
+				<Column name="ЭтоТокен" id="40">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Слот" id="10">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="СертификатыПоказать" id="3">
@@ -2061,6 +2335,9 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="5">
+			<Type/>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Обновить" id="1">
@@ -2077,11 +2354,11 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить настройки и список программ с результатами их проверки</v8:content>
+					<v8:content>Обновить настройки и список приложений с результатами их проверки</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update settings and applications list with their check results</v8:content>
+					<v8:content>Update settings and app list with their check results</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2125,11 +2402,11 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Установить расширение для работы с криптографией</v8:content>
+					<v8:content>Установить расширение для работы с 1С:Предприятием</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Install cryptography extension</v8:content>
+					<v8:content>Install 1C:Enterprise Extension</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -2153,7 +2430,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Submit an application...</v8:content>
+					<v8:content>Submit application...</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -2307,29 +2584,6 @@
 			<Action>ДобавитьТолькоДляШифрования</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
-		<Command name="ОткрытьМашиночитаемыеДоверенности" id="12">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Машиночитаемые доверенности</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Electronic letters of authority</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть машиночитаемые доверенности</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Open electronic letters of authority</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ОткрытьМашиночитаемыеДоверенности</Action>
-		</Command>
 	</Commands>
 	<Parameters>
 		<Parameter name="СертификатыПоказать">
@@ -2341,6 +2595,15 @@
 				</v8:StringQualifiers>
 			</Type>
 			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ПоказатьСтраницу">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Parameter>
 	</Parameters>
 </Form>

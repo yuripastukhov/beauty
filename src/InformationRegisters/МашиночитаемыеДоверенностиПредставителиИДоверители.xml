@@ -313,7 +313,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Управляющая компания</v8:content>
+							<v8:content>Managing company</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -815,7 +815,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>OGRN</v8:content>
+							<v8:content>Registration number</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

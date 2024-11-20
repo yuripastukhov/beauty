@@ -7,6 +7,16 @@
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.Обновить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обновить контейнеры</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Update containers</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="КонтейнерыОбновитьРасширеннаяПодсказка" id="33"/>
 			</Button>
@@ -14,6 +24,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.Установить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Install</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаУстановитьРасширеннаяПодсказка" id="37"/>
 			</Button>
 			<Button name="ФормаЗакрыть" id="34">
@@ -40,6 +60,7 @@
 				</v8:item>
 			</Title>
 			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<Group>Vertical</Group>
 			<HorizontalAlign>Left</HorizontalAlign>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -54,7 +75,7 @@
 					<Width>51</Width>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>51</MaxWidth>
-					<Height>4</Height>
+					<HeightControlVariant>UseContentHeight</HeightControlVariant>
 					<RowSelectionMode>Row</RowSelectionMode>
 					<Header>false</Header>
 					<HorizontalScrollBar>DontUse</HorizontalScrollBar>
@@ -110,6 +131,16 @@
 						<InputField name="СертификатОписаниеДанныхСвойство" id="68">
 							<DataPath>СертификатОписаниеДанных.Свойство</DataPath>
 							<SkipOnInput>true</SkipOnInput>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Свойство</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Property</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>13</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -119,6 +150,16 @@
 						<InputField name="СертификатОписаниеДанныхЗначение" id="71">
 							<DataPath>СертификатОписаниеДанных.Значение</DataPath>
 							<SkipOnInput>true</SkipOnInput>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Значение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="СертификатОписаниеДанныхЗначениеКонтекстноеМеню" id="72"/>
 							<ExtendedTooltip name="СертификатОписаниеДанныхЗначениеРасширеннаяПодсказка" id="73"/>
@@ -126,10 +167,20 @@
 					</ChildItems>
 				</Table>
 				<Button name="ПоказатьДанныеСертификата" id="74">
-					<Type>UsualButton</Type>
-					<Representation>Picture</Representation>
+					<Type>Hyperlink</Type>
+					<Representation>PictureAndText</Representation>
 					<SkipOnInput>true</SkipOnInput>
 					<CommandName>Form.Command.ПоказатьДанныеСертификата</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Все свойства сертификата</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All certificate properties</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ПоказатьДанныеСертификатаРасширеннаяПодсказка" id="75"/>
 				</Button>
 			</ChildItems>
@@ -138,11 +189,11 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа Вариант установки</v8:content>
+					<v8:content>Вариант установки</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Group Installation option</v8:content>
+					<v8:content>Installation option</v8:content>
 				</v8:item>
 			</Title>
 			<Width>45</Width>
@@ -152,8 +203,19 @@
 			<ChildItems>
 				<InputField name="ВариантУстановки" id="29">
 					<DataPath>ВариантУстановки</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить в</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Install in</v8:content>
+						</v8:item>
+					</Title>
 					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<ListChoiceMode>true</ListChoiceMode>
+					<TextEdit>false</TextEdit>
 					<ChoiceList>
 						<xr:Item>
 							<xr:Presentation/>
@@ -343,6 +405,16 @@ To perform operations with a private key, such as data signing and decryption, e
 							<ChildItems>
 								<InputField name="КонтейнерыСчитыватель" id="50">
 									<DataPath>Контейнеры.Считыватель</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Считыватель</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reader</v8:content>
+										</v8:item>
+									</Title>
 									<Width>10</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="КонтейнерыСчитывательКонтекстноеМеню" id="51"/>
@@ -350,6 +422,16 @@ To perform operations with a private key, such as data signing and decryption, e
 								</InputField>
 								<InputField name="КонтейнерыДружественноеИмя" id="17">
 									<DataPath>Контейнеры.ДружественноеИмя</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Имя</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Name</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="КонтейнерыДружественноеИмяКонтекстноеМеню" id="18"/>
 									<ExtendedTooltip name="КонтейнерыДружественноеИмяРасширеннаяПодсказка" id="19"/>
 								</InputField>
@@ -540,6 +622,7 @@ To perform operations with a private key, such as data signing and decryption, e
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+			<FillCheck>ShowError</FillCheck>
 		</Attribute>
 		<Attribute name="Сертификат" id="11">
 			<Type>
@@ -604,6 +687,15 @@ To perform operations with a private key, such as data signing and decryption, e
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="АдресСертификата" id="1">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

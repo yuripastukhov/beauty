@@ -82,6 +82,16 @@
 			<ChildItems>
 				<InputField name="Пользователь" id="20">
 					<DataPath>Пользователь</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь приложения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>App user</v8:content>
+						</v8:item>
+					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -117,6 +127,16 @@
 					<ChildItems>
 						<InputField name="WSПароль" id="7">
 							<DataPath>WSПароль</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пароль</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Password</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -139,6 +159,16 @@
 						<Button name="ЗабылиПароль" id="12">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ЗабылиПароль</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Забыли пароль?</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Forgot password?</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ЗабылиПарольExtendedTooltip" id="29"/>
 						</Button>
 					</ChildItems>
@@ -207,6 +237,16 @@ and grant them only the data synchronization privilege.
 		<Button name="ПараметрыДоступаВИнтернет" id="13">
 			<Type>Hyperlink</Type>
 			<CommandName>Form.Command.ПараметрыДоступаВИнтернет</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры доступа в Интернет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Internet access parameters</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedTooltip name="ПараметрыДоступаВИнтернетExtendedTooltip" id="33"/>
 		</Button>
 	</ChildItems>

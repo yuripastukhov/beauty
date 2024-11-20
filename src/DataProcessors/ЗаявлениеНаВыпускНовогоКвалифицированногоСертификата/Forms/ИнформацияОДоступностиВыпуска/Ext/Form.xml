@@ -38,10 +38,10 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>In accordance with Federal Law No. 63-FZ as of 04/06/2011 "On digital signature",
-the issue of qualified certificates is not available for individuals who have the right to act on behalf of a legal entity without an authorization letter.
-The certificates for such individuals are issued by the Certificate Authority of the FTS.
-Applications are accepted only for employees acting by an authorization letter.
+					<v8:content>According to Federal Law of the Russian Federation No. 63-FZ "On electronic signatures" as of April 6, 2011,
+private organizations cannot issue qualified certificates to individuals acting as authorized representatives without requiring a LOA.
+Request a certificate from the FTS CA.
+(Certificates can only be requested for employees authorized by a LOA).
 					</v8:content>
 				</v8:item>
 			</Title>
@@ -50,6 +50,16 @@ Applications are accepted only for employees acting by an authorization letter.
 		</LabelDecoration>
 		<CheckBoxField name="БольшеНеПредупреждать" id="11">
 			<DataPath>БольшеНеПредупреждать</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Больше не предупреждать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not warn again</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>Right</TitleLocation>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="БольшеНеПредупреждатьКонтекстноеМеню" id="12"/>

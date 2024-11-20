@@ -1399,7 +1399,7 @@ Looked up for during a search.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Используется при обновлении программы.</v8:content>
+							<v8:content>Используется при обновлении приложения</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -1439,7 +1439,7 @@ Looked up for during a search.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Use for</v8:content>
+							<v8:content>Used on</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

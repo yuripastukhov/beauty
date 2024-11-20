@@ -6,6 +6,16 @@
 			<Button name="ФормаВключитьВозможностьРедактирования" id="45">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ВключитьВозможностьРедактирования</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Включить возможность редактирования</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Allow editing</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка" id="46"/>
 			</Button>
@@ -50,12 +60,32 @@
 						<InputField name="ИдентификаторПроцесса" id="36">
 							<DataPath>ИдентификаторПроцесса</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор процесса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Process ID</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ИдентификаторПроцессаКонтекстноеМеню" id="37"/>
 							<ExtendedTooltip name="ИдентификаторПроцессаРасширеннаяПодсказка" id="38"/>
 						</InputField>
 						<InputField name="ИдентификаторПотока" id="39">
 							<DataPath>ИдентификаторПотока</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор потока</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Thread ID</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ИдентификаторПотокаКонтекстноеМеню" id="40"/>
 							<ExtendedTooltip name="ИдентификаторПотокаРасширеннаяПодсказка" id="41"/>
 						</InputField>
@@ -72,6 +102,16 @@
 						<InputField name="ИдентификаторЗадания" id="42">
 							<DataPath>ИдентификаторЗадания</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор задания</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Job ID</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ИдентификаторЗаданияКонтекстноеМеню" id="43"/>
 							<ExtendedTooltip name="ИдентификаторЗаданияРасширеннаяПодсказка" id="44"/>
 						</InputField>
@@ -233,7 +273,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Allow editing for troubleshooting. This feature is for advanced users only.</v8:content>
+					<v8:content>Allow editing for troubleshooting. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

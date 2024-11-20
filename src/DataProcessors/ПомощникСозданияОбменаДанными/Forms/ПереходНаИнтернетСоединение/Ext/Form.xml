@@ -218,7 +218,6 @@ Please wait...</v8:content>
 									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
-									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаЭтапыНастройкиРасширеннаяПодсказка" id="331"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаПолучениеНастроек" id="332">
@@ -861,6 +860,16 @@ Please wait...</v8:content>
 											<Type>CommandBarButton</Type>
 											<Visible>false</Visible>
 											<CommandName>Form.Command.КомандаНазад</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt; Назад</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>&lt; Back</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаНазадExtendedTooltip" id="125"/>
 										</Button>
 									</ChildItems>
@@ -885,11 +894,31 @@ Please wait...</v8:content>
 											<DefaultButton>true</DefaultButton>
 											<DefaultItem>true</DefaultItem>
 											<CommandName>Form.Command.КомандаДалее</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Далее &gt;</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Next &gt;</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаДалееExtendedTooltip" id="126"/>
 										</Button>
 										<Button name="КомандаОтмена" id="73">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтменаExtendedTooltip" id="127"/>
 										</Button>
 									</ChildItems>
@@ -927,6 +956,16 @@ Please wait...</v8:content>
 											<Type>CommandBarButton</Type>
 											<Enabled>false</Enabled>
 											<CommandName>Form.Command.КомандаНазад</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt; Назад</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>&lt; Back</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаНазад3ExtendedTooltip" id="143"/>
 										</Button>
 									</ChildItems>
@@ -967,6 +1006,16 @@ Please wait...</v8:content>
 											<Type>CommandBarButton</Type>
 											<Enabled>false</Enabled>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтмена3ExtendedTooltip" id="145"/>
 										</Button>
 									</ChildItems>
@@ -1018,12 +1067,32 @@ Please wait...</v8:content>
 										<Button name="КомандаГотово" id="90">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаГотово</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Готово</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Finish</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаГотовоExtendedTooltip" id="138"/>
 										</Button>
 										<Button name="КомандаОтмена2" id="83">
 											<Type>CommandBarButton</Type>
 											<Enabled>false</Enabled>
 											<CommandName>Form.Command.КомандаОтмена</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cancel</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="КомандаОтмена2ExtendedTooltip" id="139"/>
 										</Button>
 									</ChildItems>

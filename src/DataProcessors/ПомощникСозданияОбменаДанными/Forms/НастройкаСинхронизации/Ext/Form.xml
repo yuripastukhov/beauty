@@ -38,6 +38,16 @@
 					<Type>Hyperlink</Type>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<CommandName>Form.Command.ПодробноеОписаниеСинхронизацииДанных</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подробное описание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Detailed description</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ПодробноеОписаниеСинхронизацииДанныхРасширеннаяПодсказка" id="7"/>
 				</Button>
 			</ChildItems>
@@ -215,6 +225,16 @@
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<CommandName>Form.Command.НастроитьПараметрыПодключения</CommandName>
 							<Font ref="style:КомандаПомощникаНастройкиСинхронизацииОбычнаяШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настроить параметры подключения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure connection parameters</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="НастроитьПараметрыПодключенияРасширеннаяПодсказка" id="31">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -343,6 +363,16 @@
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ПолучитьПодтверждениеПодключения</CommandName>
 							<Font ref="style:КомандаПомощникаНастройкиСинхронизацииОбычнаяШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получить подтверждение подключения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Get connection confirmation</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ПолучитьПодтверждениеПодключенияРасширеннаяПодсказка" id="149">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -472,6 +502,16 @@
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<CommandName>Form.Command.НастроитьПравилаОтправкиИПолученияДанных</CommandName>
 							<Font ref="style:КомандаПомощникаНастройкиСинхронизацииОбычнаяШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настроить правила отправки и получения данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Configure data sending and receiving rules</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="НастроитьПравилаОтправкиИПолученияРасширеннаяПодсказка" id="52">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -601,6 +641,16 @@
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<CommandName>Form.Command.СоздатьНачальныйОбразРИБ</CommandName>
 							<Font ref="style:КомандаПомощникаНастройкиСинхронизацииОбычнаяШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать начальный образ подчиненного узла РИБ</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create initial image of a subordinate DIB node</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="СоздатьНачальныйОбразРИБРасширеннаяПодсказка" id="73">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -731,6 +781,16 @@ After creation, deploy the infobase from the initial image and run the applicati
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ВыполнитьСопоставлениеИЗагрузкуДанных</CommandName>
 							<Font ref="style:КомандаПомощникаНастройкиСинхронизацииОбычнаяШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выполнить сопоставление и загрузку данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Map and import data</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ВыполнитьСопоставлениеИЗагрузкуДанныхРасширеннаяПодсказка" id="130">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -741,7 +801,7 @@ After creation, deploy the infobase from the initial image and run the applicati
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>If accounting is carried out in both applications, before you run the synchronization, map their data. This will help you to avoid duplication of catalog items recorded independently in both applications, for example, items with the same name. Once you specify the mapping, you can import data from the other application.</v8:content>
+										<v8:content>If accounting is carried out in both applications, before you run the synchronization, map their data. This will help you to avoid duplication of catalog items recorded independently in both applications, for example, items with the same name. Once you specify the mapping, you can import data from the other application.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -860,6 +920,16 @@ After creation, deploy the infobase from the initial image and run the applicati
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<CommandName>Form.Command.ВыполнитьНачальнуюВыгрузкуДанных</CommandName>
 							<Font ref="style:КомандаПомощникаНастройкиСинхронизацииОбычнаяШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выполнить начальную выгрузку данных</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Run initial data export</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ВыполнитьНачальнуюВыгрузкуДанныхРасширеннаяПодсказка" id="94">
 								<AutoMaxWidth>false</AutoMaxWidth>

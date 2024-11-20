@@ -24,11 +24,31 @@
 			<Button name="Проверить" id="73">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Проверить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Проверить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Validate</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ПроверитьРасширеннаяПодсказка" id="74"/>
 			</Button>
 			<Button name="Скопировать" id="75">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Скопировать</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выгрузить в файл</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Export to file</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="СкопироватьРасширеннаяПодсказка" id="76"/>
 			</Button>
 		</ChildItems>
@@ -73,6 +93,16 @@
 							<DataPath>КомуВыдан</DataPath>
 							<ReadOnly>true</ReadOnly>
 							<SkipOnInput>true</SkipOnInput>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Кому выдан</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Owner</v8:content>
+								</v8:item>
+							</Title>
 							<TitleFont ref="style:ВыделенныйЗаголовокПодтвержденияШрифт" kind="StyleItem"/>
 							<ChooseType>false</ChooseType>
 							<TextEdit>false</TextEdit>
@@ -101,6 +131,16 @@
 									<DataPath>КемВыдан</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<SkipOnInput>true</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Кем выдан</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Issued by</v8:content>
+										</v8:item>
+									</Title>
 									<TitleFont ref="style:ВыделенныйЗаголовокПодтвержденияШрифт" kind="StyleItem"/>
 									<ChooseType>false</ChooseType>
 									<TextEdit>false</TextEdit>
@@ -128,6 +168,16 @@
 											<DataPath>ДействителенС</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Действителен с</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Valid from</v8:content>
+												</v8:item>
+											</Title>
 											<TitleFont ref="style:ВыделенныйЗаголовокПодтвержденияШрифт" kind="StyleItem"/>
 											<Width>10</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -164,6 +214,16 @@
 									<DataPath>Отпечаток</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<SkipOnInput>true</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отпечаток</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Thumbprint</v8:content>
+										</v8:item>
+									</Title>
 									<TitleFont ref="style:ВыделенныйЗаголовокПодтвержденияШрифт" kind="StyleItem"/>
 									<ChooseType>false</ChooseType>
 									<TextEdit>false</TextEdit>
@@ -231,6 +291,16 @@
 									<Type>Hyperlink</Type>
 									<SkipOnInput>false</SkipOnInput>
 									<CommandName>Form.Command.СменитьПинКод</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Изменить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Change</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="СменитьПинКодРасширеннаяПодсказка" id="80"/>
 								</Button>
 							</ChildItems>
@@ -302,6 +372,16 @@
 								<InputField name="ТаблицаСоставаПредставление" id="60">
 									<DataPath>ТаблицаСостава.Представление</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Поле</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Field</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ТаблицаСоставаПредставлениеКонтекстноеМеню" id="61"/>
 									<ExtendedTooltip name="ТаблицаСоставаПредставлениеРасширеннаяПодсказка" id="62"/>
@@ -309,6 +389,16 @@
 								<InputField name="ТаблицаСоставаЗначение" id="63">
 									<DataPath>ТаблицаСостава.Значение</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Значение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Value</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ТаблицаСоставаЗначениеКонтекстноеМеню" id="64"/>
 									<ExtendedTooltip name="ТаблицаСоставаЗначениеРасширеннаяПодсказка" id="65"/>

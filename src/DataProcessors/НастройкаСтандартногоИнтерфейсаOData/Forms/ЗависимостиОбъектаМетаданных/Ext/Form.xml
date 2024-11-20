@@ -49,8 +49,8 @@
 						</v8:item>
 					</Title>
 					<Picture>
-						<xr:Ref>CommonPicture.Вопрос32</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
+						<xr:Ref>StdPicture.DialogQuestion</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ДекорацияВопросКонтекстноеМеню" id="2"/>
@@ -109,7 +109,7 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Будет разрешен доступ к %1 "%2" с помощью автоматического REST-сервиса.
-Для того чтобы сторонние программы смогли работать с ним через автоматический REST-сервис, требуется дополнительно разрешить доступ к зависимым объектам.</v8:content>
+Для того чтобы сторонние приложения смогли работать с ним через автоматический REST-сервис, требуется дополнительно разрешить доступ к зависимым объектам.</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
@@ -142,7 +142,7 @@ For third-party applications to be able to operate with the object via the autom
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вы решили запретить доступ к %1 "%2" с помощью автоматического REST-сервиса.
-Однако этот объект должен быть разрешен для того, чтобы сторонние программы могли взаимодействовать с зависимыми объектами.</v8:content>
+Однако этот объект должен быть разрешен для того, чтобы сторонние приложения могли взаимодействовать с зависимыми объектами.</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
@@ -330,6 +330,16 @@ However, this object must be accessible if you want third-party applications to 
 										</PictureField>
 										<InputField name="ОбъектыМетаданныхПредставление" id="33">
 											<DataPath>ОбъектыМетаданных.Представление</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Зависимый объект</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Dependent object</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ОбъектыМетаданныхПредставлениеКонтекстноеМеню" id="34"/>

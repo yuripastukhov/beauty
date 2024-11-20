@@ -19,6 +19,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="83"/>
 			</Button>
 			<Button name="ФормаЗаписать" id="84">
@@ -41,6 +51,16 @@
 				<Type>CommandBarButton</Type>
 				<SkipOnInput>true</SkipOnInput>
 				<CommandName>Form.Command.СохранитьПравилаКонвертацииВФайл</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сохранить правила в файл ...</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save rules to file…</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="СохранитьПравилаВФайлРасширеннаяПодсказка" id="62"/>
 			</Button>
@@ -69,6 +89,16 @@
 			<ChildItems>
 				<RadioButtonField name="ИсточникПравил" id="29">
 					<DataPath>ИсточникПравил</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Источник правил</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rule source</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<RadioButtonType>Auto</RadioButtonType>
 					<ColumnsCount>1</ColumnsCount>
@@ -136,6 +166,16 @@
 							<SkipOnInput>true</SkipOnInput>
 							<Height>1</Height>
 							<CommandName>Form.Command.ЗагрузитьПравила</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Загрузить</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Import</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ЗагрузитьТиповыеПравилаExtendedTooltip" id="61"/>
 						</Button>
 					</ChildItems>
@@ -214,6 +254,16 @@
 				<InputField name="ИнформацияОПравилах" id="11">
 					<DataPath>ИнформацияОПравилахОбщая</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация о комплекте правил</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Rule set information</v8:content>
+						</v8:item>
+					</Title>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<Height>6</Height>
 					<MultiLine>true</MultiLine>
@@ -337,6 +387,16 @@
 										<InputField name="ВнешняяОбработкаДляОтладкиВыгрузки" id="40">
 											<DataPath>ИмяФайлаОбработкиДляОтладкиВыгрузки</DataPath>
 											<Enabled>false</Enabled>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Имя файла обработки для отладки выгрузки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>File name of the data processor for export debugging</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<ChoiceButton>true</ChoiceButton>
@@ -388,6 +448,16 @@
 										<InputField name="ВнешняяОбработкаДляОтладкиЗагрузки" id="36">
 											<DataPath>ИмяФайлаОбработкиДляОтладкиЗагрузки</DataPath>
 											<Enabled>false</Enabled>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Имя файла обработки для отладки загрузки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>File name of the data processor for import debugging</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<ChoiceButton>true</ChoiceButton>
@@ -418,6 +488,16 @@
 									<ChildItems>
 										<CheckBoxField name="ВключитьПротоколированиеОбменаДанными" id="43">
 											<DataPath>РежимПротоколированияОбменаДанными</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Режим протоколирования обмена данными</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data exchange logging mode</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ВключитьПротоколированиеОбменаДаннымиКонтекстноеМеню" id="44"/>
@@ -429,6 +509,16 @@
 										<InputField name="ФайлПротоколаОбмена" id="45">
 											<DataPath>ИмяФайлаПротоколаОбмена</DataPath>
 											<Enabled>false</Enabled>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Имя файла протокола обмена</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Exchange log file name</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<ChoiceButton>true</ChoiceButton>

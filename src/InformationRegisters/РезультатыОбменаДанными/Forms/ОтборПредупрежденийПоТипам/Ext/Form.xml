@@ -21,11 +21,31 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ОК</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОК</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>OK</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОКРасширеннаяПодсказка" id="36"/>
 			</Button>
 			<Button name="ФормаСбросить" id="43">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Сбросить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сбросить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reset</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаСброситьРасширеннаяПодсказка" id="44"/>
 			</Button>
 			<Button name="ФормаОтмена" id="30">
@@ -75,6 +95,16 @@
 					<ChildItems>
 						<CheckBoxField name="АдминистративнаяОшибкаПриложения" id="45">
 							<DataPath>АдминистративнаяОшибкаПриложения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Административная ошибка приложения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>App administrative error</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="АдминистративнаяОшибкаПриложенияКонтекстноеМеню" id="46"/>
@@ -82,6 +112,16 @@
 						</CheckBoxField>
 						<CheckBoxField name="ОшибкаПроверкиПередОтправкойXTDO" id="19">
 							<DataPath>ОшибкаПроверкиПередОтправкойXTDO</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ошибка проверки перед отправкой (XDTO)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Verification error before sending (XDTO)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОшибкаПроверкиПередОтправкойXTDOКонтекстноеМеню" id="20"/>
@@ -89,6 +129,16 @@
 						</CheckBoxField>
 						<CheckBoxField name="ОшибкаВыполненияКодаОбработчиковПриОтправкеДанных" id="13">
 							<DataPath>ОшибкаВыполненияКодаОбработчиковПриОтправкеДанных</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ошибки кода обработчиков при отправке</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data sending handler errors</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОшибкаВыполненияКодаОбработчиковПриОтправкеДанныхКонтекстноеМеню" id="14"/>
@@ -115,6 +165,16 @@
 					<ChildItems>
 						<CheckBoxField name="НепроведенныйДокумент" id="1">
 							<DataPath>НепроведенныйДокумент</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Непроведенные документы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Unposted documents</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НепроведенныйДокументКонтекстноеМеню" id="2"/>
@@ -122,6 +182,16 @@
 						</CheckBoxField>
 						<CheckBoxField name="НезаполненныеРеквизиты" id="4">
 							<DataPath>НезаполненныеРеквизиты</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Незаполненные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Blank attributes</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НезаполненныеРеквизитыКонтекстноеМеню" id="5"/>
@@ -130,6 +200,16 @@
 						<CheckBoxField name="НепринятыеДанныеПоКоллизии" id="7">
 							<DataPath>НепринятыеДанныеПоКоллизии</DataPath>
 							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Непринятые данные по коллизии</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data from rejected conflict</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НепринятыеДанныеПоКоллизииКонтекстноеМеню" id="8"/>
@@ -138,6 +218,16 @@
 						<CheckBoxField name="ПринятыеДанныеПоКоллизии" id="37">
 							<DataPath>ПринятыеДанныеПоКоллизии</DataPath>
 							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Принятые данные по коллизии</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data from resolved conflict</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ПринятыеДанныеПоКоллизииКонтекстноеМеню" id="38"/>
@@ -146,6 +236,16 @@
 						<CheckBoxField name="НепринятыйПоДатеЗапретаОбъектНеСуществуетВБазе" id="10">
 							<DataPath>НепринятыйПоДатеЗапретаОбъектНеСуществуетВБазе</DataPath>
 							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Непринятый по дате запрета (объект не существует)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Object rejected due to restriction date (object does not exist)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НепринятыйПоДатеЗапретаОбъектНеСуществуетВБазеКонтекстноеМеню" id="11"/>
@@ -154,6 +254,16 @@
 						<CheckBoxField name="НепринятыйПоДатеЗапретаОбъектСуществуетВБазе" id="40">
 							<DataPath>НепринятыйПоДатеЗапретаОбъектСуществуетВБазе</DataPath>
 							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Непринятый по дате запрета (объект существует)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Object rejected by period-end closing date (object exists)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="НепринятыйПоДатеЗапретаОбъектСуществуетВБазеКонтекстноеМеню" id="41"/>
@@ -161,6 +271,16 @@
 						</CheckBoxField>
 						<CheckBoxField name="ОшибкаВыполненияКодаОбработчиковПриПолученииДанных" id="16">
 							<DataPath>ОшибкаВыполненияКодаОбработчиковПриПолученииДанных</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ошибки кода обработчиков при получении</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Data receiving handler errors</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ОшибкаВыполненияКодаОбработчиковПриПолученииДанныхКонтекстноеМеню" id="17"/>
@@ -168,6 +288,16 @@
 						</CheckBoxField>
 						<CheckBoxField name="СообщениеОбменаНеПомещеноВАрхив" id="48">
 							<DataPath>СообщениеОбменаНеПомещеноВАрхив</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сообщение обмена не помещено в архив</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Exchange message is not placed to archive</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="СообщениеОбменаНеПомещеноВАрхивКонтекстноеМеню" id="49"/>

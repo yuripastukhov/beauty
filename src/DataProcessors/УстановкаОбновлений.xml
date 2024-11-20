@@ -254,11 +254,11 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Имя каталога резервной копии программы</v8:content>
+							<v8:content>Имя каталога резервной копии приложения</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>The application backup directory.</v8:content>
+							<v8:content>Application backup directory</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

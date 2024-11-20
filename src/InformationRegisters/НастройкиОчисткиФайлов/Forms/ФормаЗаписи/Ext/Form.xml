@@ -6,6 +6,16 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<ButtonGroup name="ГруппаКоманднаяПанель" id="34">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Командная панель</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Command bar</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="35"/>
 				<ChildItems>
 					<Button name="ЗаписатьИЗакрыть" id="36">
@@ -41,6 +51,16 @@
 							<Button name="ДобавитьУсловиеПоДате" id="46">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.ДобавитьУсловиеПоДате</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Добавить условие по дате</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Add date-based condition</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="ДобавитьУсловиеПоДатеРасширеннаяПодсказка" id="47"/>
 							</Button>
 						</ChildItems>
@@ -52,12 +72,24 @@
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
-			<Button name="ФормаСправка" id="48">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.StandardCommand.Help</CommandName>
-				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="49"/>
-			</Button>
+			<Popup name="ПодменюОтчеты" id="53">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отчеты</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reports</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<Representation>PictureAndText</Representation>
+				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="54"/>
+			</Popup>
 			<SearchStringAddition name="СтрокаПоиска" id="50">
 				<AdditionSource>
 					<Item>ПравилоНастройкиОтбор</Item>
@@ -79,8 +111,10 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
 		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 	</Events>

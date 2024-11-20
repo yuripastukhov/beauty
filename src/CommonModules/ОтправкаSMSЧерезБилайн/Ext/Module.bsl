@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2023, ООО 1С-Софт
+// Copyright (c) 2024, ООО 1С-Софт
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
@@ -185,17 +185,17 @@
 	НастройкиОтправкиSMS = ОтправкаSMS.НастройкиОтправкиSMS();
 	УстановитьПривилегированныйРежим(Истина);
 	
-	Протокол = "http";
+	Протокол = "https";
 	Сервер = "beeline.amega-inform.ru";
 	АдресРесурса = "/sendsms/";
-	ЗащищенноеСоединение = Неопределено;
 	
 	Если НастройкиОтправкиSMS.Свойство("СпособАвторизации") И НастройкиОтправкиSMS.СпособАвторизации = "ПоЛогинуИПаролюA2P" Тогда
 		Протокол = "https";
 		Сервер = "a2p-sms-https.beeline.ru";
 		АдресРесурса = "/public/http/";
-		ЗащищенноеСоединение = ОбщегоНазначенияКлиентСервер.НовоеЗащищенноеСоединение();
 	КонецЕсли;
+	
+	ЗащищенноеСоединение = ОбщегоНазначенияКлиентСервер.НовоеЗащищенноеСоединение();
 	
 	HTTPЗапрос = ОтправкаSMS.ПодготовитьHTTPЗапрос(АдресРесурса, ПараметрыЗапроса);
 	HTTPОтвет = Неопределено;
@@ -296,8 +296,8 @@
 	Настройки.ИнформацияПоСпособамАвторизации.Вставить("ПоЛогинуИПаролю", СтроковыеФункции.ФорматированнаяСтрока(
 		НСтр("ru = 'Сервис отправки SMS теперь доступен по <a href=""https://a2p-sms.beeline.ru/"">новому адресу</a>.
 		|Обратитесь в <a href=""https://www.beeline.amega-inform.ru/support/"">техподдержку Билайн</a> для получения нового логина и пароля для доступа к услуге, затем переключите <b>Способ авторизации</b> и введите новые логин и пароль.';
-		|en = 'New <a href=""https://a2p-sms.beeline.ru/"">SMS gateway</a>.
-		|Contact <a href=""https://www.beeline.amega-inform.ru/support/"">Beeline</a> for new credentials. Then, set <b>Authentication method</b> to ""a2p-sms.beeline.ru"" and enter the credentials.'")));
+		|en = 'SMS service is moved to a <a href=""https://a2p-sms.beeline.ru/"">new website</a>.
+		|To get new credentials, contact <a href=""https://www.beeline.amega-inform.ru/support/"">Beeline support</a>. Then, change the <b>Authentication method</b> and log in with the new username and password.'")));
 	
 КонецПроцедуры
 

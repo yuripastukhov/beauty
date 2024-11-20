@@ -1159,7 +1159,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">25</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -1187,7 +1187,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">80</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -1327,7 +1327,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">9</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>

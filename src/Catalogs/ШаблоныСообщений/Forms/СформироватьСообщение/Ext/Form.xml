@@ -7,7 +7,7 @@
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
-			<v8:content>Mail templates</v8:content>
+			<v8:content>Email templates</v8:content>
 		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -19,11 +19,31 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.Сформировать</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сформировать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create from template</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаСформироватьРасширеннаяПодсказка" id="25"/>
 			</Button>
 			<Button name="ФормаСформироватьИОтправить" id="22">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.СформироватьИОтправить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сформировать и отправить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create and send</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаСформироватьИОтправитьРасширеннаяПодсказка" id="23"/>
 			</Button>
 			<ButtonGroup name="ФормаГруппаРедактирование" id="76">
@@ -43,6 +63,16 @@
 					<Button name="ФормаСоздать" id="58">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Создать</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create</v8:content>
+							</v8:item>
+						</Title>
 						<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 						<ExtendedTooltip name="ФормаСоздатьРасширеннаяПодсказка" id="59"/>
 					</Button>
@@ -168,6 +198,16 @@
 					<ChildItems>
 						<InputField name="ШаблоныПредставление" id="55">
 							<DataPath>Шаблоны.Представление</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Представление</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Presentation</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ШаблоныПредставлениеКонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="ШаблоныПредставлениеРасширеннаяПодсказка" id="57"/>
@@ -204,6 +244,16 @@
 								<TextDocumentField name="ПредпросмотрОбычныйТекст" id="71" DisplayImportance="VeryHigh">
 									<DataPath>ПредпросмотрОбычныйТекст</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предпросмотр обычный текст</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Preview plain mail</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<Height>15</Height>
 									<ContextMenu name="ПредпросмотрОбычныйТекстКонтекстноеМеню" id="72"/>
@@ -227,6 +277,16 @@
 								<FormattedDocumentField name="ПредпросмотрФорматированныйДокумент" id="68">
 									<DataPath>ПредпросмотрФорматированныйДокумент</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предпросмотр форматированный документ</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Preview HTML mail</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxHeight>false</AutoMaxHeight>
 									<ContextMenu name="ПредпросмотрФорматированныйДокументКонтекстноеМеню" id="69"/>
@@ -363,9 +423,19 @@
 										</Table>
 										<LabelField name="ФорматВложений" id="104">
 											<DataPath>ФорматВложений</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Формат вложений</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Attachment format</v8:content>
+												</v8:item>
+											</Title>
 											<Hiperlink>true</Hiperlink>
 											<ContextMenu name="ФорматВложенийКонтекстноеМеню" id="105"/>
-											<ExtendedTooltip name="ФорматВложенийExtendedTooltip" id="106"/>
+											<ExtendedTooltip name="ФорматВложенийРасширеннаяПодсказка" id="106"/>
 											<Events>
 												<Event name="Click">ФорматВложенийНажатие</Event>
 											</Events>
@@ -385,10 +455,20 @@
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УпаковатьВАрхивКонтекстноеМеню" id="108"/>
-											<ExtendedTooltip name="УпаковатьВАрхивExtendedTooltip" id="109"/>
+											<ExtendedTooltip name="УпаковатьВАрхивРасширеннаяПодсказка" id="109"/>
 										</CheckBoxField>
 										<CheckBoxField name="ПереводитьИменаФайловВТранслит" id="110">
 											<DataPath>ПереводитьИменаФайловВТранслит</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Переводить имена файлов в транслит</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Transliterate file names</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<ToolTip>
 												<v8:item>
@@ -407,6 +487,16 @@
 										</CheckBoxField>
 										<CheckBoxField name="ПодписьИПечать" id="115">
 											<DataPath>ПодписьИПечать</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подпись и печать</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Insert signature and stamp</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПодписьИПечатьКонтекстноеМеню" id="116"/>
@@ -414,6 +504,16 @@
 										</CheckBoxField>
 										<CheckBoxField name="Подписать" id="118">
 											<DataPath>Подписать</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подписать</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Sign</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ПодписатьКонтекстноеМеню" id="119"/>

@@ -27,19 +27,39 @@
 	<ChildItems>
 		<LabelField name="ПолноеНаименование" id="10">
 			<DataPath>Файл</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файл</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<ContextMenu name="ПолноеНаименованиеКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ПолноеНаименованиеExtendedTooltip" id="12"/>
+			<ExtendedTooltip name="ПолноеНаименованиеРасширеннаяПодсказка" id="12"/>
 		</LabelField>
 		<InputField name="КомментарийКВерсии" id="2">
 			<DataPath>КомментарийКВерсии</DataPath>
 			<DefaultItem>true</DefaultItem>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий к версии</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Version comment</v8:content>
+				</v8:item>
+			</Title>
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 			<Height>5</Height>
 			<MultiLine>true</MultiLine>
 			<BorderColor>style:BorderColor</BorderColor>
 			<ContextMenu name="КомментарийКВерсииКонтекстноеМеню" id="3"/>
-			<ExtendedTooltip name="КомментарийКВерсииExtendedTooltip" id="13"/>
+			<ExtendedTooltip name="КомментарийКВерсииРасширеннаяПодсказка" id="13"/>
 		</InputField>
 		<CheckBoxField name="СоздатьНовуюВерсию" id="4">
 			<DataPath>СоздатьНовуюВерсию</DataPath>
@@ -57,7 +77,7 @@
 			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="СоздатьНовуюВерсиюКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="СоздатьНовуюВерсиюExtendedTooltip" id="14"/>
+			<ExtendedTooltip name="СоздатьНовуюВерсиюРасширеннаяПодсказка" id="14"/>
 		</CheckBoxField>
 		<CommandBar name="ОсновнаяКоманднаяПанель" id="1">
 			<Title>
@@ -71,7 +91,7 @@
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
-			<ExtendedTooltip name="ОсновнаяКоманднаяПанельExtendedTooltip" id="15"/>
+			<ExtendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="15"/>
 			<ChildItems>
 				<Button name="Сохранить" id="6">
 					<Type>CommandBarButton</Type>
@@ -81,6 +101,16 @@
 					<TextColor>style:ButtonTextColor</TextColor>
 					<BackColor>style:ButtonBackColor</BackColor>
 					<BorderColor>style:BorderColor</BorderColor>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сохранить</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Save</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="16"/>
 				</Button>
 				<Button name="Закрыть" id="9">
@@ -101,7 +131,7 @@
 							<v8:content>Cancel</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ЗакрытьExtendedTooltip" id="17"/>
+					<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="17"/>
 				</Button>
 				<Button name="Справка" id="8">
 					<Type>CommandBarButton</Type>
@@ -110,7 +140,7 @@
 					<TextColor>style:ButtonTextColor</TextColor>
 					<BackColor>style:ButtonBackColor</BackColor>
 					<BorderColor>style:BorderColor</BorderColor>
-					<ExtendedTooltip name="СправкаExtendedTooltip" id="18"/>
+					<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="18"/>
 				</Button>
 			</ChildItems>
 		</CommandBar>

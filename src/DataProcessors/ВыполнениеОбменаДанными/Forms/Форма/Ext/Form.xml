@@ -56,6 +56,16 @@
 					<ExtendedTooltip name="СтраницаСинхронизацияДанныхНедоступнаРасширеннаяПодсказка" id="203"/>
 					<ChildItems>
 						<UsualGroup name="Группа2" id="204">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group</v8:content>
+								</v8:item>
+							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -122,6 +132,16 @@ Try again later or &lt;link ОжидатьВозможностьСинхрони
 					<ExtendedTooltip name="СтраницаПроверкаЗадачОбменаРасширеннаяПодсказка" id="221"/>
 					<ChildItems>
 						<UsualGroup name="Группа3" id="222">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group</v8:content>
+								</v8:item>
+							</Title>
 							<VerticalStretch>true</VerticalStretch>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -167,6 +187,16 @@ Try again later or &lt;link ОжидатьВозможностьСинхрони
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="Группа4" id="230">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group</v8:content>
+								</v8:item>
+							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<HorizontalAlign>Right</HorizontalAlign>
 							<Behavior>Usual</Behavior>
@@ -212,6 +242,16 @@ Try again later or &lt;link ОжидатьВозможностьСинхрони
 					<ExtendedTooltip name="ОжиданиеЗапускаСинхронизацииРасширеннаяПодсказка" id="193"/>
 					<ChildItems>
 						<UsualGroup name="Группа1" id="200">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group</v8:content>
+								</v8:item>
+							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -308,7 +348,7 @@ Please wait…</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Enter the password to sign in to the web application.</v8:content>
+											<v8:content>Enter the password to log in to the web application.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация2КонтекстноеМеню" id="64"/>
@@ -332,6 +372,16 @@ Please wait…</v8:content>
 									<ChildItems>
 										<InputField name="WSПароль" id="54">
 											<DataPath>WSПароль</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пароль</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Password</v8:content>
+												</v8:item>
+											</Title>
 											<Width>20</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<PasswordMode>true</PasswordMode>
@@ -342,6 +392,16 @@ Please wait…</v8:content>
 										<Button name="ЗабылиПароль" id="58">
 											<Type>Hyperlink</Type>
 											<CommandName>Form.Command.ЗабылиПароль</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Забыли пароль?</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Forgot password?</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ЗабылиПарольExtendedTooltip" id="93"/>
 										</Button>
 									</ChildItems>
@@ -452,6 +512,16 @@ Please wait…</v8:content>
 										</LabelDecoration>
 										<CheckBoxField name="НеНапоминатьОДолгойСинхронизации" id="138">
 											<DataPath>НеНапоминатьОДолгойСинхронизации</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Больше не напоминать</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Don't remind again</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="НеНапоминатьОДолгойСинхронизацииКонтекстноеМеню" id="139"/>
@@ -495,6 +565,16 @@ Please wait…</v8:content>
 									<DefaultButton>true</DefaultButton>
 									<DefaultItem>true</DefaultItem>
 									<CommandName>Form.Command.ВыполнитьОбмен</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Синхронизировать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Start sync</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ВыполнитьОбменExtendedTooltip" id="95"/>
 								</Button>
 								<Button name="ФормаЗакрыть2" id="70">
@@ -518,47 +598,183 @@ Please wait…</v8:content>
 							<v8:content>Data synchronization in progress</v8:content>
 						</v8:item>
 					</Title>
-					<Group>HorizontalIfPossible</Group>
 					<ExtendedTooltip name="ОжиданиеСинхронизацииДанныхExtendedTooltip" id="97"/>
 					<ChildItems>
-						<PictureDecoration name="ДлительнаяОперация" id="4">
-							<Title formatted="false">
+						<UsualGroup name="Группа5" id="263">
+							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Длительная операция</v8:content>
+									<v8:content>Группа</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Long-running operation</v8:content>
+									<v8:content>Group</v8:content>
 								</v8:item>
 							</Title>
-							<Picture>
-								<xr:Ref>CommonPicture.СинхронизацияДанныхДлительнаяОперация48</xr:Ref>
-								<xr:LoadTransparent>false</xr:LoadTransparent>
-							</Picture>
-							<FileDragMode>AsFile</FileDragMode>
-							<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="5"/>
-							<ExtendedTooltip name="ДлительнаяОперацияExtendedTooltip" id="98"/>
-						</PictureDecoration>
-						<LabelDecoration name="СтатусЗагрузкиДанных" id="6">
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<Height>3</Height>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Выполняется синхронизация данных.
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="264"/>
+							<ChildItems>
+								<PictureDecoration name="ДлительнаяОперация" id="4">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Длительная операция</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Long-running operation</v8:content>
+										</v8:item>
+									</Title>
+									<Picture>
+										<xr:Ref>CommonPicture.СинхронизацияДанныхДлительнаяОперация48</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="ДлительнаяОперацияКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="ДлительнаяОперацияExtendedTooltip" id="98"/>
+								</PictureDecoration>
+								<LabelDecoration name="СтатусЗагрузкиДанных" id="6">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>3</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выполняется синхронизация данных.
 Пожалуйста, подождите...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Synchronizing data.
+Please wait…</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Center</VerticalAlign>
+									<ContextMenu name="СтатусЗагрузкиДанныхКонтекстноеМеню" id="7"/>
+									<ExtendedTooltip name="СтатусЗагрузкиДанныхExtendedTooltip" id="99"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПредупреждениеПриОбменеЧерезВнутреннююПубликацию" id="265">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Предупреждение при обмене через внутреннюю публикацию</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Synchronizing data.
-Please wait…</v8:content>
+									<v8:content>Warning on exchange via internal publication</v8:content>
 								</v8:item>
 							</Title>
-							<VerticalAlign>Center</VerticalAlign>
-							<ContextMenu name="СтатусЗагрузкиДанныхКонтекстноеМеню" id="7"/>
-							<ExtendedTooltip name="СтатусЗагрузкиДанныхExtendedTooltip" id="99"/>
-						</LabelDecoration>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПредупреждениеПриОбменеЧерезВнутреннююПубликациюРасширеннаяПодсказка" id="266"/>
+							<ChildItems>
+								<UsualGroup name="Группа6" id="278">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="279"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация5" id="273">
+											<Width>1</Width>
+											<Height>1</Height>
+											<ContextMenu name="Декорация5КонтекстноеМеню" id="274"/>
+											<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="275"/>
+										</PictureDecoration>
+										<PictureDecoration name="Декорация9" id="285">
+											<Width>3</Width>
+											<Height>2</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация9</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Decoration9</v8:content>
+												</v8:item>
+											</Title>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>StdPicture.Information</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="Декорация9КонтекстноеМеню" id="286"/>
+											<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="287"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация11" id="288">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Height>3</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>При закрытии окна, синхронизация будет выполняться в фоновом режиме. 
+Для прекращения нажмите "Завершить синхронизацию"</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Once you close the window, synchronization will run in the background. 
+To stop it, click "Finish synchronization".</v8:content>
+												</v8:item>
+											</Title>
+											<VerticalAlign>Center</VerticalAlign>
+											<ContextMenu name="Декорация11КонтекстноеМеню" id="289"/>
+											<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="290"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа7" id="280">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="281"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация6" id="282">
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="Декорация6КонтекстноеМеню" id="283"/>
+											<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="284"/>
+										</LabelDecoration>
+										<Button name="ЗавершитьСинхронизацию" id="276">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ЗавершитьСинхронизацию</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Завершить синхронизацию</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Finish sync</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ЗавершитьСинхронизациюРасширеннаяПодсказка" id="277"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="ОжиданиеСинхронизацииДанныхПрогрессБарЗагрузка" id="170">
@@ -592,6 +808,16 @@ Please wait…</v8:content>
 						</LabelDecoration>
 						<ProgressBarField name="ПроцентВыполнения" id="175">
 							<DataPath>ПроцентВыполнения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Процент выполнения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Progress percentage</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<ShowPercent>true</ShowPercent>
 							<ContextMenu name="ПроцентВыполненияКонтекстноеМеню" id="176"/>
@@ -599,6 +825,16 @@ Please wait…</v8:content>
 						</ProgressBarField>
 						<LabelField name="ДопИнформацияВыполнениеЗагрузка" id="178">
 							<DataPath>ДопИнформацияВыполнение</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Доп информация выполнение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional progress details</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="ДопИнформацияВыполнениеЗагрузкаКонтекстноеМеню" id="179"/>
@@ -637,6 +873,16 @@ Please wait…</v8:content>
 						</LabelDecoration>
 						<ProgressBarField name="ПроцентВыполненияВыгрузки" id="186">
 							<DataPath>ПроцентВыполнения</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Процент выполнения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Progress percentage</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<ShowPercent>true</ShowPercent>
 							<ContextMenu name="ПроцентВыполненияВыгрузкиКонтекстноеМеню" id="187"/>
@@ -644,6 +890,16 @@ Please wait…</v8:content>
 						</ProgressBarField>
 						<LabelField name="ДопИнформацияВыполнениеВыгрузка" id="189">
 							<DataPath>ДопИнформацияВыполнение</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Доп информация выполнение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional progress details</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="ДопИнформацияВыполнениеВыгрузкаКонтекстноеМеню" id="190"/>
@@ -852,6 +1108,16 @@ Please contact the administrator.</v8:content>
 												<Button name="ПерейтиВЖурналРегистрации" id="34">
 													<Type>Hyperlink</Type>
 													<CommandName>Form.Command.ПерейтиВЖурналРегистрации</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Перейти в журнал регистрации</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Open Event log</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПерейтиВЖурналРегистрацииExtendedTooltip" id="112"/>
 												</Button>
 											</ChildItems>
@@ -1251,6 +1517,16 @@ To continue with the changes made, restart the application.</v8:content>
 												<Button name="УстановитьОбновление" id="51">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.УстановитьОбновление</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Установить обновление</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Install update</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="УстановитьОбновлениеExtendedTooltip" id="129"/>
 												</Button>
 												<Button name="ФормаЗакрыть1" id="52">
@@ -1293,6 +1569,16 @@ To continue with the changes made, restart the application.</v8:content>
 												<Button name="ПродолжитьСинхронизацию" id="168">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПродолжитьСинхронизацию</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Продолжить</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Continue</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПродолжитьСинхронизациюРасширеннаяПодсказка" id="169"/>
 												</Button>
 												<Button name="Закрыть" id="166">
@@ -1345,6 +1631,16 @@ To continue with the changes made, restart the application.</v8:content>
 												<Button name="ПерезапуститьПрограмму" id="261">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПерезапуститьПрограмму</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Перезапустить программу</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Restart app</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПерезапуститьПрограммуРасширеннаяПодсказка" id="262"/>
 												</Button>
 												<Button name="ФормаЗакрыть3" id="259">
@@ -1873,7 +2169,7 @@ To continue with the changes made, restart the application.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Synchronize</v8:content>
+					<v8:content>Start sync</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1958,6 +2254,29 @@ To continue with the changes made, restart the application.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПерезапуститьПрограмму</Action>
+		</Command>
+		<Command name="ЗавершитьСинхронизацию" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Завершить синхронизацию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish synchronization</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Завершить синхронизацию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Finish synchronization</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗавершитьСинхронизацию</Action>
 		</Command>
 	</Commands>
 	<Parameters>

@@ -23,6 +23,16 @@
 	<ChildItems>
 		<LabelField name="ПоясняющаяНадпись" id="12">
 			<DataPath>ПоясняющаяНадпись</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поясняющая надпись</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Note label</v8:content>
+				</v8:item>
+			</Title>
 			<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 			<TitleLocation>None</TitleLocation>
 			<AutoMaxWidth>false</AutoMaxWidth>
@@ -154,12 +164,32 @@
 					<DefaultButton>true</DefaultButton>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.ВыполнитьСопоставление</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнить сопоставление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Map infobase objects</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ВыполнитьСопоставлениеExtendedTooltip" id="21"/>
 				</Button>
 				<Button name="Отмена" id="9">
 					<Type>CommandBarButton</Type>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.Отмена</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cancel</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ОтменаExtendedTooltip" id="22"/>
 				</Button>
 			</ChildItems>

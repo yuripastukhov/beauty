@@ -62,6 +62,16 @@
 					<Type>CommandBarButton</Type>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.ОткрытьФайл</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Просмотреть</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>View</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ФормаОткрытьФайлРасширеннаяПодсказка" id="74"/>
 				</Button>
 				<Button name="ФормаЗакончитьРедактирование" id="52">
@@ -69,6 +79,16 @@
 					<Representation>Text</Representation>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.ЗакончитьРедактирование</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Закончить редактирование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Commit</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ФормаЗакончитьРедактированиеРасширеннаяПодсказка" id="75"/>
 				</Button>
 				<Button name="ФормаОткрытьСвойстваФайла" id="20">
@@ -176,6 +196,16 @@
 								<Type>CommandBarButton</Type>
 								<SkipOnInput>false</SkipOnInput>
 								<CommandName>Form.Command.ОткрытьФайл</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Просмотреть</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>View</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюОткрытьРасширеннаяПодсказка" id="77"/>
 							</Button>
 							<Button name="СписокКонтекстноеМенюСохранитьИзменения" id="57">
@@ -185,12 +215,32 @@
 								</UserVisible>
 								<SkipOnInput>false</SkipOnInput>
 								<CommandName>Form.Command.СохранитьИзменения</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сохранить изменения</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Save changes</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюСохранитьИзмененияРасширеннаяПодсказка" id="79"/>
 							</Button>
 							<Button name="СписокКонтекстноеМенюЗакончитьРедактирование" id="55">
 								<Type>CommandBarButton</Type>
 								<SkipOnInput>false</SkipOnInput>
 								<CommandName>Form.Command.ЗакончитьРедактирование</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Закончить редактирование</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Commit</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюЗакончитьРедактированиеРасширеннаяПодсказка" id="78"/>
 							</Button>
 						</ChildItems>
@@ -212,6 +262,16 @@
 								<Type>CommandBarButton</Type>
 								<SkipOnInput>false</SkipOnInput>
 								<CommandName>Form.Command.СохранитьКак</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сохранить как...</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Save as…</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюСохранитьКакРасширеннаяПодсказка" id="81"/>
 							</Button>
 							<Button name="СписокКонтекстноеМенюОсвободить" id="56">
@@ -225,7 +285,7 @@
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Cancel editing</v8:content>
+										<v8:content>Undo edits</v8:content>
 									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюОсвободитьРасширеннаяПодсказка" id="82"/>
@@ -234,12 +294,32 @@
 								<Type>CommandBarButton</Type>
 								<SkipOnInput>false</SkipOnInput>
 								<CommandName>Form.Command.ОбновитьИзФайлаНаДиске</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Обновить из файла на компьютере...</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Update from local file…</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюОбновитьИзФайлаНаДискеРасширеннаяПодсказка" id="83"/>
 							</Button>
 							<Button name="СписокКонтекстноеМенюОткрытьКаталогФайла" id="58">
 								<Type>CommandBarButton</Type>
 								<SkipOnInput>false</SkipOnInput>
 								<CommandName>Form.Command.ОткрытьКаталогФайла</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Открыть каталог файла</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Open file directory</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюОткрытьКаталогФайлаРасширеннаяПодсказка" id="80"/>
 							</Button>
 						</ChildItems>
@@ -260,6 +340,16 @@
 							<Button name="СписокКонтекстноеМенюОбновить" id="113">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.Обновить</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Обновить</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Refresh</v8:content>
+									</v8:item>
+								</Title>
 								<ExtendedTooltip name="СписокКонтекстноеМенюОбновитьРасширеннаяПодсказка" id="114"/>
 							</Button>
 							<ButtonGroup name="СписокКонтекстноеМенюГруппаНастройка" id="101">
@@ -317,7 +407,7 @@
 				</ChildItems>
 			</ContextMenu>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="15"/>
-			<ExtendedTooltip name="СписокExtendedTooltip" id="87"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="87"/>
 			<SearchStringAddition name="СписокСтрокаПоиска" id="129">
 				<AdditionSource>
 					<Item>Список</Item>
@@ -479,10 +569,20 @@
 		<CheckBoxField name="ПоказыватьЗанятыеФайлыПриЗавершенииРаботы" id="69">
 			<DataPath>ПоказыватьЗанятыеФайлыПриЗавершенииРаботы</DataPath>
 			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать занятые файлы при завершении работы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Show locked files before exit</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>Right</TitleLocation>
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ПоказыватьЗанятыеФайлыПриЗавершенииРаботыКонтекстноеМеню" id="70"/>
-			<ExtendedTooltip name="ПоказыватьЗанятыеФайлыПриЗавершенииРаботыExtendedTooltip" id="94"/>
+			<ExtendedTooltip name="ПоказыватьЗанятыеФайлыПриЗавершенииРаботыРасширеннаяПодсказка" id="94"/>
 		</CheckBoxField>
 		<CommandBar name="ГруппаКоманднойПанели" id="66">
 			<Visible>false</Visible>
@@ -497,7 +597,7 @@
 				</v8:item>
 			</Title>
 			<HorizontalLocation>Right</HorizontalLocation>
-			<ExtendedTooltip name="ГруппаКоманднойПанелиExtendedTooltip" id="95"/>
+			<ExtendedTooltip name="ГруппаКоманднойПанелиРасширеннаяПодсказка" id="95"/>
 			<ChildItems>
 				<Button name="ЗаписатьИЗакрыть" id="71">
 					<Type>CommandBarButton</Type>
@@ -513,7 +613,7 @@
 							<v8:content>OK</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ЗаписатьИЗакрытьExtendedTooltip" id="96"/>
+					<ExtendedTooltip name="ЗаписатьИЗакрытьРасширеннаяПодсказка" id="96"/>
 				</Button>
 				<Button name="Отмена" id="72">
 					<Type>CommandBarButton</Type>
@@ -528,7 +628,7 @@
 							<v8:content>Cancel</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ОтменаExtendedTooltip" id="97"/>
+					<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="97"/>
 				</Button>
 			</ChildItems>
 		</CommandBar>
@@ -810,7 +910,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Update from local file...</v8:content>
+					<v8:content>Update from local file…</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -887,7 +987,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Open file properties</v8:content>
+					<v8:content>Open file info</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -897,7 +997,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Open file properties</v8:content>
+					<v8:content>Open file info</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F2</Shortcut>

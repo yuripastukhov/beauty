@@ -36,10 +36,20 @@
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="АдресExtendedTooltip" id="2"/>
+			<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="2"/>
 			<ChildItems>
 				<CheckBoxField name="ТолькоРоссийскийАдрес" id="5">
 					<DataPath>ТолькоНациональныйАдрес</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Только российский адрес</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Only national addresses</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ТолькоРоссийскийАдресКонтекстноеМеню" id="6"/>
@@ -90,6 +100,16 @@
 							<ChildItems>
 								<CheckBoxField name="ПроверятьКорректностьАдреса" id="15">
 									<DataPath>ПроверятьКорректность</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Запрещать ввод некорректного адреса</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Prevent invalid address entry</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="ПроверятьКорректностьАдресаКонтекстноеМеню" id="16"/>
@@ -98,13 +118,33 @@
 								<CheckBoxField name="СкрыватьНеактуальныеАдреса" id="21">
 									<DataPath>СкрыватьНеактуальныеАдреса</DataPath>
 									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Скрывать неактуальные адреса</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Hide outdated addresses</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="СкрыватьНеактуальныеАдресаКонтекстноеМеню" id="22"/>
-									<ExtendedTooltip name="СкрыватьНеактуальныеАдресаExtendedTooltip" id="23"/>
+									<ExtendedTooltip name="СкрыватьНеактуальныеАдресаРасширеннаяПодсказка" id="23"/>
 								</CheckBoxField>
 								<CheckBoxField name="УказыватьОКТМОВручную" id="24">
 									<DataPath>УказыватьОКТМО</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Указывать ОКТМО</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Specify municipal territory classifier</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="УказыватьОКТМОВручнуюКонтекстноеМеню" id="25"/>
@@ -134,6 +174,16 @@
 			<ChildItems>
 				<CheckBoxField name="АвтоматическиИсправлятьУстаревшиеАдреса" id="38">
 					<DataPath>ИсправлятьУстаревшиеАдреса</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автоматически исправлять устаревшие адреса</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Correct obsolete addresses automatically</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -171,6 +221,16 @@
 					<DefaultButton>true</DefaultButton>
 					<DefaultItem>true</DefaultItem>
 					<CommandName>Form.Command.ОК</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОК</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OK</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ОКРасширеннаяПодсказка" id="33"/>
 				</Button>
 				<Button name="Отмена" id="34">

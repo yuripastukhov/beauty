@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2023, ООО 1С-Софт
+// Copyright (c) 2024, ООО 1С-Софт
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
@@ -24,15 +24,15 @@
 																									|en = 'Version: %1'"), Версия);
 	
 	Если ИмяПрограммы = ЭлектроннаяПодписьКлиентСерверЛокализация.ИмяПрограммыVipNet() Тогда
-		Элементы.КонтрольнаяСуммаРасширеннаяПодсказка.Заголовок = СтроковыеФункции.ФорматированнаяСтрока(НСтр("ru = 'Контрольную сумму можно проверить с помощью программы ViPNet HashCalc.
-		|Программу можно скачать с сайта <a href = www.infotecs.ru>www.infotecs.ru</a>.';
+		Элементы.КонтрольнаяСуммаРасширеннаяПодсказка.Заголовок = СтроковыеФункции.ФорматированнаяСтрока(НСтр("ru = 'Контрольную сумму можно проверить с помощью приложения ViPNet HashCalc.
+		|Его можно скачать с сайта <a href = www.infotecs.ru>www.infotecs.ru</a>.';
 		|en = 'You can check the checksum using ViPNet HashCalc.
-		|You can download the application from <a href = www.infotecs.ru>www.infotecs.ru</a>.'"));
+		|Visit <a href = www.infotecs.ru>www.infotecs.ru</a> (in Russian).'"));
 	Иначе
-		Элементы.КонтрольнаяСуммаРасширеннаяПодсказка.Заголовок = СтроковыеФункции.ФорматированнаяСтрока(НСтр("ru = 'Контрольную сумму можно проверить с помощью программы cpverify.exe
-		|Программу можно скачать с сайта <a href = www.cryptopro.ru>www.cryptopro.ru</a>.';
-		|en = 'You can check the checksum using cpverify.exe
-		|You can download the application from <a href = www.cryptopro.ru>www.cryptopro.ru</a>.'"));
+		Элементы.КонтрольнаяСуммаРасширеннаяПодсказка.Заголовок = СтроковыеФункции.ФорматированнаяСтрока(НСтр("ru = 'Контрольную сумму можно проверить с помощью приложения cpverify.exe.
+		|Его можно скачать с сайта <a href = www.cryptopro.ru>www.cryptopro.ru</a>.';
+		|en = 'You can check the checksum using cpverify.exe.
+		|Visit  <a href = www.cryptopro.ru>www.cryptopro.ru</a> (in Russian).'"));
 	КонецЕсли;
 	
 КонецПроцедуры

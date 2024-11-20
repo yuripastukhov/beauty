@@ -227,11 +227,31 @@
 											<Button name="СертификатыКонтекстноеМенюОбновить" id="737">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Обновить</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Обновить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Refresh</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СертификатыКонтекстноеМенюОбновитьРасширеннаяПодсказка" id="738"/>
 											</Button>
 											<Button name="СертификатыКонтекстноеМенюПоказатьДанныеТекущегоСертификата" id="746">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПоказатьДанныеТекущегоСертификата</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показать данные сертификата</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Show certificate data</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СертификатыКонтекстноеМенюПоказатьДанныеТекущегоСертификатаРасширеннаяПодсказка" id="747"/>
 											</Button>
 											<ButtonGroup name="СертификатыКонтекстноеМенюСтандартныеКоманды" id="739">
@@ -274,12 +294,32 @@
 											<Button name="Обновить" id="821">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Обновить</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Обновить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Refresh</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ОбновитьРасширеннаяПодсказка" id="822"/>
 											</Button>
 											<Button name="ПоказатьДанныеТекущегоСертификата" id="819">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПоказатьДанныеТекущегоСертификата</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показать данные сертификата</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Show certificate data</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ПоказатьДанныеТекущегоСертификатаРасширеннаяПодсказка" id="820"/>
 											</Button>
@@ -322,6 +362,16 @@
 									<ChildItems>
 										<InputField name="СертификатыПредставление" id="221">
 											<DataPath>Сертификаты.Представление</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Представление</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Presentation</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>35</Width>
 											<ContextMenu name="СертификатыПредставлениеКонтекстноеМеню" id="222"/>
@@ -329,6 +379,16 @@
 										</InputField>
 										<InputField name="СертификатыКемВыдан" id="224">
 											<DataPath>Сертификаты.КемВыдан</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Кем выдан</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Issued by</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>13</Width>
 											<ContextMenu name="СертификатыКемВыданКонтекстноеМеню" id="225"/>
@@ -338,6 +398,16 @@
 								</Table>
 								<CheckBoxField name="ПоказыватьВсе" id="816">
 									<DataPath>ПоказыватьВсе</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показывать все сертификаты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Show all certificates</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTip>
 										<v8:item>
@@ -361,11 +431,11 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Инструкции по работе с программами электронной подписи и шифрования</v8:content>
+											<v8:content>Инструкции по работе с приложениями электронной подписи и шифрования</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>How to work with digital signature and encryption applications</v8:content>
+											<v8:content>How to use digital signature and encryption apps</v8:content>
 										</v8:item>
 									</Title>
 									<Hyperlink>true</Hyperlink>
@@ -395,6 +465,16 @@
 									<Type>CommandBarButton</Type>
 									<DefaultButton>true</DefaultButton>
 									<CommandName>Form.Command.Далее</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Далее &gt;</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Next &gt;</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ДалееРасширеннаяПодсказка" id="371"/>
 								</Button>
 								<Button name="Отмена1" id="372">
@@ -460,6 +540,7 @@
 										</v8:item>
 									</Title>
 									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<Group>Vertical</Group>
 									<HorizontalAlign>Left</HorizontalAlign>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -473,7 +554,7 @@
 											<Width>51</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>51</MaxWidth>
-											<Height>4</Height>
+											<HeightControlVariant>UseContentHeight</HeightControlVariant>
 											<RowSelectionMode>Row</RowSelectionMode>
 											<Header>false</Header>
 											<HorizontalScrollBar>DontUse</HorizontalScrollBar>
@@ -529,6 +610,16 @@
 												<InputField name="СертификатОписаниеДанныхСвойство" id="755">
 													<DataPath>СертификатОписаниеДанных.Свойство</DataPath>
 													<SkipOnInput>true</SkipOnInput>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Свойство</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Property</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>13</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -538,6 +629,16 @@
 												<InputField name="СертификатОписаниеДанныхЗначение" id="758">
 													<DataPath>СертификатОписаниеДанных.Значение</DataPath>
 													<SkipOnInput>true</SkipOnInput>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Значение</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Value</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="СертификатОписаниеДанныхЗначениеКонтекстноеМеню" id="759"/>
 													<ExtendedTooltip name="СертификатОписаниеДанныхЗначениеРасширеннаяПодсказка" id="760"/>
@@ -545,16 +646,36 @@
 											</ChildItems>
 										</Table>
 										<Button name="ПоказатьДанныеСертификата" id="744">
-											<Type>UsualButton</Type>
-											<Representation>Picture</Representation>
+											<Type>Hyperlink</Type>
+											<Representation>PictureAndText</Representation>
 											<SkipOnInput>true</SkipOnInput>
 											<CommandName>Form.Command.ПоказатьДанныеСертификата</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Все свойства сертификата</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>All certificate properties</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ПоказатьДанныеСертификатаРасширеннаяПодсказка" id="745"/>
 										</Button>
 									</ChildItems>
 								</UsualGroup>
 								<InputField name="СертификатНаименование" id="247">
 									<DataPath>СертификатНаименование</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Представление</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Presentation</v8:content>
+										</v8:item>
+									</Title>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СертификатНаименованиеКонтекстноеМеню" id="248"/>
@@ -595,6 +716,16 @@ the purpose description is used instead of the certificate presentation, for exa
 								</InputField>
 								<InputField name="СертификатПользователь" id="779">
 									<DataPath>СертификатПользователь</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пользователь</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>User</v8:content>
+										</v8:item>
+									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -610,6 +741,16 @@ the purpose description is used instead of the certificate presentation, for exa
 								</InputField>
 								<InputField name="СертификатОрганизация" id="782">
 									<DataPath>СертификатОрганизация</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Организация</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Company</v8:content>
+										</v8:item>
+									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -627,11 +768,11 @@ the purpose description is used instead of the certificate presentation, for exa
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа физическое лицо</v8:content>
+											<v8:content>Физическое лицо</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Group Individual</v8:content>
+											<v8:content>Individual</v8:content>
 										</v8:item>
 									</Title>
 									<Width>30</Width>
@@ -642,6 +783,16 @@ the purpose description is used instead of the certificate presentation, for exa
 									<ChildItems>
 										<InputField name="СертификатФизическоеЛицо" id="825">
 											<DataPath>СертификатФизическоеЛицо</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Физическое лицо</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Individual</v8:content>
+												</v8:item>
+											</Title>
 											<ContextMenu name="СертификатФизическоеЛицоКонтекстноеМеню" id="826"/>
 											<ExtendedTooltip name="СертификатФизическоеЛицоРасширеннаяПодсказка" id="827"/>
 										</InputField>
@@ -649,6 +800,16 @@ the purpose description is used instead of the certificate presentation, for exa
 											<Type>UsualButton</Type>
 											<Representation>Picture</Representation>
 											<CommandName>Form.Command.ПодобратьФизическоеЛицо</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подобрать физическое лицо</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Select individual</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ПодобратьФизическоеЛицоРасширеннаяПодсказка" id="829"/>
 										</Button>
 									</ChildItems>
@@ -672,6 +833,16 @@ the purpose description is used instead of the certificate presentation, for exa
 								<Button name="Назад" id="537">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Назад</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt; Назад</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>&lt; Back</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="НазадРасширеннаяПодсказка" id="538"/>
 								</Button>
 								<Button name="Добавить" id="539">
@@ -1215,6 +1386,11 @@ the purpose description is used instead of the certificate presentation, for exa
 		</Parameter>
 		<Parameter name="ВыполнятьНаСервере">
 			<Type/>
+		</Parameter>
+		<Parameter name="Организация">
+			<Type>
+				<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+			</Type>
 		</Parameter>
 	</Parameters>
 </Form>

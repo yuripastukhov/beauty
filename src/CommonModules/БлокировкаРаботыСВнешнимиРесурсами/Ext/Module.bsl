@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2023, ООО 1С-Софт
+// Copyright (c) 2024, ООО 1С-Софт
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
@@ -428,8 +428,8 @@
 		           |Одновременное использование двух копий информационной базы с одинаковым идентификатором может привести к конфликтам
 		           |при синхронизации данных, отправке почты и другой работе с внешними ресурсами.
 		           |
-		           |Если файл отсутствует в папке с информационной базой, то программа запросит администратора, разрешено 
-		           |ли ей работать с внешними ресурсами.';
+		           |Если файл отсутствует в каталоге с информационной базой, то при запуске администратору будет задан вопрос, разрешена 
+		           |ли работа с внешними ресурсами.';
 		           |en = '%1
 		           |
 		           |The file is automatically created by the ""%2"" application.
@@ -439,8 +439,8 @@
 		           |Using both infobase copies with the same ID at the same time can lead to conflicts
 		           |while synchronizing data, sending emails, and performing other operations with external resources.
 		           |
-		           |If the file is missing in the folder with the infobase, the application will ask the administrator whether this
-		           |infobase can operate with external resources.'"), 
+		           |If the file is missing from the infobase directory, the app will prompt
+		           |the administrator if accessing external resources is allowed.'"), 
 		ИдентификаторБазы, 
 		Метаданные.Синоним);
 	
@@ -670,7 +670,7 @@
 	
 	Возврат СтроковыеФункцииКлиентСервер.ПодставитьПараметрыВСтроку(
 		НСтр("ru = 'при входе пользователя <b>%1</b>';
-			|en = 'when user <b>%1</b> signed in'"),
+			|en = 'when user <b>%1</b> logged in'"),
 		ИмяПользователя());
 	
 КонецФункции

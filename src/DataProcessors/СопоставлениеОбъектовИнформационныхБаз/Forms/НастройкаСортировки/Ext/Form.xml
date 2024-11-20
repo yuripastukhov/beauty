@@ -72,6 +72,16 @@
 			<ChildItems>
 				<CheckBoxField name="ТаблицаСортировкиИспользование" id="6">
 					<DataPath>ТаблицаСортировки.Использование</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Use</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
@@ -81,6 +91,16 @@
 				<InputField name="ТаблицаСортировкиИмяПоля" id="4">
 					<DataPath>ТаблицаСортировки.ИмяПоля</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя поля</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Field name</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТаблицаСортировкиИмяПоляКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ТаблицаСортировкиИмяПоляExtendedTooltip" id="18"/>
@@ -184,12 +204,32 @@
 					<DefaultButton>true</DefaultButton>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.Применить</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Применить</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Apply</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ПрименитьExtendedTooltip" id="21"/>
 				</Button>
 				<Button name="Отменить" id="14">
 					<Type>CommandBarButton</Type>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.Отменить</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cancel</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ОтменитьExtendedTooltip" id="22"/>
 				</Button>
 			</ChildItems>

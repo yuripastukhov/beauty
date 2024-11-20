@@ -12,6 +12,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="185"/>
 			</Button>
 			<Button name="ФормаЗаписать" id="186">
@@ -270,6 +280,16 @@
 						<Button name="ПроверитьПодключениеCOM" id="67">
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.ПроверитьПодключениеCOM</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверить подключение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Test connection</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПроверитьПодключениеCOMExtendedTooltip" id="136"/>
 						</Button>
 					</ChildItems>
@@ -335,6 +355,16 @@
 									<ChildItems>
 										<InputField name="WSПароль" id="94">
 											<DataPath>WSПароль</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пароль</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Password</v8:content>
+												</v8:item>
+											</Title>
 											<Width>30</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<PasswordMode>true</PasswordMode>
@@ -358,6 +388,16 @@
 						<InputField name="WSКонечнаяТочкаКорреспондента" id="210">
 							<DataPath>WSКонечнаяТочкаКорреспондента</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Конечная точка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Endpoint</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="WSКонечнаяТочкаКорреспондентаКонтекстноеМеню" id="211"/>
 							<ExtendedTooltip name="WSКонечнаяТочкаКорреспондентаРасширеннаяПодсказка" id="212"/>
 						</InputField>
@@ -380,11 +420,31 @@
 						<Button name="ПараметрыДоступаВИнтернет" id="119">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ПараметрыДоступаВИнтернет</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Параметры доступа в Интернет</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Internet access parameters</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПараметрыДоступаВИнтернетExtendedTooltip" id="145"/>
 						</Button>
 						<Button name="ПроверитьПодключениеWS" id="96">
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.ПроверитьПодключениеWS</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверить подключение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Test connection</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПроверитьПодключениеWSExtendedTooltip" id="146"/>
 						</Button>
 					</ChildItems>
@@ -440,6 +500,16 @@
 								</CheckBoxField>
 								<InputField name="ПарольАрхиваСообщенияОбмена1" id="101">
 									<DataPath>ПарольАрхиваСообщенияОбмена</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пароль архива</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Archive password</v8:content>
+										</v8:item>
+									</Title>
 									<Width>20</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<PasswordMode>true</PasswordMode>
@@ -476,6 +546,16 @@ If you select the check box, also select it in the peer application.</v8:content
 							<Type>UsualButton</Type>
 							<SkipOnInput>false</SkipOnInput>
 							<CommandName>Form.Command.ПроверитьПодключениеFILE</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверить подключение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Test connection</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПроверитьПодключениеFILEExtendedTooltip" id="150"/>
 						</Button>
 					</ChildItems>
@@ -565,6 +645,16 @@ If you select the check box, also select it in the peer application.</v8:content
 								</InputField>
 								<InputField name="FTPСоединениеПароль" id="22">
 									<DataPath>FTPСоединениеПароль</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пароль</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Password</v8:content>
+										</v8:item>
+									</Title>
 									<PasswordMode>true</PasswordMode>
 									<ContextMenu name="FTPСоединениеПарольКонтекстноеМеню" id="23"/>
 									<ExtendedTooltip name="FTPСоединениеПарольExtendedTooltip" id="160"/>
@@ -623,6 +713,16 @@ If you select the check box, also select it in the peer application.</v8:content
 						<Button name="ПараметрыДоступаВИнтернетFTP" id="120">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ПараметрыДоступаВИнтернет</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Параметры доступа в Интернет</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Internet access parameters</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПараметрыДоступаВИнтернетFTPРасширеннаяПодсказка" id="165"/>
 						</Button>
 						<UsualGroup name="FTPАрхив" id="103">
@@ -651,6 +751,16 @@ If you select the check box, also select it in the peer application.</v8:content
 								</CheckBoxField>
 								<InputField name="ПарольАрхиваСообщенияОбмена" id="34">
 									<DataPath>ПарольАрхиваСообщенияОбмена</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пароль архива</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Archive password</v8:content>
+										</v8:item>
+									</Title>
 									<Width>20</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<PasswordMode>true</PasswordMode>
@@ -688,6 +798,16 @@ If you select the check box, also select it in the peer application.</v8:content
 							<SkipOnInput>false</SkipOnInput>
 							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
 							<CommandName>Form.Command.ПроверитьПодключениеFTP</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверить подключение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Test connection</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПроверитьПодключениеFTPExtendedTooltip" id="166"/>
 						</Button>
 					</ChildItems>
@@ -785,6 +905,16 @@ If you select the check box, also select it in the peer application.</v8:content
 								</CheckBoxField>
 								<InputField name="ПарольАрхиваСообщенияОбмена2" id="105">
 									<DataPath>ПарольАрхиваСообщенияОбмена</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пароль архива</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Archive password</v8:content>
+										</v8:item>
+									</Title>
 									<Width>20</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<PasswordMode>true</PasswordMode>
@@ -821,6 +951,16 @@ If you select the check box, also select it in the peer application.</v8:content
 							<Type>UsualButton</Type>
 							<SkipOnInput>false</SkipOnInput>
 							<CommandName>Form.Command.ПроверитьПодключениеEMAIL</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Проверить подключение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Test connection</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПроверитьПодключениеEMAILExtendedTooltip" id="175"/>
 						</Button>
 					</ChildItems>

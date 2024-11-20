@@ -36,7 +36,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Командная панель</v8:content>
+					<v8:content>Command bar</v8:content>
 				</v8:item>
 			</Title>
 			<Shortcut>Ctrl+F</Shortcut>
@@ -61,6 +61,16 @@
 				<InputField name="ПоискВВебСервисе" id="95">
 					<DataPath>ПоискВВебСервисе</DataPath>
 					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск в веб сервисе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search in web service</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<Shortcut>Ctrl+F</Shortcut>
 					<ClearButton>true</ClearButton>
@@ -174,6 +184,16 @@
 				<InputField name="ВариантыАдресаПредставление" id="15">
 					<DataPath>ВариантыАдреса.Представление</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ВариантыАдресаПредставлениеКонтекстноеМеню" id="16"/>
 					<ExtendedTooltip name="ВариантыАдресаПредставлениеРасширеннаяПодсказка" id="17"/>
@@ -200,11 +220,31 @@
 					<Type>UsualButton</Type>
 					<Width>3</Width>
 					<CommandName>Form.Command.Предыдущие</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предыдущие</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Show the next page.</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ПредыдущиеРасширеннаяПодсказка" id="86"/>
 				</Button>
 				<Button name="Следующие" id="87">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.Следующие</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Следующие</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Next page</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="СледующиеРасширеннаяПодсказка" id="88"/>
 				</Button>
 				<LabelDecoration name="Информация" id="89">

@@ -2,6 +2,9 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandBarLocation>Bottom</CommandBarLocation>
+	<CommandSet>
+		<ExcludedCommand>EndEdit</ExcludedCommand>
+	</CommandSet>
 	<ReportFormType>Variant</ReportFormType>
 	<AutoShowState>Auto</AutoShowState>
 	<ReportResultViewMode>Auto</ReportResultViewMode>
@@ -12,19 +15,23 @@
 			<Button name="ЗавершитьРедактирование" id="124">
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
-				<CommandName>Form.Command.ЗавершитьРедактирование</CommandName>
-				<ExtendedTooltip name="ЗавершитьРедактированиеExtendedTooltip" id="127"/>
-			</Button>
-			<Button name="ФормаЗакончитьРедактирование" id="125">
-				<Type>CommandBarButton</Type>
-				<Visible>false</Visible>
-				<CommandName>Form.StandardCommand.EndEdit</CommandName>
-				<ExtendedTooltip name="ФормаЗакончитьРедактированиеExtendedTooltip" id="128"/>
+				<CommandName>Form.Command.ЗакрытьИСформировать</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Закрыть и сформировать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Close and generate</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ЗавершитьРедактированиеРасширеннаяПодсказка" id="127"/>
 			</Button>
 			<Button name="ФормаОтмена" id="126">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.StandardCommand.CancelEdit</CommandName>
-				<ExtendedTooltip name="ФормаОтменаExtendedTooltip" id="129"/>
+				<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="129"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -57,7 +64,7 @@
 			</Title>
 			<ContextMenu name="КомпоновщикНастроекНастройкиКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="КомпоновщикНастроекНастройкиКоманднаяПанель" id="3"/>
-			<ExtendedTooltip name="КомпоновщикНастроекНастройкиExtendedTooltip" id="130"/>
+			<ExtendedTooltip name="КомпоновщикНастроекНастройкиРасширеннаяПодсказка" id="130"/>
 			<SearchStringAddition name="КомпоновщикНастроекНастройкиСтрокаПоиска" id="201">
 				<AdditionSource>
 					<Item>КомпоновщикНастроекНастройки</Item>
@@ -99,7 +106,7 @@
 				</v8:item>
 			</Title>
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
-			<ExtendedTooltip name="СтраницыНастроекExtendedTooltip" id="131"/>
+			<ExtendedTooltip name="СтраницыНастроекРасширеннаяПодсказка" id="131"/>
 			<ChildItems>
 				<Page name="СтраницаПараметровДанных" id="5">
 					<Title>
@@ -116,7 +123,7 @@
 						<xr:Ref>StdPicture.DataCompositionDataParameters</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
-					<ExtendedTooltip name="СтраницаПараметровДанныхExtendedTooltip" id="132"/>
+					<ExtendedTooltip name="СтраницаПараметровДанныхРасширеннаяПодсказка" id="132"/>
 					<ChildItems>
 						<Table name="КомпоновщикНастроекНастройкиПараметрыДанных" id="6">
 							<Representation>Tree</Representation>
@@ -136,7 +143,7 @@
 							</Title>
 							<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыДанныхКонтекстноеМеню" id="7"/>
 							<AutoCommandBar name="КомпоновщикНастроекНастройкиПараметрыДанныхКоманднаяПанель" id="8"/>
-							<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыДанныхExtendedTooltip" id="133"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыДанныхРасширеннаяПодсказка" id="133"/>
 							<SearchStringAddition name="КомпоновщикНастроекНастройкиПараметрыДанныхСтрокаПоиска" id="210">
 								<AdditionSource>
 									<Item>КомпоновщикНастроекНастройкиПараметрыДанных</Item>
@@ -180,7 +187,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Group>HorizontalIfPossible</Group>
-					<ExtendedTooltip name="СтраницаПользовательскихПолейExtendedTooltip" id="134"/>
+					<ExtendedTooltip name="СтраницаПользовательскихПолейРасширеннаяПодсказка" id="134"/>
 					<ChildItems>
 						<Table name="КомпоновщикНастроекНастройкиПользовательскиеПоля" id="10">
 							<Representation>List</Representation>
@@ -201,7 +208,7 @@
 							</Title>
 							<ContextMenu name="КомпоновщикНастроекНастройкиПользовательскиеПоляКонтекстноеМеню" id="11"/>
 							<AutoCommandBar name="КомпоновщикНастроекНастройкиПользовательскиеПоляКоманднаяПанель" id="12"/>
-							<ExtendedTooltip name="КомпоновщикНастроекНастройкиПользовательскиеПоляExtendedTooltip" id="135"/>
+							<ExtendedTooltip name="КомпоновщикНастроекНастройкиПользовательскиеПоляРасширеннаяПодсказка" id="135"/>
 							<SearchStringAddition name="КомпоновщикНастроекНастройкиПользовательскиеПоляСтрокаПоиска" id="219">
 								<AdditionSource>
 									<Item>КомпоновщикНастроекНастройкиПользовательскиеПоля</Item>
@@ -244,7 +251,7 @@
 						<xr:Ref>StdPicture.DataCompositionGroupFields</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
-					<ExtendedTooltip name="СтраницаПолейГруппировкиExtendedTooltip" id="136"/>
+					<ExtendedTooltip name="СтраницаПолейГруппировкиРасширеннаяПодсказка" id="136"/>
 					<ChildItems>
 						<Pages name="СтраницыПолейГруппировки" id="14">
 							<Title>
@@ -258,7 +265,7 @@
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="СтраницыПолейГруппировкиExtendedTooltip" id="137"/>
+							<ExtendedTooltip name="СтраницыПолейГруппировкиРасширеннаяПодсказка" id="137"/>
 							<ChildItems>
 								<Page name="НастройкиПолейГруппировки" id="15">
 									<Title>
@@ -273,7 +280,7 @@
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ChildItemsWidth>LeftNarrowest</ChildItemsWidth>
-									<ExtendedTooltip name="НастройкиПолейГруппировкиExtendedTooltip" id="138"/>
+									<ExtendedTooltip name="НастройкиПолейГруппировкиРасширеннаяПодсказка" id="138"/>
 									<ChildItems>
 										<Table name="КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировок" id="16">
 											<Representation>Tree</Representation>
@@ -298,7 +305,7 @@
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокКонтекстноеМеню" id="17"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокКоманднаяПанель" id="18"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокExtendedTooltip" id="139"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокРасширеннаяПодсказка" id="139"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокСтрокаПоиска" id="228">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировок</Item>
@@ -343,7 +350,7 @@
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПоляГруппировкиКонтекстноеМеню" id="20"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиПоляГруппировкиКоманднаяПанель" id="21"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПоляГруппировкиExtendedTooltip" id="140"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПоляГруппировкиРасширеннаяПодсказка" id="140"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиПоляГруппировкиСтрокаПоиска" id="237">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиПоляГруппировки</Item>
@@ -382,7 +389,7 @@
 											<v8:content>Unavailable grouped fields page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="НедоступныеНастройкиПолейГруппировкиExtendedTooltip" id="141"/>
+									<ExtendedTooltip name="НедоступныеНастройкиПолейГруппировкиРасширеннаяПодсказка" id="141"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьНедоступныхПолейГруппировки" id="23">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -400,7 +407,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступныхПолейГруппировкиКонтекстноеМеню" id="24"/>
-											<ExtendedTooltip name="НадписьНедоступныхПолейГруппировкиExtendedTooltip" id="142"/>
+											<ExtendedTooltip name="НадписьНедоступныхПолейГруппировкиРасширеннаяПодсказка" id="142"/>
 										</LabelDecoration>
 									</ChildItems>
 								</Page>
@@ -423,7 +430,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 						<xr:Ref>StdPicture.DataCompositionSelection</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
-					<ExtendedTooltip name="СтраницаПолейВыбораExtendedTooltip" id="143"/>
+					<ExtendedTooltip name="СтраницаПолейВыбораРасширеннаяПодсказка" id="143"/>
 					<ChildItems>
 						<CheckBoxField name="ЛокальныеВыбранныеПоля" id="26">
 							<DataPath>ЛокальныеВыбранныеПоля</DataPath>
@@ -440,7 +447,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЛокальныеВыбранныеПоляКонтекстноеМеню" id="27"/>
-							<ExtendedTooltip name="ЛокальныеВыбранныеПоляExtendedTooltip" id="144"/>
+							<ExtendedTooltip name="ЛокальныеВыбранныеПоляРасширеннаяПодсказка" id="144"/>
 							<Events>
 								<Event name="OnChange">ЛокальныеВыбранныеПоляПриИзменении</Event>
 							</Events>
@@ -457,7 +464,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="СтраницыПолейВыбораExtendedTooltip" id="145"/>
+							<ExtendedTooltip name="СтраницыПолейВыбораРасширеннаяПодсказка" id="145"/>
 							<ChildItems>
 								<Page name="НастройкиВыбранныхПолей" id="29">
 									<Title>
@@ -472,7 +479,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ChildItemsWidth>LeftNarrowest</ChildItemsWidth>
-									<ExtendedTooltip name="НастройкиВыбранныхПолейExtendedTooltip" id="146"/>
+									<ExtendedTooltip name="НастройкиВыбранныхПолейРасширеннаяПодсказка" id="146"/>
 									<ChildItems>
 										<Table name="КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбора" id="30">
 											<Representation>Tree</Representation>
@@ -496,7 +503,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораКонтекстноеМеню" id="31"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораКоманднаяПанель" id="32"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораExtendedTooltip" id="147"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораРасширеннаяПодсказка" id="147"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораСтрокаПоиска" id="246">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбора</Item>
@@ -542,7 +549,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиВыборКонтекстноеМеню" id="34"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиВыборКоманднаяПанель" id="35"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборExtendedTooltip" id="148"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиВыборРасширеннаяПодсказка" id="148"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиВыборСтрокаПоиска" id="255">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиВыбор</Item>
@@ -581,7 +588,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
 											<v8:content>Disabled fields page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ОтключенныеНастройкиВыбранныхПолейExtendedTooltip" id="149"/>
+									<ExtendedTooltip name="ОтключенныеНастройкиВыбранныхПолейРасширеннаяПодсказка" id="149"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьЛокальныхВыбранныхПолей" id="37">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -600,7 +607,7 @@ To add custom fields, select the check box above.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальныхВыбранныхПолейКонтекстноеМеню" id="38"/>
-											<ExtendedTooltip name="НадписьЛокальныхВыбранныхПолейExtendedTooltip" id="150"/>
+											<ExtendedTooltip name="НадписьЛокальныхВыбранныхПолейРасширеннаяПодсказка" id="150"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКВыбраннымПолямОтчета" id="39">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -616,7 +623,7 @@ To add custom fields, select the check box above.</v8:content>
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКВыбраннымПолямОтчетаКонтекстноеМеню" id="40"/>
-											<ExtendedTooltip name="ПереходКВыбраннымПолямОтчетаExtendedTooltip" id="151"/>
+											<ExtendedTooltip name="ПереходКВыбраннымПолямОтчетаРасширеннаяПодсказка" id="151"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -634,7 +641,7 @@ To add custom fields, select the check box above.</v8:content>
 											<v8:content>Unavailable fields page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="НедоступныеНастройкиВыбранныхПолейExtendedTooltip" id="152"/>
+									<ExtendedTooltip name="НедоступныеНастройкиВыбранныхПолейРасширеннаяПодсказка" id="152"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьНедоступныхВыбранныхПолей" id="42">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -651,7 +658,7 @@ In the report structure tree, select the item and then select required fields.</
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступныхВыбранныхПолейКонтекстноеМеню" id="43"/>
-											<ExtendedTooltip name="НадписьНедоступныхВыбранныхПолейExtendedTooltip" id="153"/>
+											<ExtendedTooltip name="НадписьНедоступныхВыбранныхПолейРасширеннаяПодсказка" id="153"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКВыбраннымПолямОтчета1" id="44">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -667,7 +674,7 @@ In the report structure tree, select the item and then select required fields.</
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКВыбраннымПолямОтчета1КонтекстноеМеню" id="45"/>
-											<ExtendedTooltip name="ПереходКВыбраннымПолямОтчета1ExtendedTooltip" id="154"/>
+											<ExtendedTooltip name="ПереходКВыбраннымПолямОтчета1РасширеннаяПодсказка" id="154"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -693,7 +700,7 @@ In the report structure tree, select the item and then select required fields.</
 						<xr:Ref>StdPicture.DataCompositionFilter</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
-					<ExtendedTooltip name="СтраницаОтбораExtendedTooltip" id="155"/>
+					<ExtendedTooltip name="СтраницаОтбораРасширеннаяПодсказка" id="155"/>
 					<ChildItems>
 						<CheckBoxField name="ЛокальныйОтбор" id="47">
 							<DataPath>ЛокальныйОтбор</DataPath>
@@ -710,7 +717,7 @@ In the report structure tree, select the item and then select required fields.</
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЛокальныйОтборКонтекстноеМеню" id="48"/>
-							<ExtendedTooltip name="ЛокальныйОтборExtendedTooltip" id="156"/>
+							<ExtendedTooltip name="ЛокальныйОтборРасширеннаяПодсказка" id="156"/>
 							<Events>
 								<Event name="OnChange">ЛокальныйОтборПриИзменении</Event>
 							</Events>
@@ -727,7 +734,7 @@ In the report structure tree, select the item and then select required fields.</
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="СтраницыОтбораExtendedTooltip" id="157"/>
+							<ExtendedTooltip name="СтраницыОтбораРасширеннаяПодсказка" id="157"/>
 							<ChildItems>
 								<Page name="НастройкиОтбора" id="50">
 									<Title>
@@ -742,7 +749,7 @@ In the report structure tree, select the item and then select required fields.</
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ChildItemsWidth>LeftNarrowest</ChildItemsWidth>
-									<ExtendedTooltip name="НастройкиОтбораExtendedTooltip" id="158"/>
+									<ExtendedTooltip name="НастройкиОтбораРасширеннаяПодсказка" id="158"/>
 									<ChildItems>
 										<Table name="КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбора" id="51">
 											<Representation>Tree</Representation>
@@ -766,7 +773,7 @@ In the report structure tree, select the item and then select required fields.</
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораКонтекстноеМеню" id="52"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораКоманднаяПанель" id="53"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораExtendedTooltip" id="159"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораРасширеннаяПодсказка" id="159"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораСтрокаПоиска" id="264">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбора</Item>
@@ -814,7 +821,7 @@ In the report structure tree, select the item and then select required fields.</
 											<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
 											<ContextMenu name="КомпоновщикНастроекНастройкиОтборКонтекстноеМеню" id="55"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиОтборКоманднаяПанель" id="56"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборExtendedTooltip" id="160"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиОтборРасширеннаяПодсказка" id="160"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиОтборСтрокаПоиска" id="273">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиОтбор</Item>
@@ -853,7 +860,7 @@ In the report structure tree, select the item and then select required fields.</
 											<v8:content>Disabled filter page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ОтключенныеНастройкиОтбораExtendedTooltip" id="161"/>
+									<ExtendedTooltip name="ОтключенныеНастройкиОтбораРасширеннаяПодсказка" id="161"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьЛокальногоОтбора" id="58">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -872,7 +879,7 @@ To assign the item with a personal filter, select the check box above.</v8:conte
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальногоОтбораКонтекстноеМеню" id="59"/>
-											<ExtendedTooltip name="НадписьЛокальногоОтбораExtendedTooltip" id="162"/>
+											<ExtendedTooltip name="НадписьЛокальногоОтбораРасширеннаяПодсказка" id="162"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКОтборуОтчета" id="60">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -888,7 +895,7 @@ To assign the item with a personal filter, select the check box above.</v8:conte
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКОтборуОтчетаКонтекстноеМеню" id="61"/>
-											<ExtendedTooltip name="ПереходКОтборуОтчетаExtendedTooltip" id="163"/>
+											<ExtendedTooltip name="ПереходКОтборуОтчетаРасширеннаяПодсказка" id="163"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -906,7 +913,7 @@ To assign the item with a personal filter, select the check box above.</v8:conte
 											<v8:content>Unavailable filter page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="НедоступныеНастройкиОтбораExtendedTooltip" id="164"/>
+									<ExtendedTooltip name="НедоступныеНастройкиОтбораРасширеннаяПодсказка" id="164"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьНедоступногоОтбора" id="63">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -923,7 +930,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступногоОтбораКонтекстноеМеню" id="64"/>
-											<ExtendedTooltip name="НадписьНедоступногоОтбораExtendedTooltip" id="165"/>
+											<ExtendedTooltip name="НадписьНедоступногоОтбораРасширеннаяПодсказка" id="165"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКОтборуОтчета1" id="65">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -939,7 +946,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКОтборуОтчета1КонтекстноеМеню" id="66"/>
-											<ExtendedTooltip name="ПереходКОтборуОтчета1ExtendedTooltip" id="166"/>
+											<ExtendedTooltip name="ПереходКОтборуОтчета1РасширеннаяПодсказка" id="166"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -965,7 +972,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 						<xr:Ref>StdPicture.DataCompositionOrder</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
-					<ExtendedTooltip name="СтраницаПорядкаExtendedTooltip" id="167"/>
+					<ExtendedTooltip name="СтраницаПорядкаРасширеннаяПодсказка" id="167"/>
 					<ChildItems>
 						<CheckBoxField name="ЛокальныйПорядок" id="68">
 							<DataPath>ЛокальныйПорядок</DataPath>
@@ -982,7 +989,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЛокальныйПорядокКонтекстноеМеню" id="69"/>
-							<ExtendedTooltip name="ЛокальныйПорядокExtendedTooltip" id="168"/>
+							<ExtendedTooltip name="ЛокальныйПорядокРасширеннаяПодсказка" id="168"/>
 							<Events>
 								<Event name="OnChange">ЛокальныйПорядокПриИзменении</Event>
 							</Events>
@@ -999,7 +1006,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="СтраницыПорядкаExtendedTooltip" id="169"/>
+							<ExtendedTooltip name="СтраницыПорядкаРасширеннаяПодсказка" id="169"/>
 							<ChildItems>
 								<Page name="НастройкиПорядка" id="71">
 									<Title>
@@ -1014,7 +1021,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ChildItemsWidth>LeftNarrowest</ChildItemsWidth>
-									<ExtendedTooltip name="НастройкиПорядкаExtendedTooltip" id="170"/>
+									<ExtendedTooltip name="НастройкиПорядкаРасширеннаяПодсказка" id="170"/>
 									<ChildItems>
 										<Table name="КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка" id="72">
 											<Representation>Tree</Representation>
@@ -1038,7 +1045,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаКонтекстноеМеню" id="73"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаКоманднаяПанель" id="74"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаExtendedTooltip" id="171"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаРасширеннаяПодсказка" id="171"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаСтрокаПоиска" id="282">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядка</Item>
@@ -1083,7 +1090,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПорядокКонтекстноеМеню" id="76"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиПорядокКоманднаяПанель" id="77"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПорядокExtendedTooltip" id="172"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПорядокРасширеннаяПодсказка" id="172"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиПорядокСтрокаПоиска" id="291">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиПорядок</Item>
@@ -1122,7 +1129,7 @@ In the structure tree, select the report and edit report filters.</v8:content>
 											<v8:content>Disabled sort page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ОтключенныеНастройкиПорядкаExtendedTooltip" id="173"/>
+									<ExtendedTooltip name="ОтключенныеНастройкиПорядкаРасширеннаяПодсказка" id="173"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьЛокальногоПорядка" id="79">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1141,7 +1148,7 @@ To assign the item with a personal sort, select the check box above.</v8:content
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальногоПорядкаКонтекстноеМеню" id="80"/>
-											<ExtendedTooltip name="НадписьЛокальногоПорядкаExtendedTooltip" id="174"/>
+											<ExtendedTooltip name="НадписьЛокальногоПорядкаРасширеннаяПодсказка" id="174"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКПорядкуОтчета" id="81">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1157,7 +1164,7 @@ To assign the item with a personal sort, select the check box above.</v8:content
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКПорядкуОтчетаКонтекстноеМеню" id="82"/>
-											<ExtendedTooltip name="ПереходКПорядкуОтчетаExtendedTooltip" id="175"/>
+											<ExtendedTooltip name="ПереходКПорядкуОтчетаРасширеннаяПодсказка" id="175"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -1175,7 +1182,7 @@ To assign the item with a personal sort, select the check box above.</v8:content
 											<v8:content>Unavailable sort page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="НедоступныеНастройкиПорядкаExtendedTooltip" id="176"/>
+									<ExtendedTooltip name="НедоступныеНастройкиПорядкаРасширеннаяПодсказка" id="176"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьНедоступногоПорядка" id="84">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1192,7 +1199,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступногоПорядкаКонтекстноеМеню" id="85"/>
-											<ExtendedTooltip name="НадписьНедоступногоПорядкаExtendedTooltip" id="177"/>
+											<ExtendedTooltip name="НадписьНедоступногоПорядкаРасширеннаяПодсказка" id="177"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКПорядкуОтчета1" id="86">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1208,7 +1215,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКПорядкуОтчета1КонтекстноеМеню" id="87"/>
-											<ExtendedTooltip name="ПереходКПорядкуОтчета1ExtendedTooltip" id="178"/>
+											<ExtendedTooltip name="ПереходКПорядкуОтчета1РасширеннаяПодсказка" id="178"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -1234,7 +1241,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 						<xr:Ref>StdPicture.DataCompositionConditionalAppearance</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
-					<ExtendedTooltip name="СтраницаУсловногоОформленияExtendedTooltip" id="179"/>
+					<ExtendedTooltip name="СтраницаУсловногоОформленияРасширеннаяПодсказка" id="179"/>
 					<ChildItems>
 						<CheckBoxField name="ЛокальноеУсловноеОформление" id="89">
 							<DataPath>ЛокальноеУсловноеОформление</DataPath>
@@ -1251,7 +1258,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЛокальноеУсловноеОформлениеКонтекстноеМеню" id="90"/>
-							<ExtendedTooltip name="ЛокальноеУсловноеОформлениеExtendedTooltip" id="180"/>
+							<ExtendedTooltip name="ЛокальноеУсловноеОформлениеРасширеннаяПодсказка" id="180"/>
 							<Events>
 								<Event name="OnChange">ЛокальноеУсловноеОформлениеПриИзменении</Event>
 							</Events>
@@ -1268,7 +1275,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="СтраницыУсловногоОформленияExtendedTooltip" id="181"/>
+							<ExtendedTooltip name="СтраницыУсловногоОформленияРасширеннаяПодсказка" id="181"/>
 							<ChildItems>
 								<Page name="НастройкиУсловногоОформления" id="92">
 									<Title>
@@ -1282,7 +1289,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
-									<ExtendedTooltip name="НастройкиУсловногоОформленияExtendedTooltip" id="182"/>
+									<ExtendedTooltip name="НастройкиУсловногоОформленияРасширеннаяПодсказка" id="182"/>
 									<ChildItems>
 										<Table name="КомпоновщикНастроекНастройкиУсловноеОформление" id="93">
 											<Representation>List</Representation>
@@ -1304,7 +1311,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 											<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
 											<ContextMenu name="КомпоновщикНастроекНастройкиУсловноеОформлениеКонтекстноеМеню" id="94"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиУсловноеОформлениеКоманднаяПанель" id="95"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиУсловноеОформлениеExtendedTooltip" id="183"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиУсловноеОформлениеРасширеннаяПодсказка" id="183"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиУсловноеОформлениеСтрокаПоиска" id="300">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиУсловноеОформление</Item>
@@ -1343,7 +1350,7 @@ In the structure tree, select the report and edit report sorts.</v8:content>
 											<v8:content>Disabled conditional appearance page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ОтключенныеНастройкиУсловногоОформленияExtendedTooltip" id="184"/>
+									<ExtendedTooltip name="ОтключенныеНастройкиУсловногоОформленияРасширеннаяПодсказка" id="184"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьЛокальногоУсловногоОформления" id="97">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1362,7 +1369,7 @@ To assign the item with a personal conditional appearance, select the check box 
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальногоУсловногоОформленияКонтекстноеМеню" id="98"/>
-											<ExtendedTooltip name="НадписьЛокальногоУсловногоОформленияExtendedTooltip" id="185"/>
+											<ExtendedTooltip name="НадписьЛокальногоУсловногоОформленияРасширеннаяПодсказка" id="185"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКУсловномуОформлениюОтчета" id="99">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1378,7 +1385,7 @@ To assign the item with a personal conditional appearance, select the check box 
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКУсловномуОформлениюОтчетаКонтекстноеМеню" id="100"/>
-											<ExtendedTooltip name="ПереходКУсловномуОформлениюОтчетаExtendedTooltip" id="186"/>
+											<ExtendedTooltip name="ПереходКУсловномуОформлениюОтчетаРасширеннаяПодсказка" id="186"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -1396,7 +1403,7 @@ To assign the item with a personal conditional appearance, select the check box 
 											<v8:content>Unavailable conditional appearance page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="НедоступныеНастройкиУсловногоОформленияExtendedTooltip" id="187"/>
+									<ExtendedTooltip name="НедоступныеНастройкиУсловногоОформленияРасширеннаяПодсказка" id="187"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьНедоступногоУсловногоОформления" id="102">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1413,7 +1420,7 @@ In the structure tree, select the report and edit report conditional appearance.
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступногоУсловногоОформленияКонтекстноеМеню" id="103"/>
-											<ExtendedTooltip name="НадписьНедоступногоУсловногоОформленияExtendedTooltip" id="188"/>
+											<ExtendedTooltip name="НадписьНедоступногоУсловногоОформленияРасширеннаяПодсказка" id="188"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКУсловномуОформлениюОтчета1" id="104">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1429,7 +1436,7 @@ In the structure tree, select the report and edit report conditional appearance.
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКУсловномуОформлениюОтчета1КонтекстноеМеню" id="105"/>
-											<ExtendedTooltip name="ПереходКУсловномуОформлениюОтчета1ExtendedTooltip" id="189"/>
+											<ExtendedTooltip name="ПереходКУсловномуОформлениюОтчета1РасширеннаяПодсказка" id="189"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -1455,7 +1462,7 @@ In the structure tree, select the report and edit report conditional appearance.
 						<xr:Ref>StdPicture.DataCompositionOutputParameters</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
-					<ExtendedTooltip name="СтраницаПараметровВыводаExtendedTooltip" id="190"/>
+					<ExtendedTooltip name="СтраницаПараметровВыводаРасширеннаяПодсказка" id="190"/>
 					<ChildItems>
 						<CheckBoxField name="ЛокальныеПараметрыВывода" id="107">
 							<DataPath>ЛокальныеПараметрыВывода</DataPath>
@@ -1472,7 +1479,7 @@ In the structure tree, select the report and edit report conditional appearance.
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ЛокальныеПараметрыВыводаКонтекстноеМеню" id="108"/>
-							<ExtendedTooltip name="ЛокальныеПараметрыВыводаExtendedTooltip" id="191"/>
+							<ExtendedTooltip name="ЛокальныеПараметрыВыводаРасширеннаяПодсказка" id="191"/>
 							<Events>
 								<Event name="OnChange">ЛокальныеПараметрыВыводаПриИзменении</Event>
 							</Events>
@@ -1489,7 +1496,7 @@ In the structure tree, select the report and edit report conditional appearance.
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="СтраницыПараметровВыводаExtendedTooltip" id="192"/>
+							<ExtendedTooltip name="СтраницыПараметровВыводаРасширеннаяПодсказка" id="192"/>
 							<ChildItems>
 								<Page name="НастройкиПараметровВывода" id="110">
 									<Title>
@@ -1503,7 +1510,7 @@ In the structure tree, select the report and edit report conditional appearance.
 										</v8:item>
 									</Title>
 									<Group>HorizontalIfPossible</Group>
-									<ExtendedTooltip name="НастройкиПараметровВыводаExtendedTooltip" id="193"/>
+									<ExtendedTooltip name="НастройкиПараметровВыводаРасширеннаяПодсказка" id="193"/>
 									<ChildItems>
 										<Table name="КомпоновщикНастроекНастройкиПараметрыВывода" id="111">
 											<Representation>Tree</Representation>
@@ -1523,7 +1530,7 @@ In the structure tree, select the report and edit report conditional appearance.
 											</Title>
 											<ContextMenu name="КомпоновщикНастроекНастройкиПараметрыВыводаКонтекстноеМеню" id="112"/>
 											<AutoCommandBar name="КомпоновщикНастроекНастройкиПараметрыВыводаКоманднаяПанель" id="113"/>
-											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыВыводаExtendedTooltip" id="194"/>
+											<ExtendedTooltip name="КомпоновщикНастроекНастройкиПараметрыВыводаРасширеннаяПодсказка" id="194"/>
 											<SearchStringAddition name="КомпоновщикНастроекНастройкиПараметрыВыводаСтрокаПоиска" id="309">
 												<AdditionSource>
 													<Item>КомпоновщикНастроекНастройкиПараметрыВывода</Item>
@@ -1565,7 +1572,7 @@ In the structure tree, select the report and edit report conditional appearance.
 											<v8:content>Disabled additional settings page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ОтключенныеНастройкиПараметровВыводаExtendedTooltip" id="195"/>
+									<ExtendedTooltip name="ОтключенныеНастройкиПараметровВыводаРасширеннаяПодсказка" id="195"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьЛокальныхПараметровВывода" id="115">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1584,7 +1591,7 @@ To assign the item with personal additional settings, select the check box above
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьЛокальныхПараметровВыводаКонтекстноеМеню" id="116"/>
-											<ExtendedTooltip name="НадписьЛокальныхПараметровВыводаExtendedTooltip" id="196"/>
+											<ExtendedTooltip name="НадписьЛокальныхПараметровВыводаРасширеннаяПодсказка" id="196"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКПараметрамВыводаОтчета" id="117">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1600,7 +1607,7 @@ To assign the item with personal additional settings, select the check box above
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКПараметрамВыводаОтчетаКонтекстноеМеню" id="118"/>
-											<ExtendedTooltip name="ПереходКПараметрамВыводаОтчетаExtendedTooltip" id="197"/>
+											<ExtendedTooltip name="ПереходКПараметрамВыводаОтчетаРасширеннаяПодсказка" id="197"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -1618,7 +1625,7 @@ To assign the item with personal additional settings, select the check box above
 											<v8:content>Unavailable additional settings page</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="НедоступныеНастройкиПараметровВыводаExtendedTooltip" id="198"/>
+									<ExtendedTooltip name="НедоступныеНастройкиПараметровВыводаРасширеннаяПодсказка" id="198"/>
 									<ChildItems>
 										<LabelDecoration name="НадписьНедоступныхПараметровВывода" id="120">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1635,7 +1642,7 @@ In the structure tree, select the report and edit additional report settings.</v
 												</v8:item>
 											</Title>
 											<ContextMenu name="НадписьНедоступныхПараметровВыводаКонтекстноеМеню" id="121"/>
-											<ExtendedTooltip name="НадписьНедоступныхПараметровВыводаExtendedTooltip" id="199"/>
+											<ExtendedTooltip name="НадписьНедоступныхПараметровВыводаРасширеннаяПодсказка" id="199"/>
 										</LabelDecoration>
 										<LabelDecoration name="ПереходКПараметрамВыводаОтчета1" id="122">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1651,7 +1658,7 @@ In the structure tree, select the report and edit additional report settings.</v
 											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="ПереходКПараметрамВыводаОтчета1КонтекстноеМеню" id="123"/>
-											<ExtendedTooltip name="ПереходКПараметрамВыводаОтчета1ExtendedTooltip" id="200"/>
+											<ExtendedTooltip name="ПереходКПараметрамВыводаОтчета1РасширеннаяПодсказка" id="200"/>
 											<Events>
 												<Event name="Click">ПерейтиКОтчету</Event>
 											</Events>
@@ -1758,28 +1765,28 @@ In the structure tree, select the report and edit additional report settings.</v
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ЗавершитьРедактирование" id="1">
+		<Command name="ЗакрытьИСформировать" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Завершить редактирование</v8:content>
+					<v8:content>Закрыть и сформировать</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Finish editing</v8:content>
+					<v8:content>Close and generate</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Завершить редактирование</v8:content>
+					<v8:content>Закрыть и сформировать отчет</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Finish editing.</v8:content>
+					<v8:content>Close and generate</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ЗавершитьРедактирование</Action>
+			<Action>ЗакрытьИСформировать</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
@@ -1792,6 +1799,37 @@ In the structure tree, select the report and edit additional report settings.</v
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+		</Parameter>
+		<Parameter name="ПредставлениеВарианта">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ВариантМодифицирован">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ПользовательскиеНастройкиМодифицированы">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ВариантНаименование">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="НастройкиОтчета">
+			<Type/>
 		</Parameter>
 	</Parameters>
 </Form>

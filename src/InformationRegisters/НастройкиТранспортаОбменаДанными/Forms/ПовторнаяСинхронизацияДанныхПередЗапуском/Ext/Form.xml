@@ -68,7 +68,7 @@ For details, see the &lt;link ЖурналРегистрации&gt;event log&lt
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Click &lt;b&gt;Synchronize and continue&lt;/&gt; to get
+									<v8:content>Click &lt;b&gt;Sync and continue&lt;/&gt; to get
 the application update again (recommended).
 </v8:content>
 								</v8:item>
@@ -111,6 +111,16 @@ the application update again (recommended).
 										<Button name="ПараметрыПодключения" id="63">
 											<Type>Hyperlink</Type>
 											<CommandName>Form.Command.ПараметрыПодключения</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменить параметры подключения для синхронизации данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Change data synchronization connection parameters </v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ПараметрыПодключенияРасширеннаяПодсказка" id="64"/>
 										</Button>
 									</ChildItems>
@@ -135,6 +145,16 @@ the application update again (recommended).
 										</LabelDecoration>
 										<InputField name="Пароль" id="65">
 											<DataPath>Пароль</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пароль</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Password</v8:content>
+												</v8:item>
+											</Title>
 											<PasswordMode>true</PasswordMode>
 											<ContextMenu name="ПарольКонтекстноеМеню" id="66"/>
 											<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="67"/>
@@ -142,6 +162,16 @@ the application update again (recommended).
 										<Button name="ЗабылиПароль" id="68">
 											<Type>Hyperlink</Type>
 											<CommandName>Form.Command.ЗабылиПароль</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Забыли пароль?</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Forgot password?</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ЗабылиПарольРасширеннаяПодсказка" id="69"/>
 										</Button>
 									</ChildItems>
@@ -153,11 +183,13 @@ the application update again (recommended).
 							<Title formatted="true">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Нажмите &lt;b&gt;П&lt;/&gt;&lt;b&gt;родолжить,&lt;/&gt; чтобы повторить попытку обновления программы.</v8:content>
+									<v8:content>Нажмите &lt;b&gt;Продолжить&lt;/&gt;, чтобы повторить попытку обновления программы.
+</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Click &lt;b&gt;C&lt;/&gt;&lt;b&gt;ontinue&lt;/&gt; to retry the update.</v8:content>
+									<v8:content>Click &lt;b&gt;Continue&lt;/&gt; to try updating again.
+</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ИнформационнаяНадписьНеСинхронизироватьКонтекстноеМеню" id="42"/>
@@ -262,6 +294,16 @@ Please wait…</v8:content>
 							<Type>CommandBarButton</Type>
 							<DefaultButton>true</DefaultButton>
 							<CommandName>Form.Command.СинхронизироватьИПродолжить</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Синхронизировать и продолжить</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Sync and continue</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ФормаСинхронизироватьИПродолжитьРасширеннаяПодсказка" id="2"/>
 						</Button>
 						<Button name="ФормаНеСинхронизироватьИПродолжить" id="3">
@@ -282,6 +324,16 @@ Please wait…</v8:content>
 						<Button name="ФормаЗавершитьРаботу" id="5">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ЗавершитьРаботу</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Завершить работу</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Exit</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ФормаЗавершитьРаботуРасширеннаяПодсказка" id="6"/>
 						</Button>
 					</ChildItems>
@@ -437,7 +489,7 @@ Please wait…</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Synchronize and continue</v8:content>
+					<v8:content>Sync and continue</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>

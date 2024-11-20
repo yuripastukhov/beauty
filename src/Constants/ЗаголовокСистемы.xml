@@ -20,7 +20,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заголовок программы</v8:content>
+					<v8:content>Заголовок приложения</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
@@ -45,7 +45,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Фрагмент заголовка главного окна программы</v8:content>
+					<v8:content>Фрагмент заголовка главного окна приложения</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>

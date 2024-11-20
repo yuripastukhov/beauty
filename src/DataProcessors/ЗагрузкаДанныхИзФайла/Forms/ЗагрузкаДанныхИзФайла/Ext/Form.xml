@@ -218,6 +218,16 @@ You can paste the data from the clipboard or upload a spreadsheet file.</v8:cont
 					<ChildItems>
 						<RadioButtonField name="ВариантЗагрузки" id="652">
 							<DataPath>ВариантЗагрузки</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вариант загрузки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Import data</v8:content>
+								</v8:item>
+							</Title>
 							<RadioButtonType>Tumbler</RadioButtonType>
 							<ChoiceList>
 								<xr:Item>
@@ -385,6 +395,16 @@ You can paste the data from the clipboard or upload a spreadsheet file.</v8:cont
 										<Button name="ИзменитьБланкЗаполнениеТаблицы" id="657">
 											<Type>Hyperlink</Type>
 											<CommandName>Form.Command.ИзменитьБланк</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменить бланк</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Edit template</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
 											<ExtendedTooltip name="ИзменитьБланкЗаполнениеТаблицыРасширеннаяПодсказка" id="658"/>
 										</Button>
@@ -409,7 +429,7 @@ You can paste the data from the clipboard or upload a spreadsheet file.</v8:cont
 											<Title formatted="true">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Для загрузки данных необходимо, сохранить бланк в файл для заполнения в другой программе. 
+													<v8:content>Для загрузки данных необходимо, сохранить бланк в файл для заполнения в другом приложении. 
 Затем загрузить заполненную таблицу в одном из форматов:
 • Книги Microsoft Excel 97 (.xls) и Excel 2007 (.xlsx)
 • Электронные таблицы LibreOffice Calc (.ods)
@@ -434,6 +454,16 @@ Then import the spreadsheet to the application. The application supports the fol
 											<Width>25</Width>
 											<Height>2</Height>
 											<CommandName>Form.Command.ЗагрузитьТаблицуИзФайла</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузить таблицу из файла...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Import spreadsheet…</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ЗагрузитьТаблицуИзФайлаРасширеннаяПодсказка" id="128"/>
 										</Button>
 										<Button name="СохранитьБланкДляЗаполнения" id="125">
@@ -442,11 +472,31 @@ Then import the spreadsheet to the application. The application supports the fol
 											<Width>25</Width>
 											<Height>2</Height>
 											<CommandName>Form.Command.СохранитьБланкДляЗаполнения</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сохранить бланк для заполнения...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Save template…</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="СохранитьБланкДляЗаполненияРасширеннаяПодсказка" id="126"/>
 										</Button>
 										<Button name="ИзменитьБланк" id="581">
 											<Type>Hyperlink</Type>
 											<CommandName>Form.Command.ИзменитьБланк</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменить бланк</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Edit template</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
 											<ExtendedTooltip name="ИзменитьБланкРасширеннаяПодсказка" id="582"/>
 										</Button>
@@ -483,6 +533,16 @@ Then import the spreadsheet to the application. The application supports the fol
 										</LabelDecoration>
 										<InputField name="ШаблонСДаннымиОднаКолонка" id="489">
 											<DataPath>ШаблонСДаннымиОднаКолонка</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Шаблон с данными одна колонка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Single-column data template</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MultiLine>true</MultiLine>
@@ -536,8 +596,8 @@ Then import the spreadsheet to the application. The application supports the fol
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Информация32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogInformation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ДекорацияИнформация32КонтекстноеМеню" id="549"/>
@@ -549,7 +609,7 @@ Then import the spreadsheet to the application. The application supports the fol
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Не удалось вставить введенные данные в список, т.к. в программе нет соответствующих данных. </v8:content>
+											<v8:content>Не удалось вставить введенные данные в список, т.к. в приложении нет соответствующих данных. </v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -614,7 +674,7 @@ Then import the spreadsheet to the application. The application supports the fol
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Будут пропущены:
-- Нет данных в программе: 8
+- Нет данных в приложении: 8
 - Несколько вариантов для вставки: 2
 Для просмотра пропущенных строк и подбора данных для вставки нажмите "Далее".</v8:content>
 										</v8:item>
@@ -668,7 +728,7 @@ To review and resolve the skipped rows, click "Next".</v8:content>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Для некоторых введенных строк не найдено данных в программе, либо имеется несколько вариантов.
+											<v8:content>Для некоторых введенных строк не найдено данных в приложении, либо имеется несколько вариантов.
 Для вставки таких строк следует выбрать соответствующие объекты, щелкнув левой кнопкой мыши в колонке "Объект".</v8:content>
 										</v8:item>
 										<v8:item>
@@ -687,7 +747,7 @@ To add an item manually, select the correct object in the "Object" column.</v8:c
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Для некоторых загруженных данных в программе не найдено однозначного соответствия.  Для несопоставленных данных будут созданы
+											<v8:content>Для некоторых загруженных данных в приложении не найдено однозначного соответствия.  Для несопоставленных данных будут созданы
 новые записи, либо они будут пропущены (в зависимости от настройки). При необходимости возможно сопоставить данные вручную, 
 заполнив колонку "%1".</v8:content>
 										</v8:item>
@@ -708,9 +768,9 @@ To map them manually, enter the data in column "%1".</v8:content>
 									<Title formatted="true">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Для некоторых значений в колонках таблицы не найдены однозначные соответствия в данных программы (выделены &lt;colorstyle -16&gt;красным цветом&lt;/&gt;).
-Необходимо сопоставить эти значения с данными в программе вручную. 
-В случае если в программе отсутствуют необходимые данные, то ввести их.</v8:content>
+											<v8:content>Для некоторых значений в колонках таблицы не найдены однозначные соответствия в данных приложении (выделены &lt;colorstyle -16&gt;красным цветом&lt;/&gt;).
+Необходимо сопоставить эти значения с данными в приложении вручную. 
+В случае если в приложении отсутствуют необходимые данные, то ввести их.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -739,7 +799,7 @@ You can map them manually or add them as new items.</v8:content>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Выберите одну или несколько колонок, по которым будут сопоставлены загруженные данные с данными из программы</v8:content>
+									<v8:content>Выберите одну или несколько колонок, по которым будут сопоставлены загруженные данные с данными из приложения</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -865,6 +925,16 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
 									<Type>UsualButton</Type>
 									<Enabled>false</Enabled>
 									<CommandName>Form.Command.УстранитьНеоднозначностьНеоднозначность</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Устранить неоднозначность...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Resolve conflict…</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="УстранитьНеоднозначностьРасширеннаяПодсказка" id="460"/>
 								</Button>
 								<CommandBar name="ГруппаКоманднаяПанель" id="431">
@@ -895,6 +965,16 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
 										<Button name="ТаблицаСопоставленияДанныхОтменитьСопоставление" id="659">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ОтменитьСопоставление</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отменить сопоставление</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Clear mapping</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТаблицаСопоставленияДанныхОтменитьСопоставлениеРасширеннаяПодсказка" id="660"/>
 										</Button>
@@ -954,6 +1034,16 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
 											<Button name="ТаблицаСопоставленияДанныхКонтекстноеМенюРазрешитьНеоднозначность" id="487">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.УстранитьНеоднозначностьНеоднозначность</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Устранить неоднозначность...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Resolve conflict…</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="ТаблицаСопоставленияДанныхКонтекстноеМенюРазрешитьНеоднозначностьРасширеннаяПодсказка" id="488"/>
 											</Button>
 										</ChildItems>
@@ -1223,6 +1313,16 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
 											<ChildItems>
 												<LabelField name="ИтогоОтчетСоздано" id="475">
 													<DataPath>ИтогоОтчетСоздано</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Создано новых элементов</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Items added</v8:content>
+														</v8:item>
+													</Title>
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1238,6 +1338,16 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
 												</LabelField>
 												<LabelField name="ИтогоОтчетПропущено" id="481">
 													<DataPath>ИтогоОтчетПропущено</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пропущено</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Total items skipped</v8:content>
+														</v8:item>
+													</Title>
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1272,6 +1382,16 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
 											<ChildItems>
 												<LabelField name="ИтогоОтчетОбновлено" id="478">
 													<DataPath>ИтогоОтчетОбновлено</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Обновлено существующих</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Items updated</v8:content>
+														</v8:item>
+													</Title>
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1287,6 +1407,16 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
 												</LabelField>
 												<LabelField name="ИтогоОтчетНекорректных" id="484">
 													<DataPath>ИтогоОтчетНекорректных</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>в т.ч. из-за некорректных данных</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Invalid items skipped</v8:content>
+														</v8:item>
+													</Title>
 													<Format>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1496,6 +1626,16 @@ Also, you can save skipped lines to a file, revise them, and import them later.<
 											<Type>CommandBarButton</Type>
 											<Representation>Text</Representation>
 											<CommandName>Form.Command.ИзменитьРеквизиты</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменить реквизиты...</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Edit attributes…</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ИзменитьРеквизитыРасширеннаяПодсказка" id="379"/>
 										</Button>
 									</ChildItems>
@@ -1577,6 +1717,16 @@ Also, you can save skipped lines to a file, revise them, and import them later.<
 								</LabelDecoration>
 								<ProgressBarField name="ФоновоеЗаданиеПроцент" id="566">
 									<DataPath>ФоновоеЗаданиеПроцент</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Фоновое задание процент</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Background job progress</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ShowPercent>true</ShowPercent>
 									<ContextMenu name="ФоновоеЗаданиеПроцентКонтекстноеМеню" id="567"/>
@@ -1671,12 +1821,32 @@ Also, you can save skipped lines to a file, revise them, and import them later.<
 							<Type>CommandBarButton</Type>
 							<Visible>false</Visible>
 							<CommandName>Form.Command.ВставитьВСписок</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вставить в список</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Add to list</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ВставитьВСписокРасширеннаяПодсказка" id="542"/>
 						</Button>
 						<Button name="Далее" id="43">
 							<Type>CommandBarButton</Type>
 							<DefaultButton>true</DefaultButton>
 							<CommandName>Form.Command.Далее</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Далее &gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Next &gt;</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ДалееРасширеннаяПодсказка" id="44"/>
 						</Button>
 						<Button name="Закрыть" id="45">
@@ -2473,6 +2643,18 @@ Also, you can save skipped lines to a file, revise them, and import them later.<
 			<Type>
 				<v8:Type>v8:TypeDescription</v8:Type>
 			</Type>
+		</Parameter>
+		<Parameter name="ПредставлениеПоля">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="КолонкиМакета">
+			<Type/>
 		</Parameter>
 	</Parameters>
 </Form>

@@ -106,6 +106,16 @@ If you cancel the operation, you can run it again from the list of configured da
 										</LabelDecoration>
 										<RadioButtonField name="РежимВыгрузкиДанных" id="233">
 											<DataPath>РежимВыгрузкиДанных</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Состав выгружаемых данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Data to export</v8:content>
+												</v8:item>
+											</Title>
 											<RadioButtonType>Auto</RadioButtonType>
 											<ColumnsCount>1</ColumnsCount>
 											<ChoiceList>
@@ -229,6 +239,16 @@ Data export is canceled.</v8:content>
 										</LabelDecoration>
 										<InputField name="СообщениеОбОшибке3" id="258">
 											<DataPath>СообщениеОбОшибке</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сообщение об ошибке</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Error message</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<Width>50</Width>
 											<MultiLine>true</MultiLine>
@@ -238,6 +258,16 @@ Data export is canceled.</v8:content>
 										<Button name="НастройкиПодключения" id="261">
 											<Type>Hyperlink</Type>
 											<CommandName>Form.Command.НастройкиПодключения</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройки подключения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Connection settings</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="НастройкиПодключенияРасширеннаяПодсказка" id="262"/>
 										</Button>
 									</ChildItems>
@@ -316,6 +346,16 @@ Data export is canceled.</v8:content>
 										</LabelDecoration>
 										<InputField name="WSПароль" id="144">
 											<DataPath>WSПароль</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пароль</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Password</v8:content>
+												</v8:item>
+											</Title>
 											<Width>20</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -584,6 +624,16 @@ Please wait…</v8:content>
 										</LabelDecoration>
 										<ProgressBarField name="ПроцентВыполненияВыгрузки" id="131">
 											<DataPath>ПроцентВыполнения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Процент выполнения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Progress percentage</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<ShowPercent>true</ShowPercent>
 											<ContextMenu name="ПроцентВыполненияВыгрузкиКонтекстноеМеню" id="132"/>
@@ -763,6 +813,16 @@ Data export is canceled.</v8:content>
 														</LabelDecoration>
 														<InputField name="СообщениеОбОшибке" id="275">
 															<DataPath>СообщениеОбОшибке</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сообщение об ошибке</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Error message</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<Width>50</Width>
 															<MultiLine>true</MultiLine>
@@ -851,6 +911,16 @@ Data export is canceled.</v8:content>
 														</LabelDecoration>
 														<InputField name="СообщениеОбОшибке1" id="212">
 															<DataPath>СообщениеОбОшибке</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сообщение об ошибке</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Error message</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<Width>50</Width>
 															<MultiLine>true</MultiLine>
@@ -937,6 +1007,16 @@ Data export is canceled.</v8:content>
 														</LabelDecoration>
 														<InputField name="СообщениеОбОшибке2" id="225">
 															<DataPath>СообщениеОбОшибке</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сообщение об ошибке</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Error message</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<Width>50</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -1003,11 +1083,31 @@ Data export is canceled.</v8:content>
 									<Type>CommandBarButton</Type>
 									<DefaultButton>true</DefaultButton>
 									<CommandName>Form.Command.КомандаДалее</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Далее &gt;</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Next &gt;</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаДалееРасширеннаяПодсказка" id="118"/>
 								</Button>
 								<Button name="КомандаОтмена1" id="119">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.КомандаОтмена</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отмена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Cancel</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаОтмена1РасширеннаяПодсказка" id="120"/>
 								</Button>
 							</ChildItems>
@@ -1044,6 +1144,16 @@ Data export is canceled.</v8:content>
 								<Button name="КомандаНазад" id="177">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.КомандаНазад</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt; Назад</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>&lt; Back</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаНазадРасширеннаяПодсказка" id="178"/>
 								</Button>
 							</ChildItems>
@@ -1065,11 +1175,31 @@ Data export is canceled.</v8:content>
 								<Button name="КомандаДалее1" id="173">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.КомандаДалее</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Далее &gt;</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Next &gt;</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаДалее1РасширеннаяПодсказка" id="174"/>
 								</Button>
 								<Button name="КомандаОтмена2" id="175">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.КомандаОтмена</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отмена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Cancel</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаОтмена2РасширеннаяПодсказка" id="176"/>
 								</Button>
 							</ChildItems>
@@ -1107,6 +1237,16 @@ Data export is canceled.</v8:content>
 								<Button name="КомандаОтмена" id="15">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.КомандаОтмена</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отмена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Cancel</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаОтменаРасширеннаяПодсказка" id="16"/>
 								</Button>
 							</ChildItems>
@@ -1144,6 +1284,16 @@ Data export is canceled.</v8:content>
 								<Button name="КомандаГотово" id="19">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.КомандаГотово</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Готово</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Finish</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаГотовоРасширеннаяПодсказка" id="20"/>
 								</Button>
 							</ChildItems>

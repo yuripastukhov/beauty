@@ -19,13 +19,10 @@
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
 			<Picture/>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">9d701c2c-b825-4e08-8062-a31b157acb72</xr:Item>
-			</Content>
+			<Content/>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>АдресныйКлассификатор</Subsystem>
-			<Subsystem>АнализЖурналаРегистрации</Subsystem>
 			<Subsystem>Анкетирование</Subsystem>
 			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>Банки</Subsystem>
@@ -51,6 +48,7 @@
 			<Subsystem>КонструкторФормул</Subsystem>
 			<Subsystem>КонтактнаяИнформация</Subsystem>
 			<Subsystem>КонтрольВеденияУчета</Subsystem>
+			<Subsystem>КонтрольРаботыПользователей</Subsystem>
 			<Subsystem>МашиночитаемыеДоверенности</Subsystem>
 			<Subsystem>Мультиязычность</Subsystem>
 			<Subsystem>НапоминанияПользователя</Subsystem>

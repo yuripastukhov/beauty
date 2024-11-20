@@ -398,7 +398,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Invalid</v8:content>
+							<v8:content>Inactive</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -411,14 +411,14 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Внешний пользователь больше не работает в программе, но сведения о нем сохранены.
+							<v8:content>Внешний пользователь больше не работает в приложении, но сведения о нем сохранены.
 Недействительные внешние пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах программы.</v8:content>
+при выборе или подборе в документах и других местах приложения.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>The external user does not have access to the application but their data is still stored.
-Invalid external users are hidden from the user lists.
+Inactive external users are hidden from the user lists.
 </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -1072,11 +1072,11 @@ Invalid external users are hidden from the user lists.
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Внешний пользователь (для входа в программу)</v8:content>
+							<v8:content>Внешний пользователь (для входа в приложение)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>External user (to sign in to the application).</v8:content>
+							<v8:content>External user (to log in to the application).</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>

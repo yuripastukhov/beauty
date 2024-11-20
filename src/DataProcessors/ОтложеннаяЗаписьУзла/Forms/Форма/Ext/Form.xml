@@ -255,6 +255,16 @@ Please wait…</v8:content>
 								<Button name="КомандаЗакрыть" id="50">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.КомандаЗакрыть</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Закрыть</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Close</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="КомандаЗакрытьРасширеннаяПодсказка" id="51"/>
 								</Button>
 							</ChildItems>

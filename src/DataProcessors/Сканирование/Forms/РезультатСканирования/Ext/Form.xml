@@ -49,7 +49,7 @@
 						<v8:content>Save as single file</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ФормаПринятьВсеКакОдинФайлExtendedTooltip" id="26"/>
+				<ExtendedTooltip name="ФормаПринятьВсеКакОдинФайлРасширеннаяПодсказка" id="26"/>
 			</Button>
 			<Button name="ФормаПринятьВсеКакОтдельныеФайлы" id="16">
 				<Type>CommandBarButton</Type>
@@ -64,12 +64,22 @@
 						<v8:content>Save as separate files</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ФормаПринятьВсеКакОтдельныеФайлыExtendedTooltip" id="27"/>
+				<ExtendedTooltip name="ФормаПринятьВсеКакОтдельныеФайлыРасширеннаяПодсказка" id="27"/>
 			</Button>
 			<Button name="ФормаСканироватьЕще" id="14">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Сканировать</CommandName>
-				<ExtendedTooltip name="ФормаСканироватьЕщеExtendedTooltip" id="24"/>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сканировать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Scan</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаСканироватьЕщеРасширеннаяПодсказка" id="24"/>
 			</Button>
 			<Button name="Пересканировать" id="5">
 				<Type>CommandBarButton</Type>
@@ -85,13 +95,23 @@
 						<v8:content>Rescan</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ПересканироватьExtendedTooltip" id="25"/>
+				<ExtendedTooltip name="ПересканироватьРасширеннаяПодсказка" id="25"/>
 			</Button>
 			<Button name="ФормаНастройка" id="19">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Настройка</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Настройка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Setting</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаНастройкаExtendedTooltip" id="30"/>
+				<ExtendedTooltip name="ФормаНастройкаРасширеннаяПодсказка" id="30"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -117,7 +137,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаИзображенияExtendedTooltip" id="31"/>
+			<ExtendedTooltip name="ГруппаИзображенияРасширеннаяПодсказка" id="31"/>
 			<ChildItems>
 				<Table name="ТаблицаФайлов" id="9">
 					<Representation>List</Representation>
@@ -162,14 +182,14 @@
 							<Button name="ТаблицаФайловКонтекстноеМенюУдалить" id="23">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Item.ТаблицаФайлов.StandardCommand.Delete</CommandName>
-								<ExtendedTooltip name="ТаблицаФайловКонтекстноеМенюУдалитьExtendedTooltip" id="32"/>
+								<ExtendedTooltip name="ТаблицаФайловКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="32"/>
 							</Button>
 						</ChildItems>
 					</ContextMenu>
 					<AutoCommandBar name="ТаблицаФайловКоманднаяПанель" id="11">
 						<Autofill>false</Autofill>
 					</AutoCommandBar>
-					<ExtendedTooltip name="ТаблицаФайловExtendedTooltip" id="33"/>
+					<ExtendedTooltip name="ТаблицаФайловРасширеннаяПодсказка" id="33"/>
 					<SearchStringAddition name="ТаблицаФайловСтрокаПоиска" id="39">
 						<AdditionSource>
 							<Item>ТаблицаФайлов</Item>
@@ -202,16 +222,36 @@
 						<InputField name="ТаблицаФайловПредставление" id="12">
 							<DataPath>ТаблицаФайлов.Представление</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Представление</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Presentation</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ShowInHeader>false</ShowInHeader>
 							<TextEdit>false</TextEdit>
 							<ContextMenu name="ТаблицаФайловПредставлениеКонтекстноеМеню" id="13"/>
-							<ExtendedTooltip name="ТаблицаФайловПредставлениеExtendedTooltip" id="34"/>
+							<ExtendedTooltip name="ТаблицаФайловПредставлениеРасширеннаяПодсказка" id="34"/>
 						</InputField>
 					</ChildItems>
 				</Table>
 				<PictureField name="Картинка" id="6">
 					<DataPath>АдресКартинки</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес картинки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Picture file path</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<Width>50</Width>
 					<Height>10</Height>
@@ -228,8 +268,61 @@
 					</NonselectedPictureText>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="КартинкаКонтекстноеМеню" id="7"/>
-					<ExtendedTooltip name="КартинкаExtendedTooltip" id="35"/>
+					<ExtendedTooltip name="КартинкаРасширеннаяПодсказка" id="35"/>
 				</PictureField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ОшибкаСканирования" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибка сканирования</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Scanning error</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОшибкаСканированияРасширеннаяПодсказка" id="67"/>
+			<ChildItems>
+				<PictureDecoration name="КартинкаОшибкиСканирования" id="68">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка ошибки сканирования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scanning error picture</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="КартинкаОшибкиСканированияКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="КартинкаОшибкиСканированияРасширеннаяПодсказка" id="70"/>
+				</PictureDecoration>
+				<LabelDecoration name="ТекстОшибкиСканирования" id="71">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сканирование завершилось аварийно, сохранить &lt;link ТехническаяИнформация&gt;информацию для технической поддержки&lt;/&gt;.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scanning crashed. Save the &lt;link ТехническаяИнформация&gt;information for technical support&lt;/&gt;.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТекстОшибкиСканированияКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ТекстОшибкиСканированияРасширеннаяПодсказка" id="73"/>
+					<Events>
+						<Event name="URLProcessing">ТекстОшибкиСканированияОбработкаНавигационнойСсылки</Event>
+					</Events>
+				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаСообщение" id="20">
@@ -247,7 +340,7 @@
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаСообщениеExtendedTooltip" id="36"/>
+			<ExtendedTooltip name="ГруппаСообщениеРасширеннаяПодсказка" id="36"/>
 			<ChildItems>
 				<PictureDecoration name="ДекорацияИконка" id="21">
 					<SkipOnInput>false</SkipOnInput>
@@ -267,7 +360,7 @@
 					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ДекорацияИконкаКонтекстноеМеню" id="22"/>
-					<ExtendedTooltip name="ДекорацияИконкаExtendedTooltip" id="37"/>
+					<ExtendedTooltip name="ДекорацияИконкаРасширеннаяПодсказка" id="37"/>
 				</PictureDecoration>
 				<Button name="ТекстНастроекИзменить1" id="64">
 					<Type>UsualButton</Type>
@@ -278,6 +371,16 @@
 						<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
 						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст настроек изменить</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settings text change</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ТекстНастроекИзменить1РасширеннаяПодсказка" id="65"/>
 				</Button>
 				<UsualGroup name="ГруппаТекстНастроек" id="53">
@@ -299,12 +402,22 @@
 					<ChildItems>
 						<LabelField name="ТекстНастроек" id="17">
 							<DataPath>ТекстНастроек</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текст настроек</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Settings text</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>75</Width>
 							<Height>2</Height>
 							<VerticalStretch>false</VerticalStretch>
 							<ContextMenu name="ТекстНастроекКонтекстноеМеню" id="18"/>
-							<ExtendedTooltip name="ТекстНастроекExtendedTooltip" id="38"/>
+							<ExtendedTooltip name="ТекстНастроекРасширеннаяПодсказка" id="38"/>
 						</LabelField>
 						<Button name="ТекстНастроекИзменить" id="60">
 							<Type>Hyperlink</Type>
@@ -312,10 +425,38 @@
 							<Width>75</Width>
 							<Height>2</Height>
 							<CommandName>Form.Command.ТекстНастроекИзменить</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текст настроек изменить</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Settings text change</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ТекстНастроекИзменитьРасширеннаяПодсказка" id="61"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
+				<LabelDecoration name="ТребуетсяПомощь" id="74">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Требуется помощь</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Need help?</v8:content>
+						</v8:item>
+					</Title>
+					<Hyperlink>true</Hyperlink>
+					<ContextMenu name="ТребуетсяПомощьКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ТребуетсяПомощьРасширеннаяПодсказка" id="76"/>
+					<Events>
+						<Event name="Click">ТребуетсяПомощьНажатие</Event>
+					</Events>
+				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -650,6 +791,34 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="НачалоСканирования" id="18">
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СканированиеЗапущено" id="33">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Пересканирование" id="40">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АвтоматическаяПодачаДокументов" id="42">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДоступностьАвтоматическаяПодачаДокументов" id="43">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Сохранить" id="1">
@@ -827,6 +996,33 @@
 			</Type>
 		</Parameter>
 		<Parameter name="ИдентификаторКлиента">
+			<Type/>
+		</Parameter>
+		<Parameter name="ТипРезультата">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ВладелецФайла">
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+		</Parameter>
+		<Parameter name="ЭтоФайл">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="НеОткрыватьКарточкуПослеСозданияИзФайла">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ПараметрыСканирования">
 			<Type/>
 		</Parameter>
 	</Parameters>

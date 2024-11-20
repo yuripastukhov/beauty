@@ -42,6 +42,16 @@
 	<ChildItems>
 		<InputField name="ОбщиеПараметрыСинхронизацииСтрокой" id="1">
 			<DataPath>ОбщиеПараметрыСинхронизацииСтрокой</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общие параметры синхронизации строкой</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Common synchronization parameters as string</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<HorizontalStretch>true</HorizontalStretch>
 			<VerticalStretch>true</VerticalStretch>

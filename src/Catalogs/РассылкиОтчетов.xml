@@ -1006,11 +1006,11 @@ It can be mentioned in email subject or body.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Флажок доставки на FTP ресурс</v8:content>
+							<v8:content>Отчеты будут сохранены на FTP-сервере</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Check box of delivery to an FTP resource</v8:content>
+							<v8:content>Save reports on a FTP server.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1059,11 +1059,11 @@ It can be mentioned in email subject or body.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Флажок доставки в папку программы</v8:content>
+							<v8:content>Публиковать отчеты в папку в приложении</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Check box of delivery to an application folder</v8:content>
+							<v8:content>Save reports to the app's directory.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1112,11 +1112,11 @@ It can be mentioned in email subject or body.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Флажок доставки в сетевой каталог</v8:content>
+							<v8:content>Отчеты будут сохранены в выбранный сетевой каталог</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Check box of delivery to a network directory</v8:content>
+							<v8:content>Save reports to the selected network directory.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1165,11 +1165,11 @@ It can be mentioned in email subject or body.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Флажок доставки по электронной почте</v8:content>
+							<v8:content>Отправлять отчеты по электронной почте (или уведомления о рассылке)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Check box of delivery by email</v8:content>
+							<v8:content>Send reports or notifications by email.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1271,11 +1271,11 @@ It can be mentioned in email subject or body.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Если флажок установлен, то рассылка отчетов доступна только автору и администратору программы.</v8:content>
+							<v8:content>Рассылка отчетов доступна только автору и администратору приложения</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>If the option is selected, the report distribution is available only to its author and the administrator.</v8:content>
+							<v8:content>Only the author and the administrator can start report distribution.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -1324,11 +1324,11 @@ It can be mentioned in email subject or body.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Папка программы для доставки отчетов</v8:content>
+							<v8:content>Папка приложения для доставки отчетов</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Application folder for delivering reports</v8:content>
+							<v8:content>Destination directory for reports.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>
@@ -3039,7 +3039,7 @@ even if user is listed for distribution.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Report distribution events…</v8:content>
+							<v8:content>Show events…</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -3057,7 +3057,7 @@ even if user is listed for distribution.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Go to the event log and set filter by the distribution.</v8:content>
+							<v8:content>View event log records filtered by the report distribution.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>

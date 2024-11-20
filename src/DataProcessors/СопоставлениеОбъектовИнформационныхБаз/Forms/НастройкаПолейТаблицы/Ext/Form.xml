@@ -128,12 +128,32 @@
 					<DefaultButton>true</DefaultButton>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.Применить</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Применить</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Apply</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ПрименитьExtendedTooltip" id="18"/>
 				</Button>
 				<Button name="Отмена" id="10">
 					<Type>CommandBarButton</Type>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.Отмена</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cancel</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ОтменаExtendedTooltip" id="19"/>
 				</Button>
 			</ChildItems>

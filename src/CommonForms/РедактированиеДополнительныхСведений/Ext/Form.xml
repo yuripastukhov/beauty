@@ -19,12 +19,32 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
-				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьExtendedTooltip" id="22"/>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="22"/>
 			</Button>
 			<Button name="ФормаЗаписать" id="20">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Записать</CommandName>
-				<ExtendedTooltip name="ФормаЗаписатьExtendedTooltip" id="23"/>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="23"/>
 			</Button>
 			<Button name="ИзменитьСоставДополнительныхСведений" id="2">
 				<Type>CommandBarButton</Type>
@@ -32,8 +52,18 @@
 				<CommandName>Form.Command.ИзменитьСоставДополнительныхСведений</CommandName>
 				<TextColor>style:ButtonTextColor</TextColor>
 				<BackColor>style:ButtonBackColor</BackColor>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Изменить состав дополнительных сведений</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Edit set of additional information records</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ИзменитьСоставДополнительныхСведенийExtendedTooltip" id="24"/>
+				<ExtendedTooltip name="ИзменитьСоставДополнительныхСведенийРасширеннаяПодсказка" id="24"/>
 			</Button>
 			<SearchStringAddition name="СписокПоиск" id="42">
 				<AdditionSource>
@@ -85,7 +115,7 @@
 				<Autofill>false</Autofill>
 			</ContextMenu>
 			<AutoCommandBar name="ТаблицаЗначенийСвойствКоманднаяПанель" id="5"/>
-			<ExtendedTooltip name="ТаблицаЗначенийСвойствExtendedTooltip" id="25"/>
+			<ExtendedTooltip name="ТаблицаЗначенийСвойствРасширеннаяПодсказка" id="25"/>
 			<SearchStringAddition name="ТаблицаЗначенийСвойствСтрокаПоиска" id="30">
 				<AdditionSource>
 					<Item>ТаблицаЗначенийСвойств</Item>
@@ -133,11 +163,21 @@
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>InCell</Group>
-					<ExtendedTooltip name="ТаблицаЗначенийСвойствКартинкаИСвойствоExtendedTooltip" id="26"/>
+					<ExtendedTooltip name="ТаблицаЗначенийСвойствКартинкаИСвойствоРасширеннаяПодсказка" id="26"/>
 					<ChildItems>
 						<PictureField name="ТаблицаЗначенийСвойствНомерКартинки" id="6">
 							<DataPath>ТаблицаЗначенийСвойств.НомерКартинки</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер картинки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Picture index</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>2</Width>
 							<Height>1</Height>
@@ -150,14 +190,24 @@
 							</Border>
 							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="ТаблицаЗначенийСвойствНомерКартинкиКонтекстноеМеню" id="7"/>
-							<ExtendedTooltip name="ТаблицаЗначенийСвойствНомерКартинкиExtendedTooltip" id="27"/>
+							<ExtendedTooltip name="ТаблицаЗначенийСвойствНомерКартинкиРасширеннаяПодсказка" id="27"/>
 						</PictureField>
 						<InputField name="ТаблицаЗначенийСвойствНаименование" id="16">
 							<DataPath>ТаблицаЗначенийСвойств.Наименование</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Description</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<Wrap>false</Wrap>
 							<ContextMenu name="ТаблицаЗначенийСвойствНаименованиеКонтекстноеМеню" id="17"/>
-							<ExtendedTooltip name="ТаблицаЗначенийСвойствНаименованиеExtendedTooltip" id="28"/>
+							<ExtendedTooltip name="ТаблицаЗначенийСвойствНаименованиеРасширеннаяПодсказка" id="28"/>
 						</InputField>
 					</ChildItems>
 				</ColumnGroup>
@@ -186,7 +236,7 @@
 						</v8:item>
 					</Format>
 					<ContextMenu name="ТаблицаЗначенийСвойствЗначениеКонтекстноеМеню" id="11"/>
-					<ExtendedTooltip name="ТаблицаЗначенийСвойствЗначениеExtendedTooltip" id="29"/>
+					<ExtendedTooltip name="ТаблицаЗначенийСвойствЗначениеРасширеннаяПодсказка" id="29"/>
 				</InputField>
 				<LabelField name="ТаблицаЗначенийСвойствКолонкаВопрос" id="39">
 					<DataPath>ТаблицаЗначенийСвойств.КолонкаВопрос</DataPath>

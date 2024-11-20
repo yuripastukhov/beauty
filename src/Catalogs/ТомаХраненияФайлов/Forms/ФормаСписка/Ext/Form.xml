@@ -56,22 +56,47 @@
 				<Button name="ФормаУстановкаПометкиУдаления" id="28">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.УстановкаПометкиУдаления</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить/снять пометку удаления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Toggle deletion mark</v8:content>
+						</v8:item>
+					</Title>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаУстановкаПометкиУдаленияРасширеннаяПодсказка" id="29"/>
-				</Button>
-				<Button name="ФормаСправка" id="54">
-					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
-					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="55"/>
 				</Button>
 				<Button name="ПеренестиВсеФайлыВТома" id="75">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ПеренестиФайлы</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перенести файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Move files</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ПеренестиВсеФайлыВТомаРасширеннаяПодсказка" id="76"/>
 				</Button>
 				<Button name="ПроверитьЦелостность" id="79">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ПроверитьЦелостность</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверить целостность</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check integrity</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ПроверитьЦелостностьРасширеннаяПодсказка" id="80"/>
 				</Button>
 			</ChildItems>
@@ -124,6 +149,16 @@
 					<Button name="СписокКонтекстноеМенюУстановкаПометкиУдаления" id="77">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.УстановкаПометкиУдаления</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Установка пометки удаления</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Set deletion mark</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюУстановкаПометкиУдаленияРасширеннаяПодсказка" id="78"/>
 					</Button>
 				</ChildItems>
@@ -131,7 +166,7 @@
 			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
-			<ExtendedTooltip name="СписокExtendedTooltip" id="18"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="18"/>
 			<SearchStringAddition name="СписокСтрокаПоиска" id="66">
 				<AdditionSource>
 					<Item>Список</Item>
@@ -156,6 +191,9 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="73"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="74"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+			</Events>
 			<ChildItems>
 				<ColumnGroup name="ПерваяКолонка" id="56" DisplayImportance="VeryHigh">
 					<Title>
@@ -165,7 +203,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Первая колонка</v8:content>
+							<v8:content>First column</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПерваяКолонкаРасширеннаяПодсказка" id="57"/>
@@ -194,7 +232,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Вторая колонка</v8:content>
+							<v8:content>Second column</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ВтораяКолонкаРасширеннаяПодсказка" id="59"/>
@@ -221,7 +259,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Третья колонка</v8:content>
+							<v8:content>Third column</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ТретьяКолонкаРасширеннаяПодсказка" id="61"/>
@@ -315,21 +353,21 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Установка пометки удаления</v8:content>
+					<v8:content>Установить/снять пометку удаления</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Set deletion mark</v8:content>
+					<v8:content>Toggle deletion mark</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Установка пометки удаления</v8:content>
+					<v8:content>Установить/снять пометку удаления</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Set deletion mark</v8:content>
+					<v8:content>Toggle deletion mark</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

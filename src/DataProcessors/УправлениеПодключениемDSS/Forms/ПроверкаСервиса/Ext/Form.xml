@@ -7,7 +7,7 @@
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
-			<v8:content>Check operation</v8:content>
+			<v8:content>Test availability</v8:content>
 		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
@@ -112,6 +112,16 @@
 											<Type>UsualButton</Type>
 											<DefaultButton>true</DefaultButton>
 											<CommandName>Form.Command.Начать</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Начать</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Start</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="НачатьРасширеннаяПодсказка" id="9"/>
 										</Button>
 									</ChildItems>
@@ -119,6 +129,16 @@
 								<Button name="Отмена" id="10">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.Отмена</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отмена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Cancel</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="11"/>
 								</Button>
 							</ChildItems>

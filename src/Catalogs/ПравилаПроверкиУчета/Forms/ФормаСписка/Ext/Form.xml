@@ -52,11 +52,31 @@
 				<Button name="ФормаВыполнитьПроверку" id="125">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ВыполнитьПроверку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнить проверку</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Scan for issue</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ФормаВыполнитьПроверкуРасширеннаяПодсказка" id="126"/>
 				</Button>
 				<Button name="ФормаВыполнитьВсеПроверки" id="154">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ВыполнитьВсеПроверки</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнить все</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full scan</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ФормаВыполнитьВсеПроверкиРасширеннаяПодсказка" id="155"/>
 				</Button>
 				<ButtonGroup name="ФормаГруппаДействий" id="123">
@@ -75,6 +95,16 @@
 						<Button name="ФормаВосстановитьПоНачальномуЗаполнению" id="145">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ВосстановитьПоНачальномуЗаполнению</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Восстановить по начальному заполнению</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Restore default profile</v8:content>
+								</v8:item>
+							</Title>
 							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ФормаВосстановитьПоНачальномуЗаполнениюРасширеннаяПодсказка" id="146"/>
 						</Button>
@@ -129,6 +159,16 @@
 					<Button name="СписокКонтекстноеМенюВыполнитьПроверку" id="17">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ВыполнитьПроверку</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выполнить проверку</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Scan for issue</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюВыполнитьПроверкуРасширеннаяПодсказка" id="18"/>
 					</Button>
 				</ChildItems>
@@ -225,7 +265,7 @@
 									<AutoCellHeight>true</AutoCellHeight>
 									<Width>15</Width>
 									<ContextMenu name="РегламентноеЗаданиеПредставлениеКонтекстноеМеню" id="9"/>
-									<ExtendedTooltip name="РегламентноеЗаданиеПредставлениеExtendedTooltip" id="14"/>
+									<ExtendedTooltip name="РегламентноеЗаданиеПредставлениеРасширеннаяПодсказка" id="14"/>
 								</LabelField>
 							</ChildItems>
 						</ColumnGroup>
@@ -253,11 +293,11 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа расписание</v8:content>
+					<v8:content>Расписание</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Schedule group</v8:content>
+					<v8:content>Schedule</v8:content>
 				</v8:item>
 			</Title>
 			<Representation>None</Representation>
@@ -414,7 +454,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Restore to default</v8:content>
+					<v8:content>Restore default profile</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>

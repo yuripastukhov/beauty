@@ -35,11 +35,31 @@
 					<Button name="ФормаНаКлиенте" id="198">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.НаКлиенте</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>На клиенте</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Client</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ФормаНаКлиентеExtendedTooltip" id="236"/>
 					</Button>
 					<Button name="ФормаНаСервере" id="199">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.НаСервере</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>На сервере</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Server</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ФормаНаСервереExtendedTooltip" id="237"/>
 					</Button>
 				</ChildItems>
@@ -144,6 +164,16 @@
 						</UsualGroup>
 						<RadioButtonField name="ПрямаяВыгрузка" id="14">
 							<DataPath>ПрямаяВыгрузка</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Прямая выгрузка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Direct export</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ChoiceList>
@@ -577,6 +607,16 @@
 																<Button name="ТестПодключения" id="32">
 																	<Type>UsualButton</Type>
 																	<CommandName>Form.Command.ТестПодключения</CommandName>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Проверить подключение</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Check connection</v8:content>
+																		</v8:item>
+																	</Title>
 																	<ExtendedTooltip name="ТестПодключенияExtendedTooltip" id="262"/>
 																</Button>
 															</ChildItems>
@@ -765,6 +805,16 @@
 											<ChildItems>
 												<InputField name="ПериодВыгрузки" id="212">
 													<DataPath>ПериодВыгрузки</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Период выгрузки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Export period</v8:content>
+														</v8:item>
+													</Title>
 													<ContextMenu name="ПериодВыгрузкиКонтекстноеМеню" id="213"/>
 													<ExtendedTooltip name="ПериодВыгрузкиExtendedTooltip" id="272"/>
 													<Events>
@@ -799,11 +849,31 @@
 													<Button name="ТаблицаПравилВыгрузкиВыгрузкаОтметитьВсе" id="178">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыгрузкаОтметитьВсе</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Выгрузка отметить все</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Select all</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ТаблицаПравилВыгрузкиВыгрузкаОтметитьВсеExtendedTooltip" id="273"/>
 													</Button>
 													<Button name="ТаблицаПравилВыгрузкиВыгрузкаОтменитьВсе" id="179">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыгрузкаОтменитьВсе</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Выгрузка отменить все</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Clear all</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ТаблицаПравилВыгрузкиВыгрузкаОтменитьВсеExtendedTooltip" id="274"/>
 													</Button>
 													<Popup name="УзлыОбмена" id="180">
@@ -822,11 +892,31 @@
 															<Button name="ТаблицаПравилВыгрузкиВыгрузкаОчиститьУзлыОбмена" id="181">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.ВыгрузкаОчиститьУзлыОбмена</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Очистить узлы обмена</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Clear exchange nodes</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="ТаблицаПравилВыгрузкиВыгрузкаОчиститьУзлыОбменаExtendedTooltip" id="276"/>
 															</Button>
 															<Button name="ТаблицаПравилВыгрузкиВыгрузкаУстановитьУзелОбмена" id="182">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.ВыгрузкаУстановитьУзелОбмена</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Установить текущий узел обмена у всех</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Assign exchange node for all items</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="ТаблицаПравилВыгрузкиВыгрузкаУстановитьУзелОбменаExtendedTooltip" id="277"/>
 															</Button>
 														</ChildItems>
@@ -962,11 +1052,31 @@
 													<Button name="ТаблицаНастройкиПараметровВосстановитьПараметры" id="61">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВосстановитьПараметры</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Восстановить</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Reconnect</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ТаблицаНастройкиПараметровВосстановитьПараметрыExtendedTooltip" id="285"/>
 													</Button>
 													<Button name="ТаблицаНастройкиПараметровСохранитьПараметры" id="62">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.СохранитьПараметры</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Сохранить</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Save</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ТаблицаНастройкиПараметровСохранитьПараметрыExtendedTooltip" id="286"/>
 													</Button>
 												</ChildItems>
@@ -1287,6 +1397,16 @@
 								</LabelDecoration>
 								<InputField name="ИмяФайлаПравилЗагрузки" id="398">
 									<DataPath>ИмяФайлаПравилЗагрузки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Имя файла правил</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Exchange rules file</v8:content>
+										</v8:item>
+									</Title>
 									<ChoiceButton>true</ChoiceButton>
 									<OpenButton>true</OpenButton>
 									<ContextMenu name="ИмяФайлаПравилЗагрузкиКонтекстноеМеню" id="399"/>
@@ -1643,6 +1763,7 @@
 					<ExtendedTooltip name="НастройкиОбменаДаннымиExtendedTooltip" id="327"/>
 					<ChildItems>
 						<CheckBoxField name="БезопасныйРежим" id="404">
+							<DataPath>Объект.БезопасныйРежим</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -2113,16 +2234,46 @@
 									<Button name="УдаляемыеДанныеУдалениеОтметитьВсе" id="172">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.УдалениеОтметитьВсе</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Удаление отметить все</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Select all</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="УдаляемыеДанныеУдалениеОтметитьВсеExtendedTooltip" id="348"/>
 									</Button>
 									<Button name="УдаляемыеДанныеУдалениеОтменитьВсе" id="173">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.УдалениеОтменитьВсе</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Удаление отменить все</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Clear all.</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="УдаляемыеДанныеУдалениеОтменитьВсеExtendedTooltip" id="349"/>
 									</Button>
 									<Button name="УдаляемыеДанныеУдалениеУдалить" id="174">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.УдалениеУдалить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Удалить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Delete</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="УдаляемыеДанныеУдалениеУдалитьExtendedTooltip" id="350"/>
 									</Button>
 								</ChildItems>
@@ -2172,6 +2323,16 @@
 									<ChildItems>
 										<CheckBoxField name="МетаданныеДляУдаленияПометка" id="206">
 											<DataPath>УдаляемыеДанные.Пометка</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пометка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Checkmark</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>

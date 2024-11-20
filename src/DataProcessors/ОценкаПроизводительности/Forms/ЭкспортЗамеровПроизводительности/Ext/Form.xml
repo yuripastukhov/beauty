@@ -86,12 +86,32 @@
 		</UsualGroup>
 		<InputField name="Профиль" id="17">
 			<DataPath>Профиль</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профиль</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Profile</v8:content>
+				</v8:item>
+			</Title>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="ПрофильКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="ПрофильРасширеннаяПодсказка" id="19"/>
 		</InputField>
 		<InputField name="КаталогЭкспорта" id="9">
 			<DataPath>КаталогЭкспорта</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог экспорта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Export directory</v8:content>
+				</v8:item>
+			</Title>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ChoiceButton>true</ChoiceButton>
 			<ContextMenu name="КаталогЭкспортаКонтекстноеМеню" id="10"/>
@@ -102,6 +122,16 @@
 		</InputField>
 		<InputField name="ИмяАрхива" id="14">
 			<DataPath>ИмяАрхива</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя архива</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Archive name</v8:content>
+				</v8:item>
+			</Title>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="ИмяАрхиваКонтекстноеМеню" id="15"/>
 			<ExtendedTooltip name="ИмяАрхиваРасширеннаяПодсказка" id="16"/>

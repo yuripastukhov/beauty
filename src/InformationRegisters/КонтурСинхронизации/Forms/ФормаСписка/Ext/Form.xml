@@ -17,11 +17,31 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗакрытьФорму</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Закрыть форму</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Close form</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="24"/>
 			</Button>
 			<Button name="ФормаОбновить" id="25">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Обновить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Обновить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Refresh</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="26"/>
 			</Button>
 		</ChildItems>
@@ -80,6 +100,16 @@
 			<ChildItems>
 				<InputField name="КонтурИмя" id="17">
 					<DataPath>Контур.Имя</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Name</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="КонтурИмяКонтекстноеМеню" id="18"/>
@@ -87,6 +117,16 @@
 				</InputField>
 				<InputField name="КонтурКод" id="14">
 					<DataPath>Контур.Код</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Code</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="КонтурКодКонтекстноеМеню" id="15"/>
@@ -94,6 +134,16 @@
 				</InputField>
 				<InputField name="КонтурПоследнееОбновление" id="20">
 					<DataPath>Контур.ПоследнееОбновление</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Последнее обновление</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Last update</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="КонтурПоследнееОбновлениеКонтекстноеМеню" id="21"/>
@@ -101,6 +151,16 @@
 				</InputField>
 				<CheckBoxField name="КонтурЗацикливание" id="30">
 					<DataPath>Контур.Зацикливание</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зацикливание</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Loop</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="КонтурЗацикливаниеКонтекстноеМеню" id="31"/>

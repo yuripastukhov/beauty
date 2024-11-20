@@ -38,17 +38,36 @@
 			<CommandSource>Form</CommandSource>
 			<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="34"/>
 			<ChildItems>
-				<Button name="ФормаОбновлениеДоступа" id="39">
-					<Type>CommandBarButton</Type>
+				<Button name="ФормаОбновлениеДоступаНаУровнеЗаписей" id="39">
+					<Type>CommandBarHyperlink</Type>
 					<CommandName>Form.Command.ОбновлениеДоступаНаУровнеЗаписей</CommandName>
-					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-					<ExtendedTooltip name="ФормаОбновлениеДоступаРасширеннаяПодсказка" id="40"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновление доступа на уровне записей</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Update record-level access</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ФормаОбновлениеДоступаНаУровнеЗаписейРасширеннаяПодсказка" id="40"/>
 				</Button>
 				<Button name="ФормаВключитьВозможностьРедактирования" id="37">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.ВключитьВозможностьРедактирования</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Включить возможность редактирования</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Allow editing</v8:content>
+						</v8:item>
+					</Title>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-					<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияExtendedTooltip" id="38"/>
+					<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка" id="38"/>
 				</Button>
 			</ChildItems>
 		</CommandBar>
@@ -178,7 +197,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>SJ</v8:content>
+							<v8:content>Job size</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -271,7 +290,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Allow editing for troubleshooting. The feature is for advanced users only.</v8:content>
+					<v8:content>Allow editing for troubleshooting. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

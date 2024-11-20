@@ -49,6 +49,16 @@
 			<ChildItems>
 				<InputField name="СтрокаПоиска" id="397">
 					<DataPath>СтрокаПоиска</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поиск</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Search</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<ToolTip>
 						<v8:item>
@@ -85,6 +95,16 @@
 				<Button name="ВыполнитьПоиск" id="400">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ВыполнитьПоиск</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Найти</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Find</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ВыполнитьПоискРасширеннаяПодсказка" id="401"/>
 				</Button>
 				<UsualGroup name="ГруппаКоманднаяПанельПравая" id="405">
@@ -130,6 +150,16 @@
 						<CheckBoxField name="ПоказыватьПодсказки" id="407">
 							<DataPath>ПоказыватьПодсказки</DataPath>
 							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Описания отчетов</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report descriptions</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -160,18 +190,48 @@
 									<Type>CommandBarButton</Type>
 									<Width>12</Width>
 									<CommandName>Form.Command.Настроить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Configure</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-									<ExtendedTooltip name="НастроитьExtendedTooltip" id="413"/>
+									<ExtendedTooltip name="НастроитьРасширеннаяПодсказка" id="413"/>
 								</Button>
 								<Button name="ФормаОбновить" id="414">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Обновить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обновить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Refresh</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-									<ExtendedTooltip name="ФормаОбновитьExtendedTooltip" id="415"/>
+									<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="415"/>
 								</Button>
 								<Button name="ФормаВсеОтчеты" id="416">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ВсеОтчеты</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Все отчеты...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>All reports…</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ФормаВсеОтчетыРасширеннаяПодсказка" id="417"/>
 								</Button>
@@ -191,6 +251,16 @@
 										<Button name="СнимкиОтчетов" id="454">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.СнимкиОтчетов</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Снимки отчетов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Report snapshots</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="СнимкиОтчетовРасширеннаяПодсказка" id="455"/>
 										</Button>
 									</ChildItems>
@@ -211,8 +281,18 @@
 										<Button name="СброситьМоиНастройки" id="420">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.СброситьМоиНастройки</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сбросить мои настройки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Reset my settings</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-											<ExtendedTooltip name="СброситьМоиНастройкиExtendedTooltip" id="421"/>
+											<ExtendedTooltip name="СброситьМоиНастройкиРасширеннаяПодсказка" id="421"/>
 										</Button>
 									</ChildItems>
 								</ButtonGroup>
@@ -220,7 +300,7 @@
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-									<ExtendedTooltip name="ФормаИзменитьФормуExtendedTooltip" id="423"/>
+									<ExtendedTooltip name="ФормаИзменитьФормуРасширеннаяПодсказка" id="423"/>
 								</Button>
 								<Button name="Справка" id="426">
 									<Type>CommandBarButton</Type>
@@ -310,7 +390,7 @@
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ДекорацияДлительнаяОперацияКонтекстноеМеню" id="440"/>
-									<ExtendedTooltip name="ДекорацияДлительнаяОперацияExtendedTooltip" id="441"/>
+									<ExtendedTooltip name="ДекорацияДлительнаяОперацияРасширеннаяПодсказка" id="441"/>
 								</PictureDecoration>
 								<LabelDecoration name="ДекорацияПоясняющийТекстДлительнойОперации" id="442">
 									<Width>30</Width>
@@ -330,7 +410,7 @@ Please wait…</v8:content>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ДекорацияПоясняющийТекстДлительнойОперацииКонтекстноеМеню" id="443"/>
-									<ExtendedTooltip name="ДекорацияПоясняющийТекстДлительнойОперацииExtendedTooltip" id="444"/>
+									<ExtendedTooltip name="ДекорацияПоясняющийТекстДлительнойОперацииРасширеннаяПодсказка" id="444"/>
 								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
@@ -364,7 +444,7 @@ Please wait…</v8:content>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="КолонкиExtendedTooltip" id="283"/>
+							<ExtendedTooltip name="КолонкиРасширеннаяПодсказка" id="283"/>
 							<ChildItems>
 								<UsualGroup name="БыстрыйДоступШапка" id="375">
 									<Title>
@@ -483,7 +563,7 @@ This only affects your report view and does not affect the reports of other user
 									<United>false</United>
 									<ChildItemsWidth>Equal</ChildItemsWidth>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="БыстрыйДоступExtendedTooltip" id="284"/>
+									<ExtendedTooltip name="БыстрыйДоступРасширеннаяПодсказка" id="284"/>
 									<ChildItems>
 										<UsualGroup name="БыстрыйДоступКолонка1" id="5">
 											<Title>
@@ -500,7 +580,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="БыстрыйДоступКолонка1ExtendedTooltip" id="285"/>
+											<ExtendedTooltip name="БыстрыйДоступКолонка1РасширеннаяПодсказка" id="285"/>
 										</UsualGroup>
 										<UsualGroup name="БыстрыйДоступКолонка2" id="21">
 											<Title>
@@ -517,7 +597,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="БыстрыйДоступКолонка2ExtendedTooltip" id="286"/>
+											<ExtendedTooltip name="БыстрыйДоступКолонка2РасширеннаяПодсказка" id="286"/>
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
@@ -568,7 +648,7 @@ This only affects your report view and does not affect the reports of other user
 									<United>false</United>
 									<ChildItemsWidth>Equal</ChildItemsWidth>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="БезГруппыExtendedTooltip" id="289"/>
+									<ExtendedTooltip name="БезГруппыРасширеннаяПодсказка" id="289"/>
 									<ChildItems>
 										<UsualGroup name="БезГруппыКолонка1" id="49">
 											<Title>
@@ -585,7 +665,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="БезГруппыКолонка1ExtendedTooltip" id="290"/>
+											<ExtendedTooltip name="БезГруппыКолонка1РасширеннаяПодсказка" id="290"/>
 										</UsualGroup>
 										<UsualGroup name="БезГруппыКолонка2" id="58">
 											<Title>
@@ -602,7 +682,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="БезГруппыКолонка2ExtendedTooltip" id="291"/>
+											<ExtendedTooltip name="БезГруппыКолонка2РасширеннаяПодсказка" id="291"/>
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
@@ -628,7 +708,7 @@ This only affects your report view and does not affect the reports of other user
 									<United>false</United>
 									<ChildItemsWidth>Equal</ChildItemsWidth>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="СГруппойExtendedTooltip" id="294"/>
+									<ExtendedTooltip name="СГруппойРасширеннаяПодсказка" id="294"/>
 									<ChildItems>
 										<UsualGroup name="СГруппойКолонка1" id="75">
 											<Title>
@@ -645,7 +725,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="СГруппойКолонка1ExtendedTooltip" id="295"/>
+											<ExtendedTooltip name="СГруппойКолонка1РасширеннаяПодсказка" id="295"/>
 										</UsualGroup>
 										<UsualGroup name="СГруппойКолонка2" id="114">
 											<Title>
@@ -662,7 +742,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="СГруппойКолонка2ExtendedTooltip" id="296"/>
+											<ExtendedTooltip name="СГруппойКолонка2РасширеннаяПодсказка" id="296"/>
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
@@ -705,7 +785,7 @@ This only affects your report view and does not affect the reports of other user
 									<United>false</United>
 									<ChildItemsWidth>Equal</ChildItemsWidth>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="СмТакжеExtendedTooltip" id="299"/>
+									<ExtendedTooltip name="СмТакжеРасширеннаяПодсказка" id="299"/>
 									<ChildItems>
 										<UsualGroup name="СмТакжеКолонка1" id="199">
 											<Title>
@@ -722,7 +802,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="СмТакжеКолонка1ExtendedTooltip" id="300"/>
+											<ExtendedTooltip name="СмТакжеКолонка1РасширеннаяПодсказка" id="300"/>
 										</UsualGroup>
 										<UsualGroup name="СмТакжеКолонка2" id="208">
 											<Title>
@@ -739,7 +819,7 @@ This only affects your report view and does not affect the reports of other user
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="СмТакжеКолонка2ExtendedTooltip" id="301"/>
+											<ExtendedTooltip name="СмТакжеКолонка2РасширеннаяПодсказка" id="301"/>
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
@@ -831,7 +911,17 @@ This only affects your report view and does not affect the reports of other user
 					<Type>Hyperlink</Type>
 					<CommandName>Form.Command.ВсеОтчеты</CommandName>
 					<TextColor>style:ГиперссылкаЦвет</TextColor>
-					<ExtendedTooltip name="СсылкаВсеОтчетыExtendedTooltip" id="304"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Все отчеты...</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All reports…</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СсылкаВсеОтчетыРасширеннаяПодсказка" id="304"/>
 				</Button>
 				<LabelDecoration name="Декорация2" id="389">
 					<Hyperlink>true</Hyperlink>
@@ -1512,6 +1602,20 @@ This only affects your report view and does not affect the reports of other user
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="СтрокаПоиска">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ИскатьВоВсехРазделах">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Parameter>
 	</Parameters>

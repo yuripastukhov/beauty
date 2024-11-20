@@ -32,7 +32,7 @@
 						<v8:content>Restore data</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ГотовоExtendedTooltip" id="93"/>
+				<ExtendedTooltip name="ГотовоРасширеннаяПодсказка" id="93"/>
 			</Button>
 			<Button name="Закрыть" id="24">
 				<Type>CommandBarButton</Type>
@@ -48,7 +48,7 @@
 						<v8:content>Cancel</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ЗакрытьExtendedTooltip" id="94"/>
+				<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="94"/>
 			</Button>
 			<Button name="Справка" id="150">
 				<Type>CommandBarButton</Type>
@@ -77,7 +77,7 @@
 				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
-			<ExtendedTooltip name="СтраницыЗагрузкиДанныхExtendedTooltip" id="95"/>
+			<ExtendedTooltip name="СтраницыЗагрузкиДанныхРасширеннаяПодсказка" id="95"/>
 			<ChildItems>
 				<Page name="СтраницаНастройкиЗагрузки" id="30">
 					<Title>
@@ -90,18 +90,18 @@
 							<v8:content>Import setup page</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="СтраницаНастройкиЗагрузкиExtendedTooltip" id="96"/>
+					<ExtendedTooltip name="СтраницаНастройкиЗагрузкиРасширеннаяПодсказка" id="96"/>
 					<ChildItems>
 						<InputField name="ПутьККаталогуАрхивов" id="10">
 							<DataPath>Объект.ФайлЗагрузкиРезервнойКопии</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Укажите путь к файлу с резервной копией</v8:content>
+									<v8:content>Укажите файл с резервной копией</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Specify path to backup file</v8:content>
+									<v8:content>Backup file</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Top</TitleLocation>
@@ -130,7 +130,7 @@
 							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаАвторизацииExtendedTooltip" id="105"/>
+							<ExtendedTooltip name="ГруппаАвторизацииРасширеннаяПодсказка" id="105"/>
 							<ChildItems>
 								<InputField name="АдминистраторИБ" id="87">
 									<DataPath>АдминистраторИБ</DataPath>
@@ -147,14 +147,24 @@
 									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="АдминистраторИБКонтекстноеМеню" id="88"/>
-									<ExtendedTooltip name="АдминистраторИБExtendedTooltip" id="106"/>
+									<ExtendedTooltip name="АдминистраторИБРасширеннаяПодсказка" id="106"/>
 								</InputField>
 								<InputField name="ПарольАдминистратораИБ" id="89">
 									<DataPath>ПарольАдминистратораИБ</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пароль</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Password</v8:content>
+										</v8:item>
+									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
 									<PasswordMode>true</PasswordMode>
 									<ContextMenu name="ПарольАдминистратораИБКонтекстноеМеню" id="90"/>
-									<ExtendedTooltip name="ПарольАдминистратораИБExtendedTooltip" id="107"/>
+									<ExtendedTooltip name="ПарольАдминистратораИБРасширеннаяПодсказка" id="107"/>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -220,7 +230,7 @@
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаКартинки1ExtendedTooltip" id="109"/>
+											<ExtendedTooltip name="ГруппаКартинки1РасширеннаяПодсказка" id="109"/>
 											<ChildItems>
 												<PictureDecoration name="КартинкаПредупреждение1" id="14">
 													<Title formatted="false">
@@ -234,12 +244,12 @@
 														</v8:item>
 													</Title>
 													<Picture>
-														<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-														<xr:LoadTransparent>false</xr:LoadTransparent>
+														<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
 													</Picture>
 													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаПредупреждение1КонтекстноеМеню" id="15"/>
-													<ExtendedTooltip name="КартинкаПредупреждение1ExtendedTooltip" id="110"/>
+													<ExtendedTooltip name="КартинкаПредупреждение1РасширеннаяПодсказка" id="110"/>
 												</PictureDecoration>
 											</ChildItems>
 										</UsualGroup>
@@ -258,7 +268,7 @@
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаНадписей1ExtendedTooltip" id="111"/>
+											<ExtendedTooltip name="ГруппаНадписей1РасширеннаяПодсказка" id="111"/>
 											<ChildItems>
 												<LabelDecoration name="Надпись44" id="17">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -266,7 +276,7 @@
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>В данный момент с программой работают другие пользователи.
+															<v8:content>В данный момент с приложением работают другие пользователи.
 Их работа будет завершена автоматически.</v8:content>
 														</v8:item>
 														<v8:item>
@@ -276,7 +286,7 @@ Their sessions will be terminated automatically.</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="Надпись44КонтекстноеМеню" id="18"/>
-													<ExtendedTooltip name="Надпись44ExtendedTooltip" id="112"/>
+													<ExtendedTooltip name="Надпись44РасширеннаяПодсказка" id="112"/>
 												</LabelDecoration>
 												<LabelDecoration name="СписокАктивныхСеансов" id="19">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -319,12 +329,12 @@ Their sessions will be terminated automatically.</v8:content>
 										<PictureDecoration name="Картинка12" id="52">
 											<SkipOnInput>false</SkipOnInput>
 											<Picture>
-												<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-												<xr:LoadTransparent>false</xr:LoadTransparent>
+												<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Картинка12КонтекстноеМеню" id="53"/>
-											<ExtendedTooltip name="Картинка12ExtendedTooltip" id="130"/>
+											<ExtendedTooltip name="Картинка12РасширеннаяПодсказка" id="130"/>
 										</PictureDecoration>
 										<UsualGroup name="ГруппаОшибки" id="91">
 											<Title>
@@ -341,7 +351,7 @@ Their sessions will be terminated automatically.</v8:content>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаОшибкиExtendedTooltip" id="131"/>
+											<ExtendedTooltip name="ГруппаОшибкиРасширеннаяПодсказка" id="131"/>
 											<ChildItems>
 												<InputField name="ОбнаруженнаяОшибкаПодключения" id="54">
 													<DataPath>ОбнаруженнаяОшибкаПодключения</DataPath>
@@ -367,6 +377,16 @@ Their sessions will be terminated automatically.</v8:content>
 												<Button name="ПерейтиВЖурналРегистрации" id="164">
 													<Type>Hyperlink</Type>
 													<CommandName>Form.Command.ПерейтиВЖурналРегистрации</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Техническая информация об ошибке</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>View error details</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПерейтиВЖурналРегистрацииРасширеннаяПодсказка" id="165"/>
 												</Button>
 												<UsualGroup name="ГруппаComcntrФайловыйРежим" id="56">
@@ -383,7 +403,7 @@ Their sessions will be terminated automatically.</v8:content>
 													<Behavior>Usual</Behavior>
 													<Representation>NormalSeparation</Representation>
 													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="ГруппаComcntrФайловыйРежимExtendedTooltip" id="139"/>
+													<ExtendedTooltip name="ГруппаComcntrФайловыйРежимРасширеннаяПодсказка" id="139"/>
 													<ChildItems>
 														<LabelDecoration name="НадписьОбновитьВерсиюКомпоненты" id="57">
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -437,7 +457,7 @@ It will require session restart.</v8:content>
 							<v8:content>Information and back up page</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="СтраницаИнформацииИВыполненияРезервногоКопированияExtendedTooltip" id="116"/>
+					<ExtendedTooltip name="СтраницаИнформацииИВыполненияРезервногоКопированияРасширеннаяПодсказка" id="116"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаАктивныхПользователей" id="35">
 							<Title>
@@ -455,7 +475,7 @@ Don’t turn off your computer.</v8:content>
 							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
-							<ExtendedTooltip name="ГруппаАктивныхПользователейExtendedTooltip" id="119"/>
+							<ExtendedTooltip name="ГруппаАктивныхПользователейРасширеннаяПодсказка" id="119"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаКартинкиАктивныхПользователей" id="36">
 									<Title>
@@ -472,7 +492,7 @@ Don’t turn off your computer.</v8:content>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаКартинкиАктивныхПользователейExtendedTooltip" id="120"/>
+									<ExtendedTooltip name="ГруппаКартинкиАктивныхПользователейРасширеннаяПодсказка" id="120"/>
 									<ChildItems>
 										<PictureDecoration name="Декорация5" id="37">
 											<Picture>
@@ -481,11 +501,21 @@ Don’t turn off your computer.</v8:content>
 											</Picture>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="Декорация5КонтекстноеМеню" id="38"/>
-											<ExtendedTooltip name="Декорация5ExtendedTooltip" id="121"/>
+											<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="121"/>
 										</PictureDecoration>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Группа" id="142">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group</v8:content>
+										</v8:item>
+									</Title>
 									<Group>Vertical</Group>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
@@ -499,7 +529,7 @@ Don’t turn off your computer.</v8:content>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Производится отключение сеансов других пользователей,
-работающих в программе...</v8:content>
+работающих с приложением...</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
@@ -509,7 +539,7 @@ Please wait.</v8:content>
 											</Title>
 											<VerticalAlign>Bottom</VerticalAlign>
 											<ContextMenu name="НадписьОтключениеПользователейКонтекстноеМеню" id="45"/>
-											<ExtendedTooltip name="НадписьОтключениеПользователейExtendedTooltip" id="125"/>
+											<ExtendedTooltip name="НадписьОтключениеПользователейРасширеннаяПодсказка" id="125"/>
 										</LabelDecoration>
 										<UsualGroup name="ГруппаНадписиАктивныхПользователей" id="39">
 											<Title>
@@ -526,7 +556,7 @@ Please wait.</v8:content>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаНадписиАктивныхПользователейExtendedTooltip" id="122"/>
+											<ExtendedTooltip name="ГруппаНадписиАктивныхПользователейРасширеннаяПодсказка" id="122"/>
 											<ChildItems>
 												<LabelDecoration name="СписокПользователей" id="40">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -542,14 +572,14 @@ Please wait.</v8:content>
 													</Title>
 													<Hyperlink>true</Hyperlink>
 													<ContextMenu name="СписокПользователейКонтекстноеМеню" id="41"/>
-													<ExtendedTooltip name="СписокПользователейExtendedTooltip" id="123"/>
+													<ExtendedTooltip name="СписокПользователейРасширеннаяПодсказка" id="123"/>
 													<Events>
 														<Event name="Click">СписокПользователейНажатие</Event>
 													</Events>
 												</LabelDecoration>
 												<LabelDecoration name="КоличествоАктивныхПользователей" id="42">
 													<ContextMenu name="КоличествоАктивныхПользователейКонтекстноеМеню" id="43"/>
-													<ExtendedTooltip name="КоличествоАктивныхПользователейExtendedTooltip" id="124"/>
+													<ExtendedTooltip name="КоличествоАктивныхПользователейРасширеннаяПодсказка" id="124"/>
 												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
@@ -558,7 +588,7 @@ Please wait.</v8:content>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Имеются активные сеансы работы с программой,
+													<v8:content>Имеются активные сеансы работы с приложением,
 которые не могут быть завершены принудительно:
 </v8:content>
 												</v8:item>
@@ -575,6 +605,16 @@ that cannot be closed:
 										<Button name="НеДожидатьсяЗавершенияСеансов" id="191">
 											<Type>UsualButton</Type>
 											<CommandName>Form.Command.НеДожидатьсяЗавершенияСеансов</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Не дожидаться завершения сеансов (режим отладки)</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Do not wait for sessions to end (debug mode)</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="НеДожидатьсяЗавершенияСеансовРасширеннаяПодсказка" id="192"/>
 										</Button>
 									</ChildItems>
@@ -585,7 +625,7 @@ that cannot be closed:
 							<Height>3</Height>
 							<VerticalAlign>Bottom</VerticalAlign>
 							<ContextMenu name="НадписьВремяОжиданияРезервногоКопированияКонтекстноеМеню" id="47"/>
-							<ExtendedTooltip name="НадписьВремяОжиданияРезервногоКопированияExtendedTooltip" id="126"/>
+							<ExtendedTooltip name="НадписьВремяОжиданияРезервногоКопированияРасширеннаяПодсказка" id="126"/>
 						</LabelDecoration>
 					</ChildItems>
 				</Page>
@@ -600,7 +640,7 @@ that cannot be closed:
 							<v8:content>Restore error page</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="СтраницаОшибокПриКопированииExtendedTooltip" id="172"/>
+					<ExtendedTooltip name="СтраницаОшибокПриКопированииРасширеннаяПодсказка" id="172"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаНеуспешногоКопирования" id="173">
 							<Title>
@@ -656,8 +696,8 @@ that cannot be closed:
 							<ChildItems>
 								<PictureDecoration name="ДекорацияПредупреждение" id="180">
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ДекорацияПредупреждениеКонтекстноеМеню" id="181"/>

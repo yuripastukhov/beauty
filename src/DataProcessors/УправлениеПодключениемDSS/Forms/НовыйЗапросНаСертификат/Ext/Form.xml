@@ -16,6 +16,16 @@
 			<Button name="ФормаСоздатьЗапрос" id="62">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.СоздатьЗапрос</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Создать запрос</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create request</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаСоздатьЗапросРасширеннаяПодсказка" id="63"/>
 			</Button>
 		</ChildItems>
@@ -60,6 +70,16 @@
 				</InputField>
 				<InputField name="УдостоверяющийЦентр" id="59">
 					<DataPath>УдостоверяющийЦентр</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удостоверяющий центр</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Certification authority</v8:content>
+						</v8:item>
+					</Title>
 					<ListChoiceMode>true</ListChoiceMode>
 					<ContextMenu name="УдостоверяющийЦентрКонтекстноеМеню" id="60"/>
 					<ExtendedTooltip name="УдостоверяющийЦентрРасширеннаяПодсказка" id="61"/>
@@ -69,6 +89,16 @@
 				</InputField>
 				<InputField name="ШаблонСертификата" id="53">
 					<DataPath>ШаблонСертификата</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шаблон сертификата</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Certificate sample</v8:content>
+						</v8:item>
+					</Title>
 					<ListChoiceMode>true</ListChoiceMode>
 					<ContextMenu name="ШаблонСертификатаКонтекстноеМеню" id="54"/>
 					<ExtendedTooltip name="ШаблонСертификатаРасширеннаяПодсказка" id="55"/>
@@ -287,6 +317,16 @@
 						</InputField>
 						<InputField name="ИННЮЛ" id="74">
 							<DataPath>ИННЮЛ</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ИНН ЮЛ</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>TIN LE</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ИННЮЛКонтекстноеМеню" id="75"/>
 							<ExtendedTooltip name="ИННЮЛРасширеннаяПодсказка" id="76"/>
 						</InputField>
@@ -348,7 +388,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>OGRNIP</v8:content>
+											<v8:content>Registration number of IE</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ОГРНИПКонтекстноеМеню" id="25"/>
@@ -554,7 +594,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>OGRNIP</v8:content>
+					<v8:content>Registration number of IE</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -787,6 +827,9 @@
 	</Commands>
 	<Parameters>
 		<Parameter name="НастройкиПользователя">
+			<Type/>
+		</Parameter>
+		<Parameter name="ПоляЗапроса">
 			<Type/>
 		</Parameter>
 	</Parameters>

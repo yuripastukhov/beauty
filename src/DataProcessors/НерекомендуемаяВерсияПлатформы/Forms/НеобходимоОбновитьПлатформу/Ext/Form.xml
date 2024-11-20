@@ -10,6 +10,16 @@
 				<Type>CommandBarButton</Type>
 				<Visible>false</Visible>
 				<CommandName>Form.Command.Перезапустить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перезапустить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Restart</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаПерезапуститьРасширеннаяПодсказка" id="25"/>
 			</Button>
 			<Button name="ФормаОК" id="22">
@@ -38,11 +48,11 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа предупреждение</v8:content>
+					<v8:content>Предупреждение</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Group Warning</v8:content>
+					<v8:content>Warning</v8:content>
 				</v8:item>
 			</Title>
 			<Representation>None</Representation>
@@ -61,11 +71,11 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа инструкции</v8:content>
+							<v8:content>Инструкции</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Group Instructions</v8:content>
+							<v8:content>Instructions</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -106,11 +116,11 @@ or a previous version higher than the minimum allowed version %3.
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа ссылки</v8:content>
+									<v8:content>Ссылки</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Group Links</v8:content>
+									<v8:content>References</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>

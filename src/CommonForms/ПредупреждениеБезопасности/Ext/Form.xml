@@ -26,8 +26,6 @@
 	</Events>
 	<ChildItems>
 		<PictureDecoration name="КартинкаПредупреждение32" id="21">
-			<Width>4</Width>
-			<Height>2</Height>
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -39,8 +37,8 @@
 				</v8:item>
 			</Title>
 			<Picture>
-				<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
+				<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<FileDragMode>AsFile</FileDragMode>
 			<ContextMenu name="КартинкаПредупреждение32КонтекстноеМеню" id="22"/>
@@ -83,10 +81,10 @@
 и обработок из меню &lt;b&gt;Файл - &lt;/&gt;&lt;b&gt;Открыть&lt;/&gt;.
 Файлы внешних обработок (отчетов), полученные из источников, 
 с которыми у вас нет договоренности о разработке таких обработок (отчетов),
-могут нанести вред вашему компьютеру и данным в программе.
+могут нанести вред вашему компьютеру и данным в приложении.
 
 Вместо открытия внешних отчетов и обработок рекомендуется использовать 
-&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt;дополнительные&lt;/&gt;&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt; отчеты&lt;/&gt;&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt; и обработки&lt;/&gt; и &lt;link e1cib/app/ОбщаяФорма.Расширения&gt;расширения&lt;/&gt;, полученные из надежных источников.
+&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt;дополнительные отчеты и обработки&lt;/&gt; и &lt;link e1cib/app/ОбщаяФорма.Расширения&gt;расширения&lt;/&gt;, полученные из надежных источников.
 
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.</v8:content>
 								</v8:item>
@@ -99,9 +97,9 @@ untrusted sources
 can be harmful to your computer and data.
 
 Instead of opening external reports and data processors, it is recommended that you use 
-&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt;additional&lt;/&gt;&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt; reports&lt;/&gt;&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt; and data processors&lt;/&gt; and &lt;link e1cib/app/ОбщаяФорма.Расширения&gt;extensions&lt;/&gt; from trusted sources.
+&lt;link e1cib/list/Справочник.ДополнительныеОтчетыИОбработки&gt;additional reports and data processors&lt;/&gt; and &lt;link e1cib/app/ОбщаяФорма.Расширения&gt;extensions&lt;/&gt; from trusted sources.
 
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt;.</v8:content>
+See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor (in Russian)&lt;/&gt;.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись1КонтекстноеМеню" id="43"/>
@@ -125,11 +123,31 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 									<Type>CommandBarButton</Type>
 									<DefaultButton>true</DefaultButton>
 									<CommandName>Form.Command.ЗапретитьОткрытиеВнешнихОтчетовИОбработок</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Запретить открытие внешних отчетов и обработок</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Forbid external reports and data processors</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ЗапретитьОткрытиеВнешнихОтчетовИОбработокРасширеннаяПодсказка" id="105"/>
 								</Button>
 								<Button name="НеЗапрещать" id="64">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.НеЗапрещатьОткрытиеВнешнихОтчетовИОбработок</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Не запрещать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Allow</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="НеЗапрещатьРасширеннаяПодсказка" id="65"/>
 								</Button>
 							</ChildItems>
@@ -160,20 +178,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 на их источник и не открывать файлы, полученные из источников, 
 с которыми у вас нет договоренности о разработке таких обработок (отчетов).
 
-В противном случае, такие файлы могут нанести вред вашему компьютеру и данным в программе.
+В противном случае, такие файлы могут нанести вред вашему компьютеру и данным в приложении.
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>In access right settings, you are authorized to open files of external reports
-and data processors from the &lt;b&gt;File — &lt;/&gt;&lt;b&gt;Open&lt;/&gt; menu.
-You are encouraged to pay attention to the file sources.
-Do not open files from untrusted sources.
+									<v8:content>Based on your access rights, you can open files of external reports and data processors from the &lt;b&gt;File — &lt;/&gt;&lt;b&gt;Open&lt;/&gt; menu.
+Be cautious about the file sources.
 
-Such files might be harmful to your computer and data. 
-
-See also:&lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+Do not open files from untrusted sources, as they might harm your computer and application data.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись2КонтекстноеМеню" id="56"/>
@@ -196,6 +210,16 @@ See also:&lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in a
 								<Button name="ЯОзнакомлен" id="106">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ЯОзнакомлен</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ОК</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>OK</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ЯОзнакомленРасширеннаяПодсказка" id="107"/>
 								</Button>
 							</ChildItems>
@@ -226,7 +250,7 @@ See also:&lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in a
 									<v8:content>При подключении дополнительного отчета или обработки рекомендуется 
 обращать внимание на источник, из которого был получен файл.
 Если вы не уверены в содержимом этого файла или в источнике, 
-то файл не рекомендуется подключать к программе.
+то файл не рекомендуется подключать к приложению.
 
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
@@ -234,12 +258,9 @@ See also:&lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in a
 								<v8:item>
 									<v8:lang>en</v8:lang>
 									<v8:content>When attaching an additional report or data processor, 
-pay attention to their sources.
-If you are not sure that the file was obtained from a trusted source,
-refrain from attaching it.
-
-
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+pay attention to its source.
+If you are not sure that the file came from a trusted source,
+do not attach it.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись3КонтекстноеМеню" id="71"/>
@@ -262,6 +283,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<Button name="Продолжить3" id="84">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Продолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продолжить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Continue</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Продолжить3РасширеннаяПодсказка" id="85"/>
 								</Button>
 								<Button name="Отмена3" id="82">
@@ -295,7 +326,7 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 									<v8:content>При подключении расширения конфигурации рекомендуется обращать 
 внимание на источник, из которого был получен файл расширения.
 Если вы не уверены в содержимом расширения или в его источнике, 
-то расширение не рекомендуется подключать к программе.
+то расширение не рекомендуется подключать к приложению.
 
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
@@ -304,11 +335,8 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 									<v8:lang>en</v8:lang>
 									<v8:content>When attaching configuration extensions, 
 pay attention to their sources.
-If you are not sure the extension file was obtained from a trusted source, 
-refrain from attaching it.
-
-
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+If you are not sure the extension file came from a trusted source, 
+do not attach it.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись4КонтекстноеМеню" id="27"/>
@@ -331,6 +359,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<Button name="Продолжить4" id="66">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Продолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продолжить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Continue</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Продолжить4РасширеннаяПодсказка" id="67"/>
 								</Button>
 								<Button name="Отмена4" id="38">
@@ -383,11 +421,8 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 									<v8:lang>en</v8:lang>
 									<v8:content>When installing configuration updates, 
 pay attention to their sources.
-If you are not sure the update file was obtained from a trusted source,
-refrain from installing this update.
-
-
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+If you are not sure the update file came from a trusted source,
+do not install it.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись7КонтекстноеМеню" id="156"/>
@@ -410,6 +445,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<Button name="Продолжить8" id="162">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Продолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продолжить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Continue</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Продолжить8РасширеннаяПодсказка" id="163"/>
 								</Button>
 								<Button name="Отмена8" id="164">
@@ -444,17 +489,15 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 из меню &lt;b&gt;Файл - &lt;/&gt;&lt;b&gt;Открыть&lt;/&gt;. При открытии таких файлов следует обращать особое внимание 
 на источник, из которого он был получен, и не открывать файлы, в которых вы не уверены.
 
-В противном случае, такие файлы могут нанести вред вашему компьютеру и данным в программе.
+В противном случае, такие файлы могут нанести вред вашему компьютеру и данным в приложении.
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>The selected role allows opening files of external reports and data processors
-using the &lt;b&gt;File — &lt;/&gt;&lt;b&gt;Open&lt;/&gt; menu. When opening these files, pay attention to their sources
-and refrain from opening the external report or data processor files obtained from unsafe sources.
+									<v8:content>The selected role allows opening files of external reports and data processors using the &lt;b&gt;File — &lt;/&gt;&lt;b&gt;Open&lt;/&gt; menu.
+Always check the sources of these files.
 
-Otherwise, such files might harm your computer and damage your application data.
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+Do not open files from untrusted sources, as they might harm your computer and compromise your application data.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись5КонтекстноеМеню" id="111"/>
@@ -477,6 +520,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<Button name="Продолжить5" id="120">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Продолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продолжить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Continue</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Продолжить5РасширеннаяПодсказка" id="121"/>
 								</Button>
 								<Button name="Отмена5" id="122">
@@ -507,7 +560,7 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 							<Title formatted="true">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Отключение данной настройки позволяет загружать потенциально опасные файлы в программу.
+									<v8:content>Отключение данной настройки позволяет загружать потенциально опасные файлы в приложение.
 При добавлении таких файлов следует обращать особое внимание 
 на источник, из которого он был получен, и не загружать файлы, в которых вы не уверены.
 
@@ -517,11 +570,9 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<v8:item>
 									<v8:lang>en</v8:lang>
 									<v8:content>Disabling this option will allow adding potentially harmful files to the application.
-When adding these files, it is important to pay attention to their sources
-and refrain from adding files obtained from untrusted sources.
+Always check the sources of these files.
 
-Such files might harm your users' computers.
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+Do not open files from untrusted sources, as they might harm your users' computers.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="Надпись6КонтекстноеМеню" id="127"/>
@@ -544,6 +595,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<Button name="Продолжить6" id="133">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Продолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продолжить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Continue</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Продолжить6РасширеннаяПодсказка" id="134"/>
 								</Button>
 								<Button name="Отмена6" id="135">
@@ -599,8 +660,7 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 									<v8:content>This file contains potentially harmful executable code.
 It is recommended that you open files obtained from trusted sources only.
 
-Files obtained from untrusted sources might harm your computer.
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+Files from untrusted sources might harm your computer.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ПредупреждениеПриОткрытииФайлаПояснениеКонтекстноеМеню" id="143"/>
@@ -623,6 +683,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<Button name="Продолжить7" id="149">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Продолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продолжить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Continue</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Продолжить7РасширеннаяПодсказка" id="150"/>
 								</Button>
 								<Button name="Отмена7" id="151">
@@ -656,7 +726,7 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 									<v8:content>При подключении внешней компоненты рекомендуется обращать 
 внимание на источник, из которого был получен файл компоненты.
 Если вы не уверены в содержимом компоненты или в его источнике, 
-то компоненту не рекомендуется подключать к программе.
+то компоненту не рекомендуется подключать к приложению.
 
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Пример проблемы с вирусом во внешней обработке&lt;/&gt;.
 </v8:content>
@@ -665,11 +735,8 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 									<v8:lang>en</v8:lang>
 									<v8:content>When attaching add-ins, 
 pay attention to their sources.
-If you are not sure the add-in file was obtained from a trusted source,
-refrain from attaching it.
-
-
-See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in an external data processor&lt;/&gt; (in Russian).</v8:content>
+If you are not sure the add-in file came from a trusted source,
+do not attach it.</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ПредупреждениеПриДобавленииВнешнейКомпонентыКонтекстноеМеню" id="169"/>
@@ -692,6 +759,16 @@ See also: &lt;link http://1c.ru/news/info.jsp?id=21537&gt;Example of a virus in 
 								<Button name="Продолжить9" id="175">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.Продолжить</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продолжить</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Continue</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="Продолжить9РасширеннаяПодсказка" id="176"/>
 								</Button>
 								<Button name="Отмена9" id="177">
@@ -739,13 +816,13 @@ Settings made (for example, report options) will be lost.</v8:content>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Если требуется...
-• обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b&gt;Обновить&lt;/&gt;;
+• обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b&gt;Обновить из файла...&lt;/&gt;;
 • временно отключить расширение, следует снять флажок &lt;b&gt;Подключать расширение при входе&lt;/&gt;.</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>If you need to…
-• update an extension, click &lt;b&gt;Update&lt;/&gt; instead of deleting and adding it.
+										<v8:content>If you need to:
+• Update an extension, click &lt;b&gt;Update from file…&lt;/&gt; instead of deleting and adding it.
 • Temporarily disable an extension, clear the &lt;b&gt;Attach the extension when a user signs in&lt;/&gt; check box.</v8:content>
 									</v8:item>
 								</Title>
@@ -880,14 +957,14 @@ before deleting the extension.</v8:content>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Ознакомьтесь с документацией по расширению, которую можно получить от поставщика расширения.
 Если требуется...
-• обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b&gt;Обновить&lt;/&gt;;
+• обновить расширение, то вместо удаления и добавления нажмите кнопку &lt;b&gt;Обновить из файла...&lt;/&gt;;
 • временно отключить расширение, следует снять флажок &lt;b&gt;Подключать расширение при входе&lt;/&gt;.</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
 										<v8:content>Read the extension documentation available from the extension provider.
 If you need to 
-update an extension, click &lt;b&gt;Update&lt;/&gt; instead of deleting and adding it again.
+update an extension, click &lt;b&gt;Update from file…&lt;/&gt; instead of deleting and adding it again.
 If you need to temporarily disable an extension, clear the &lt;b&gt;Attach the extension when a user signs in&lt;/&gt; check box.</v8:content>
 									</v8:item>
 								</Title>
@@ -1006,13 +1083,13 @@ before deleting the extension.</v8:content>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Отключаемое расширение хранит данные в информационной базе, которые станут недоступными. 
-Кроме того некоторые данные самой программы могут также стать недоступными для изменения.</v8:content>
+									<v8:content>Отключаемое расширение хранит данные в приложении, которые станут недоступными. 
+Кроме того некоторые данные самого приложения могут также стать недоступными для изменения.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>The extension you are about to detach stores its data in the infobase
-. If you detach the extension, the data will become unavailable, and some application data can become unavailable for editing.</v8:content>
+									<v8:content>The extension you are about to detach stores its data in the app.
+If you detach the extension, the data will become unavailable, and some app data can become unavailable for editing.</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
@@ -1187,7 +1264,7 @@ before deleting the extension.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Deny opening external reports and data processors</v8:content>
+					<v8:content>Forbid external reports and data processors</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -1308,19 +1385,8 @@ before deleting the extension.</v8:content>
 			</Type>
 			<KeyParameter>true</KeyParameter>
 		</Parameter>
-		<Parameter name="ИмяФайла">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Parameter>
-		<Parameter name="МножественныйВыбор">
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
+		<Parameter name="ДополнительныйПараметр">
+			<Type/>
 		</Parameter>
 	</Parameters>
 </Form>

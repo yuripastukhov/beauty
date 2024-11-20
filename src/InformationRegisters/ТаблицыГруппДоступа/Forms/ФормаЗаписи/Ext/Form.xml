@@ -9,8 +9,18 @@
 			<Button name="ФормаВключитьВозможностьРедактирования" id="19">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ВключитьВозможностьРедактирования</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Включить возможность редактирования</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Allow editing</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияExtendedTooltip" id="22"/>
+				<ExtendedTooltip name="ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка" id="22"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -22,13 +32,13 @@
 			<DataPath>Запись.Таблица</DataPath>
 			<Width>40</Width>
 			<ContextMenu name="ТаблицаКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ТаблицаExtendedTooltip" id="23"/>
+			<ExtendedTooltip name="ТаблицаРасширеннаяПодсказка" id="23"/>
 		</InputField>
 		<InputField name="ГруппаДоступа" id="5">
 			<DataPath>Запись.ГруппаДоступа</DataPath>
 			<Width>40</Width>
 			<ContextMenu name="ГруппаДоступаКонтекстноеМеню" id="6"/>
-			<ExtendedTooltip name="ГруппаДоступаExtendedTooltip" id="24"/>
+			<ExtendedTooltip name="ГруппаДоступаРасширеннаяПодсказка" id="24"/>
 		</InputField>
 		<UsualGroup name="ГруппаПрава" id="48">
 			<Title>
@@ -55,7 +65,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Первая колонка</v8:content>
+							<v8:content>First column</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -67,6 +77,16 @@
 						<CheckBoxField name="ПравоЧтение" id="20">
 							<DataPath>ПравоЧтение</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Право чтение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>"Read" right</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
@@ -106,7 +126,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Вторая колонка</v8:content>
+							<v8:content>Second column</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -143,7 +163,7 @@
 		<InputField name="ТипТаблицы" id="13">
 			<DataPath>Запись.ТипТаблицы</DataPath>
 			<ContextMenu name="ТипТаблицыКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ТипТаблицыExtendedTooltip" id="29"/>
+			<ExtendedTooltip name="ТипТаблицыРасширеннаяПодсказка" id="29"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
@@ -189,7 +209,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Allow editing for troubleshooting purposes. Recommended for advanced users only.</v8:content>
+					<v8:content>Allow editing for troubleshooting. Recommended for advanced users only.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВключитьВозможностьРедактирования</Action>

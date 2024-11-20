@@ -3,7 +3,7 @@
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
-			<v8:content>Результаты обновления программы</v8:content>
+			<v8:content>Результаты обновления приложения</v8:content>
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
@@ -45,11 +45,21 @@
 						<v8:content>Close</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ФормаЗакрытьExtendedTooltip" id="127"/>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="127"/>
 			</Button>
 			<Button name="ФормаПерезапуститьОтложенноеОбновление" id="291">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПерезапуститьОтложенноеОбновление</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перезапустить отложенное обновление...</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Restart deferred update…</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПерезапуститьОтложенноеОбновлениеРасширеннаяПодсказка" id="292"/>
 			</Button>
@@ -79,10 +89,10 @@
 			<ExtendedTooltip name="ГруппаИнформацияОбУдаленииПатчейРасширеннаяПодсказка" id="256"/>
 			<ChildItems>
 				<PictureDecoration name="УдалениеПатчейКартинка" id="257">
-					<Width>5</Width>
+					<Width>7</Width>
 					<Picture>
-						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
+						<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<ContextMenu name="УдалениеПатчейКартинкаКонтекстноеМеню" id="258"/>
 					<ExtendedTooltip name="УдалениеПатчейКартинкаРасширеннаяПодсказка" id="259"/>
@@ -93,12 +103,12 @@
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Удаление устаревших исправлений (патчей) не было выполнено штатно при обновлении на новую версию, поэтому они удалены при первом входе администратора в программу. 
+							<v8:content>Удаление устаревших исправлений (патчей) не было выполнено штатно при обновлении на новую версию, поэтому они удалены при первом входе администратора в приложение. 
 Возможные причины:
 • обновление выполнялось нерекомендуемыми сторонними средствами;
-• патч, который не подходит для этой версии программы, был установлен вручную, например, с помощью конфигуратора.
+• патч, который не подходит для этой версии приложения, был установлен вручную, например, с помощью конфигуратора.
 
-Подобные действия могут приводить к различным ошибкам при работе программы и при ее обновлении на новую версию. Рекомендуется использовать штатные средства для обновления.</v8:content>
+Подобные действия могут приводить к различным ошибкам при работе приложения и при ее обновлении на новую версию. Рекомендуется использовать штатные средства для обновления.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -116,6 +126,16 @@ Such actions can lead to various errors when the application is running and when
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа1" id="230">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group</v8:content>
+				</v8:item>
+			</Title>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>NormalSeparation</Representation>
@@ -149,10 +169,10 @@ Such actions can lead to various errors when the application is running and when
 							</Title>
 							<VerticalStretch>false</VerticalStretch>
 							<Group>HorizontalIfPossible</Group>
-							<ExtendedTooltip name="ГруппаОбновлениеЗавершеноExtendedTooltip" id="128"/>
+							<ExtendedTooltip name="ГруппаОбновлениеЗавершеноРасширеннаяПодсказка" id="128"/>
 							<ChildItems>
 								<PictureDecoration name="КартинкаИнформация" id="83">
-									<Width>5</Width>
+									<Width>7</Width>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -169,7 +189,7 @@ Such actions can lead to various errors when the application is running and when
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаИнформацияКонтекстноеМеню" id="84"/>
-									<ExtendedTooltip name="КартинкаИнформацияExtendedTooltip" id="129"/>
+									<ExtendedTooltip name="КартинкаИнформацияРасширеннаяПодсказка" id="129"/>
 								</PictureDecoration>
 								<LabelDecoration name="ИнформацияОбновлениеЗавершено" id="86">
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -177,7 +197,7 @@ Such actions can lead to various errors when the application is running and when
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Версия программы успешно обновлена на версию %1
+											<v8:content>Версия приложения успешно обновлена на версию %1
 %2 в %3 за %4.</v8:content>
 										</v8:item>
 										<v8:item>
@@ -187,7 +207,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ИнформацияОбновлениеЗавершеноКонтекстноеМеню" id="87"/>
-									<ExtendedTooltip name="ИнформацияОбновлениеЗавершеноExtendedTooltip" id="131"/>
+									<ExtendedTooltip name="ИнформацияОбновлениеЗавершеноРасширеннаяПодсказка" id="131"/>
 								</LabelDecoration>
 							</ChildItems>
 						</Page>
@@ -206,7 +226,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 							<ExtendedTooltip name="ГруппаОшибкаОбновленияРасширеннаяПодсказка" id="187"/>
 							<ChildItems>
 								<PictureDecoration name="КартинкаОшибка" id="188">
-									<Width>5</Width>
+									<Width>7</Width>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -218,8 +238,8 @@ on %2 at %3 (update duration: %4).</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Ошибка32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogStop</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаОшибкаКонтекстноеМеню" id="189"/>
@@ -247,7 +267,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 											<Title formatted="true">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Во время обновления программы возникли некоторые проблемы. Информация о них сохранена в &lt;link ЖурналРегистрации&gt;журнал регистрации&lt;/&gt;.</v8:content>
+													<v8:content>Во время обновления приложения возникли некоторые проблемы. Информация о них сохранена в &lt;link ЖурналРегистрации&gt;журнал регистрации&lt;/&gt;.</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
@@ -263,6 +283,16 @@ on %2 at %3 (update duration: %4).</v8:content>
 										<Button name="ИнформацияДляТехническойПоддержки" id="238">
 											<Type>Hyperlink</Type>
 											<CommandName>Form.Command.ИнформацияДляТехническойПоддержки</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Информация для технической поддержки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Information for technical support</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ИнформацияДляТехническойПоддержкиРасширеннаяПодсказка" id="239"/>
 										</Button>
 									</ChildItems>
@@ -300,7 +330,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 							<ExtendedTooltip name="ГруппаИсправленияУстановленыРасширеннаяПодсказка" id="205"/>
 							<ChildItems>
 								<LabelDecoration name="ИсправленияУспешноОтступ" id="232">
-									<Width>5</Width>
+									<Width>7</Width>
 									<ContextMenu name="ИсправленияУспешноОтступКонтекстноеМеню" id="233"/>
 									<ExtendedTooltip name="ИсправленияУспешноОтступРасширеннаяПодсказка" id="234"/>
 								</LabelDecoration>
@@ -357,7 +387,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 							<ExtendedTooltip name="ГруппаОшибкаУстановкиИсправленийРасширеннаяПодсказка" id="218"/>
 							<ChildItems>
 								<LabelDecoration name="ИсправленияОшибкаОтступ" id="235">
-									<Width>3</Width>
+									<Width>7</Width>
 									<ContextMenu name="ИсправленияОшибкаОтступКонтекстноеМеню" id="236"/>
 									<ExtendedTooltip name="ИсправленияОшибкаОтступРасширеннаяПодсказка" id="237"/>
 								</LabelDecoration>
@@ -416,7 +446,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<PagesRepresentation>None</PagesRepresentation>
-			<ExtendedTooltip name="СтатусОбновленияExtendedTooltip" id="133"/>
+			<ExtendedTooltip name="СтатусОбновленияРасширеннаяПодсказка" id="133"/>
 			<ChildItems>
 				<Page name="ОбновлениеВФайловойБазе" id="30">
 					<Title>
@@ -429,7 +459,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 							<v8:content>Update in file database</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ОбновлениеВФайловойБазеExtendedTooltip" id="134"/>
+					<ExtendedTooltip name="ОбновлениеВФайловойБазеРасширеннаяПодсказка" id="134"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаШапкаФайловаяБаза" id="247">
 							<Title>
@@ -448,7 +478,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 							<ExtendedTooltip name="ГруппаШапкаФайловаяБазаРасширеннаяПодсказка" id="248"/>
 							<ChildItems>
 								<PictureDecoration name="КартинкаИнформацияФайловаяБаза" id="32">
-									<Width>5</Width>
+									<Width>7</Width>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -460,12 +490,12 @@ on %2 at %3 (update duration: %4).</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаИнформацияФайловаяБазаКонтекстноеМеню" id="33"/>
-									<ExtendedTooltip name="КартинкаИнформацияФайловаяБазаExtendedTooltip" id="136"/>
+									<ExtendedTooltip name="КартинкаИнформацияФайловаяБазаРасширеннаяПодсказка" id="136"/>
 								</PictureDecoration>
 								<LabelDecoration name="ЗаголовокИнформацииФайловаяБаза" id="35">
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -473,7 +503,7 @@ on %2 at %3 (update duration: %4).</v8:content>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Необходимо выполнить дополнительные процедуры обработки данных.
-Работа с этими данными в программе временно ограничена.</v8:content>
+Работа с этими данными в приложении временно ограничена.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
@@ -483,7 +513,7 @@ Access to this data is temporarily restricted.</v8:content>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ЗаголовокИнформацииФайловаяБазаКонтекстноеМеню" id="36"/>
-									<ExtendedTooltip name="ЗаголовокИнформацииФайловаяБазаExtendedTooltip" id="139"/>
+									<ExtendedTooltip name="ЗаголовокИнформацииФайловаяБазаРасширеннаяПодсказка" id="139"/>
 								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
@@ -502,7 +532,7 @@ Access to this data is temporarily restricted.</v8:content>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаИнформацияФайловаяБазаExtendedTooltip" id="137"/>
+							<ExtendedTooltip name="ГруппаИнформацияФайловаяБазаРасширеннаяПодсказка" id="137"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаЗапуститьОтложенноеОбновление" id="71">
 									<Title>
@@ -534,14 +564,24 @@ Access to this data is temporarily restricted.</v8:content>
 													<v8:content>Data processing procedures</v8:content>
 												</v8:item>
 											</Title>
-											<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиков1ExtendedTooltip" id="140"/>
+											<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиков1РасширеннаяПодсказка" id="140"/>
 										</Button>
 										<Button name="Выполнить" id="70">
 											<Type>UsualButton</Type>
 											<Representation>PictureAndText</Representation>
 											<CommandName>Form.Command.ВыполнитьОбновление</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выполнить процедуры обработки данных</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Run data processing procedures</v8:content>
+												</v8:item>
+											</Title>
 											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<ExtendedTooltip name="ВыполнитьExtendedTooltip" id="141">
+											<ExtendedTooltip name="ВыполнитьРасширеннаяПодсказка" id="141">
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<Title formatted="false">
 													<v8:item>
@@ -579,7 +619,7 @@ Therefore, it is recommended that you schedule it to the lowest user activity pe
 						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="СтатусОбновленияДляПользователяExtendedTooltip" id="145"/>
+					<ExtendedTooltip name="СтатусОбновленияДляПользователяРасширеннаяПодсказка" id="145"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаШапкаМодельСервиса" id="249">
 							<Title>
@@ -598,7 +638,7 @@ Therefore, it is recommended that you schedule it to the lowest user activity pe
 							<ExtendedTooltip name="ГруппаШапкаМодельСервисаРасширеннаяПодсказка" id="250"/>
 							<ChildItems>
 								<PictureDecoration name="КартинкаИнформацияПользователю" id="121">
-									<Width>5</Width>
+									<Width>7</Width>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -610,12 +650,12 @@ Therefore, it is recommended that you schedule it to the lowest user activity pe
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаИнформацияПользователюКонтекстноеМеню" id="122"/>
-									<ExtendedTooltip name="КартинкаИнформацияПользователюExtendedTooltip" id="146"/>
+									<ExtendedTooltip name="КартинкаИнформацияПользователюРасширеннаяПодсказка" id="146"/>
 								</PictureDecoration>
 								<LabelDecoration name="ЗаголовокИнформацииДляПользователя" id="124">
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -623,7 +663,7 @@ Therefore, it is recommended that you schedule it to the lowest user activity pe
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Не выполнены дополнительные процедуры обработки данных.
-Работа с этими данными в программе временно ограничена, необходимо дождаться
+Работа с этими данными в приложении временно ограничена, необходимо дождаться
 окончания их обработки.</v8:content>
 										</v8:item>
 										<v8:item>
@@ -635,7 +675,7 @@ Please wait till the processing is completed.</v8:content>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ЗаголовокИнформацииДляПользователяКонтекстноеМеню" id="125"/>
-									<ExtendedTooltip name="ЗаголовокИнформацииДляПользователяExtendedTooltip" id="148"/>
+									<ExtendedTooltip name="ЗаголовокИнформацииДляПользователяРасширеннаяПодсказка" id="148"/>
 								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
@@ -652,7 +692,7 @@ Please wait till the processing is completed.</v8:content>
 									<v8:content>Data processing procedures</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиков2ExtendedTooltip" id="149"/>
+							<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиков2РасширеннаяПодсказка" id="149"/>
 						</Button>
 					</ChildItems>
 				</Page>
@@ -668,7 +708,7 @@ Please wait till the processing is completed.</v8:content>
 						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ОбновлениеВыполняетсяExtendedTooltip" id="150"/>
+					<ExtendedTooltip name="ОбновлениеВыполняетсяРасширеннаяПодсказка" id="150"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаХодОбновления" id="5">
 							<Title>
@@ -685,7 +725,7 @@ Please wait till the processing is completed.</v8:content>
 							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаХодОбновленияExtendedTooltip" id="151"/>
+							<ExtendedTooltip name="ГруппаХодОбновленияРасширеннаяПодсказка" id="151"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаШапкаКлиентСервер" id="251">
 									<Title>
@@ -704,6 +744,7 @@ Please wait till the processing is completed.</v8:content>
 									<ExtendedTooltip name="ГруппаШапкаКлиентСерверРасширеннаяПодсказка" id="252"/>
 									<ChildItems>
 										<PictureDecoration name="КартинкаДействиеВыполняется" id="3">
+											<Width>7</Width>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -720,7 +761,7 @@ Please wait till the processing is completed.</v8:content>
 											</Picture>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="КартинкаДействиеВыполняетсяКонтекстноеМеню" id="4"/>
-											<ExtendedTooltip name="КартинкаДействиеВыполняетсяExtendedTooltip" id="152"/>
+											<ExtendedTooltip name="КартинкаДействиеВыполняетсяРасширеннаяПодсказка" id="152"/>
 										</PictureDecoration>
 										<LabelDecoration name="ЗаголовокИнформации" id="7">
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -737,7 +778,7 @@ Access to this data is temporary restricted.</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="ЗаголовокИнформацииКонтекстноеМеню" id="8"/>
-											<ExtendedTooltip name="ЗаголовокИнформацииExtendedTooltip" id="154"/>
+											<ExtendedTooltip name="ЗаголовокИнформацииРасширеннаяПодсказка" id="154"/>
 										</LabelDecoration>
 									</ChildItems>
 								</UsualGroup>
@@ -804,7 +845,7 @@ Access to this data is temporary restricted.</v8:content>
 									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаИнформацияОПрогрессеExtendedTooltip" id="153"/>
+									<ExtendedTooltip name="ГруппаИнформацияОПрогрессеРасширеннаяПодсказка" id="153"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаПрогрессИОшибки" id="263">
 											<Title>
@@ -857,7 +898,7 @@ Access to this data is temporary restricted.</v8:content>
 															<ExtendedTooltip name="ГруппаВыравниваниеРасширеннаяПодсказка" id="321"/>
 															<ChildItems>
 																<LabelDecoration name="НадписьВыравнивание" id="324">
-																	<Width>5</Width>
+																	<Width>7</Width>
 																	<ContextMenu name="НадписьВыравниваниеКонтекстноеМеню" id="325"/>
 																	<ExtendedTooltip name="НадписьВыравниваниеРасширеннаяПодсказка" id="326"/>
 																</LabelDecoration>
@@ -1011,7 +1052,7 @@ Access to this data is temporary restricted.</v8:content>
 																			</Title>
 																			<Hyperlink>true</Hyperlink>
 																			<ContextMenu name="ИнформацияСтатусОбновленияКонтекстноеМеню" id="10"/>
-																			<ExtendedTooltip name="ИнформацияСтатусОбновленияExtendedTooltip" id="155"/>
+																			<ExtendedTooltip name="ИнформацияСтатусОбновленияРасширеннаяПодсказка" id="155"/>
 																			<Events>
 																				<Event name="Click">ИнформацияСтатусОбновленияНажатие</Event>
 																			</Events>
@@ -1105,6 +1146,16 @@ Access to this data is temporary restricted.</v8:content>
 											<ChildItems>
 												<RadioButtonField name="ПриоритетОбновления" id="177">
 													<DataPath>ПриоритетОбновления</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Приоритет</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Priority</v8:content>
+														</v8:item>
+													</Title>
 													<ToolTipRepresentation>None</ToolTipRepresentation>
 													<RadioButtonType>Auto</RadioButtonType>
 													<ChoiceList>
@@ -1148,13 +1199,13 @@ Access to this data is temporary restricted.</v8:content>
 														<Title formatted="true">
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>&lt;b&gt;• &lt;/&gt;&lt;b&gt;Работа пользователей&lt;/&gt; - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в программе. 
-&lt;b&gt;• &lt;/&gt;&lt;b&gt;Обработка данных&lt;/&gt; - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в программе. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.</v8:content>
+																<v8:content>&lt;b&gt;• &lt;/&gt;&lt;b&gt;Работа пользователей&lt;/&gt; - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в приложении. 
+&lt;b&gt;• &lt;/&gt;&lt;b&gt;Обработка данных&lt;/&gt; - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в приложении. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>&lt;b&gt;• &lt;/&gt;&lt;b&gt;User experience&lt;/&gt;. Data processing takes longer, but server load and user experience degradation are less significant. 
-&lt;b&gt;• &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;. Data processing takes less time, but server load is higher and user experience degradation is significant. It is recommended that you use this mode when availability of the processed data is critical.</v8:content>
+																<v8:content>&lt;b&gt;• &lt;/&gt;&lt;b&gt;User experience&lt;/&gt;: Data processing takes longer, but server load and user experience degradation are minimal. 
+&lt;b&gt;• &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;: Data processing is faster, but server load is higher and user experience degradation is significant. Use this mode when the availability of processed data is critical.</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -1182,8 +1233,8 @@ Access to this data is temporary restricted.</v8:content>
 														<Title formatted="true">
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>&lt;b&gt;● &lt;/&gt;&lt;b&gt;Работа пользователей&lt;/&gt; - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в программе. 
-&lt;b&gt;● &lt;/&gt;&lt;b&gt;Обработка данных&lt;/&gt; - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в программе. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.
+																<v8:content>&lt;b&gt;● &lt;/&gt;&lt;b&gt;Работа пользователей&lt;/&gt; - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в приложении. 
+&lt;b&gt;● &lt;/&gt;&lt;b&gt;Обработка данных&lt;/&gt; - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в приложении. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.
 &lt;b&gt;● &lt;/&gt;&lt;b&gt;&lt;fontsize 8&gt;Количество&lt;/&gt;&lt;/&gt;&lt;b&gt; потоков&lt;/&gt; - это количество одновременно выполняющихся обработчиков обновления. Значение по умолчанию равно 8. Рекомендуемое значение:
 &lt;b&gt;    •&lt;/&gt; для штатного обновления до 50-75% от количества ядер, доступных кластеру  серверов; 
 &lt;b&gt;    •&lt;/&gt; для форсированного обновления в период минимальной активности пользователей - столько ядер, сколько доступно кластеру серверов.
@@ -1192,13 +1243,11 @@ Access to this data is temporary restricted.</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>&lt;b&gt;● &lt;/&gt;&lt;b&gt;User experience&lt;/&gt;. Data processing takes longer, but server load and user experience degradation are less significant.
-&lt;b&gt;● &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;. Data processing takes less time, but server load is higher and user experience degradation is significant. It is recommended that you use this mode when availability of the processed data is critical.
-&lt;b&gt;● &lt;/&gt;&lt;b&gt;&lt;fontsize 8&gt;Number&lt;/&gt;&lt;/&gt;&lt;b&gt; of threads&lt;/&gt;. The number of concurrent update handlers. The default value is 8. Recommended value:
-&lt;b&gt;    •&lt;/&gt;For regular operations, up to 50-75% of the number of server cluster processor cores. 
-&lt;b&gt;    •&lt;/&gt;For the forced update within a period of minimum activity, as many cores as available to the server cluster.
-See also &lt;link http://1c.ru/news/info.jsp?id=25491&gt;restriction of 12 cores per server for 1C:Enterprise PROF version (in Russian)&lt;/&gt; and &lt;link https://v8.1c.ru/priobretenie-i-vnedrenie/otvety-na-tipovye-voprosy-po-litsenzirovaniyu-1s-predpriyatiya-8/&gt;Which processor cores to count - real or virtual? (in Russian)&lt;/&gt;
-</v8:content>
+																<v8:content>&lt;b&gt;● &lt;/&gt;&lt;b&gt;User experience&lt;/&gt;: Data processing takes longer, but server load and user experience degradation are minimal.
+&lt;b&gt;● &lt;/&gt;&lt;b&gt;Data processing&lt;/&gt;: Data processing is faster, but server load is higher and user experience degradation is significant. Use this mode when the availability of processed data is critical.
+&lt;b&gt;● &lt;/&gt;&lt;b&gt;&lt;fontsize 8&gt;Number&lt;/&gt;&lt;/&gt;&lt;b&gt; of threads&lt;/&gt;: The number of concurrent update handlers. The default value is 8. Recommended values:
+&lt;b&gt;    •&lt;/&gt;For regular operations, use up to 50-75% of the server cluster's processor cores. 
+&lt;b&gt;    •&lt;/&gt;For forced updates during periods of low activity, use as many cores as available in the server cluster.</v8:content>
 															</v8:item>
 														</Title>
 													</ExtendedTooltip>
@@ -1228,7 +1277,7 @@ Applications users might experience lags during the data processing.</v8:content
 											</Title>
 											<TitleHeight>3</TitleHeight>
 											<ContextMenu name="ИнформацияПодсказкаФайловаяБаза2КонтекстноеМеню" id="115"/>
-											<ExtendedTooltip name="ИнформацияПодсказкаФайловаяБаза2ExtendedTooltip" id="156"/>
+											<ExtendedTooltip name="ИнформацияПодсказкаФайловаяБаза2РасширеннаяПодсказка" id="156"/>
 										</LabelDecoration>
 										<UsualGroup name="ГруппаПодсказкаПроПериодНаименьшейАктивностиПользователей" id="117">
 											<Title>
@@ -1245,7 +1294,7 @@ Applications users might experience lags during the data processing.</v8:content
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаПодсказкаПроПериодНаименьшейАктивностиПользователейExtendedTooltip" id="157"/>
+											<ExtendedTooltip name="ГруппаПодсказкаПроПериодНаименьшейАктивностиПользователейРасширеннаяПодсказка" id="157"/>
 											<ChildItems>
 												<LabelDecoration name="ПодсказкаПроПериодНаименьшейАктивностиПользователей" id="100">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -1262,7 +1311,7 @@ Applications users might experience lags during the data processing.</v8:content
 														</v8:item>
 													</Title>
 													<ContextMenu name="ПодсказкаПроПериодНаименьшейАктивностиПользователейКонтекстноеМеню" id="101"/>
-													<ExtendedTooltip name="ПодсказкаПроПериодНаименьшейАктивностиПользователейExtendedTooltip" id="158"/>
+													<ExtendedTooltip name="ПодсказкаПроПериодНаименьшейАктивностиПользователейРасширеннаяПодсказка" id="158"/>
 												</LabelDecoration>
 												<UsualGroup name="ГруппаНастройкаРасписания" id="173">
 													<Title>
@@ -1278,7 +1327,7 @@ Applications users might experience lags during the data processing.</v8:content
 													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="ГруппаНастройкаРасписанияExtendedTooltip" id="174"/>
+													<ExtendedTooltip name="ГруппаНастройкаРасписанияРасширеннаяПодсказка" id="174"/>
 													<ChildItems>
 														<Button name="ИзменитьРасписание" id="116">
 															<Type>Hyperlink</Type>
@@ -1293,7 +1342,7 @@ Applications users might experience lags during the data processing.</v8:content
 																	<v8:content>Set schedule</v8:content>
 																</v8:item>
 															</Title>
-															<ExtendedTooltip name="ИзменитьРасписаниеExtendedTooltip" id="159"/>
+															<ExtendedTooltip name="ИзменитьРасписаниеРасширеннаяПодсказка" id="159"/>
 														</Button>
 													</ChildItems>
 												</UsualGroup>
@@ -1317,7 +1366,7 @@ Applications users might experience lags during the data processing.</v8:content
 						</v8:item>
 					</Title>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ОбновлениеЗавершеноExtendedTooltip" id="163"/>
+					<ExtendedTooltip name="ОбновлениеЗавершеноРасширеннаяПодсказка" id="163"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаОтложенноеОбновлениеЗавершено" id="42">
 							<Title>
@@ -1334,7 +1383,7 @@ Applications users might experience lags during the data processing.</v8:content
 							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаОтложенноеОбновлениеЗавершеноExtendedTooltip" id="164"/>
+							<ExtendedTooltip name="ГруппаОтложенноеОбновлениеЗавершеноРасширеннаяПодсказка" id="164"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаШапкаЗавершено" id="253">
 									<Title>
@@ -1354,10 +1403,10 @@ Applications users might experience lags during the data processing.</v8:content
 									<ExtendedTooltip name="ГруппаШапкаЗавершеноРасширеннаяПодсказка" id="254"/>
 									<ChildItems>
 										<PictureDecoration name="КартинкаЗавершено" id="43">
-											<Width>5</Width>
+											<Width>7</Width>
 											<Picture>
-												<xr:Ref>CommonPicture.Ошибка32</xr:Ref>
-												<xr:LoadTransparent>false</xr:LoadTransparent>
+												<xr:Ref>StdPicture.DialogStop</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="КартинкаЗавершеноКонтекстноеМеню" id="44"/>
@@ -1377,7 +1426,7 @@ Applications users might experience lags during the data processing.</v8:content
 												</v8:item>
 											</Title>
 											<ContextMenu name="ИнформацияОтложенныеОбработчикиОтсутствуютКонтекстноеМеню" id="119"/>
-											<ExtendedTooltip name="ИнформацияОтложенныеОбработчикиОтсутствуютExtendedTooltip" id="167"/>
+											<ExtendedTooltip name="ИнформацияОтложенныеОбработчикиОтсутствуютРасширеннаяПодсказка" id="167"/>
 										</LabelDecoration>
 										<LabelDecoration name="ИнформацияОтложенноеОбновлениеЗавершено" id="50">
 											<MaxWidth>60</MaxWidth>
@@ -1415,19 +1464,39 @@ Applications users might experience lags during the data processing.</v8:content
 									<ExtendedTooltip name="ГруппаПереходКСпискуОтложенныхОбработчиковРасширеннаяПодсказка" id="166"/>
 									<ChildItems>
 										<UsualGroup name="Группа2" id="335">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group</v8:content>
+												</v8:item>
+											</Title>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="336"/>
 											<ChildItems>
 												<LabelDecoration name="ПереходКСпискуВыравнивание" id="339">
-													<Width>5</Width>
+													<Width>7</Width>
 													<ContextMenu name="ПереходКСпискуВыравниваниеКонтекстноеМеню" id="340"/>
 													<ExtendedTooltip name="ПереходКСпискуВыравниваниеРасширеннаяПодсказка" id="341"/>
 												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Группа3" id="337">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group</v8:content>
+												</v8:item>
+											</Title>
 											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
@@ -1574,7 +1643,7 @@ Applications users might experience lags during the data processing.</v8:content
 																	<v8:content>Required data processing procedures.</v8:content>
 																</v8:item>
 															</Title>
-															<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиковExtendedTooltip" id="170"/>
+															<ExtendedTooltip name="ОткрытьСписокОтложенныхОбработчиковРасширеннаяПодсказка" id="170"/>
 														</Button>
 													</ChildItems>
 												</UsualGroup>
@@ -1593,7 +1662,7 @@ Applications users might experience lags during the data processing.</v8:content
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
 													<Hyperlink>true</Hyperlink>
 													<ContextMenu name="ГиперссылкаОсновноеОбновлениеКонтекстноеМеню" id="89"/>
-													<ExtendedTooltip name="ГиперссылкаОсновноеОбновлениеExtendedTooltip" id="132">
+													<ExtendedTooltip name="ГиперссылкаОсновноеОбновлениеРасширеннаяПодсказка" id="132">
 														<Title formatted="false">
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -1626,7 +1695,7 @@ Applications users might experience lags during the data processing.</v8:content
 			<Title formatted="true">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сведения о результатах обновления версии программы можно также открыть
+					<v8:content>Сведения о результатах обновления версии приложения можно также открыть
 из раздела &lt;b&gt;Администрирование &lt;/&gt;- &lt;b&gt;Обслуживание&lt;/&gt;.</v8:content>
 				</v8:item>
 				<v8:item>

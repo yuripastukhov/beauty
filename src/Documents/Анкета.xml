@@ -788,7 +788,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>General question with given response</v8:content>
+									<v8:content>General question</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -876,7 +876,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Response</v8:content>
+									<v8:content>Answer</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -893,7 +893,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Response to the question</v8:content>
+									<v8:content>Answer</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>
@@ -947,7 +947,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Comment to the response</v8:content>
+									<v8:content>Open-ended question</v8:content>
 								</v8:item>
 							</ToolTip>
 							<MarkNegatives>false</MarkNegatives>

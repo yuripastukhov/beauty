@@ -24,7 +24,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Application for certificate issuance statuses</v8:content>
+					<v8:content>Certificate application statuses</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -170,7 +170,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Accepted (Acknowledgment of Receipt not sent)</v8:content>
+							<v8:content>Fulfilled (information acknowledgment not sent)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -186,7 +186,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Accepted (certificate not installed)</v8:content>
+							<v8:content>Fulfilled (certificate not installed)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -202,7 +202,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Accepted</v8:content>
+							<v8:content>Fulfilled</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

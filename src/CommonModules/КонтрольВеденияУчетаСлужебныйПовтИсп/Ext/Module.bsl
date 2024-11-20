@@ -1,5 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2023, ООО 1С-Софт
+// Copyright (c) 2024, ООО 1С-Софт
 // Все права защищены. Эта программа и сопроводительные материалы предоставляются 
 // в соответствии с условиями лицензии Attribution 4.0 International (CC BY 4.0)
 // Текст лицензии доступен по ссылке:
@@ -99,7 +99,7 @@
 	Проверка.ИдентификаторГруппы          = ГруппаПроверок.Идентификатор;
 	Проверка.Наименование                 = НСтр("ru = 'Проверка незаполненных обязательных реквизитов';
 												|en = 'Check for empty required attributes'");
-	Проверка.Причины                      = НСтр("ru = 'Некорректная синхронизация данных с другими программами или импорт данных.';
+	Проверка.Причины                      = НСтр("ru = 'Некорректная синхронизация данных с другими приложениями или импорт данных.';
 												|en = 'Invalid data synchronization with external applications or data import.'");
 	Проверка.Рекомендация                 = НСтр("ru = 'Перенастроить синхронизацию данных или заполнить обязательные реквизиты вручную.
 		|Для этого можно также воспользоваться групповым изменением реквизитов (в разделе Администрирование).
@@ -119,8 +119,8 @@
 	Проверка.ИдентификаторГруппы          = ГруппаПроверок.Идентификатор;
 	Проверка.Наименование                 = НСтр("ru = 'Проверка ссылочной целостности';
 												|en = 'Reference integrity check'");
-	Проверка.Причины                      = НСтр("ru = 'Случайное или преднамеренное удаление данных без контроля ссылочной целостности, сбои в работе оборудования, некорректная синхронизация данных с другими программами или импорт данных, ошибки в сторонних инструментах (например, внешних обработках или расширениях).';
-												|en = 'Accidental or intentional data deletion without reference integrity control, equipment failures, Invalid data synchronization with external applications or data import, errors in third-party tools (such as external data processors or extensions).'");
+	Проверка.Причины                      = НСтр("ru = 'Случайное или преднамеренное удаление данных без контроля ссылочной целостности, сбои в работе оборудования, некорректная синхронизация данных с другими приложениями или импорт данных, ошибки в сторонних инструментах (например, внешних обработках или расширениях).';
+												|en = 'Accidental or intentional data deletion without reference integrity control, equipment failures, invalid data synchronization with external applications or data import, errors in third-party tools (such as external data processors or extensions).'");
 	Проверка.Рекомендация                 = НСтр("ru = 'В зависимости от ситуации следует выбрать один из вариантов:
 		|• восстановить удаленные данные из резервной копии,
 		|• или очистить ссылки на удаленные данные (если они больше не требуются).';
@@ -130,24 +130,17 @@
 	Если Не ОбщегоНазначения.РазделениеВключено() Тогда
 		Проверка.Рекомендация = Проверка.Рекомендация + Символы.ПС + Символы.ПС 
 			+ НСтр("ru = 'Для очистки ссылок на удаленные данные следует:
-			|• Завершить работу всех пользователей, установить блокировку входа в программу и сделать резервную копию информационной базы;
+			|• Завершить работу всех пользователей, установить блокировку входа в приложение и сделать резервную копию информационной базы;
 			|• Запустить конфигуратор, меню Администрирование - Тестирования и исправление, включить два флажка для проверки логической и ссылочной целостности
 			|  См. подробнее на ИТС: https://its.1c.eu/db/v83doc#bookmark:adm:TI000000142
-			|• Дождаться завершения тестирования и исправления, снять блокировку входа в программу.
+			|• Дождаться завершения тестирования и исправления, снять блокировку входа в приложение.
 			|
 			|Если работа ведется в распределенной информационной базе (РИБ), то исправление следует запускать только в главном узле.
 			|Затем выполнить синхронизацию с подчиненными узлами.';
 			|en = 'To clear references to deleted data, do the following:
 			|• Terminate all user sessions, lock the application, and create an infobase backup.
-			|• Open Designer, open Administration – Verify and Repair menu, select the check boxes for logical integrity check and referential integrity check.
-			| For more information, see ITS: https://its.1c.ru/db/v83doc#bookmark:adm:TI000000142.
-			|• Wait for verification and repair to complete, and unlock the application.
-			|
-			|For distributed infobases, run the repair procedure for the master node only.
-			|After that, perform synchronization with subordinate nodes.To clear references to deleted data, do the following:
-			|• Terminate all user sessions, lock the application, and create an infobase backup.
-			|• Open Designer, open Administration – Verify and Repair menu, select the check boxes for logical integrity check and referential integrity check.
-			| For more information, see ITS: https://its.1c.eu/db/v83doc#bookmark:adm:TI000000142.
+			|• Start Designer, open the Administration – Verify and repair menu, and select checkboxes for the logical integrity check and the referential integrity check.
+			| For more information, see <link https://kb.1ci.com/1C_Enterprise_Platform/Guides/Administrator_Guides/1C_Enterprise_8.3.22_Administrator_Guide/Chapter_6._Infobase_administration/6.10._Verifying_and_repairing_an_infobase/>1C:Enterprise Administrator Guide</>
 			|• Wait for verification and repair to complete, and unlock the application.
 			|
 			|For distributed infobases, run the repair procedure for the master node only.
@@ -169,7 +162,7 @@
 	Проверка.ИдентификаторГруппы            = ГруппаПроверок.Идентификатор;
 	Проверка.Наименование                   = НСтр("ru = 'Проверка циклических ссылок';
 													|en = 'Check for circular references'");
-	Проверка.Причины                        = НСтр("ru = 'Некорректная синхронизация данных с другими программами или импорт данных.';
+	Проверка.Причины                        = НСтр("ru = 'Некорректная синхронизация данных с другими приложениями или импорт данных.';
 													|en = 'Invalid data synchronization with external applications or data import.'");
 	Проверка.Рекомендация                   = НСтр("ru = 'У одного из элементов очистить ссылку на родительский элемент (для автоматического исправления нажать ссылку ниже).
 		|Если работа ведется в распределенной информационной базе (РИБ), то исправление следует запускать только в главном узле.
@@ -187,7 +180,7 @@
 	Проверка.ИдентификаторГруппы            = ГруппаПроверок.Идентификатор;
 	Проверка.Наименование                   = НСтр("ru = 'Проверка отсутствующих предопределенных элементов';
 													|en = 'Check for missing predefined items'");
-	Проверка.Причины                        = НСтр("ru = 'Некорректная синхронизация данных с другими программами или импорт данных, ошибки в сторонних инструментах (например, внешних обработках или расширениях).';
+	Проверка.Причины                        = НСтр("ru = 'Некорректная синхронизация данных с другими приложениями или импорт данных, ошибки в сторонних инструментах (например, внешних обработках или расширениях).';
 													|en = 'Invalid data synchronization with external applications or data import, errors in third-party tools (such as external data processors or extensions).'");
 	Проверка.Рекомендация                   = НСтр("ru = 'В зависимости от ситуации следует выбрать один из вариантов:
 		|• подобрать и указать в качестве предопределенного один из существующих элементов в списке; 
@@ -214,7 +207,7 @@
 	Проверка.ИдентификаторГруппы          = ГруппаПроверок.Идентификатор;
 	Проверка.Наименование                 = НСтр("ru = 'Проверка дублирования предопределенных элементов';
 												|en = 'Check for duplicate predefined items'");
-	Проверка.Причины                      = НСтр("ru = 'Некорректная синхронизация данных с другими программами или импорт данных.';
+	Проверка.Причины                      = НСтр("ru = 'Некорректная синхронизация данных с другими приложениями или импорт данных.';
 												|en = 'Invalid data synchronization with external applications or data import.'");
 	Проверка.Рекомендация                 = НСтр("ru = 'Запустить поиск и удаление дублей (в разделе Администрирование).';
 												|en = 'Run duplicate cleaner in the Administration section.'");
@@ -234,25 +227,25 @@
 	Проверка.ИдентификаторГруппы          = ГруппаПроверок.Идентификатор;
 	Проверка.Наименование                 = НСтр("ru = 'Проверка отсутствия предопределенных узлов плана обмена';
 												|en = 'Check for missing predefined nodes in exchange plan'");
-	Проверка.Причины                      = НСтр("ru = 'Некорректное поведение программы при работе на устаревших версиях платформы 1С:Предприятие.';
+	Проверка.Причины                      = НСтр("ru = 'Некорректное поведение приложения при работе на устаревших версиях платформы 1С:Предприятие.';
 												|en = 'Incorrect application behavior when running on an obsolete 1C:Enterprise version'");
 	Если ОбщегоНазначения.РазделениеВключено() Тогда
 		Проверка.Рекомендация             = НСтр("ru = 'Обратиться в техническую поддержку сервиса.';
 												|en = 'Contact technical service support.'");
 	Иначе	
 		Проверка.Рекомендация             = НСтр("ru = '• Перейти на версию платформы 1С:Предприятие 8.3.9.2033 или выше;
-			|• Завершить работу всех пользователей, установить блокировку входа в программу и сделать резервную копию информационной базы;
+			|• Завершить работу всех пользователей, установить блокировку входа в приложение и сделать резервную копию информационной базы;
 			|• Запустить конфигуратор, меню Администрирование - Тестирования и исправление, включить два флажка для проверки логической и ссылочной целостности
 			|  См. подробнее на ИТС: https://its.1c.eu/db/v83doc#bookmark:adm:TI000000142
-			|• Дождаться завершения тестирования и исправления, снять блокировку входа в программу.
+			|• Дождаться завершения тестирования и исправления, снять блокировку входа в приложение.
 			|
 			|Если работа ведется в распределенной информационной базе (РИБ), то исправление следует запускать только в главном узле.
 			|Затем выполнить синхронизацию с подчиненными узлами.';
 			|en = '• Upgrade 1C:Enterprise to 8.3.9.2033 or later
-			|• Terminate all user sessions, lock the application, and create an infobase backup
-			|• Open Designer, open Administration – Verify and Repair menu, select the check boxes for logical integrity check and referential integrity check
-			| For more details, refer to ITS: https://its.1c.eu/db/v83doc#bookmark:adm:TI000000142
-			|• Wait for verification and repair to complete, and unlock the application
+			|• Terminate all user sessions, lock the application, and create an infobase backup.
+			|• Start Designer, open the Administration – Verify and repair menu, and select checkboxes for the logical integrity check and the referential integrity check.
+			|  For more information, see <link https://kb.1ci.com/1C_Enterprise_Platform/Guides/Administrator_Guides/1C_Enterprise_8.3.22_Administrator_Guide/Chapter_6._Infobase_administration/6.10._Verifying_and_repairing_an_infobase/>1C:Enterprise Administrator Guide</>
+			|• Wait for verification and repair to complete, and unlock the application.
 			|
 			|For distributed infobases, run the repair procedure for the master node only.
 			|After that, perform synchronization with subordinate nodes.'");

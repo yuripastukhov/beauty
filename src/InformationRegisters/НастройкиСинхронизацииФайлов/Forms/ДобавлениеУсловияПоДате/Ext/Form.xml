@@ -91,6 +91,16 @@
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
 					<CommandName>Form.Command.ОК</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОК</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OK</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ОКРасширеннаяПодсказка" id="12"/>
 				</Button>
 				<Button name="Отмена" id="13">
@@ -169,4 +179,9 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="РеквизитыСТипомДата">
+			<Type/>
+		</Parameter>
+	</Parameters>
 </Form>

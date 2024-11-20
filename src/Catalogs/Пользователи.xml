@@ -381,7 +381,7 @@ Usually, first name + last name.</v8:content>
 					<xr:CharacteristicTypes from="Catalog.ВидыКонтактнойИнформации">
 						<xr:KeyField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Ref</xr:KeyField>
 						<xr:TypesFilterField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Parent</xr:TypesFilterField>
-						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">fc1d5c1f-385f-493f-a538-f80a12c7cb6f.8cbaa30d-faab-45ad-880e-84f8b421f448</xr:TypesFilterValue>
+						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">Catalog.ВидыКонтактнойИнформации.СправочникПользователи</xr:TypesFilterValue>
 						<xr:DataPathField>-1</xr:DataPathField>
 						<xr:MultipleValuesUseField>-1</xr:MultipleValuesUseField>
 					</xr:CharacteristicTypes>
@@ -453,7 +453,7 @@ Usually, first name + last name.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Invalid</v8:content>
+							<v8:content>Inactive</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -466,14 +466,14 @@ Usually, first name + last name.</v8:content>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Пользователь больше не работает в программе, но сведения о нем сохранены.
+							<v8:content>Пользователь больше не работает в приложении, но сведения о нем сохранены.
 Недействительные пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах программы.</v8:content>
+при выборе или подборе в документах и других местах приложения.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
 							<v8:content>The user does not have access to the application but their data is still stored.
-Invalid users are hidden from the user lists.
+Inactive users are hidden from the user lists.
 </v8:content>
 						</v8:item>
 					</ToolTip>
@@ -686,11 +686,11 @@ Invalid users are hidden from the user lists.
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Неразделенный или разделенный служебный пользователь, права к которому устанавливаются непосредственно и программно.</v8:content>
+							<v8:content>Служебный пользователь для автоматизации некоторых действий в приложении (права не настраиваются интерактивно).</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>A shared or separated user with the rights specified explicitly and programmatically.</v8:content>
+							<v8:content>Utility user intended for app automation. Its rights cannot be configured interactively.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

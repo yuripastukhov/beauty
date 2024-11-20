@@ -41,6 +41,16 @@
 			<ChildItems>
 				<InputField name="Период" id="34">
 					<DataPath>Период</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period</v8:content>
+						</v8:item>
+					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ClearButton>true</ClearButton>
 					<ContextMenu name="ПериодКонтекстноеМеню" id="35">
@@ -53,6 +63,16 @@
 				</InputField>
 				<InputField name="УзелИнформационнойБазы" id="36">
 					<DataPath>УзелИнформационнойБазы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправитель</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Sender</v8:content>
+						</v8:item>
+					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ClearButton>true</ClearButton>
 					<OpenButton>false</OpenButton>
@@ -206,11 +226,31 @@
 									<Button name="ОшибкиОбъектаXDTOКонтекстноеМенюИзменитьВыделенныеОбъекты" id="705">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ИзменитьВыделенныеОшибкиXTDO</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить выделенные объекты</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit selected items</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="ОшибкиОбъектаXDTOКонтекстноеМенюИзменитьВыделенныеОбъектыРасширеннаяПодсказка" id="706"/>
 									</Button>
 									<Button name="ОшибкиОбъектаXDTOКонтекстноеМенюИзменить" id="707">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="ОшибкиОбъектаXDTOКонтекстноеМенюИзменитьРасширеннаяПодсказка" id="708"/>
 									</Button>
 									<ButtonGroup name="ОшибкиОбъектаXDTOКонтекстноеМенюГруппаИгнорирования" id="709">
@@ -229,11 +269,31 @@
 											<Button name="ОшибкиОбъектаXDTOКонтекстноеМенюИгнорироватьОшибку" id="711">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьОшибку</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать ошибку</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore error</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="ОшибкиОбъектаXDTOКонтекстноеМенюИгнорироватьОшибкуРасширеннаяПодсказка" id="712"/>
 											</Button>
 											<Button name="ОшибкиОбъектаXDTOКонтекстноеМенюНеИгнорироватьОшибку" id="713">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьОшибку</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать ошибку</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore error</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="ОшибкиОбъектаXDTOКонтекстноеМенюНеИгнорироватьОшибкуРасширеннаяПодсказка" id="714"/>
 											</Button>
 										</ChildItems>
@@ -251,11 +311,31 @@
 									<Button name="ОшибкиОбъектаXDTOИзменитьВыделенныеОбъекты" id="717">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ИзменитьВыделенныеОшибкиXTDO</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить выделенные объекты</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit selected items</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="ОшибкиОбъектаXDTOИзменитьВыделенныеОбъектыРасширеннаяПодсказка" id="718"/>
 									</Button>
 									<Button name="ОшибкиОбъектаXDTOИзменить" id="719">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Change</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="ОшибкиОбъектаXDTOИзменитьРасширеннаяПодсказка" id="720"/>
 									</Button>
@@ -275,17 +355,47 @@
 											<Button name="ОшибкиОбъектаXDTOИгнорироватьОшибку" id="723">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьОшибку</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать ошибку</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore error</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="ОшибкиОбъектаXDTOИгнорироватьОшибкуРасширеннаяПодсказка" id="724"/>
 											</Button>
 											<Button name="ОшибкиОбъектаXDTOНеИгнорироватьОшибку" id="725">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьОшибку</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать ошибку</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore error</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ОшибкиОбъектаXDTOНеИгнорироватьОшибкуРасширеннаяПодсказка" id="726"/>
 											</Button>
 											<Button name="ОшибкиОбъектаXDTOПоказыватьПроигнорированные" id="727">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПоказыватьПроигнорированныеНезаполненные</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показывать проигнорированные</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Show ignored items</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ОшибкиОбъектаXDTOПоказыватьПроигнорированныеРасширеннаяПодсказка" id="728"/>
 											</Button>
@@ -294,6 +404,16 @@
 									<Button name="ОшибкиОбъектаXDTOОбновить" id="729">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Обновить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Refresh</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="ОшибкиОбъектаXDTOОбновитьРасширеннаяПодсказка" id="730"/>
 									</Button>
 									<Button name="ОшибкиОбъектаXDTOНайти" id="731">
@@ -512,16 +632,46 @@ It is recommended that you open each document and eliminate the issues preventin
 									<Button name="НепроведенныеДокументыКонтекстноеМенюИзменитьВыделенныеДокументы" id="62">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ИзменитьВыделенныеДокументы</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить выделенные...</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit selected…</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепроведенныеДокументыКонтекстноеМенюИзменитьВыделенныеДокументыExtendedTooltip" id="371"/>
 									</Button>
 									<Button name="НепроведенныеДокументыКонтекстноеМенюПровестиДокумент" id="63">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПровестиДокумент</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Провести</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Post</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепроведенныеДокументыКонтекстноеМенюПровестиДокументExtendedTooltip" id="372"/>
 									</Button>
 									<Button name="НепроведенныеДокументыКонтекстноеМенюИзменить" id="324">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепроведенныеДокументыКонтекстноеМенюИзменитьExtendedTooltip" id="373"/>
 									</Button>
 									<ButtonGroup name="НепроведенныеДокументыКонтекстноеМенюГруппаИгнорирования" id="64">
@@ -540,11 +690,31 @@ It is recommended that you open each document and eliminate the issues preventin
 											<Button name="НепроведенныеДокументыКонтекстноеМенюИгнорироватьДокумент" id="65">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьДокумент</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НепроведенныеДокументыКонтекстноеМенюИгнорироватьДокументExtendedTooltip" id="375"/>
 											</Button>
 											<Button name="НепроведенныеДокументыКонтекстноеМенюНеИгнорироватьДокумент" id="66">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьДокумент</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НепроведенныеДокументыКонтекстноеМенюНеИгнорироватьДокументExtendedTooltip" id="376"/>
 											</Button>
 										</ChildItems>
@@ -562,16 +732,46 @@ It is recommended that you open each document and eliminate the issues preventin
 									<Button name="НепроведенныеДокументыИзменитьВыделенныеДокументы" id="26">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ИзменитьВыделенныеДокументы</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить выделенные...</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit selected…</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепроведенныеДокументыИзменитьВыделенныеДокументыExtendedTooltip" id="378"/>
 									</Button>
 									<Button name="НепроведенныеДокументыПровестиДокумент" id="30">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПровестиДокумент</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Провести</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Post</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепроведенныеДокументыПровестиДокументExtendedTooltip" id="379"/>
 									</Button>
 									<Button name="НепроведенныеДокументыИзменить" id="180">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="НепроведенныеДокументыИзменитьExtendedTooltip" id="380"/>
 									</Button>
@@ -591,17 +791,47 @@ It is recommended that you open each document and eliminate the issues preventin
 											<Button name="НепроведенныеДокументыИгнорироватьДокумент" id="21">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьДокумент</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НепроведенныеДокументыИгнорироватьДокументExtendedTooltip" id="382"/>
 											</Button>
 											<Button name="НепроведенныеДокументыНеИгнорироватьДокумент" id="22">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьДокумент</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="НепроведенныеДокументыНеИгнорироватьДокументExtendedTooltip" id="383"/>
 											</Button>
 											<Button name="НепроведенныеДокументыПоказыватьПроигнорированныеНепроведенные" id="340">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПоказыватьПроигнорированныеНепроведенные</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показывать проигнорированные</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Show ignored items</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="НепроведенныеДокументыПоказыватьПроигнорированныеНепроведенныеExtendedTooltip" id="384"/>
 											</Button>
@@ -610,6 +840,16 @@ It is recommended that you open each document and eliminate the issues preventin
 									<Button name="НепроведенныеДокументыОбновить" id="357">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Обновить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Refresh</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепроведенныеДокументыОбновитьExtendedTooltip" id="385"/>
 									</Button>
 									<Button name="НепроведенныеДокументыНайти" id="228">
@@ -964,11 +1204,31 @@ It is recommended that you open the catalog item and fill in the attributes.</v8
 									<Button name="НезаполненныеРеквизитыКонтекстноеМенюИзменитьВыделенныеОбъекты" id="100">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ИзменитьВыделенныеОбъекты</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить выделенные...</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit selected…</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НезаполненныеРеквизитыКонтекстноеМенюИзменитьВыделенныеОбъектыExtendedTooltip" id="405"/>
 									</Button>
 									<Button name="НезаполненныеРеквизитыКонтекстноеМенюИзменить" id="276">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НезаполненныеРеквизитыКонтекстноеМенюИзменитьExtendedTooltip" id="406"/>
 									</Button>
 									<ButtonGroup name="НезаполненныеРеквизитыКонтекстноеМенюГруппаИгнорирования" id="101">
@@ -987,11 +1247,31 @@ It is recommended that you open the catalog item and fill in the attributes.</v8
 											<Button name="НезаполненныеРеквизитыКонтекстноеМенюИгнорироватьОбъект" id="97">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьОбъект</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НезаполненныеРеквизитыКонтекстноеМенюИгнорироватьОбъектExtendedTooltip" id="408"/>
 											</Button>
 											<Button name="НезаполненныеРеквизитыКонтекстноеМенюНеИгнорироватьОбъект" id="99">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьОбъект</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НезаполненныеРеквизитыКонтекстноеМенюНеИгнорироватьОбъектExtendedTooltip" id="409"/>
 											</Button>
 										</ChildItems>
@@ -1009,11 +1289,31 @@ It is recommended that you open the catalog item and fill in the attributes.</v8
 									<Button name="НезаполненныеРеквизитыИзменитьВыделенныеОбъекты" id="91">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ИзменитьВыделенныеОбъекты</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить выделенные...</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit selected…</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НезаполненныеРеквизитыИзменитьВыделенныеОбъектыExtendedTooltip" id="411"/>
 									</Button>
 									<Button name="НезаполненныеРеквизитыИзменить" id="181">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="НезаполненныеРеквизитыИзменитьExtendedTooltip" id="412"/>
 									</Button>
@@ -1033,17 +1333,47 @@ It is recommended that you open the catalog item and fill in the attributes.</v8
 											<Button name="НезаполненныеРеквизитыИгнорироватьОбъект" id="89">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьОбъект</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НезаполненныеРеквизитыИгнорироватьОбъектExtendedTooltip" id="414"/>
 											</Button>
 											<Button name="НезаполненныеРеквизитыНеИгнорироватьОбъект" id="167">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьОбъект</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="НезаполненныеРеквизитыНеИгнорироватьОбъектExtendedTooltip" id="415"/>
 											</Button>
 											<Button name="НезаполненныеРеквизитыПоказыватьПроигнорированныеНезаполненные" id="341">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПоказыватьПроигнорированныеНезаполненные</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показывать проигнорированные</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Show ignored items</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="НезаполненныеРеквизитыПоказыватьПроигнорированныеНезаполненныеExtendedTooltip" id="416"/>
 											</Button>
@@ -1052,6 +1382,16 @@ It is recommended that you open the catalog item and fill in the attributes.</v8
 									<Button name="НезаполненныеРеквизитыОбновить" id="358">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Обновить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Refresh</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НезаполненныеРеквизитыОбновитьExtendedTooltip" id="417"/>
 									</Button>
 									<Button name="НезаполненныеРеквизитыНайти" id="234">
@@ -1347,21 +1687,61 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 									<Button name="КоллизииКонтекстноеМенюСравнитьСТекущейВерсиейКоллизии" id="161">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПоказатьОтличияКоллизии</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать отличия</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show differences</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="КоллизииКонтекстноеМенюСравнитьСТекущейВерсиейКоллизииExtendedTooltip" id="435"/>
 									</Button>
 									<Button name="КоллизииКонтекстноеМенюОткрытьВерсиюДоКонфликта" id="162">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОткрытьВерсиюДоКонфликта</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать версию, созданную в этой информационной базе</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show version created in this infobase</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="КоллизииКонтекстноеМенюОткрытьВерсиюДоКонфликтаExtendedTooltip" id="436"/>
 									</Button>
 									<Button name="КоллизииКонтекстноеМенюОткрытьВерсиюКонфликта" id="338">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОткрытьВерсиюКонфликта</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать версию, полученную из другой информационной базы</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show version received from another infobase</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="КоллизииКонтекстноеМенюОткрытьВерсиюКонфликтаExtendedTooltip" id="437"/>
 									</Button>
 									<Button name="КоллизииКонтекстноеМенюИзменить" id="277">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="КоллизииКонтекстноеМенюИзменитьExtendedTooltip" id="438"/>
 									</Button>
 									<ButtonGroup name="КоллизииКонтекстноеМенюГруппаРазделитель" id="349">
@@ -1380,6 +1760,16 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 											<Button name="КоллизииКонтекстноеМенюНеИгнорироватьКонфликт" id="317">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьКонфликт</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Снять признак "Рассмотрено"</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Mark as Unreviewed</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="КоллизииКонтекстноеМенюНеИгнорироватьКонфликтExtendedTooltip" id="440"/>
 											</Button>
 										</ChildItems>
@@ -1397,17 +1787,47 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 									<Button name="КоллизииСравнитьСТекущейВерсиейКоллизии" id="158">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПоказатьОтличияКоллизии</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать отличия</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show diff</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="КоллизииСравнитьСТекущейВерсиейКоллизииExtendedTooltip" id="442"/>
 									</Button>
 									<Button name="КоллизииОткрытьВерсиюКоллизии" id="157">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОткрытьВерсиюДоКонфликта</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать версию, созданную в этой информационной базе</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show version created in this infobase</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="КоллизииОткрытьВерсиюКоллизииExtendedTooltip" id="443"/>
 									</Button>
 									<Button name="КоллизииОткрытьВерсиюКонфликта" id="356">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОткрытьВерсиюКонфликта</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать версию, полученную из другой информационной базы</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show version received from another infobase</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="КоллизииОткрытьВерсиюКонфликтаExtendedTooltip" id="444"/>
 									</Button>
@@ -1443,11 +1863,31 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 											<Button name="КоллизииИгнорироватьКонфликт" id="272">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьКонфликт</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Подтвердить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Confirm</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="КоллизииИгнорироватьКонфликтExtendedTooltip" id="447"/>
 											</Button>
 											<Button name="КоллизииНеИгнорироватьКонфликт" id="312">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьКонфликт</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Снять признак "Рассмотрено"</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Mark as Unreviewed</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="КоллизииНеИгнорироватьКонфликтExtendedTooltip" id="448"/>
 											</Button>
@@ -1476,6 +1916,16 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 									<Button name="КоллизииПоказыватьПроигнорированныеКонфликты" id="342">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПоказыватьПроигнорированныеКонфликты</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показывать рассмотренные конфликты</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show resolved conflicts</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="КоллизииПоказыватьПроигнорированныеКонфликтыExtendedTooltip" id="450"/>
 									</Button>
@@ -1495,6 +1945,16 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 											<Button name="ФормаОбновить" id="28">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Обновить</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Обновить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Refresh</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ФормаОбновитьExtendedTooltip" id="452"/>
 											</Button>
@@ -1774,26 +2234,76 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 									<Button name="НепринятыеПоДатеКонтекстноеМенюСравнитьСДаннымиВБазе" id="150">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПоказатьОтличияНепринятые</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать отличия</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show diff</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюСравнитьСДаннымиВБазеExtendedTooltip" id="468"/>
 									</Button>
 									<Button name="НепринятыеПоДатеКонтекстноеМенюПринятьВерсию" id="323">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПринятьВерсиюНепринятые</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Принять версию</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Accept version</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюПринятьВерсиюРасширеннаяПодсказка" id="469"/>
 									</Button>
 									<Button name="НепринятыеПоДатеКонтекстноеМенюИзменить" id="279">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюИзменитьExtendedTooltip" id="470"/>
 									</Button>
 									<Button name="НепринятыеПоДатеКонтекстноеМенюОткрытьВерсиюНепринятыеВЭтойПрограмме" id="339">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОткрытьВерсиюНепринятыеВЭтойПрограмме</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать версию в этой программе</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show version from this app</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюОткрытьВерсиюНепринятыеВЭтойПрограммеExtendedTooltip" id="471"/>
 									</Button>
 									<Button name="НепринятыеПоДатеКонтекстноеМенюОткрытьВерсию" id="151">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОткрытьВерсиюНепринятые</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать непринятую версию</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show rejected version</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюОткрытьВерсиюExtendedTooltip" id="472"/>
 									</Button>
 									<ButtonGroup name="НепринятыеПоДатеКонтекстноеМенюГруппаИгнорирования" id="322">
@@ -1812,11 +2322,31 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 											<Button name="НепринятыеПоДатеКонтекстноеМенюИгнорироватьНепринятый" id="319">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьНепринятый</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюИгнорироватьНепринятыйExtendedTooltip" id="474"/>
 											</Button>
 											<Button name="НепринятыеПоДатеКонтекстноеМенюНеИгнорироватьНепринятый" id="318">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьНепринятый</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НепринятыеПоДатеКонтекстноеМенюНеИгнорироватьНепринятыйExtendedTooltip" id="475"/>
 											</Button>
 										</ChildItems>
@@ -1834,23 +2364,63 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 									<Button name="НепринятыеПоДатеСравнитьСДаннымиВБазе" id="144">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ПоказатьОтличияНепринятые</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать отличия</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show diff</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеСравнитьСДаннымиВБазеExtendedTooltip" id="477"/>
 									</Button>
 									<Button name="НепринятыеПоДатеПринятьВерсию" id="320">
 										<Type>CommandBarButton</Type>
 										<Enabled>false</Enabled>
 										<CommandName>Form.Command.ПринятьВерсиюНепринятые</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Принять версию</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Accept version</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="НепринятыеПоДатеПринятьВерсиюExtendedTooltip" id="478"/>
 									</Button>
 									<Button name="НепринятыеПоДатеИзменить" id="227">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.Изменить</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Изменить</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Edit</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="НепринятыеПоДатеИзменитьExtendedTooltip" id="479"/>
 									</Button>
 									<Button name="НепринятыеПоДатеОткрытьВерсию" id="143">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ОткрытьВерсиюНепринятые</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показать непринятую версию</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Show rejected version</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="НепринятыеПоДатеОткрытьВерсиюExtendedTooltip" id="480"/>
 									</Button>
@@ -1870,17 +2440,47 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 											<Button name="НепринятыеПоДатеИгнорироватьНепринятый" id="311">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ИгнорироватьНепринятый</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ignore</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НепринятыеПоДатеИгнорироватьНепринятыйExtendedTooltip" id="482"/>
 											</Button>
 											<Button name="НепринятыеПоДатеНеИгнорироватьНепринятый" id="313">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НеИгнорироватьНепринятый</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не игнорировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Do not ignore</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="НепринятыеПоДатеНеИгнорироватьНепринятыйExtendedTooltip" id="483"/>
 											</Button>
 											<Button name="НепринятыеПоДатеПоказыватьПроигнорированныеНепринятые" id="343">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПоказыватьПроигнорированныеНепринятые</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показывать проигнорированные</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Show ignored items</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="НепринятыеПоДатеПоказыватьПроигнорированныеНепринятыеExtendedTooltip" id="484"/>
 											</Button>
@@ -1902,6 +2502,16 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 											<Button name="НепринятыеПоДатеОбновить" id="359">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Обновить</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Обновить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Refresh</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="НепринятыеПоДатеОбновитьExtendedTooltip" id="486"/>
 											</Button>
 											<Button name="НепринятыеПоДатеНайти" id="241">
@@ -2484,6 +3094,16 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 						<InputField name="ПричинаКонфликта" id="353">
 							<DataPath>ПричинаКонфликта</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Результат разрешения конфликта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Conflict resolution result</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Top</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MultiLine>true</MultiLine>
@@ -3628,7 +4248,7 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Show version received from the other infobase</v8:content>
+					<v8:content>Show version received from another infobase</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -3652,7 +4272,7 @@ This caused synchronization conflicts, which were resolved automatically.</v8:co
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Show version from this application.</v8:content>
+					<v8:content>Show version from this app</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>

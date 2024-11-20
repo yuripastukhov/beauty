@@ -55,7 +55,7 @@
 				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
-			<ExtendedTooltip name="СтраницыExtendedTooltip" id="111"/>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="111"/>
 			<ChildItems>
 				<Page name="Основное" id="25">
 					<Title>
@@ -78,7 +78,7 @@
 							<VerticalStretch>false</VerticalStretch>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="53"/>
-							<ExtendedTooltip name="НаименованиеExtendedTooltip" id="117"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="117"/>
 							<Events>
 								<Event name="OnChange">НаименованиеПриИзменении</Event>
 							</Events>
@@ -92,11 +92,11 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа доступность</v8:content>
+									<v8:content>Доступность</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Group availability</v8:content>
+									<v8:content>Availability</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -106,6 +106,16 @@
 							<ChildItems>
 								<RadioButtonField name="Доступен" id="98">
 									<DataPath>Доступен</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доступен</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Available to</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<RadioButtonType>RadioButtons</RadioButtonType>
 									<ChoiceList>
@@ -145,7 +155,7 @@
 										</xr:Item>
 									</ChoiceList>
 									<ContextMenu name="ДоступенКонтекстноеМеню" id="99"/>
-									<ExtendedTooltip name="ДоступенExtendedTooltip" id="120"/>
+									<ExtendedTooltip name="ДоступенРасширеннаяПодсказка" id="120"/>
 									<Events>
 										<Event name="OnChange">ДоступенПриИзменении</Event>
 									</Events>
@@ -325,6 +335,16 @@
 								</Table>
 								<CheckBoxField name="УведомитьПользователей" id="247">
 									<DataPath>УведомитьПользователей</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Уведомить в чате об этом варианте отчета</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Notify chat members about this report option</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTip>
 										<v8:item>
@@ -384,7 +404,7 @@
 									<OpenButton>false</OpenButton>
 									<ChoiceListButton>false</ChoiceListButton>
 									<ContextMenu name="ОписаниеКонтекстноеМеню" id="9"/>
-									<ExtendedTooltip name="ОписаниеExtendedTooltip" id="136"/>
+									<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="136"/>
 									<Events>
 										<Event name="OnChange">ОписаниеПриИзменении</Event>
 										<Event name="StartChoice">ОписаниеНачалоВыбора</Event>
@@ -434,7 +454,7 @@
 													<v8:content>Save as new report option</v8:content>
 												</v8:item>
 											</Title>
-											<ExtendedTooltip name="НовыйExtendedTooltip" id="127"/>
+											<ExtendedTooltip name="НовыйРасширеннаяПодсказка" id="127"/>
 											<ChildItems>
 												<LabelDecoration name="ДекорацияЧтоБудетДальшеНовый" id="187">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -443,7 +463,7 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Будет сохранен новый вариант отчета.
-Нажмите "Далее" для размещения варианта отчета в разделах программы.</v8:content>
+Нажмите "Далее" для размещения варианта отчета в разделах приложения.</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
@@ -468,7 +488,7 @@ Click Next to add the report option to application sections.</v8:content>
 													<v8:content>Overwrite current report option</v8:content>
 												</v8:item>
 											</Title>
-											<ExtendedTooltip name="ПерезаписьExtendedTooltip" id="125"/>
+											<ExtendedTooltip name="ПерезаписьРасширеннаяПодсказка" id="125"/>
 											<ChildItems>
 												<LabelDecoration name="ДекорацияЧтоБудетДальшеПерезапись" id="184">
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -477,7 +497,7 @@ Click Next to add the report option to application sections.</v8:content>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Будет перезаписан существующий вариант отчета.
-Нажмите "Далее" для размещения варианта отчета в разделах программы.</v8:content>
+Нажмите "Далее" для размещения варианта отчета в разделах приложения.</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
@@ -545,12 +565,32 @@ Enter another name or select an option from the list.</v8:content>
 					<ExtendedTooltip name="ДополнительноРасширеннаяПодсказка" id="130"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаШапка" id="261">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шапка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Header</v8:content>
+								</v8:item>
+							</Title>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="262"/>
 							<ChildItems>
 								<CheckBoxField name="СброситьНастройки" id="225">
 									<DataPath>СброситьНастройки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сбросить настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reset settings</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Right</TitleLocation>
 									<ToolTip>
 										<v8:item>
@@ -636,7 +676,7 @@ This option is recommended if you made significant changes to the report option.
 							<AutoCommandBar name="ДеревоПодсистемКоманднаяПанель" id="76">
 								<Autofill>false</Autofill>
 							</AutoCommandBar>
-							<ExtendedTooltip name="ДеревоПодсистемExtendedTooltip" id="131"/>
+							<ExtendedTooltip name="ДеревоПодсистемРасширеннаяПодсказка" id="131"/>
 							<SearchStringAddition name="ДеревоПодсистемСтрокаПоиска" id="172">
 								<AdditionSource>
 									<Item>ДеревоПодсистем</Item>
@@ -674,16 +714,26 @@ This option is recommended if you made significant changes to the report option.
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
-									<ExtendedTooltip name="ГруппаКолонокExtendedTooltip" id="132"/>
+									<ExtendedTooltip name="ГруппаКолонокРасширеннаяПодсказка" id="132"/>
 									<ChildItems>
 										<CheckBoxField name="ДеревоПодсистемИспользование" id="78">
 											<DataPath>ДеревоПодсистем.Использование</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<HorizontalAlign>Left</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="ДеревоПодсистемИспользованиеКонтекстноеМеню" id="79"/>
-											<ExtendedTooltip name="ДеревоПодсистемИспользованиеExtendedTooltip" id="133"/>
+											<ExtendedTooltip name="ДеревоПодсистемИспользованиеРасширеннаяПодсказка" id="133"/>
 											<Events>
 												<Event name="OnChange">ДеревоПодсистемИспользованиеПриИзменении</Event>
 											</Events>
@@ -691,15 +741,35 @@ This option is recommended if you made significant changes to the report option.
 										<InputField name="ДеревоПодсистемПредставление" id="80">
 											<DataPath>ДеревоПодсистем.Представление</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Раздел, Группа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Section, Group</v8:content>
+												</v8:item>
+											</Title>
 											<HorizontalAlign>Left</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ДеревоПодсистемПредставлениеКонтекстноеМеню" id="81"/>
-											<ExtendedTooltip name="ДеревоПодсистемПредставлениеExtendedTooltip" id="134"/>
+											<ExtendedTooltip name="ДеревоПодсистемПредставлениеРасширеннаяПодсказка" id="134"/>
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>
 								<InputField name="ДеревоПодсистемВажность" id="82">
 									<DataPath>ДеревоПодсистем.Важность</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Важность</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Importance</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>8</Width>
 									<ClearButton>true</ClearButton>
@@ -709,7 +779,7 @@ This option is recommended if you made significant changes to the report option.
 									<ChooseType>false</ChooseType>
 									<ChoiceListButton>false</ChoiceListButton>
 									<ContextMenu name="ДеревоПодсистемВажностьКонтекстноеМеню" id="83"/>
-									<ExtendedTooltip name="ДеревоПодсистемВажностьExtendedTooltip" id="135"/>
+									<ExtendedTooltip name="ДеревоПодсистемВажностьРасширеннаяПодсказка" id="135"/>
 									<Events>
 										<Event name="OnChange">ДеревоПодсистемВажностьПриИзменении</Event>
 									</Events>
@@ -718,6 +788,16 @@ This option is recommended if you made significant changes to the report option.
 									<DataPath>ДеревоПодсистем.ПользователиПредставление</DataPath>
 									<Visible>false</Visible>
 									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Видимость по умолчанию</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Default visibility</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>Directly</EditMode>
 									<CellHyperlink>true</CellHyperlink>
 									<Hiperlink>true</Hiperlink>
@@ -765,7 +845,17 @@ This option is recommended if you made significant changes to the report option.
 							<Type>CommandBarButton</Type>
 							<Enabled>false</Enabled>
 							<CommandName>Form.Command.Назад</CommandName>
-							<ExtendedTooltip name="НазадExtendedTooltip" id="107"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;  Назад</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt; Back</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="НазадРасширеннаяПодсказка" id="107"/>
 						</Button>
 					</ChildItems>
 				</CommandBar>
@@ -786,20 +876,50 @@ This option is recommended if you made significant changes to the report option.
 						<Button name="Далее" id="15">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.Далее</CommandName>
-							<ExtendedTooltip name="ДалееExtendedTooltip" id="108"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Далее  &gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Next &gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ДалееРасширеннаяПодсказка" id="108"/>
 						</Button>
 						<Button name="Сохранить" id="55" DisplayImportance="VeryHigh">
 							<Type>CommandBarButton</Type>
 							<DefaultButton>true</DefaultButton>
 							<CommandName>Form.Command.Сохранить</CommandName>
-							<ExtendedTooltip name="СохранитьExtendedTooltip" id="109"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сохранить</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Save</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СохранитьРасширеннаяПодсказка" id="109"/>
 						</Button>
 						<Button name="Отмена" id="16">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.StandardCommand.Cancel</CommandName>
-							<ExtendedTooltip name="ОтменаExtendedTooltip" id="110"/>
+							<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="110"/>
 						</Button>
 						<ButtonGroup name="ГруппаКоманднаяПанельСправка" id="151">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель справка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Help command bar</v8:content>
+								</v8:item>
+							</Title>
 							<CommandSource>Form</CommandSource>
 							<ExtendedTooltip name="ГруппаКоманднаяПанельСправкаРасширеннаяПодсказка" id="152"/>
 						</ButtonGroup>
@@ -1191,7 +1311,7 @@ This option is recommended if you made significant changes to the report option.
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Notify about this report option in the chat</v8:content>
+					<v8:content>Notify chat members about this report option</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

@@ -96,8 +96,8 @@
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаПредупреждениеКонтекстноеМеню" id="161"/>
@@ -123,6 +123,16 @@
 										<InputField name="СообщенияОбОшибках" id="238">
 											<DataPath>СообщенияОбОшибках</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сообщения об ошибках</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Error messages</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<Height>2</Height>
@@ -237,11 +247,11 @@
 												<Title formatted="false">
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Электронная почта для рассылки уведомлений из программы.</v8:content>
+														<v8:content>Электронная почта для рассылки уведомлений из приложения.</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Account for service notifications.</v8:content>
+														<v8:content>Set up an account to send out service notifications.</v8:content>
 													</v8:item>
 												</Title>
 											</ExtendedTooltip>
@@ -252,8 +262,18 @@
 									</ChildItems>
 								</UsualGroup>
 								<RadioButtonField name="СпособАутентификации" id="362">
-									<DataPath>СпособАутентификации</DataPath>
+									<DataPath>ВариантАутентификации</DataPath>
 									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Способ аутентификации</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Authentication method</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<RadioButtonType>RadioButtons</RadioButtonType>
 									<ColumnsCount>1</ColumnsCount>
@@ -313,7 +333,17 @@
 									<ExtendedTooltip name="ГруппаСпособАутентификацииПарольРасширеннаяПодсказка" id="299"/>
 									<ChildItems>
 										<RadioButtonField name="СпособАутентификацииПароль" id="302">
-											<DataPath>СпособАутентификации</DataPath>
+											<DataPath>ВариантАутентификации</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Способ аутентификации</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Authentication method</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<RadioButtonType>Auto</RadioButtonType>
 											<ColumnsCount>1</ColumnsCount>
@@ -359,11 +389,11 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>В целях безопасности рекомендуется создать на сайте почтового сервиса отдельный пароль приложения и использовать его в программе вместо основного пароля.</v8:content>
+													<v8:content>В целях безопасности рекомендуется создать на сайте почтового сервиса отдельный пароль приложения и использовать его в приложении вместо основного пароля.</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>For safety reasons, create a separate application password on the email service website and use it in the application instead of the main password.</v8:content>
+													<v8:content>For safety reasons, create a separate password on the email service website and use it in the app instead of the main password.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -387,7 +417,17 @@
 									</ChildItems>
 								</UsualGroup>
 								<RadioButtonField name="СпособАутентификацииПочтовыйСервис" id="305">
-									<DataPath>СпособАутентификации</DataPath>
+									<DataPath>ВариантАутентификации</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Способ аутентификации</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Authentication method</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<Shortcut>Ctrl+S</Shortcut>
 									<RadioButtonType>Auto</RadioButtonType>
@@ -489,6 +529,16 @@
 							<ChildItems>
 								<RadioButtonField name="ВидУчетнойЗаписи" id="249">
 									<DataPath>ВидУчетнойЗаписи</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вид почты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Account type</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<RadioButtonType>Auto</RadioButtonType>
 									<ChoiceList>
@@ -711,6 +761,16 @@
 								</InputField>
 								<RadioButtonField name="ШифрованиеПриПолученииПочты" id="265">
 									<DataPath>ШифрованиеПриПолученииПочты</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Шифрование</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Encryption</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<RadioButtonType>Auto</RadioButtonType>
 									<ChoiceList>
@@ -811,6 +871,16 @@
 								</InputField>
 								<RadioButtonField name="ШифрованиеПриОтправкеПочты" id="262">
 									<DataPath>ШифрованиеПриОтправкеПочты</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Шифрование</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Encryption</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>Top</TitleLocation>
 									<RadioButtonType>Auto</RadioButtonType>
 									<ChoiceList>
@@ -912,6 +982,16 @@
 									<ChildItems>
 										<CheckBoxField name="УдалятьПисьмаССервера" id="244">
 											<DataPath>УдалятьПисьмаССервера</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Удалять письма с сервера через:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Delete messages from server after:</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="УдалятьПисьмаССервераКонтекстноеМеню" id="245"/>
@@ -922,6 +1002,16 @@
 										</CheckBoxField>
 										<InputField name="ПериодХраненияСообщенийНаСервере" id="241">
 											<DataPath>ПериодХраненияСообщенийНаСервере</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Период хранения сообщений на сервере</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mail retention period</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<SpinButton>true</SpinButton>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
@@ -974,7 +1064,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>To authorize using an email service, register the application in the email service.
+									<v8:content>To authorize via an email service, register the application with the email service.
 </v8:content>
 								</v8:item>
 							</Title>
@@ -1127,6 +1217,16 @@ Fill in the following fields from the application registration settings:
 									<ChildItems>
 										<HTMLDocumentField name="ВебСтраница" id="327">
 											<DataPath>ВебСтраница</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Веб страница</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Web page</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<ContextMenu name="ВебСтраницаКонтекстноеМеню" id="328"/>
 											<ExtendedTooltip name="ВебСтраницаРасширеннаяПодсказка" id="329"/>
@@ -1165,6 +1265,16 @@ Fill in the following fields from the application registration settings:
 										</LabelDecoration>
 										<InputField name="КодПодтверждения" id="356">
 											<DataPath>КодПодтверждения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Код подтверждения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Confirmation code</v8:content>
+												</v8:item>
+											</Title>
 											<ContextMenu name="КодПодтвержденияКонтекстноеМеню" id="357"/>
 											<ExtendedTooltip name="КодПодтвержденияРасширеннаяПодсказка" id="358"/>
 										</InputField>
@@ -1260,8 +1370,8 @@ This might take a while.</v8:content>
 								</v8:item>
 							</Title>
 							<Picture>
-								<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-								<xr:LoadTransparent>false</xr:LoadTransparent>
+								<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
 							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="КартинкаТехническиеПодробностиОшибкиКонтекстноеМеню" id="280"/>
@@ -1287,6 +1397,16 @@ This might take a while.</v8:content>
 								<InputField name="ТекстТехническиеПодробностиОшибки" id="284">
 									<DataPath>СообщенияОбОшибках</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщения об ошибках</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error messages</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>7</Height>
@@ -1454,8 +1574,8 @@ This might take a while.</v8:content>
 										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
+										<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаПриПроверкеОбнаруженыОшибкиКонтекстноеМеню" id="398"/>
@@ -1464,6 +1584,16 @@ This might take a while.</v8:content>
 								<InputField name="ТекстСообщенияОбОшибках" id="402">
 									<DataPath>СообщенияОбОшибках</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщения об ошибках</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Error messages</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<Width>40</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -1622,6 +1752,16 @@ This might take a while.</v8:content>
 						<Button name="КнопкаНазад" id="20">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.Назад</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt; Назад</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt; Back</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="КнопкаНазадРасширеннаяПодсказка" id="21"/>
 						</Button>
 					</ChildItems>
@@ -1643,6 +1783,16 @@ This might take a while.</v8:content>
 						<Button name="КнопкаПерейтиКНастройкам" id="156">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.ПерейтиКНастройкам</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Перейти к настройкам</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Settings</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="КнопкаПерейтиКНастройкамРасширеннаяПодсказка" id="157"/>
 						</Button>
 						<Button name="КнопкаДалее" id="22">
@@ -1664,6 +1814,16 @@ This might take a while.</v8:content>
 						<Button name="КнопкаОтмена" id="268">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.Отмена</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отмена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Cancel</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="КнопкаОтменаРасширеннаяПодсказка" id="269"/>
 						</Button>
 					</ChildItems>
@@ -2128,7 +2288,7 @@ This might take a while.</v8:content>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СпособАутентификации" id="44">
+		<Attribute name="ВариантАутентификации" id="44">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2403,6 +2563,11 @@ This might take a while.</v8:content>
 		<Parameter name="ТолькоАвторизация">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="Ключ">
+			<Type>
+				<v8:Type>cfg:CatalogRef.УчетныеЗаписиЭлектроннойПочты</v8:Type>
 			</Type>
 		</Parameter>
 	</Parameters>

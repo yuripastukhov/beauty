@@ -23,6 +23,16 @@
 		<InputField name="СостояниеОбработкиЗаявления" id="1">
 			<DataPath>СостояниеОбработкиЗаявления</DataPath>
 			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние обработки заявления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Application status</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<Height>5</Height>
@@ -38,11 +48,11 @@
 			<Title formatted="true">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>В случае возникновения ошибки при установке выпущенного сертификата сохраните &lt;link Сертификат&gt;сертификат&lt;/&gt; и &lt;link КорневойСертификат&gt;корневой сертификат&lt;/&gt;  на компьютер и установите их средствами программы криптографии.</v8:content>
+					<v8:content>В случае возникновения ошибки при установке выпущенного сертификата сохраните &lt;link Сертификат&gt;сертификат&lt;/&gt; и &lt;link КорневойСертификат&gt;корневой сертификат&lt;/&gt; на компьютер и установите их средствами приложения электронной подписи и шифрования.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>If an error occurs when installing the issued certificate, save the &lt;link Сертификат&gt;certificate&lt;/&gt; and &lt;link КорневойСертификат&gt;root certificate&lt;/&gt; on the computer and install them using the cryptography application.</v8:content>
+					<v8:content>If an error occurs when installing the issued certificate, save the &lt;link Сертификат&gt;certificate&lt;/&gt; and &lt;link КорневойСертификат&gt;root certificate&lt;/&gt; on the computer and install them using a digital signing and encryption app.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ДекорацияСертификатыКонтекстноеМеню" id="26"/>
@@ -60,7 +70,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>In other cases, contact the 1C Company technical support and provide &lt;link ИнформацияДляПоддержки&gt;technical information about the issue&lt;/&gt;.</v8:content>
+					<v8:content>In other cases, contact the 1C support team and provide &lt;link SupportInformation&gt;technical information about the issue&lt;/&gt;.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ДекорацияИнформацияДляПоддержкиКонтекстноеМеню" id="23"/>

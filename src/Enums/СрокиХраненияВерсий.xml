@@ -106,7 +106,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Last week</v8:content>
+							<v8:content>1 week</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -122,7 +122,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Last month</v8:content>
+							<v8:content>1 month</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -138,7 +138,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Last three months</v8:content>
+							<v8:content>3 months</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -154,7 +154,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Last six months</v8:content>
+							<v8:content>6 months</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -170,7 +170,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Last year</v8:content>
+							<v8:content>1 year</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

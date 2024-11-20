@@ -21,12 +21,32 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ПодобратьИЗакрыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подобрать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pick and close</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаПодобратьИЗакрытьРасширеннаяПодсказка" id="39"/>
 			</Button>
 			<Button name="ФормаПодобрать" id="10">
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.Подобрать</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подобрать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pick</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаПодобратьРасширеннаяПодсказка" id="24"/>
 			</Button>
 			<Button name="ФормаОтмена" id="11">
@@ -109,6 +129,16 @@
 			<ChildItems>
 				<LabelField name="ДоступныеВидыОбъектовПредставлениеСписка" id="22">
 					<DataPath>ДоступныеВидыОбъектов.ПредставлениеСписка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление списка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>List presentation</v8:content>
+						</v8:item>
+					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ДоступныеВидыОбъектовПредставлениеСпискаКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ДоступныеВидыОбъектовПредставлениеСпискаExtendedTooltip" id="28"/>

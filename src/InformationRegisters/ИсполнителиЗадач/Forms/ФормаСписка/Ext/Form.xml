@@ -74,7 +74,7 @@
 			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="3"/>
-			<ExtendedTooltip name="СписокExtendedTooltip" id="12"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="12"/>
 			<SearchStringAddition name="СписокSearchString" id="21">
 				<AdditionSource>
 					<Item>Список</Item>
@@ -105,7 +105,7 @@
 					<DefaultItem>true</DefaultItem>
 					<Wrap>false</Wrap>
 					<ContextMenu name="ИсполнительКонтекстноеМеню" id="7"/>
-					<ExtendedTooltip name="ИсполнительExtendedTooltip" id="13"/>
+					<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="13"/>
 				</InputField>
 				<InputField name="РольИсполнителя" id="4">
 					<DataPath>Список.РольИсполнителя</DataPath>
@@ -122,7 +122,7 @@
 					</Title>
 					<Wrap>false</Wrap>
 					<ContextMenu name="РольИсполнителяКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="РольИсполнителяExtendedTooltip" id="14"/>
+					<ExtendedTooltip name="РольИсполнителяРасширеннаяПодсказка" id="14"/>
 				</InputField>
 				<InputField name="ОсновнойОбъектАдресации" id="8">
 					<DataPath>Список.ОсновнойОбъектАдресации</DataPath>
@@ -139,7 +139,7 @@
 					</Title>
 					<Wrap>false</Wrap>
 					<ContextMenu name="ОсновнойОбъектАдресацииКонтекстноеМеню" id="9"/>
-					<ExtendedTooltip name="ОсновнойОбъектАдресацииExtendedTooltip" id="15"/>
+					<ExtendedTooltip name="ОсновнойОбъектАдресацииРасширеннаяПодсказка" id="15"/>
 				</InputField>
 				<InputField name="ДополнительныйОбъектАдресации" id="10">
 					<DataPath>Список.ДополнительныйОбъектАдресации</DataPath>
@@ -156,7 +156,7 @@
 					</Title>
 					<Wrap>false</Wrap>
 					<ContextMenu name="ДополнительныйОбъектАдресацииКонтекстноеМеню" id="11"/>
-					<ExtendedTooltip name="ДополнительныйОбъектАдресацииExtendedTooltip" id="16"/>
+					<ExtendedTooltip name="ДополнительныйОбъектАдресацииРасширеннаяПодсказка" id="16"/>
 				</InputField>
 			</ChildItems>
 		</Table>

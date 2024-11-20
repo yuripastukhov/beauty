@@ -25,6 +25,16 @@
 					<Button name="ФормаСкопировать" id="267">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Скопировать</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Скопировать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Copy</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ФормаСкопироватьРасширеннаяПодсказка" id="268"/>
 					</Button>
 					<Button name="ФормаУдалить" id="231">
@@ -36,36 +46,111 @@
 					<Button name="ФормаПроверитьСертификат" id="75">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ПроверитьСертификат</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Проверить...</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Verify…</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ФормаПроверитьСертификатРасширеннаяПодсказка" id="92"/>
 					</Button>
 					<Button name="ФормаСохранитьДанныеСертификатаВФайл" id="235">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.СохранитьДанныеСертификатаВФайл</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сохранить в файл...</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Save to file…</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ФормаСохранитьДанныеСертификатаВФайлРасширеннаяПодсказка" id="236"/>
 					</Button>
 					<Button name="ФормаСменитьПинКод" id="269">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.СменитьПинКод</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сменить пин-код</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Change PIN</v8:content>
+							</v8:item>
+						</Title>
 						<ExtendedTooltip name="ФормаСменитьПинКодРасширеннаяПодсказка" id="270"/>
 					</Button>
 					<Button name="ФормаСброситьПароль" id="271">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.СброситьПароль</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сбросить пароль в памяти</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Reset password</v8:content>
+							</v8:item>
+						</Title>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="ФормаСброситьПарольРасширеннаяПодсказка" id="272"/>
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
-			<Button name="ФормаСертификатОтозван" id="63">
-				<Type>CommandBarButton</Type>
-				<Representation>PictureAndText</Representation>
-				<CommandName>Form.Command.СертификатОтозван</CommandName>
-				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаСертификатОтозванРасширеннаяПодсказка" id="94"/>
-			</Button>
+			<ButtonGroup name="ФормаГруппаОтозван" id="332">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа отозван</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form group revoked</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаГруппаОтозванРасширеннаяПодсказка" id="333"/>
+				<ChildItems>
+					<Button name="ФормаСертификатОтозван" id="63">
+						<Type>CommandBarButton</Type>
+						<Representation>PictureAndText</Representation>
+						<CommandName>Form.Command.СертификатОтозван</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сертификат отозван</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Certificate revoked</v8:content>
+							</v8:item>
+						</Title>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаСертификатОтозванРасширеннаяПодсказка" id="94"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
 			<Button name="ФормаПоказатьАвтозаполняемыеРеквизиты" id="219">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПоказатьАвтозаполняемыеРеквизиты</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать автозаполняемые реквизиты</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Show autofilled attributes</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПоказатьАвтозаполняемыеРеквизитыРасширеннаяПодсказка" id="220"/>
 			</Button>
@@ -73,6 +158,16 @@
 				<Type>CommandBarButton</Type>
 				<Enabled>false</Enabled>
 				<CommandName>Form.Command.ПоказатьЗаявлениеПоКоторомуБылПолученСертификат</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать заявление, по которому был получен сертификат</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Show application for this certificate issuance</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПоказатьЗаявлениеПоКоторомуБылПолученСертификатРасширеннаяПодсказка" id="266"/>
 			</Button>
@@ -84,7 +179,7 @@
 			<Button name="ФормаСправка" id="74">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.StandardCommand.Help</CommandName>
-				<ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="95"/>
+				<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="95"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -160,6 +255,16 @@
 						</LabelDecoration>
 						<CheckBoxField name="ПодписаниеРазрешено" id="322">
 							<DataPath>ПодписаниеРазрешено</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Разрешить подписание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Allow signing</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -256,6 +361,16 @@
 						</LabelDecoration>
 						<CheckBoxField name="НапомнитьОПеревыпуске" id="278">
 							<DataPath>НапомнитьОПеревыпуске</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Напомнить о перевыпуске</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Remind me to reissue</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Right</TitleLocation>
 							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 							<CheckBoxType>Auto</CheckBoxType>
@@ -280,6 +395,7 @@
 					<v8:content>Certificate data</v8:content>
 				</v8:item>
 			</Title>
+			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -289,7 +405,7 @@
 					<Representation>List</Representation>
 					<ReadOnly>true</ReadOnly>
 					<SkipOnInput>true</SkipOnInput>
-					<Height>4</Height>
+					<HeightControlVariant>UseContentHeight</HeightControlVariant>
 					<RowSelectionMode>Row</RowSelectionMode>
 					<Header>false</Header>
 					<HorizontalScrollBar>DontUse</HorizontalScrollBar>
@@ -346,6 +462,16 @@
 						<InputField name="ОписаниеДанныхСертификатаСвойство" id="241">
 							<DataPath>ОписаниеДанныхСертификата.Свойство</DataPath>
 							<SkipOnInput>true</SkipOnInput>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Свойство</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Property</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>13</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -355,40 +481,69 @@
 						<InputField name="ОписаниеДанныхСертификатаЗначение" id="244">
 							<DataPath>ОписаниеДанныхСертификата.Значение</DataPath>
 							<SkipOnInput>true</SkipOnInput>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Значение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Value</v8:content>
+								</v8:item>
+							</Title>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ОписаниеДанныхСертификатаЗначениеКонтекстноеМеню" id="245"/>
 							<ExtendedTooltip name="ОписаниеДанныхСертификатаЗначениеРасширеннаяПодсказка" id="246"/>
 						</InputField>
 					</ChildItems>
 				</Table>
-				<UsualGroup name="ВертикальнаяГруппа3" id="261">
+				<UsualGroup name="ГруппаОткрытияСвойств" id="327">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вертикальная группа</v8:content>
+							<v8:content>Открытия свойств</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Vertical group</v8:content>
+							<v8:content>Open properties</v8:content>
 						</v8:item>
 					</Title>
-					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ВертикальнаяГруппа3РасширеннаяПодсказка" id="262"/>
+					<ExtendedTooltip name="ГруппаОткрытияСвойствРасширеннаяПодсказка" id="328"/>
 					<ChildItems>
 						<Button name="ПоказатьДанныеСертификата" id="153">
-							<Type>UsualButton</Type>
-							<Representation>Picture</Representation>
+							<Type>Hyperlink</Type>
+							<Representation>PictureAndText</Representation>
 							<SkipOnInput>true</SkipOnInput>
 							<CommandName>Form.Command.ПоказатьДанныеСертификата</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все свойства сертификата</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>All certificate properties</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПоказатьДанныеСертификатаРасширеннаяПодсказка" id="154"/>
 						</Button>
 						<Button name="ПоказатьЗаявлениеПоКоторомуБылПолученСертификат" id="263">
-							<Type>UsualButton</Type>
+							<Type>Hyperlink</Type>
+							<Visible>false</Visible>
+							<Representation>PictureAndText</Representation>
 							<Enabled>false</Enabled>
 							<CommandName>Form.Command.ПоказатьЗаявлениеПоКоторомуБылПолученСертификат</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заявление, по которому получен сертификат</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Approved application</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ПоказатьЗаявлениеПоКоторомуБылПолученСертификатРасширеннаяПодсказка" id="264"/>
 						</Button>
 					</ChildItems>
@@ -486,6 +641,16 @@
 										<Button name="РедактироватьИмяИОтчество" id="308">
 											<Type>UsualButton</Type>
 											<CommandName>Form.Command.РедактироватьИмяИОтчество</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Редактировать имя и отчество</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Edit first name and middle name</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="РедактироватьИмяИОтчествоРасширеннаяПодсказка" id="309"/>
 										</Button>
 									</ChildItems>
@@ -613,11 +778,11 @@ the purpose description is used instead of the certificate presentation, for exa
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Группа физическое лицо</v8:content>
+													<v8:content>Физическое лицо</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Group Individual</v8:content>
+													<v8:content>Individual</v8:content>
 												</v8:item>
 											</Title>
 											<Group>AlwaysHorizontal</Group>
@@ -634,6 +799,16 @@ the purpose description is used instead of the certificate presentation, for exa
 													<Type>UsualButton</Type>
 													<Representation>Picture</Representation>
 													<CommandName>Form.Command.ПодобратьФизическоеЛицо</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Подобрать физическое лицо</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Select individual</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ПодобратьФизическоеЛицоРасширеннаяПодсказка" id="321"/>
 												</Button>
 											</ChildItems>
@@ -660,6 +835,16 @@ the purpose description is used instead of the certificate presentation, for exa
 									<ChildItems>
 										<InputField name="Пользователи" id="273">
 											<DataPath>ПредставлениеПользователей</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Используют</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Used by</v8:content>
+												</v8:item>
+											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<HorizontalStretch>true</HorizontalStretch>
 											<ChoiceButton>true</ChoiceButton>
@@ -1030,7 +1215,7 @@ the purpose description is used instead of the certificate presentation, for exa
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Copy.</v8:content>
+					<v8:content>Copy</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F9</Shortcut>
@@ -1142,16 +1327,5 @@ the purpose description is used instead of the certificate presentation, for exa
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 			</Item>
 		</NavigationPanel>
-		<CommandBar>
-			<Item>
-				<Command>0</Command>
-				<Type>Auto</Type>
-				<CommandGroup>FormCommandBarImportant</CommandGroup>
-				<DefaultVisible>false</DefaultVisible>
-				<Visible>
-					<xr:Common>false</xr:Common>
-				</Visible>
-			</Item>
-		</CommandBar>
 	</CommandInterface>
 </Form>

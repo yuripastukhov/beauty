@@ -84,13 +84,23 @@
 			<ClearButton>false</ClearButton>
 			<BackColor>style:ФонУправляющегоПоля</BackColor>
 			<ContextMenu name="ПровайдерSMSКонтекстноеМеню" id="6"/>
-			<ExtendedTooltip name="ПровайдерSMSExtendedTooltip" id="11"/>
+			<ExtendedTooltip name="ПровайдерSMSРасширеннаяПодсказка" id="11"/>
 			<Events>
 				<Event name="OnChange">ПровайдерSMSПриИзменении</Event>
 			</Events>
 		</InputField>
 		<InputField name="СпособАвторизации" id="24">
 			<DataPath>СпособАвторизации</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способ авторизации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Authentication method</v8:content>
+				</v8:item>
+			</Title>
 			<Width>30</Width>
 			<HorizontalStretch>false</HorizontalStretch>
 			<ListChoiceMode>true</ListChoiceMode>
@@ -179,6 +189,16 @@
 		</InputField>
 		<InputField name="ИмяОтправителя" id="16">
 			<DataPath>ИмяОтправителя</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя отправителя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sender's name</v8:content>
+				</v8:item>
+			</Title>
 			<Width>30</Width>
 			<HorizontalStretch>false</HorizontalStretch>
 			<ContextMenu name="ИмяОтправителяКонтекстноеМеню" id="17"/>

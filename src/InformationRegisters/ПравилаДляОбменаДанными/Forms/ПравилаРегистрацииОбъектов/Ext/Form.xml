@@ -24,6 +24,16 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="51"/>
 			</Button>
 			<Button name="ФормаПеречитать" id="54">
@@ -35,16 +45,46 @@
 			<Button name="ФормаЗаписатьПравила" id="114">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ЗаписатьПравила</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗаписатьПравилаРасширеннаяПодсказка" id="115"/>
 			</Button>
 			<Button name="ФормаСохранитьПравилаРегистрацииВФайл" id="58">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.СохранитьПравилаРегистрацииВФайл</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сохранить правила регистрации в файл</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save registration rules to file</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаСохранитьПравилаРегистрацииВФайлРасширеннаяПодсказка" id="59"/>
 			</Button>
 			<Button name="ФормаСохранитьПравилаРегистрацииИзМакета" id="125">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.СохранитьПравилаРегистрацииИзМакета</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сохранить правила регистрации из макета (XML)</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save registration rules from template (XML)</v8:content>
+					</v8:item>
+				</Title>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаСохранитьПравилаРегистрацииИзМакетаРасширеннаяПодсказка" id="126"/>
 			</Button>
@@ -129,6 +169,16 @@
 					<ChildItems>
 						<RadioButtonField name="ИсточникПравилТиповые" id="29">
 							<DataPath>ИсточникПравил</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источник правил</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Rule source</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ColumnsCount>1</ColumnsCount>
@@ -239,6 +289,16 @@
 					<ChildItems>
 						<RadioButtonField name="ИсточникПравилМенеджерТиповой" id="76">
 							<DataPath>ИсточникПравил</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источник правил</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Rule source</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<RadioButtonType>Auto</RadioButtonType>
@@ -271,6 +331,16 @@
 						<InputField name="ИмяТиповогоМенеджераРегистрации" id="122">
 							<DataPath>ИмяТиповогоМенеджераРегистрации</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имя типового менеджера регистрации</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Standard registration manager name</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<ContextMenu name="ИмяТиповогоМенеджераРегистрацииКонтекстноеМеню" id="123"/>
@@ -331,6 +401,16 @@ To save a standard template with xml registration rules, click "Save registratio
 					<ChildItems>
 						<RadioButtonField name="ИсточникПравилМенеджер" id="93">
 							<DataPath>ИсточникПравил</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источник правил</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Rule source</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ColumnsCount>1</ColumnsCount>
@@ -389,6 +469,16 @@ To save a standard template with xml registration rules, click "Save registratio
 					<ChildItems>
 						<RadioButtonField name="ИсточникПравилИзФайла" id="71">
 							<DataPath>ИсточникПравил</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источник правил</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Rule source</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Auto</RadioButtonType>
 							<ColumnsCount>1</ColumnsCount>
@@ -460,6 +550,16 @@ To save a standard template with xml registration rules, click "Save registratio
 											<Type>UsualButton</Type>
 											<SkipOnInput>true</SkipOnInput>
 											<CommandName>Form.Command.ЗагрузитьПравила</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузить</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Import</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ЗагрузитьПравилаИзФайлаExtendedTooltip" id="47"/>
 										</Button>
 									</ChildItems>
@@ -485,6 +585,16 @@ To save a standard template with xml registration rules, click "Save registratio
 											<Representation>Picture</Representation>
 											<SkipOnInput>true</SkipOnInput>
 											<CommandName>Form.Command.ЗагрузитьПравила</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузить</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Import</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ЗагрузитьПравилаИзФайла1РасширеннаяПодсказка" id="119"/>
 										</Button>
 										<Button name="СохранитьПравилаВФайл" id="120">
@@ -495,6 +605,16 @@ To save a standard template with xml registration rules, click "Save registratio
 												<xr:Ref>StdPicture.SaveFile</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сохранить правила регистрации в файл</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Save registration rules to file</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="СохранитьПравилаВФайлРасширеннаяПодсказка" id="121"/>
 										</Button>
 									</ChildItems>
@@ -508,6 +628,16 @@ To save a standard template with xml registration rules, click "Save registratio
 		<InputField name="ИнформацияОПравилах" id="11">
 			<DataPath>ИнформацияОПравилах</DataPath>
 			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация о правилах</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Rules</v8:content>
+				</v8:item>
+			</Title>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<Height>6</Height>
 			<MultiLine>true</MultiLine>

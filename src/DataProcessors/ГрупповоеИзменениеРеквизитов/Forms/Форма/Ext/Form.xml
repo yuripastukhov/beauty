@@ -10,6 +10,7 @@
 		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
 	</Events>
 	<ChildItems>
 		<Pages name="Страницы" id="1">
@@ -24,7 +25,7 @@
 				</v8:item>
 			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
-			<ExtendedTooltip name="СтраницыExtendedTooltip" id="74"/>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="74"/>
 			<ChildItems>
 				<Page name="НастройкаИзменений" id="2">
 					<Title>
@@ -37,7 +38,7 @@
 							<v8:content>Edit settings</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="НастройкаИзмененийExtendedTooltip" id="75"/>
+					<ExtendedTooltip name="НастройкаИзмененийРасширеннаяПодсказка" id="75"/>
 					<ChildItems>
 						<UsualGroup name="ОтборОбъектов" id="110">
 							<Title>
@@ -57,6 +58,16 @@
 							<ChildItems>
 								<InputField name="ПредставлениеИзменяемыхОбъектов" id="167">
 									<DataPath>ПредставлениеИзменяемыхОбъектов</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Изменять</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Edit</v8:content>
+										</v8:item>
+									</Title>
 									<Width>50</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>true</ChoiceButton>
@@ -102,11 +113,11 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа тип операции</v8:content>
+									<v8:content>Тип операции</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Group Operation type</v8:content>
+									<v8:content>Operation type</v8:content>
 								</v8:item>
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -310,6 +321,16 @@
 																</InputField>
 																<CheckBoxField name="РеквизитыОбъектаИзменять" id="123">
 																	<DataPath>РеквизитыОбъекта.Изменять</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Изменять</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Edit</v8:content>
+																		</v8:item>
+																	</Title>
 																	<TitleLocation>None</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
 																	<HeaderPicture>
@@ -325,6 +346,16 @@
 																</CheckBoxField>
 																<InputField name="РеквизитыОбъектаЗначение" id="129">
 																	<DataPath>РеквизитыОбъекта.Значение</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Новое значение</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>New value</v8:content>
+																		</v8:item>
+																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ContextMenu name="РеквизитыОбъектаЗначениеКонтекстноеМеню" id="130"/>
 																	<ExtendedTooltip name="РеквизитыОбъектаЗначениеРасширеннаяПодсказка" id="131"/>
@@ -354,8 +385,8 @@
 															<ChildItems>
 																<PictureDecoration name="Декорация2" id="263">
 																	<Picture>
-																		<xr:Ref>CommonPicture.Информация32</xr:Ref>
-																		<xr:LoadTransparent>false</xr:LoadTransparent>
+																		<xr:Ref>StdPicture.DialogInformation</xr:Ref>
+																		<xr:LoadTransparent>true</xr:LoadTransparent>
 																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="Декорация2КонтекстноеМеню" id="264"/>
@@ -435,6 +466,16 @@
 													<ChildItems>
 														<InputField name="Алгоритм" id="278">
 															<DataPath>Алгоритм</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Алгоритм</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Algorithm</v8:content>
+																</v8:item>
+															</Title>
 															<InputHint>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -450,6 +491,16 @@
 														</InputField>
 														<TextDocumentField name="КодАлгоритма" id="275">
 															<DataPath>КодАлгоритма</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Код алгоритма</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Algorithm code</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>None</TitleLocation>
 															<Width>20</Width>
 															<Height>5</Height>
@@ -548,6 +599,16 @@
 																	<ChildItems>
 																		<InputField name="ПолеНевидимоеДляВыравнивания" id="349">
 																			<DataPath>Алгоритм</DataPath>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Алгоритм</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Algorithm</v8:content>
+																				</v8:item>
+																			</Title>
 																			<ContextMenu name="ПолеНевидимоеДляВыравниванияКонтекстноеМеню" id="350"/>
 																			<ExtendedTooltip name="ПолеНевидимоеДляВыравниванияРасширеннаяПодсказка" id="351"/>
 																		</InputField>
@@ -618,6 +679,16 @@
 															<ChildItems>
 																<InputField name="РеквизитыОбъектаАлгоритмПредставление" id="334">
 																	<DataPath>РеквизитыОбъекта.Представление</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Представление</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Presentation</v8:content>
+																		</v8:item>
+																	</Title>
 																	<EditMode>EnterOnInput</EditMode>
 																	<ContextMenu name="РеквизитыОбъектаАлгоритмПредставлениеКонтекстноеМеню" id="335"/>
 																	<ExtendedTooltip name="РеквизитыОбъектаАлгоритмПредставлениеРасширеннаяПодсказка" id="336"/>
@@ -812,6 +883,16 @@
 											<Type>CommandBarButton</Type>
 											<Enabled>false</Enabled>
 											<CommandName>Form.Command.ЗаглушкаАлгоритмы</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Нет&gt;</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>&lt;No&gt;</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ЗаглушкаАлгоритмыРасширеннаяПодсказка" id="340"/>
 										</Button>
 									</ChildItems>
@@ -833,6 +914,16 @@
 											<Type>CommandBarButton</Type>
 											<Enabled>false</Enabled>
 											<CommandName>Form.Command.Заглушка</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;Нет&gt;</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>&lt;No&gt;</v8:content>
+												</v8:item>
+											</Title>
 											<ExtendedTooltip name="ЗаглушкаРасширеннаяПодсказка" id="202"/>
 										</Button>
 									</ChildItems>
@@ -851,7 +942,7 @@
 											<v8:content>Additional parameters…</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="НастроитьПараметрыИзмененийExtendedTooltip" id="79"/>
+									<ExtendedTooltip name="НастроитьПараметрыИзмененийРасширеннаяПодсказка" id="79"/>
 								</Button>
 							</ChildItems>
 						</CommandBar>
@@ -888,7 +979,7 @@
 							<v8:content>Edit objects</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ИзменениеОбъектовExtendedTooltip" id="86"/>
+					<ExtendedTooltip name="ИзменениеОбъектовРасширеннаяПодсказка" id="86"/>
 					<ChildItems>
 						<LabelDecoration name="НадписьРезультатыОбработки" id="139">
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -1030,6 +1121,16 @@ Edit failed: 0</v8:content>
 										<InputField name="ОбъектыКоторыеНеУдалосьИзменитьПричина" id="162">
 											<DataPath>ОбъектыКоторыеНеУдалосьИзменить.Причина</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Причина</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Reason</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<AutoCellHeight>true</AutoCellHeight>
 											<MultiLine>true</MultiLine>
@@ -1039,17 +1140,98 @@ Edit failed: 0</v8:content>
 										</InputField>
 									</ChildItems>
 								</Table>
-								<InputField name="Причина" id="142">
-									<DataPath>Причина</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<Height>2</Height>
-									<VerticalStretch>false</VerticalStretch>
-									<MultiLine>true</MultiLine>
-									<ChoiceListHeight>1</ChoiceListHeight>
-									<ContextMenu name="ПричинаКонтекстноеМеню" id="143"/>
-									<ExtendedTooltip name="ПричинаРасширеннаяПодсказка" id="144"/>
-								</InputField>
+								<UsualGroup name="ГруппаПричина" id="376">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Причина</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Reason</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalStretch>true</VerticalStretch>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПричинаРасширеннаяПодсказка" id="377"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаСформироватьОтчетОбОшибке" id="369">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сформировать отчет об ошибке</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Generate error report</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаСформироватьОтчетОбОшибкеРасширеннаяПодсказка" id="370"/>
+											<ChildItems>
+												<LabelDecoration name="НадписьПричина" id="371">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Причина:</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Reason:</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="НадписьПричинаКонтекстноеМеню" id="372"/>
+													<ExtendedTooltip name="НадписьПричинаРасширеннаяПодсказка" id="373"/>
+												</LabelDecoration>
+												<LabelDecoration name="СформироватьОтчетОбОшибке" id="362">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сформировать отчет об ошибке</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Generate error report</v8:content>
+														</v8:item>
+													</Title>
+													<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+													<Hyperlink>true</Hyperlink>
+													<HorizontalAlign>Auto</HorizontalAlign>
+													<ContextMenu name="СформироватьОтчетОбОшибкеКонтекстноеМеню" id="363"/>
+													<ExtendedTooltip name="СформироватьОтчетОбОшибкеРасширеннаяПодсказка" id="364"/>
+													<Events>
+														<Event name="Click">СформироватьОтчетОбОшибкеНажатие</Event>
+													</Events>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+										<InputField name="Причина" id="142">
+											<DataPath>Причина</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Причина</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Reason</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MultiLine>true</MultiLine>
+											<ChoiceListHeight>1</ChoiceListHeight>
+											<ContextMenu name="ПричинаКонтекстноеМеню" id="143"/>
+											<ExtendedTooltip name="ПричинаРасширеннаяПодсказка" id="144"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -1066,7 +1248,7 @@ Edit failed: 0</v8:content>
 						</v8:item>
 					</Title>
 					<Group>HorizontalIfPossible</Group>
-					<ExtendedTooltip name="ОжиданиеОбработкиExtendedTooltip" id="101"/>
+					<ExtendedTooltip name="ОжиданиеОбработкиРасширеннаяПодсказка" id="101"/>
 					<ChildItems>
 						<UsualGroup name="ДлительнаяОперацияКартинкаИТекст" id="266">
 							<Title>
@@ -1102,7 +1284,7 @@ Edit failed: 0</v8:content>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ДекорацияДлительнаяОперацияКонтекстноеМеню" id="66"/>
-									<ExtendedTooltip name="ДекорацияДлительнаяОперацияExtendedTooltip" id="102"/>
+									<ExtendedTooltip name="ДекорацияДлительнаяОперацияРасширеннаяПодсказка" id="102"/>
 								</PictureDecoration>
 								<LabelDecoration name="ДекорацияПоясняющийТекстДлительнойОперации" id="67">
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -1118,7 +1300,7 @@ Edit failed: 0</v8:content>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ДекорацияПоясняющийТекстДлительнойОперацииКонтекстноеМеню" id="68"/>
-									<ExtendedTooltip name="ДекорацияПоясняющийТекстДлительнойОперацииExtendedTooltip" id="103"/>
+									<ExtendedTooltip name="ДекорацияПоясняющийТекстДлительнойОперацииРасширеннаяПодсказка" id="103"/>
 								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
@@ -1219,6 +1401,16 @@ Total items edited: %1.</v8:content>
 						<Button name="ФормаНазад" id="203">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.Command.Назад</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt; Назад</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt; Back</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ФормаНазадРасширеннаяПодсказка" id="204"/>
 						</Button>
 					</ChildItems>
@@ -1251,12 +1443,12 @@ Total items edited: %1.</v8:content>
 									<v8:content>Edit attributes</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="ФормаИзменитьExtendedTooltip" id="71"/>
+							<ExtendedTooltip name="ФормаИзменитьРасширеннаяПодсказка" id="71"/>
 						</Button>
 						<Button name="ФормаСправка" id="63">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.StandardCommand.Help</CommandName>
-							<ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="73"/>
+							<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="73"/>
 						</Button>
 					</ChildItems>
 				</CommandBar>
@@ -1570,6 +1762,9 @@ Total items edited: %1.</v8:content>
 						</v8:StringQualifiers>
 					</Type>
 				</Column>
+				<Column name="ОтчетОбОшибке" id="46">
+					<Type/>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ПредставлениеИзменяемыхОбъектов" id="29">
@@ -1737,6 +1932,11 @@ Total items edited: %1.</v8:content>
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ВерсияБСПСоответствуетТребованиям" id="49">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Назад" id="1">
@@ -1862,6 +2062,15 @@ Total items edited: %1.</v8:content>
 		<Parameter name="МассивОбъектов">
 			<Type/>
 			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="КомпоновщикНастроек">
+			<Type/>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ДополнительнаяОбработкаСсылка">
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
 		</Parameter>
 	</Parameters>
 </Form>

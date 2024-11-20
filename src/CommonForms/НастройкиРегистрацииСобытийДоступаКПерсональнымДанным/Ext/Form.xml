@@ -7,7 +7,7 @@
 		</v8:item>
 		<v8:item>
 			<v8:lang>en</v8:lang>
-			<v8:content>Registration of personal data access events</v8:content>
+			<v8:content>Personal data access logging</v8:content>
 		</v8:item>
 	</Title>
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
@@ -18,7 +18,17 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
-				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьExtendedTooltip" id="10"/>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="10"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -83,11 +93,11 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>For the selected data areas, the access events are registered according to Federal Law No. 152-FZ dated July 27, 2006 "On personal data".</v8:content>
+					<v8:content>For the selected data areas, access events are logged according to Federal Law No. 152-FZ "On personal data" issued on July 27, 2006.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ДекорацияРегистрацияСобытияДоступНадписьКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="ДекорацияРегистрацияСобытияДоступНадписьExtendedTooltip" id="12"/>
+			<ExtendedTooltip name="ДекорацияРегистрацияСобытияДоступНадписьРасширеннаяПодсказка" id="12"/>
 		</LabelDecoration>
 	</ChildItems>
 	<Attributes>

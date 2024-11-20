@@ -10,11 +10,11 @@
 			<Title formatted="true">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Для работы с усиленной квалифицированной электронной подписью на компьютере или на сервере должна быть установлена сертифицированная* программа (средство криптографической защиты информации). С ее помощью вы сможете работать с любым количеством электронных подписей, но только на том компьютере или ноутбуке, на котором она установлена. Если необходимо работать на разных компьютерах, то следует для каждого приобрести дополнительную лицензию или настроить работу на сервере (этим занимается администратор).</v8:content>
+					<v8:content>Для работы с усиленной квалифицированной электронной подписью на компьютере или на сервере должна быть установлено сертифицированное* приложение (средство криптографической защиты информации). С ее помощью вы сможете работать с любым количеством электронных подписей, но только на том компьютере или ноутбуке, на котором она установлена. Если необходимо работать на разных компьютерах, то следует для каждого приобрести дополнительную лицензию или настроить работу на сервере (этим занимается администратор).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>To operate with an advanced qualified digital signature, install a certified* application (a cryptographic information protection tool) on the computer or on the server. This application will allow you to operate with any number of digital signatures but only on a computer or a laptop where it is installed. If you need to operate on different computers, purchase an additional license for each computer or set up the operation on the server (this is done by the administrator).</v8:content>
+					<v8:content>To use advanced qualified digital signatures on the computer or server, install a certified* cryptographic tool. With it, you can with multiple digital signatures limited to the device the app is installed on. To the app on multiple devices, you'll have to purchase a license for each device or configure the app on the server (contact the administrator).</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ДекорацияЗаголовокКонтекстноеМеню" id="2"/>
@@ -26,12 +26,12 @@
 			<Title formatted="true">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content> Выберите одну из программ  для установки на этом компьютере:
+					<v8:content> Выберите одно из приложений для установки на этом компьютере:
 </v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content> Select an application to install on this computer:
+					<v8:content> Choose an app to install:
 </v8:content>
 				</v8:item>
 			</Title>
@@ -46,7 +46,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Программы</v8:content>
+					<v8:content>Apps</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -58,21 +58,46 @@
 				<Button name="УстановитьVipNet" id="16">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.УстановитьVipNet</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ViPNet CSP</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>ViPNet CSP</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="УстановитьVipNetРасширеннаяПодсказка" id="17"/>
 				</Button>
 				<Button name="УстановитьКриптоПро" id="10">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.УстановитьКриптоПро</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КриптоПро CSP</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>CryptoPro CSP</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="УстановитьКриптоПроРасширеннаяПодсказка" id="11"/>
-				</Button>
-				<Button name="УстановитьLISSI" id="12">
-					<Type>Hyperlink</Type>
-					<CommandName>Form.Command.УстановитьLISSI</CommandName>
-					<ExtendedTooltip name="УстановитьLISSIРасширеннаяПодсказка" id="13"/>
 				</Button>
 				<Button name="УстановитьSignalCOM" id="18">
 					<Type>Hyperlink</Type>
 					<CommandName>Form.Command.УстановитьSignalCOM</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Signal-COM CSP</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Signal-COM CSP</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="УстановитьSignalCOMРасширеннаяПодсказка" id="19"/>
 				</Button>
 			</ChildItems>
@@ -83,11 +108,11 @@
 			<Title formatted="true">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>    *Программа, сертифицированная ФСБ и ФСТЭК, соответствует стандартам безопасности, принятым в России и поддерживает отечественные стандарты безопасности ГОСТ Р 34.11-2012 и ГОСТ Р 34.10-2012.</v8:content>
+					<v8:content>    *Приложение, сертифицированное ФСБ и ФСТЭК, соответствует стандартам безопасности, принятым в России и поддерживает отечественные стандарты безопасности ГОСТ Р 34.11-2012 и ГОСТ Р 34.10-2012.</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>    *An application certified by the Federal Security Service and the Federal Service for Technical and Export Control complies with the security standards adopted in Russia and supports domestic security standards GOST R 34.11-2012 and GOST R 34.10-2012.</v8:content>
+					<v8:content>    *An application certified by the Federal Security Service and the Federal Service for Technical and Export Control complies with the security standards adopted in Russia and supports domestic security standards GOST R 34.11-2012 and GOST R 34.10-2012.</v8:content>
 				</v8:item>
 			</Title>
 			<ContextMenu name="ДекорацияПрограммы2КонтекстноеМеню" id="21"/>
@@ -112,24 +137,6 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>УстановитьКриптоПро</Action>
-			<Representation>TextPicture</Representation>
-		</Command>
-		<Command name="УстановитьLISSI" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>LISSI-CSP</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>LISSI-CSP</v8:content>
-				</v8:item>
-			</Title>
-			<Picture>
-				<xr:Ref>CommonPicture.ТипГиперссылка</xr:Ref>
-				<xr:LoadTransparent>false</xr:LoadTransparent>
-			</Picture>
-			<Action>УстановитьLISSI</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 		<Command name="УстановитьVipNet" id="3">

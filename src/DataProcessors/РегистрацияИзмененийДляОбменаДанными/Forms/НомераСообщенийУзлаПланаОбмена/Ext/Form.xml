@@ -46,7 +46,7 @@
 						</v8:item>
 					</Title>
 					<ContextMenu name="НомерОтправленногоКонтекстноеМеню" id="8"/>
-					<ExtendedTooltip name="НомерОтправленногоExtendedTooltip" id="16"/>
+					<ExtendedTooltip name="НомерОтправленногоРасширеннаяПодсказка" id="16"/>
 				</InputField>
 				<InputField name="НомерПринятого" id="9">
 					<DataPath>НомерПринятого</DataPath>
@@ -67,7 +67,7 @@
 					<OpenButton>false</OpenButton>
 					<CreateButton>false</CreateButton>
 					<ContextMenu name="НомерПринятогоКонтекстноеМеню" id="10"/>
-					<ExtendedTooltip name="НомерПринятогоExtendedTooltip" id="17"/>
+					<ExtendedTooltip name="НомерПринятогоРасширеннаяПодсказка" id="17"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -99,7 +99,7 @@
 							<v8:content>Save</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ЗаписатьИзмененияУзлаExtendedTooltip" id="19"/>
+					<ExtendedTooltip name="ЗаписатьИзмененияУзлаРасширеннаяПодсказка" id="19"/>
 				</Button>
 				<Button name="Отмена" id="13">
 					<Type>CommandBarButton</Type>
@@ -114,7 +114,7 @@
 							<v8:content>Close</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ОтменаExtendedTooltip" id="20"/>
+					<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="20"/>
 				</Button>
 			</ChildItems>
 		</CommandBar>

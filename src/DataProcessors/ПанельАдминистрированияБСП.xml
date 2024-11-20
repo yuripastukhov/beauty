@@ -35,6 +35,7 @@
 			<Form>ИнтернетПоддержкаИСервисы</Form>
 			<Form>НастройкиПользователейИПрав</Form>
 			<Form>НастройкиРаботыСФайлами</Form>
+			<Form>НастройкиРаботыСФайламиВМоделиСервиса</Form>
 			<Form>Обслуживание</Form>
 			<Form>ОбщиеНастройки</Form>
 			<Form>Органайзер</Form>
@@ -63,7 +64,7 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Контроль за состоянием программы, резервное копирование и восстановление, оптимизация быстродействия.</v8:content>
+							<v8:content>Контроль за состоянием приложения, резервное копирование и восстановление, оптимизация быстродействия.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -97,7 +98,7 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Изменение заголовка программы, настройка версионирования объектов, дополнительных реквизитов и других общих настроек.</v8:content>
+							<v8:content>Изменение заголовка приложения, настройка версионирования объектов, дополнительных реквизитов и других общих настроек.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
@@ -199,7 +200,7 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Синхронизация данных с другими программами
+							<v8:content>Синхронизация данных с другими приложениями
 и организация совместной работы в распределенной информационной базе.</v8:content>
 						</v8:item>
 						<v8:item>
@@ -239,7 +240,7 @@ collaboration in a distributed infobase</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Configure file import, storage, and processing parameters</v8:content>
+							<v8:content>Configure how to handle, store, and import files.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture/>

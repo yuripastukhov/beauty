@@ -29,23 +29,79 @@
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Записать и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save and close</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="47"/>
 			</Button>
 			<Button name="ФормаПоказатьВСписке" id="48">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПоказатьВСписке</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Перейти в список</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Go to list</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаПоказатьВСпискеРасширеннаяПодсказка" id="49"/>
 			</Button>
-			<Button name="ФормаУстановитьФлажки" id="19">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.УстановитьФлажки</CommandName>
-				<ExtendedTooltip name="ФормаУстановитьФлажкиРасширеннаяПодсказка" id="20"/>
-			</Button>
-			<Button name="ФормаСнятьФлажки" id="21">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.СнятьФлажки</CommandName>
-				<ExtendedTooltip name="ФормаСнятьФлажкиРасширеннаяПодсказка" id="22"/>
-			</Button>
+			<ButtonGroup name="ФормаГруппаФлажки" id="53">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа флажки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form group "Checkboxes"</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>Compact</Representation>
+				<ExtendedTooltip name="ФормаГруппаФлажкиРасширеннаяПодсказка" id="54"/>
+				<ChildItems>
+					<Button name="ФормаУстановитьФлажки" id="19">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьФлажки</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Установить флажки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select all</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаУстановитьФлажкиРасширеннаяПодсказка" id="20"/>
+					</Button>
+					<Button name="ФормаСнятьФлажки" id="21">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СнятьФлажки</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Снять флажки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Clear all</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаСнятьФлажкиРасширеннаяПодсказка" id="22"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
 			<ButtonGroup name="ФормаГруппаПрочее" id="39">
 				<Title>
 					<v8:item>
@@ -54,7 +110,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Прочее</v8:content>
+						<v8:content>Other</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ФормаГруппаПрочееРасширеннаяПодсказка" id="40"/>
@@ -163,7 +219,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Видимость и представление</v8:content>
+							<v8:content>Visibility and presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Group>InCell</Group>
@@ -218,7 +274,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Комментарий</v8:content>
+							<v8:content>Comment</v8:content>
 						</v8:item>
 					</Title>
 					<Group>InCell</Group>

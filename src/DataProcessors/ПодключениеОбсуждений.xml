@@ -67,11 +67,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки сообщений из других программ</v8:content>
+							<v8:content>Настройки сообщений из других приложений</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Settings of messages from other applications</v8:content>
+							<v8:content>Configure messages from other apps</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

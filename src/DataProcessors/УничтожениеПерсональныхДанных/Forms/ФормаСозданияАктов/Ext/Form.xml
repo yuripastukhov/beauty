@@ -25,6 +25,16 @@
 				<Type>CommandBarButton</Type>
 				<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 				<CommandName>Form.Command.Продолжить</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Продолжить</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Continue</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаПродолжитьРасширеннаяПодсказка" id="27"/>
 			</Button>
 			<Button name="Отмена" id="28">
@@ -32,6 +42,16 @@
 				<DefaultButton>true</DefaultButton>
 				<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 				<CommandName>Form.Command.Отмена</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отмена</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cancel</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="29"/>
 			</Button>
 		</ChildItems>
@@ -49,7 +69,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Надписи</v8:content>
+					<v8:content>Labels</v8:content>
 				</v8:item>
 			</Title>
 			<Width>40</Width>
@@ -74,14 +94,24 @@
 						</v8:item>
 					</Title>
 					<Picture>
-						<xr:Ref>CommonPicture.Предупреждение32</xr:Ref>
-						<xr:LoadTransparent>false</xr:LoadTransparent>
+						<xr:Ref>StdPicture.DialogExclamation</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<ContextMenu name="КартинкаПредупреждениеКонтекстноеМеню" id="22"/>
 					<ExtendedTooltip name="КартинкаПредупреждениеРасширеннаяПодсказка" id="23"/>
 				</PictureDecoration>
 				<LabelField name="ТекстПредупреждения" id="40">
 					<DataPath>ТекстПредупреждения</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст предупреждения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warning text</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<Height>6</Height>
 					<AutoMaxHeight>false</AutoMaxHeight>
@@ -110,6 +140,16 @@
 			<ChildItems>
 				<LabelField name="ТекстОрганизации" id="49">
 					<DataPath>ТекстОрганизации</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст организации</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Company text</v8:content>
+						</v8:item>
+					</Title>
 					<TitleLocation>None</TitleLocation>
 					<Height>2</Height>
 					<ContextMenu name="ТекстОрганизацииКонтекстноеМеню" id="50"/>

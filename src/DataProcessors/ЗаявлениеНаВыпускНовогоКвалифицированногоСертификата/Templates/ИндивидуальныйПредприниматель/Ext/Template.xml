@@ -578,7 +578,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>OGRNIP</v8:content>
+							<v8:content>Registration number of IE</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1909,6 +1909,16 @@
 			<type>Rows</type>
 			<beginRow>10</beginRow>
 			<endRow>10</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>S</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>13</beginRow>
+			<endRow>13</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

@@ -50,6 +50,16 @@
 		</LabelDecoration>
 		<InputField name="ТекстПредупреждения" id="11">
 			<DataPath>ТекстПредупреждения</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст предупреждения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Warning text</v8:content>
+				</v8:item>
+			</Title>
 			<TitleLocation>None</TitleLocation>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<Height>5</Height>
@@ -62,11 +72,11 @@
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Типичные проблемы при работе с программами электронной подписи и их решение</v8:content>
+					<v8:content>Типичные проблемы при работе с приложениями электронной подписи и их решение</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Common issues with digital signature and encryption applications</v8:content>
+					<v8:content>Common issues</v8:content>
 				</v8:item>
 			</Title>
 			<Hyperlink>true</Hyperlink>

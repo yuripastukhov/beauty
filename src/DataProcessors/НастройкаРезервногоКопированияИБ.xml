@@ -491,7 +491,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Backup directory restriction</v8:content>
+							<v8:content>Backup retention limit</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -512,7 +512,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Restrictions applied to backup directory.</v8:content>
+							<v8:content>Backup retention options</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

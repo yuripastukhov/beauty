@@ -17,12 +17,21 @@
 		<Event name="BeforeLoadUserSettingsAtServer">ПередЗагрузкойПользовательскихНастроекНаСервере</Event>
 		<Event name="BeforeClose">ПередЗакрытием</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
-		<Event name="OnClose">ПриЗакрытии</Event>
 		<Event name="OnUpdateUserSettingSetAtServer">ПриОбновленииСоставаПользовательскихНастроекНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="ТекущийТипДиаграммы" id="788">
 			<DataPath>ТекущийТипДиаграммы</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип диаграммы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Chart type</v8:content>
+				</v8:item>
+			</Title>
 			<Width>35</Width>
 			<HorizontalStretch>false</HorizontalStretch>
 			<ContextMenu name="ТекущийТипДиаграммыКонтекстноеМеню" id="789"/>
@@ -132,12 +141,32 @@
 										<Button name="СоставГруппировки_ПереместитьВверх" id="614">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.СоставГруппировки_ПереместитьВверх</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Переместить вверх</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Move up</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СоставГруппировки_ПереместитьВверхРасширеннаяПодсказка" id="615"/>
 										</Button>
 										<Button name="СоставГруппировки_ПереместитьВниз" id="616">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.СоставГруппировки_ПереместитьВниз</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Переместить вниз</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Move down</v8:content>
+												</v8:item>
+											</Title>
 											<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СоставГруппировки_ПереместитьВнизРасширеннаяПодсказка" id="617"/>
 										</Button>
@@ -264,11 +293,31 @@
 											<Button name="СоставГруппировки_ПереместитьВверх1" id="655">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СоставГруппировки_ПереместитьВверх</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вверх</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СоставГруппировки_ПереместитьВверх1РасширеннаяПодсказка" id="656"/>
 											</Button>
 											<Button name="СоставГруппировки_ПереместитьВниз1" id="657">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СоставГруппировки_ПереместитьВниз</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вниз</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СоставГруппировки_ПереместитьВниз1РасширеннаяПодсказка" id="658"/>
 											</Button>
 										</ChildItems>
@@ -317,7 +366,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Основное</v8:content>
+											<v8:content>Main</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -325,6 +374,16 @@
 									<ChildItems>
 										<CheckBoxField name="СоставГруппировкиИспользование" id="659">
 											<DataPath>СоставГруппировки.Использование</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -337,6 +396,16 @@
 										<InputField name="СоставГруппировкиПоле" id="662">
 											<DataPath>СоставГруппировки.Поле</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Поле</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Field</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<DropListButton>false</DropListButton>
 											<ContextMenu name="СоставГруппировкиПолеКонтекстноеМеню" id="663"/>
@@ -352,13 +421,23 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Дополнительно</v8:content>
+											<v8:content>More</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СоставГруппировкиДополнительноРасширеннаяПодсказка" id="818"/>
 									<ChildItems>
 										<InputField name="СоставГруппировкиТипГруппировки" id="665">
 											<DataPath>СоставГруппировки.ТипГруппировки</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Тип группировки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Grouping type</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СоставГруппировкиТипГруппировкиКонтекстноеМеню" id="666"/>
 											<ExtendedTooltip name="СоставГруппировкиТипГруппировкиРасширеннаяПодсказка" id="667"/>
@@ -368,6 +447,16 @@
 										</InputField>
 										<InputField name="СоставГруппировкиТипДополнения" id="814">
 											<DataPath>СоставГруппировки.ТипДополнения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Тип дополнения</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Addition type</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СоставГруппировкиТипДополненияКонтекстноеМеню" id="815"/>
 											<ExtendedTooltip name="СоставГруппировкиТипДополненияРасширеннаяПодсказка" id="816"/>
@@ -521,6 +610,16 @@
 														</CheckBoxField>
 														<CheckBoxField name="ВыводитьФильтры" id="1148">
 															<DataPath>ВыводитьФильтры</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Выводить фильтры</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Display filters</v8:content>
+																</v8:item>
+															</Title>
 															<TitleLocation>Right</TitleLocation>
 															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="ВыводитьФильтрыКонтекстноеМеню" id="1149"/>
@@ -640,11 +739,31 @@
 											<Button name="Отборы_ПереместитьВверх1" id="423">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПереместитьВверх</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вверх</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПереместитьВверх1РасширеннаяПодсказка" id="424"/>
 											</Button>
 											<Button name="Отборы_ПереместитьВниз1" id="425">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПереместитьВниз</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вниз</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПереместитьВниз1РасширеннаяПодсказка" id="426"/>
 											</Button>
 										</ChildItems>
@@ -669,11 +788,31 @@
 													<xr:Ref>StdPicture.CreateFolder</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 												</Picture>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сгруппировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_Сгруппировать1РасширеннаяПодсказка" id="412"/>
 											</Button>
 											<Button name="Отборы_Разгруппировать1" id="413">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_Разгруппировать</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Разгруппировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ungroup</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_Разгруппировать1РасширеннаяПодсказка" id="414"/>
 											</Button>
 											<Popup name="Отборы_ТипГруппы1" id="1423">
@@ -692,18 +831,48 @@
 													<Button name="ОтборыВыбранныеПоля_ГруппаИ1" id="1425">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИ</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа И</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group And</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИ1РасширеннаяПодсказка" id="1426"/>
 													</Button>
 													<Button name="ОтборыВыбранныеПоля_ГруппаИли1" id="1427">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИли</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа Или</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group Or</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИли1РасширеннаяПодсказка" id="1428"/>
 													</Button>
 													<Button name="ОтборыВыбранныеПоля_ГруппаНе1" id="1429">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ГруппаНе</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа Не</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group Not</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаНе1РасширеннаяПодсказка" id="1430"/>
 													</Button>
@@ -727,11 +896,31 @@
 											<Button name="Отборы_УстановитьФлажки1" id="1067">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_УстановитьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Установить флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_УстановитьФлажки1РасширеннаяПодсказка" id="1068"/>
 											</Button>
 											<Button name="Отборы_СнятьФлажки1" id="1069">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_СнятьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Снять флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Clear all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_СнятьФлажки1РасширеннаяПодсказка" id="1070"/>
 											</Button>
 										</ChildItems>
@@ -762,26 +951,76 @@
 											<Button name="Отборы_ПоказыватьВШапкеОтчета1" id="1100">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьВШапкеОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>В шапке отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>In report header</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьВШапкеОтчета1РасширеннаяПодсказка" id="1101"/>
 											</Button>
 											<Button name="Отборы_ПоказыватьТолькоФлажокВШапкеОтчета1" id="1102">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьТолькоФлажокВШапкеОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Только флажок в шапке отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Only checkbox in report header</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьТолькоФлажокВШапкеОтчета1РасширеннаяПодсказка" id="1103"/>
 											</Button>
 											<Button name="Отборы_ПоказыватьВНастройкахОтчета1" id="1104">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьВНастройкахОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>В настройках отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>In report settings</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьВНастройкахОтчета1РасширеннаяПодсказка" id="1105"/>
 											</Button>
 											<Button name="Отборы_ПоказыватьТолькоФлажокВНастройкахОтчета1" id="1106">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьТолькоФлажокВНастройкахОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Только флажок в настройках отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Only checkbox in report settings</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьТолькоФлажокВНастройкахОтчета1РасширеннаяПодсказка" id="1107"/>
 											</Button>
 											<Button name="Отборы_НеПоказывать1" id="1108">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_НеПоказывать</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не показывать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Hide</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_НеПоказывать1РасширеннаяПодсказка" id="1109"/>
 											</Button>
 										</ChildItems>
@@ -847,11 +1086,31 @@
 											<Button name="Отборы_ПереместитьВверх" id="417">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПереместитьВверх</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вверх</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПереместитьВверхРасширеннаяПодсказка" id="418"/>
 											</Button>
 											<Button name="Отборы_ПереместитьВниз" id="419">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПереместитьВниз</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вниз</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПереместитьВнизРасширеннаяПодсказка" id="420"/>
 											</Button>
 										</ChildItems>
@@ -876,12 +1135,32 @@
 													<xr:Ref>StdPicture.CreateFolder</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 												</Picture>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сгруппировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="Отборы_СгруппироватьРасширеннаяПодсказка" id="339"/>
 											</Button>
 											<Button name="Отборы_Разгруппировать" id="340">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_Разгруппировать</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Разгруппировать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Ungroup</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="Отборы_РазгруппироватьРасширеннаяПодсказка" id="341"/>
 											</Button>
@@ -901,18 +1180,48 @@
 													<Button name="ОтборыВыбранныеПоля_ГруппаИ" id="1417">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИ</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа И</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group And</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИРасширеннаяПодсказка" id="1418"/>
 													</Button>
 													<Button name="ОтборыВыбранныеПоля_ГруппаИли" id="1419">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ГруппаИли</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа Или</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group Or</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаИлиРасширеннаяПодсказка" id="1420"/>
 													</Button>
 													<Button name="ОтборыВыбранныеПоля_ГруппаНе" id="1421">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ГруппаНе</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа Не</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group Not</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ОтборыВыбранныеПоля_ГруппаНеРасширеннаяПодсказка" id="1422"/>
 													</Button>
@@ -937,11 +1246,31 @@
 											<Button name="Отборы_УстановитьФлажки" id="1061">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_УстановитьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Установить флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_УстановитьФлажкиРасширеннаяПодсказка" id="1062"/>
 											</Button>
 											<Button name="Отборы_СнятьФлажки" id="1063">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_СнятьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Снять флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Clear all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_СнятьФлажкиРасширеннаяПодсказка" id="1064"/>
 											</Button>
 										</ChildItems>
@@ -962,26 +1291,76 @@
 											<Button name="Отборы_ПоказыватьВШапкеОтчета" id="1090">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьВШапкеОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>В шапке отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>In report header</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьВШапкеОтчетаРасширеннаяПодсказка" id="1091"/>
 											</Button>
 											<Button name="Отборы_ПоказыватьТолькоФлажокВШапкеОтчета" id="1094">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьТолькоФлажокВШапкеОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Только флажок в шапке отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Only checkbox in report header</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьТолькоФлажокВШапкеОтчетаРасширеннаяПодсказка" id="1095"/>
 											</Button>
 											<Button name="Отборы_ПоказыватьВНастройкахОтчета" id="1088">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьВНастройкахОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>В настройках отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>In report settings</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьВНастройкахОтчетаРасширеннаяПодсказка" id="1089"/>
 											</Button>
 											<Button name="Отборы_ПоказыватьТолькоФлажокВНастройкахОтчета" id="1096">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_ПоказыватьТолькоФлажокВНастройкахОтчета</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Только флажок в настройках отчета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Only checkbox in report settings</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_ПоказыватьТолькоФлажокВНастройкахОтчетаРасширеннаяПодсказка" id="1097"/>
 											</Button>
 											<Button name="Отборы_НеПоказывать" id="1092">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Отборы_НеПоказывать</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не показывать</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Hide</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Отборы_НеПоказыватьРасширеннаяПодсказка" id="1093"/>
 											</Button>
 										</ChildItems>
@@ -1020,6 +1399,16 @@
 											<Button name="ОтборыПерейтиКНастройкамДляТехническогоСпециалиста" id="1387">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПерейтиКНастройкамДляТехническогоСпециалиста</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Настройки для технического специалиста...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Settings for technician…</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ОтборыПерейтиКНастройкамДляТехническогоСпециалистаРасширеннаяПодсказка" id="1388"/>
 											</Button>
@@ -1080,6 +1469,16 @@
 									<ChildItems>
 										<CheckBoxField name="ОтборыИспользование" id="1173">
 											<DataPath>Отборы.Использование</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -1091,6 +1490,16 @@
 										</CheckBoxField>
 										<InputField name="ОтборыПоле" id="1408">
 											<DataPath>Отборы.Поле</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Поле</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Field</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<DropListButton>false</DropListButton>
@@ -1107,6 +1516,16 @@
 										</InputField>
 										<InputField name="ОтборыПараметр" id="1212">
 											<DataPath>Отборы.Параметр</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Поле</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Field</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>1</Width>
 											<ContextMenu name="ОтборыПараметрКонтекстноеМеню" id="1213"/>
@@ -1114,6 +1533,16 @@
 										</InputField>
 										<InputField name="ОтборыТипГруппы" id="1209">
 											<DataPath>Отборы.ТипГруппы</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Поле</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Field</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>None</TitleLocation>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>1</Width>
@@ -1124,6 +1553,16 @@
 								</ColumnGroup>
 								<InputField name="ОтборыВидСравнения" id="1185">
 									<DataPath>Отборы.ВидСравнения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Условие</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Condition</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
 									<ContextMenu name="ОтборыВидСравненияКонтекстноеМеню" id="1186"/>
@@ -1147,6 +1586,16 @@
 									<ChildItems>
 										<InputField name="ОтборыЗначение" id="1188">
 											<DataPath>Отборы.Значение</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Значение</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Value</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>10</Width>
 											<ContextMenu name="ОтборыЗначениеКонтекстноеМеню" id="1189"/>
@@ -1158,6 +1607,16 @@
 										</InputField>
 										<InputField name="ОтборыПравоеЗначение" id="1220">
 											<DataPath>Отборы.ПравоеЗначение</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Значение</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Value</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>10</Width>
 											<ContextMenu name="ОтборыПравоеЗначениеКонтекстноеМеню" id="1221"/>
@@ -1171,6 +1630,16 @@
 								</ColumnGroup>
 								<PictureField name="ОтборыКартинкаРежимаОтображения" id="1203">
 									<DataPath>Отборы.КартинкаРежимаОтображения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отображение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Display</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<HeaderPicture>
@@ -1189,6 +1658,16 @@
 								</PictureField>
 								<InputField name="ОтборыПредставлениеПользовательскойНастройки" id="1206">
 									<DataPath>Отборы.ПредставлениеПользовательскойНастройки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заголовок</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Title</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
 									<ClearButton>true</ClearButton>
@@ -1395,11 +1874,31 @@
 													<Button name="ВыбранныеПоля_ПереместитьВверх1" id="393">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ПереместитьВверх</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Переместить вверх</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Move up</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоля_ПереместитьВверх1РасширеннаяПодсказка" id="394"/>
 													</Button>
 													<Button name="ВыбранныеПоля_ПереместитьВниз1" id="395">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ПереместитьВниз</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Переместить вниз</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Move down</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоля_ПереместитьВниз1РасширеннаяПодсказка" id="396"/>
 													</Button>
 												</ChildItems>
@@ -1424,11 +1923,31 @@
 															<xr:Ref>StdPicture.CreateFolder</xr:Ref>
 															<xr:LoadTransparent>true</xr:LoadTransparent>
 														</Picture>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Сгруппировать</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоля_Сгруппировать1РасширеннаяПодсказка" id="388"/>
 													</Button>
 													<Button name="ВыбранныеПоля_Разгруппировать1" id="389">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_Разгруппировать</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Разгруппировать</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Ungroup</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоля_Разгруппировать1РасширеннаяПодсказка" id="390"/>
 													</Button>
 												</ChildItems>
@@ -1449,11 +1968,31 @@
 													<Button name="ВыбранныеПоляВыбранныеПоля_УстановитьФлажки1" id="1043">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_УстановитьФлажки</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Установить флажки</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Select all</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоляВыбранныеПоля_УстановитьФлажки1РасширеннаяПодсказка" id="1044"/>
 													</Button>
 													<Button name="ВыбранныеПоляВыбранныеПоля_СнятьФлажки1" id="1045">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_СнятьФлажки</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Снять флажки</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Clear all</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоляВыбранныеПоля_СнятьФлажки1РасширеннаяПодсказка" id="1046"/>
 													</Button>
 												</ChildItems>
@@ -1496,6 +2035,16 @@
 													<Button name="ВыбранныеПоляИзменитьФормулу" id="1403">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ИзменитьФормулу</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Изменить формулу</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Edit formula</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоляИзменитьФормулуРасширеннаяПодсказка" id="1404"/>
 													</Button>
 													<Button name="ВыбранныеПоля_Удалить" id="216">
@@ -1524,12 +2073,32 @@
 													<Button name="ВыбранныеПоля_ПереместитьВверх" id="220">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ПереместитьВверх</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Переместить вверх</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Move up</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ВыбранныеПоля_ПереместитьВверхРасширеннаяПодсказка" id="221"/>
 													</Button>
 													<Button name="ВыбранныеПоля_ПереместитьВниз" id="222">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_ПереместитьВниз</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Переместить вниз</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Move down</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ВыбранныеПоля_ПереместитьВнизРасширеннаяПодсказка" id="223"/>
 													</Button>
@@ -1552,11 +2121,31 @@
 													<Button name="ВыбранныеПоляВыбранныеПоля_УстановитьФлажки" id="1037">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_УстановитьФлажки</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Установить флажки</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Select all</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоляВыбранныеПоля_УстановитьФлажкиРасширеннаяПодсказка" id="1038"/>
 													</Button>
 													<Button name="ВыбранныеПоляВыбранныеПоля_СнятьФлажки" id="1039">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_СнятьФлажки</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Снять флажки</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Clear all</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="ВыбранныеПоляВыбранныеПоля_СнятьФлажкиРасширеннаяПодсказка" id="1040"/>
 													</Button>
 												</ChildItems>
@@ -1581,12 +2170,32 @@
 															<xr:Ref>StdPicture.CreateFolder</xr:Ref>
 															<xr:LoadTransparent>true</xr:LoadTransparent>
 														</Picture>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Сгруппировать</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ВыбранныеПоля_СгруппироватьРасширеннаяПодсказка" id="289"/>
 													</Button>
 													<Button name="ВыбранныеПоля_Разгруппировать" id="290">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_Разгруппировать</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Разгруппировать</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Ungroup</v8:content>
+															</v8:item>
+														</Title>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ВыбранныеПоля_РазгруппироватьРасширеннаяПодсказка" id="291"/>
 													</Button>
@@ -1613,6 +2222,16 @@
 											<Button name="ВыбранныеПоляПерейтиКНастройкамДляТехническогоСпециалиста" id="1391">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПерейтиКНастройкамДляТехническогоСпециалиста</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Настройки для технического специалиста...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Settings for technician…</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ВыбранныеПоляПерейтиКНастройкамДляТехническогоСпециалистаРасширеннаяПодсказка" id="1392"/>
 											</Button>
@@ -1662,7 +2281,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Группа</v8:content>
+													<v8:content>Group</v8:content>
 												</v8:item>
 											</Title>
 											<Group>InCell</Group>
@@ -1670,6 +2289,16 @@
 											<ChildItems>
 												<CheckBoxField name="ВыбранныеПоляИспользование" id="259">
 													<DataPath>ВыбранныеПоля.Использование</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Использование</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Use</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
 													<CheckBoxType>Auto</CheckBoxType>
@@ -1682,6 +2311,16 @@
 												<InputField name="ВыбранныеПоляПоле" id="262">
 													<DataPath>ВыбранныеПоля.Поле</DataPath>
 													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Поле</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Field</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ВыбранныеПоляПолеКонтекстноеМеню" id="263"/>
 													<ExtendedTooltip name="ВыбранныеПоляПолеРасширеннаяПодсказка" id="264"/>
@@ -1691,6 +2330,16 @@
 										<PictureField name="ВыбранныеПоляИндикаторФормулы" id="1405">
 											<DataPath>ВыбранныеПоля.ИндикаторФормулы</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Индикатор формулы</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Formula indicator</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ВыбранныеПоляИндикаторФормулыКонтекстноеМеню" id="1406"/>
 											<ExtendedTooltip name="ВыбранныеПоляИндикаторФормулыРасширеннаяПодсказка" id="1407"/>
@@ -1734,16 +2383,46 @@
 												<Button name="ВыбранныеПоля_Сортировка_Вправо" id="907">
 													<Type>UsualButton</Type>
 													<CommandName>Form.Command.ВыбранныеПоля_Сортировка_Вправо</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Добавить сортировку по выбранному полю</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Add sort by selected field</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ВыбранныеПоля_Сортировка_ВправоРасширеннаяПодсказка" id="908"/>
 												</Button>
 												<Button name="ВыбранныеПоля_Сортировка_Влево" id="909">
 													<Type>UsualButton</Type>
 													<CommandName>Form.Command.ВыбранныеПоля_Сортировка_Влево</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Удалить выбранные сортировки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Remove selected sorts</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ВыбранныеПоля_Сортировка_ВлевоРасширеннаяПодсказка" id="910"/>
 												</Button>
 												<Button name="ВыбранныеПоля_Сортировка_ВлевоВсе" id="911">
 													<Type>UsualButton</Type>
 													<CommandName>Form.Command.ВыбранныеПоля_Сортировка_ВлевоВсе</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Удалить все сортировки</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Remove all sorts</v8:content>
+														</v8:item>
+													</Title>
 													<ExtendedTooltip name="ВыбранныеПоля_Сортировка_ВлевоВсеРасширеннаяПодсказка" id="912"/>
 												</Button>
 											</ChildItems>
@@ -1839,11 +2518,31 @@
 															<Button name="Сортировка_ПереместитьВверх1" id="1023">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_ПереместитьВверх</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Переместить вверх</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Move up</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПереместитьВверх1РасширеннаяПодсказка" id="1024"/>
 															</Button>
 															<Button name="Сортировка_ПереместитьВниз1" id="1025">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_ПереместитьВниз</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Переместить вниз</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Move down</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПереместитьВниз1РасширеннаяПодсказка" id="1026"/>
 															</Button>
 														</ChildItems>
@@ -1865,12 +2564,32 @@
 																<Type>CommandBarButton</Type>
 																<Visible>false</Visible>
 																<CommandName>Form.Command.Сортировка_ПоВозрастанию</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Сортировать по возрастанию</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Sort ascending</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПоВозрастанию1РасширеннаяПодсказка" id="1030"/>
 															</Button>
 															<Button name="Сортировка_ПоУбыванию1" id="1031">
 																<Type>CommandBarButton</Type>
 																<Visible>false</Visible>
 																<CommandName>Form.Command.Сортировка_ПоУбыванию</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Сортировать по убыванию</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Sort descending</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПоУбыванию1РасширеннаяПодсказка" id="1032"/>
 															</Button>
 														</ChildItems>
@@ -1891,11 +2610,31 @@
 															<Button name="СортировкаСортировка_УстановитьФлажки1" id="1055">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_УстановитьФлажки</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Установить флажки</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Select all</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="СортировкаСортировка_УстановитьФлажки1РасширеннаяПодсказка" id="1056"/>
 															</Button>
 															<Button name="СортировкаСортировка_СнятьФлажки1" id="1057">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_СнятьФлажки</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Снять флажки</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Clear all</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="СортировкаСортировка_СнятьФлажки1РасширеннаяПодсказка" id="1058"/>
 															</Button>
 														</ChildItems>
@@ -1951,11 +2690,31 @@
 															<Button name="Сортировка_ПереместитьВверх" id="165">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_ПереместитьВверх</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Переместить вверх</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Move up</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПереместитьВверхРасширеннаяПодсказка" id="166"/>
 															</Button>
 															<Button name="Сортировка_ПереместитьВниз" id="167">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_ПереместитьВниз</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Переместить вниз</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Move down</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПереместитьВнизРасширеннаяПодсказка" id="168"/>
 															</Button>
 														</ChildItems>
@@ -1977,11 +2736,31 @@
 															<Button name="Сортировка_ПоВозрастанию" id="169">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_ПоВозрастанию</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Сортировать по возрастанию</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Sort ascending</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПоВозрастаниюРасширеннаяПодсказка" id="170"/>
 															</Button>
 															<Button name="Сортировка_ПоУбыванию" id="171">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_ПоУбыванию</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Сортировать по убыванию</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Sort descending</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="Сортировка_ПоУбываниюРасширеннаяПодсказка" id="172"/>
 															</Button>
 														</ChildItems>
@@ -2003,11 +2782,31 @@
 															<Button name="СортировкаСортировка_УстановитьФлажки" id="1049">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_УстановитьФлажки</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Установить флажки</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Select all</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="СортировкаСортировка_УстановитьФлажкиРасширеннаяПодсказка" id="1050"/>
 															</Button>
 															<Button name="СортировкаСортировка_СнятьФлажки" id="1051">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.Сортировка_СнятьФлажки</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Снять флажки</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Clear all</v8:content>
+																	</v8:item>
+																</Title>
 																<ExtendedTooltip name="СортировкаСортировка_СнятьФлажкиРасширеннаяПодсказка" id="1052"/>
 															</Button>
 														</ChildItems>
@@ -2075,7 +2874,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Группа</v8:content>
+															<v8:content>Group</v8:content>
 														</v8:item>
 													</Title>
 													<Group>InCell</Group>
@@ -2083,6 +2882,16 @@
 													<ChildItems>
 														<CheckBoxField name="СортировкаИспользование" id="773">
 															<DataPath>Сортировка.Использование</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Использование</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Use</v8:content>
+																</v8:item>
+															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="СортировкаИспользованиеКонтекстноеМеню" id="774"/>
@@ -2094,6 +2903,16 @@
 														<InputField name="СортировкаПоле" id="155">
 															<DataPath>Сортировка.Поле</DataPath>
 															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Поле</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Field</v8:content>
+																</v8:item>
+															</Title>
 															<EditMode>EnterOnInput</EditMode>
 															<ContextMenu name="СортировкаПолеКонтекстноеМеню" id="156"/>
 															<ExtendedTooltip name="СортировкаПолеРасширеннаяПодсказка" id="157"/>
@@ -2102,6 +2921,16 @@
 												</ColumnGroup>
 												<LabelField name="СортировкаТипУпорядочивания" id="158">
 													<DataPath>Сортировка.ТипУпорядочивания</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Тип упорядочивания</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Ordering type</v8:content>
+														</v8:item>
+													</Title>
 													<EditMode>EnterOnInput</EditMode>
 													<FixingInTable>Right</FixingInTable>
 													<CellHyperlink>true</CellHyperlink>
@@ -2295,11 +3124,31 @@
 											<Button name="Оформление_ПереместитьВверх" id="834">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Оформление_ПереместитьВверх</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вверх</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Оформление_ПереместитьВверхРасширеннаяПодсказка" id="835"/>
 											</Button>
 											<Button name="Оформление_ПереместитьВниз" id="836">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Оформление_ПереместитьВниз</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вниз</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Оформление_ПереместитьВнизРасширеннаяПодсказка" id="837"/>
 											</Button>
 										</ChildItems>
@@ -2321,11 +3170,31 @@
 											<Button name="Оформление_УстановитьФлажки" id="1122">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Оформление_УстановитьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Установить флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Оформление_УстановитьФлажкиРасширеннаяПодсказка" id="1123"/>
 											</Button>
 											<Button name="Оформление_СнятьФлажки" id="1124">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.Оформление_СнятьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Снять флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Clear all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="Оформление_СнятьФлажкиРасширеннаяПодсказка" id="1125"/>
 											</Button>
 										</ChildItems>
@@ -2333,6 +3202,16 @@
 									<Button name="ОформлениеНастроитьКолонтитулы" id="1126">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.НастроитьКолонтитулы</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Колонтитулы</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Headers and footers</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="ОформлениеНастроитьКолонтитулыРасширеннаяПодсказка" id="1127"/>
 									</Button>
 									<SearchStringAddition name="СтрокаПоиска_Оформление" id="1440">
@@ -2369,6 +3248,16 @@
 											<Button name="ОформлениеПерейтиКНастройкамДляТехническогоСпециалиста" id="1399">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПерейтиКНастройкамДляТехническогоСпециалиста</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Настройки для технического специалиста...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Settings for technician…</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ОформлениеПерейтиКНастройкамДляТехническогоСпециалистаРасширеннаяПодсказка" id="1400"/>
 											</Button>
@@ -2423,6 +3312,16 @@
 									<ChildItems>
 										<CheckBoxField name="ОформлениеИспользование" id="891">
 											<DataPath>Оформление.Использование</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -2453,6 +3352,16 @@
 								</ColumnGroup>
 								<PictureField name="ОформлениеИндексКартинкиДоступа" id="897">
 									<DataPath>Оформление.КартинкаРежимаОтображения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Картинка режима отображения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Display mode picture</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<HeaderPicture>
@@ -2615,6 +3524,16 @@
 											<Button name="СтруктураВарианта_Сгруппировать1" id="747">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_Сгруппировать</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сгруппировать...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group…</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_Сгруппировать1РасширеннаяПодсказка" id="748"/>
 											</Button>
 											<ButtonGroup name="СтруктураВарианта_ДобавлениеТаблицИДиаграмм1" id="782">
@@ -2633,11 +3552,31 @@
 													<Button name="СтруктураВарианта_ДобавитьТаблицу1" id="784">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.СтруктураВарианта_ДобавитьТаблицу</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Добавить таблицу</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Add table</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="СтруктураВарианта_ДобавитьТаблицу1РасширеннаяПодсказка" id="785"/>
 													</Button>
 													<Button name="СтруктураВарианта_ДобавитьДиаграмму1" id="786">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.СтруктураВарианта_ДобавитьДиаграмму</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Добавить диаграмму</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Add chart</v8:content>
+															</v8:item>
+														</Title>
 														<ExtendedTooltip name="СтруктураВарианта_ДобавитьДиаграмму1РасширеннаяПодсказка" id="787"/>
 													</Button>
 												</ChildItems>
@@ -2661,6 +3600,16 @@
 												<Type>CommandBarButton</Type>
 												<Representation>Picture</Representation>
 												<CommandName>Form.Command.СтруктураВарианта_Изменить</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Изменить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Change</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_Изменить1РасширеннаяПодсказка" id="752"/>
 											</Button>
 											<Button name="СтруктураВарианта_Удалить1" id="753">
@@ -2687,11 +3636,31 @@
 											<Button name="СтруктураВарианта_ПереместитьВверх1" id="763">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьВверх</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вверх</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьВверх1РасширеннаяПодсказка" id="764"/>
 											</Button>
 											<Button name="СтруктураВарианта_ПереместитьВниз1" id="765">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьВниз</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вниз</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьВниз1РасширеннаяПодсказка" id="766"/>
 											</Button>
 										</ChildItems>
@@ -2713,11 +3682,31 @@
 											<Button name="СтруктураВарианта_ПереместитьНаУровеньВыше1" id="1371">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьНаУровеньВыше</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить на уровень выше</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move one level up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьНаУровеньВыше1РасширеннаяПодсказка" id="1372"/>
 											</Button>
 											<Button name="СтруктураВарианта_ПереместитьНаУровеньНиже1" id="1373">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьНаУровеньНиже</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить на уровень ниже</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move one level down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьНаУровеньНиже1РасширеннаяПодсказка" id="1374"/>
 											</Button>
 										</ChildItems>
@@ -2738,11 +3727,31 @@
 											<Button name="СтруктураВарианта_ПереместитьВышеИЛевее1" id="757">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьВышеИЛевее</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить выше и левее</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up and left</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьВышеИЛевее1РасширеннаяПодсказка" id="758"/>
 											</Button>
 											<Button name="СтруктураВарианта_ПереместитьНижеИПравее1" id="759">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьНижеИПравее</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить ниже и правее</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down and right</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьНижеИПравее1РасширеннаяПодсказка" id="760"/>
 											</Button>
 										</ChildItems>
@@ -2763,11 +3772,31 @@
 											<Button name="СтруктураВарианта_УстановитьФлажки1" id="769">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_УстановитьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Установить флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_УстановитьФлажки1РасширеннаяПодсказка" id="770"/>
 											</Button>
 											<Button name="СтруктураВарианта_СнятьФлажки1" id="771">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_СнятьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Снять флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Clear all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_СнятьФлажки1РасширеннаяПодсказка" id="772"/>
 											</Button>
 										</ChildItems>
@@ -2799,17 +3828,47 @@
 											<Button name="СтруктураВарианта_Сгруппировать" id="510">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_Сгруппировать</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сгруппировать...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group…</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_СгруппироватьРасширеннаяПодсказка" id="511"/>
 											</Button>
 											<Button name="СтруктураВарианта_ДобавитьТаблицу" id="780">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ДобавитьТаблицу</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Добавить таблицу</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Add table</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="СтруктураВарианта_ДобавитьТаблицуРасширеннаяПодсказка" id="781"/>
 											</Button>
 											<Button name="СтруктураВарианта_ДобавитьДиаграмму" id="778">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ДобавитьДиаграмму</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Добавить диаграмму</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Add chart</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="СтруктураВарианта_ДобавитьДиаграммуРасширеннаяПодсказка" id="779"/>
 											</Button>
@@ -2830,6 +3889,16 @@
 												<Type>CommandBarButton</Type>
 												<Representation>Picture</Representation>
 												<CommandName>Form.Command.СтруктураВарианта_Изменить</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Изменить</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Change</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="СтруктураВарианта_ИзменитьРасширеннаяПодсказка" id="513"/>
 											</Button>
@@ -2872,11 +3941,31 @@
 											<Button name="СтруктураВарианта_ПереместитьВверх" id="504">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьВверх</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вверх</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьВверхРасширеннаяПодсказка" id="505"/>
 											</Button>
 											<Button name="СтруктураВарианта_ПереместитьВниз" id="506">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьВниз</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить вниз</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьВнизРасширеннаяПодсказка" id="507"/>
 											</Button>
 										</ChildItems>
@@ -2898,11 +3987,31 @@
 											<Button name="СтруктураВарианта_ПереместитьНаУровеньВыше" id="1365">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьНаУровеньВыше</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить на уровень выше</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move one level up</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьНаУровеньВышеРасширеннаяПодсказка" id="1366"/>
 											</Button>
 											<Button name="СтруктураВарианта_ПереместитьНаУровеньНиже" id="1367">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьНаУровеньНиже</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить на уровень ниже</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move one level down</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьНаУровеньНижеРасширеннаяПодсказка" id="1368"/>
 											</Button>
 										</ChildItems>
@@ -2924,11 +4033,31 @@
 											<Button name="СтруктураВарианта_ПереместитьВышеИЛевее" id="500">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьВышеИЛевее</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить выше и левее</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move up and left</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьВышеИЛевееРасширеннаяПодсказка" id="501"/>
 											</Button>
 											<Button name="СтруктураВарианта_ПереместитьНижеИПравее" id="502">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_ПереместитьНижеИПравее</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Переместить ниже и правее</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Move down and right</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_ПереместитьНижеИПравееРасширеннаяПодсказка" id="503"/>
 											</Button>
 										</ChildItems>
@@ -2950,11 +4079,31 @@
 											<Button name="СтруктураВарианта_УстановитьФлажки" id="520">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_УстановитьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Установить флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_УстановитьФлажкиРасширеннаяПодсказка" id="521"/>
 											</Button>
 											<Button name="СтруктураВарианта_СнятьФлажки" id="522">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.СтруктураВарианта_СнятьФлажки</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Снять флажки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Clear all</v8:content>
+													</v8:item>
+												</Title>
 												<ExtendedTooltip name="СтруктураВарианта_СнятьФлажкиРасширеннаяПодсказка" id="523"/>
 											</Button>
 										</ChildItems>
@@ -2962,6 +4111,16 @@
 									<Button name="СтруктураВариантаСтруктураВарианта_СохранитьВФайл" id="1084">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.СтруктураВарианта_СохранитьВФайл</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сохранить в файл</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Save to file</v8:content>
+											</v8:item>
+										</Title>
 										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="СтруктураВариантаСтруктураВарианта_СохранитьВФайлРасширеннаяПодсказка" id="1085"/>
 									</Button>
@@ -2999,6 +4158,16 @@
 											<Button name="СтруктураВариантаПерейтиКНастройкамДляТехническогоСпециалиста" id="1393">
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ПерейтиКНастройкамДляТехническогоСпециалиста</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Настройки для технического специалиста...</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Settings for technician…</v8:content>
+													</v8:item>
+												</Title>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="СтруктураВариантаПерейтиКНастройкамДляТехническогоСпециалистаРасширеннаяПодсказка" id="1394"/>
 											</Button>
@@ -3049,7 +4218,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Группа</v8:content>
+											<v8:content>Group</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -3057,6 +4226,16 @@
 									<ChildItems>
 										<CheckBoxField name="СтруктураВариантаИспользование" id="494">
 											<DataPath>СтруктураВарианта.Использование</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Использование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Use</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -3069,6 +4248,16 @@
 										<InputField name="СтруктураВариантаПредставление" id="497">
 											<DataPath>СтруктураВарианта.Представление</DataPath>
 											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группируемые поля</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Grouped fields</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<TextEdit>false</TextEdit>
 											<ContextMenu name="СтруктураВариантаПредставлениеКонтекстноеМеню" id="498"/>
@@ -3078,6 +4267,16 @@
 								</ColumnGroup>
 								<InputField name="СтруктураВариантаЗаголовок" id="554">
 									<DataPath>СтруктураВарианта.Заголовок</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заголовок</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Title</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<ClearButton>true</ClearButton>
 									<ContextMenu name="СтруктураВариантаЗаголовокКонтекстноеМеню" id="555"/>
@@ -3089,15 +4288,25 @@
 								<PictureField name="СтруктураВариантаСодержитОтборы" id="967">
 									<DataPath>СтруктураВарианта.СодержитОтборы</DataPath>
 									<SkipOnInput>true</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Содержит фильтры</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Contains filters</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Картинка отображается когда у элемента настроены фильтры.</v8:content>
+											<v8:content>Настроены фильтры</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>The picture is displayed if the item is assigned with filters.</v8:content>
+											<v8:content>Filters are applied</v8:content>
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
@@ -3119,15 +4328,25 @@
 								<PictureField name="СтруктураВариантаСодержитПоляИлиСортировки" id="997">
 									<DataPath>СтруктураВарианта.СодержитПоляИлиСортировки</DataPath>
 									<SkipOnInput>true</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Содержит поля или сортировки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Contains fields or sorts</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Картинка отображается когда у элемента настроены поля и сортировки.</v8:content>
+											<v8:content>Настроены поля и сортировки</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>The picture is displayed if the item is assigned with sorts.</v8:content>
+											<v8:content>Fields and sortings are configured</v8:content>
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
@@ -3149,15 +4368,25 @@
 								<PictureField name="СтруктураВариантаСодержитУсловноеОформление" id="934">
 									<DataPath>СтруктураВарианта.СодержитУсловноеОформление</DataPath>
 									<SkipOnInput>true</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Содержит условное оформление</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Contains conditional appearance</v8:content>
+										</v8:item>
+									</Title>
 									<TitleLocation>None</TitleLocation>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Картинка отображается когда у элемента настроено оформление.</v8:content>
+											<v8:content>Настроено оформление</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>The picture is displayed if the item is assigned with appearance.</v8:content>
+											<v8:content>Appearance is configured</v8:content>
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
@@ -3369,6 +4598,16 @@ Remove nonexistent fields from report settings or replace them with existent fie
 				<Button name="ОчиститьНастройкиОтНесуществующихПолей" id="1118">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ОчиститьНастройкиОтНесуществующихПолей</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Очистить</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Clear</v8:content>
+						</v8:item>
+					</Title>
 					<ExtendedTooltip name="ОчиститьНастройкиОтНесуществующихПолейРасширеннаяПодсказка" id="1119"/>
 				</Button>
 			</ChildItems>
@@ -3479,12 +4718,32 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 							<Representation>Text</Representation>
 							<DefaultButton>true</DefaultButton>
 							<CommandName>Form.Command.ЗакрытьИСформировать</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Закрыть и сформировать</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Close and generate</v8:content>
+								</v8:item>
+							</Title>
 							<ExtendedTooltip name="ЗакрытьИСформироватьРасширеннаяПодсказка" id="22"/>
 						</Button>
 						<Button name="Закрыть" id="4">
 							<Type>CommandBarButton</Type>
 							<Representation>Text</Representation>
 							<CommandName>Form.Command.ЗакрытьБезФормирования</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Закрыть</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Close</v8:content>
+								</v8:item>
+							</Title>
 							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="7"/>
 						</Button>
@@ -3505,12 +4764,32 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 									<Type>CommandBarButton</Type>
 									<Representation>Picture</Representation>
 									<CommandName>Form.Command.ИзменитьУсловияОтборов</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Изменить условия фильтров...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Edit filter criteria…</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ИзменитьУсловияОтборовРасширеннаяПодсказка" id="1001"/>
 								</Button>
 								<Button name="ПерейтиКНастройкамДляТехническогоСпециалиста" id="1411">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Command.ПерейтиКНастройкамДляТехническогоСпециалиста</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройки для технического специалиста...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Settings for technician…</v8:content>
+										</v8:item>
+									</Title>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ПерейтиКНастройкамДляТехническогоСпециалистаРасширеннаяПодсказка" id="1412"/>
 								</Button>
@@ -3581,6 +4860,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.СдвинутьПериодНазад1</CommandName>
 							<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;</v8:content>
+								</v8:item>
+							</Title>
 							<ShapeRepresentation>WhenActive</ShapeRepresentation>
 							<ExtendedTooltip name="СдвинутьПериодНазад1РасширеннаяПодсказка" id="1380"/>
 						</Button>
@@ -3661,6 +4950,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ВыбратьПериод1</CommandName>
 									<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выбрать период</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select period</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ВыбратьПериод1РасширеннаяПодсказка" id="1255"/>
 								</Button>
 							</ChildItems>
@@ -3669,6 +4968,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.СдвинутьПериодВперед1</CommandName>
 							<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&gt;</v8:content>
+								</v8:item>
+							</Title>
 							<ShapeRepresentation>WhenActive</ShapeRepresentation>
 							<ExtendedTooltip name="СдвинутьПериодВперед1РасширеннаяПодсказка" id="1382"/>
 						</Button>
@@ -3696,6 +5005,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.СдвинутьПериодНазад2</CommandName>
 							<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&lt;</v8:content>
+								</v8:item>
+							</Title>
 							<ShapeRepresentation>WhenActive</ShapeRepresentation>
 							<ExtendedTooltip name="СдвинутьПериодНазад2РасширеннаяПодсказка" id="1384"/>
 						</Button>
@@ -3776,6 +5095,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ВыбратьПериод2</CommandName>
 									<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выбрать период</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select period</v8:content>
+										</v8:item>
+									</Title>
 									<ExtendedTooltip name="ВыбратьПериод2РасширеннаяПодсказка" id="1356"/>
 								</Button>
 							</ChildItems>
@@ -3784,6 +5113,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.СдвинутьПериодВперед2</CommandName>
 							<Font ref="style:ВажнаяНадписьШрифт" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&gt;</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>&gt;</v8:content>
+								</v8:item>
+							</Title>
 							<ShapeRepresentation>WhenActive</ShapeRepresentation>
 							<ExtendedTooltip name="СдвинутьПериодВперед2РасширеннаяПодсказка" id="1386"/>
 						</Button>
@@ -3791,6 +5130,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</UsualGroup>
 				<CheckBoxField name="Флажок1" id="1357">
 					<DataPath>Флажок1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Флажок</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Checkbox</v8:content>
+						</v8:item>
+					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="Флажок1КонтекстноеМеню" id="1358"/>
 					<ExtendedTooltip name="Флажок1РасширеннаяПодсказка" id="1359"/>
@@ -3800,6 +5149,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</CheckBoxField>
 				<CheckBoxField name="Флажок2" id="1360">
 					<DataPath>Флажок2</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Флажок</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Checkbox</v8:content>
+						</v8:item>
+					</Title>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="Флажок2КонтекстноеМеню" id="1361"/>
 					<ExtendedTooltip name="Флажок2РасширеннаяПодсказка" id="1362"/>
@@ -4649,7 +6008,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Contains fields or sortings</v8:content>
+							<v8:content>Contains fields or sorts</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -6687,7 +8046,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>CommonPicture.СкрытаяНастройкаОтчета</xr:Ref>
+				<xr:Ref>CommonPicture.СерыйКрест</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>Отборы_НеПоказывать</Action>
@@ -7292,6 +8651,16 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
 		</Parameter>
 		<Parameter name="ИмяСтраницы">
 			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ОтображатьСтраницы">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
 					<v8:Length>0</v8:Length>

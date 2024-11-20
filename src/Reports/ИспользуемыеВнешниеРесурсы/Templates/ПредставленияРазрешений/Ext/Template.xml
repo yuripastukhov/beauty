@@ -456,11 +456,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Подключение внешних компонент, поставляемых в составе программы ([Количество]):</v8:content>
+							<v8:content>Подключение внешних компонент, поставляемых в составе приложения ([Количество]):</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>• Attach built-in add-ins ([Количество]):</v8:content>
+							<v8:content>Attach built-in add-ins ([Количество]):</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1062,11 +1062,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Установка привилегированного режима (программному модулю будет разрешено программное выполнение операций с данными, для которых недостаточно прав доступа текущего пользователя программы)</v8:content>
+							<v8:content>Подключение внешних компонент, поставляемых в составе приложения ([Количество]):</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>• Set privileged mode (in this mode the program module can execute data operations that are denied for the current user)</v8:content>
+							<v8:content>Attach built-in add-ins ([Количество]):</v8:content>
 						</v8:item>
 					</tl>
 				</c>
