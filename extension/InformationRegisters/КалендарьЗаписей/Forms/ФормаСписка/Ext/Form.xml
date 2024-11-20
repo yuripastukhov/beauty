@@ -134,100 +134,6 @@
 				<Event name="PlannerActionClick">ПланировщикЗаписейНажатиеНаДействиеПланировщика</Event>
 			</Events>
 		</PlannerField>
-		<Table name="Список" id="62">
-			<UseAlternationRowColor>true</UseAlternationRowColor>
-			<EnableStartDrag>true</EnableStartDrag>
-			<DataPath>Список</DataPath>
-			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
-			<AutoRefresh>false</AutoRefresh>
-			<AutoRefreshPeriod>60</AutoRefreshPeriod>
-			<Period>
-				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-			</Period>
-			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-			<RestoreCurrentRow>false</RestoreCurrentRow>
-			<TopLevelParent xsi:nil="true"/>
-			<ShowRoot>true</ShowRoot>
-			<AllowRootChoice>false</AllowRootChoice>
-			<UpdateOnDataChange>Auto</UpdateOnDataChange>
-			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
-			<ContextMenu name="СписокКонтекстноеМеню" id="63"/>
-			<AutoCommandBar name="СписокКоманднаяПанель" id="64"/>
-			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="65"/>
-			<SearchStringAddition name="СписокСтрокаПоиска" id="66">
-				<AdditionSource>
-					<Item>Список</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="67"/>
-				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="68"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="СписокСостояниеПросмотра" id="69">
-				<AdditionSource>
-					<Item>Список</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="70"/>
-				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="71"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="СписокУправлениеПоиском" id="72">
-				<AdditionSource>
-					<Item>Список</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="73"/>
-				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="74"/>
-			</SearchControlAddition>
-			<ChildItems>
-				<LabelField name="Регистратор" id="75">
-					<DataPath>Список.Recorder</DataPath>
-					<ContextMenu name="РегистраторКонтекстноеМеню" id="76"/>
-					<ExtendedTooltip name="РегистраторРасширеннаяПодсказка" id="77"/>
-				</LabelField>
-				<LabelField name="НомерСтроки" id="78">
-					<DataPath>Список.LineNumber</DataPath>
-					<ContextMenu name="НомерСтрокиКонтекстноеМеню" id="79"/>
-					<ExtendedTooltip name="НомерСтрокиРасширеннаяПодсказка" id="80"/>
-				</LabelField>
-				<LabelField name="Клиент" id="81">
-					<DataPath>Список.Клиент</DataPath>
-					<ContextMenu name="КлиентКонтекстноеМеню" id="82"/>
-					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="83"/>
-				</LabelField>
-				<LabelField name="Услуга" id="84">
-					<DataPath>Список.Услуга</DataPath>
-					<ContextMenu name="УслугаКонтекстноеМеню" id="85"/>
-					<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="86"/>
-				</LabelField>
-				<LabelField name="Мастер" id="87">
-					<DataPath>Список.Мастер</DataPath>
-					<ContextMenu name="МастерКонтекстноеМеню" id="88"/>
-					<ExtendedTooltip name="МастерРасширеннаяПодсказка" id="89"/>
-				</LabelField>
-				<LabelField name="ДатаВизита" id="90">
-					<DataPath>Список.ДатаВизита</DataPath>
-					<ContextMenu name="ДатаВизитаКонтекстноеМеню" id="91"/>
-					<ExtendedTooltip name="ДатаВизитаРасширеннаяПодсказка" id="92"/>
-				</LabelField>
-				<LabelField name="Статус" id="93">
-					<DataPath>Список.Статус</DataPath>
-					<ContextMenu name="СтатусКонтекстноеМеню" id="94"/>
-					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="95"/>
-				</LabelField>
-				<LabelField name="Длительность" id="96">
-					<DataPath>Список.Длительность</DataPath>
-					<ContextMenu name="ДлительностьКонтекстноеМеню" id="97"/>
-					<ExtendedTooltip name="ДлительностьРасширеннаяПодсказка" id="98"/>
-				</LabelField>
-				<LabelField name="Комментарий" id="99">
-					<DataPath>Список.Комментарий</DataPath>
-					<ContextMenu name="КомментарийКонтекстноеМеню" id="100"/>
-					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="101"/>
-				</LabelField>
-			</ChildItems>
-		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -347,8 +253,8 @@
 					<currentLevel xmlns="http://v8.1c.ru/8.2/data/chart">0</currentLevel>
 				</pl:timeScale>
 				<pl:period>
-					<pl:begin>2024-11-19T00:00:00</pl:begin>
-					<pl:end>2024-11-19T23:59:59</pl:end>
+					<pl:begin>2024-11-20T00:00:00</pl:begin>
+					<pl:end>2024-11-20T23:59:59</pl:end>
 				</pl:period>
 				<pl:displayCurrentDate>true</pl:displayCurrentDate>
 				<pl:itemsTimeRepresentation>BeginTime</pl:itemsTimeRepresentation>
