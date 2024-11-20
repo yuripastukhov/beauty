@@ -32,11 +32,15 @@
 		<InputField name="Услуга" id="10">
 			<DataPath>Объект.Услуга</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<ListChoiceMode>true</ListChoiceMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<QuickChoice>false</QuickChoice>
+			<ChooseType>false</ChooseType>
 			<ContextMenu name="УслугаКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="УслугаРасширеннаяПодсказка" id="12"/>
 			<Events>
 				<Event name="OnChange">УслугаПриИзменении</Event>
+				<Event name="StartChoice">УслугаНачалоВыбора</Event>
 			</Events>
 		</InputField>
 		<InputField name="Мастер" id="13">

@@ -80,6 +80,7 @@
 			<Document>ЗаписьНаУслугу</Document>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 			<Enum>СтатусыЗаписи</Enum>
+			<Enum>КатегорииМастеров</Enum>
 			<InformationRegister>КалендарьЗаписей</InformationRegister>
 		</ChildObjects>
 	</Configuration>
