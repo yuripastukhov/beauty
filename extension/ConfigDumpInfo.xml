@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
 	<ConfigVersions>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="43156f0e-f42c-41d6-bee0-a852e55221b0" configVersion="b12a4b39b89d2d258552977f13e364f6fdd21d39"/>
 		<Metadata name="Catalog.ВидыКонтактнойИнформации.Predefined" id="43156f0e-f42c-41d6-bee0-a852e55221b0.1c" configVersion="8d47832a5a622944a851f81bda187ae744a3662e"/>
@@ -37,9 +37,11 @@
 			<Metadata name="Catalog.Услуги.Attribute.Цена" id="47af421b-8f58-4ccd-b3ed-b740275fb838"/>
 			<Metadata name="Catalog.Услуги.Attribute.Длительность" id="fef0372d-468a-4136-bbbc-8edeecd5d237"/>
 		</Metadata>
-		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="312c2348221b7bdd8772b8b0a93acf70121822f0"/>
+		<Metadata name="CommonModule.РассылкаУведомлений" id="5a793491-f02a-423c-8f1e-89dce6ba0a90" configVersion="0fe249eb776ff98e7390d8500394643a3ec2cd67"/>
+		<Metadata name="CommonModule.РассылкаУведомлений.Module" id="5a793491-f02a-423c-8f1e-89dce6ba0a90.0" configVersion="785b444ef52d46f17d169f615fb7a5bbbd2ce788"/>
+		<Metadata name="Configuration.BeautyExtention" id="7b14f3f4-5098-461e-8691-83f9f335e388" configVersion="73c460f18be3fca2fda15d19d6656c4d20e21066"/>
 		<Metadata name="Configuration.BeautyExtention.HomePageWorkArea" id="7d5ea520-3637-46e3-82fe-58d978c1beac.8" configVersion="921ab7aa93a943891538c47890ea3718cd7ac037"/>
-		<Metadata name="Configuration.BeautyExtention.MainSectionCommandInterface" id="7d5ea520-3637-46e3-82fe-58d978c1beac.9" configVersion="c2b662425134d7c24009dbf9ad81142049349f91"/>
+		<Metadata name="Configuration.BeautyExtention.MainSectionCommandInterface" id="7d5ea520-3637-46e3-82fe-58d978c1beac.9" configVersion="64fc4e2b2c2bf7aa735d549bea35fb8d7755b5b0"/>
 		<Metadata name="Constant.НачалоРабочегоДня" id="79793374-86f2-433a-b978-351314a59306" configVersion="767b50b33b86c506c2b008ccadff52fff3f615d6"/>
 		<Metadata name="Constant.ОкончаниеРабочегоДня" id="8a8bac52-56f0-4386-a9cc-a75acf35711f" configVersion="fcffdbfb6e412815c18a382c2c9f59cd330d6052"/>
 		<Metadata name="DefinedType.ВладелецКонтактнойИнформации" id="2ddc7cf0-8fa4-477e-8300-04f1ac3ccec0" configVersion="e42670585eb2d7bc04ee2addc8086aa78e796a2f"/>
@@ -53,7 +55,7 @@
 			<Metadata name="Document.ЗаписьНаУслугу.Attribute.Клиент" id="f70515e4-c050-4b5e-8a99-d2263ec0c948"/>
 		</Metadata>
 		<Metadata name="Document.ЗаписьНаУслугу.Form.ФормаДокумента" id="495855d8-4488-4baf-90c9-d9979668224e" configVersion="c286651f6213aa79a17eef8959740f356bca8a1f"/>
-		<Metadata name="Document.ЗаписьНаУслугу.Form.ФормаДокумента.Form" id="495855d8-4488-4baf-90c9-d9979668224e.0" configVersion="86f4168466937698438373bc5d872ea67f209a53"/>
+		<Metadata name="Document.ЗаписьНаУслугу.Form.ФормаДокумента.Form" id="495855d8-4488-4baf-90c9-d9979668224e.0" configVersion="eba47a6435082db48f7ef15bd282d61571c7e652"/>
 		<Metadata name="Document.ЗаписьНаУслугу.ObjectModule" id="a381485c-fbac-438a-b549-a306f2299aa2.0" configVersion="fb2e86166fdc2994cd41b4604335eead8be923b8"/>
 		<Metadata name="Enum.КатегорииМастеров" id="930e9aad-c3a3-474f-b880-c16217b3fea3" configVersion="046181658464a10dfd7c560da783cf9728cdfcd0">
 			<Metadata name="Enum.КатегорииМастеров.EnumValue.Лидер" id="02c6a517-ac70-4dfb-b965-7d8903750d16"/>
@@ -66,7 +68,7 @@
 			<Metadata name="Enum.СтатусыЗаписи.EnumValue.Подтверждена" id="803daa2f-f73d-40a0-98f5-0bd60abb41a9"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыКонтактнойИнформации" id="8cea92f2-7173-45c9-8a57-837f9bd588c6" configVersion="b778b4069f4c1630a8851cf9ab9354a1c96f60f1"/>
-		<Metadata name="InformationRegister.КалендарьЗаписей" id="9ef5ef7f-271f-4109-8d86-1b3ce02d10ca" configVersion="0f01255a527e9526a9515eb78d085f50a84ba6c4">
+		<Metadata name="InformationRegister.КалендарьЗаписей" id="9ef5ef7f-271f-4109-8d86-1b3ce02d10ca" configVersion="be201f12cae6d251dfc7c1eb035f4bee33ebb5b4">
 			<Metadata name="InformationRegister.КалендарьЗаписей.Dimension.Мастер" id="05934465-1a8b-4b6f-8856-2f2b67be1ec9"/>
 			<Metadata name="InformationRegister.КалендарьЗаписей.Dimension.Услуга" id="2772bf3a-2eb0-4fb8-801e-d79da8c9a57c"/>
 			<Metadata name="InformationRegister.КалендарьЗаписей.Resource.Статус" id="51a0b36a-bb4f-42c8-8a27-4f1843623da4"/>
@@ -75,16 +77,13 @@
 			<Metadata name="InformationRegister.КалендарьЗаписей.Attribute.Комментарий" id="d78c5b91-00e5-437a-a840-81c0e8f68ae7"/>
 			<Metadata name="InformationRegister.КалендарьЗаписей.Dimension.Клиент" id="e7cfdf81-3f4d-4522-93e0-b1a1f44f18c5"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаЗаписи" id="b4421c68-95fa-45f7-b760-e9b5d2988f46" configVersion="67bd410cfc784b20add408271028cd75f9324b8b"/>
-		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаЗаписи.Form" id="b4421c68-95fa-45f7-b760-e9b5d2988f46.0" configVersion="cc9b2b37f776256384da31971c9f3ad0fa04e670"/>
 		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка" id="bb6e21c5-4aea-47f5-80cc-f3a70d6e74b8" configVersion="8dfb48f9e1718775d77b7de48b0679cabd5a1ee3"/>
-		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка.Form" id="bb6e21c5-4aea-47f5-80cc-f3a70d6e74b8.0" configVersion="b440f4fc1373c7819df02047318270067528f297"/>
-		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка1" id="29b55bdd-97a8-42c6-8f77-777c909f3dde" configVersion="300ee617463853454393397a0c39a4254dad1694"/>
-		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка1.Form" id="29b55bdd-97a8-42c6-8f77-777c909f3dde.0" configVersion="7f78212fe067f025e68dcc7b1deca312f33da164"/>
+		<Metadata name="InformationRegister.КалендарьЗаписей.Form.ФормаСписка.Form" id="bb6e21c5-4aea-47f5-80cc-f3a70d6e74b8.0" configVersion="9a03f7ac87c6918a790bd6005a1467185e982ace"/>
 		<Metadata name="Language.Русский" id="3cd2209d-51ba-41a2-a6f9-6aa41abd89ae" configVersion="c25e7b3208d239f71fe044966e710f44191c4034"/>
 		<Metadata name="Role.Beauty_ОсновнаяРоль" id="1d1371ed-8b15-4b49-ac84-1b5dde165b54" configVersion="3eb474d4160a91f31de5f567127cdc0c018b94c8"/>
-		<Metadata name="Subsystem.УправлениеКлиентами" id="d5b0a4db-f20e-44b5-8037-acd2842044b0" configVersion="45c20193b198e454b86f7d1930026ce133a95ecd"/>
-		<Metadata name="Subsystem.УправлениеПерсоналом" id="5fa66a95-3992-427f-908b-798d814a6029" configVersion="4efde9ef0851d058dc5cab3f5c288ebbdc2e401e"/>
-		<Metadata name="Subsystem.УправлениеУслугами" id="b6d5a7ad-b4d0-4a34-b5bb-c27e8b9cc4a9" configVersion="988b07fa6480b1e356a6038c3b1d3634ac3cf704"/>
+		<Metadata name="ScheduledJob.РассылкаУведомлений" id="925cc52d-ba73-4962-b5d3-49fc32113697" configVersion="f5940dd60220fd0ecd0dcbb8dc15af5cee4f2cd5"/>
+		<Metadata name="Subsystem.УправлениеКлиентами" id="d5b0a4db-f20e-44b5-8037-acd2842044b0" configVersion="b72b050b0b0109ed5c673c041d7dd04ad032dc36"/>
+		<Metadata name="Subsystem.УправлениеПерсоналом" id="5fa66a95-3992-427f-908b-798d814a6029" configVersion="1b7819497c3ebe0bec28e1caa71f1a6fcc1aceac"/>
+		<Metadata name="Subsystem.УправлениеУслугами" id="b6d5a7ad-b4d0-4a34-b5bb-c27e8b9cc4a9" configVersion="fcd0c343315b1c7525c355e7a4495b72216d0ce9"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
